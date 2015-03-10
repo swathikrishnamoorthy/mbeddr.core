@@ -17,8 +17,9 @@
     <import index="nu8v" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor.cells(MPS.Editor/jetbrains.mps.openapi.editor.cells@java_stub)" />
     <import index="srng" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(MPS.Editor/jetbrains.mps.openapi.editor@java_stub)" />
     <import index="jsgz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cells(MPS.Editor/jetbrains.mps.nodeEditor.cells@java_stub)" />
-    <import index="tpce" ref="c72da2b9-7cce-4447-8389-f407dc1158b7/r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure/jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpck" ref="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tp4k" ref="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" implicit="true" />
+    <import index="tpce" ref="c72da2b9-7cce-4447-8389-f407dc1158b7/r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure/jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -49,6 +50,7 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="795210086017940429" name="jetbrains.mps.lang.editor.structure.ReadOnlyStyleClassItem" flags="lg" index="xShMh" />
       <concept id="7667276221847570194" name="jetbrains.mps.lang.editor.structure.ParametersInformationStyleClassItem" flags="ln" index="2$oqgb">
         <reference id="8863456892852949148" name="parametersInformation" index="Bvoe9" />
       </concept>
@@ -3271,6 +3273,41 @@
       <node concept="l2Vlx" id="i0vqVru" role="2iSdaV" />
       <node concept="2$oqgb" id="7G1kLlsw5Hf" role="3F10Kt">
         <ref role="Bvoe9" to="tpen:47XGxT8xUGh" resolve="BaseMethodParameterInformationQuery" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7yHNhLC$5do">
+    <property role="3GE5qa" value="actions" />
+    <ref role="1XX52x" to="hba4:7yHNhLCy9Ts" resolve="RuntimeModificationStatement" />
+    <node concept="3EZMnI" id="hx15i80" role="2wV5jI">
+      <property role="3EZMnw" value="false" />
+      <node concept="3F0ifn" id="hx15otr" role="3EZMnx">
+        <property role="3F0ifm" value="add to at runtime" />
+      </node>
+      <node concept="1iCGBv" id="hx15C6s" role="3EZMnx">
+        <ref role="1NtTu8" to="tp4k:hwtU$xx" />
+        <node concept="1sVBvm" id="hx15C6t" role="1sWHZn">
+          <node concept="3F0A7n" id="hx15CIi" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="hx1b_tt" role="3EZMnx">
+        <property role="3F0ifm" value="at position" />
+      </node>
+      <node concept="3F0ifn" id="5pF_pYblilJ" role="3EZMnx">
+        <property role="3F0ifm" value="fsdsfsd" />
+      </node>
+      <node concept="3F0A7n" id="5pF_pYblim3" role="3EZMnx">
+        <ref role="1NtTu8" to="hba4:7yHNhLCGKDr" resolve="labelId" />
+      </node>
+      <node concept="2iRfu4" id="i2ICeF_" role="2iSdaV" />
+      <node concept="VPM3Z" id="5pF_pYbigOV" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="xShMh" id="5pF_pYbigQC" role="3F10Kt">
+        <property role="VOm3f" value="false" />
       </node>
     </node>
   </node>
