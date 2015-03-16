@@ -23,6 +23,13 @@
   <property name="mps-sl-all.build-tmp" value="${mbeddr.github.core.home}/code/plugins/sl-all/build/tmp" />
   <property name="artifacts.mps-sl-all" value="${mps-sl-all.build-path}" />
 
+  <!-- mps-incquery -->
+  <property name="mps-incquery.build-file.name" value="build.xml" />
+  <property name="mps-incquery.build-file.location" value="${mbeddr.github.core.home}/code/plugins/mps-incquery" />
+  <property name="mps-incquery.build-tmp" value="${mbeddr.github.core.home}/code/plugins/mps-incquery/build/tmp" />
+  <property name="mps-incquery.build-path" value="${mbeddr.github.core.home}/code/plugins/mps-incquery/build/artifacts/org.eclipse.incquery.mps.build" />
+  <property name="artifacts.mps-incquery" value="${mps-incquery.build-path}" />
+
   <!-- com.mbeddr.mbeddr -->
   <property name="com.mbeddr.build-path.postfix" value="${mbeddr.github.core.home}/build/com.mbeddr.build/build/artifacts/mbeddr" />  
   <property name="com.mbeddr.build-file.location" value="${mbeddr.github.core.home}/build/com.mbeddr.build" />    
@@ -30,7 +37,6 @@
   <property name="com.mbeddr.working-dir" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.build" />  
   <property name="spawner.zip-file.name" value="com.mbeddr.spawner.zip" />
     
-  
   <!-- com.mbeddr.debugger -->  
   <property name="com.mbeddr.debugger.build-path.postfix" value="${mbeddr.github.core.home}/build/com.mbeddr.debugger/build/artifacts/com.mbeddr.debugger.build" />  
   <property name="com.mbeddr.debugger.build-file.location" value="${mbeddr.github.core.home}/build/com.mbeddr.debugger" />    
@@ -212,6 +218,12 @@
   <target name="build-allScripts">
       <ant antfile="${com.mbeddr.allScripts.build-file.name}" dir="${com.mbeddr.allScripts.build-file.location}" target="${generate-code.task}" />
   </target>
+  
+  <target name="build-mps-incquery">
+    <ant antfile="${mps-incquery.build-file.name}" dir="${mps-incquery.build-file.location}" target="${generate-code.task}" />
+    <ant antfile="${mps-incquery.build-file.name}" dir="${mps-incquery.build-file.location}" target="${build-plugin.task}" />
+    <delete dir="${mps-incquery.build-tmp}" />
+  </target>
 
   <target name="build-sl-all">
     <ant antfile="${de.slisson.mps.all.build-file.name}" dir="${de.slisson.mps.all.build-file.location}" target="${generate-code.task}" />
@@ -247,11 +259,12 @@
   </target>	
   
   <target name="build-languages" >
-	  <antcall target="build-sl-all" />
-		<antcall target="build-platform" />
-		<antcall target="build-mbeddr" />  
-		<antcall target="build-debugger-testing" />
-  </target>	 
+   	  <antcall target="build-mps-incquery" />
+   	  <antcall target="build-sl-all" />
+  	  <antcall target="build-platform" />
+  	  <antcall target="build-mbeddr" />  
+  	  <antcall target="build-debugger-testing" />
+  </target>
   
 
   <target name="build-and-run-tests" >

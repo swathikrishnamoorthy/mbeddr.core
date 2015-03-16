@@ -9,6 +9,7 @@
     <import index="90a9" ref="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.slisson.mps.all.build)" />
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
     <import index="al5i" ref="r:742f344d-4dc4-4862-992c-4bc94b094870(com.mbeddr.mpsutil.dev.build)" />
+    <import index="zkto" ref="r:b40f58fa-3189-413c-9678-41077cc732ed(org.eclipse.incquery.mps.build)" />
   </imports>
   <registry>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
@@ -865,6 +866,9 @@
       <node concept="m$_yC" id="5dchr4Qjtvw" role="m$_yJ">
         <ref role="m$_y1" to="90a9:4hvHh3QW$Eh" resolve="de.slisson.mps.all" />
       </node>
+      <node concept="m$_yC" id="54d2E3NCEup" role="m$_yJ">
+        <ref role="m$_y1" to="zkto:2Zh2tjQSyQv" resolve="org.eclipse.incquery.mps" />
+      </node>
     </node>
     <node concept="2igEWh" id="$bJ0jguQs8" role="1hWBAP">
       <property role="2igJW4" value="true" />
@@ -905,6 +909,12 @@
       <ref role="1l3spb" to="al5i:3AVJcIMlF8l" resolve="com.mbeddr.platform" />
       <node concept="398BVA" id="6RmoJr9taf6" role="2JcizS">
         <ref role="398BVh" node="6RmoJr9qF5L" resolve="platform.artifacts" />
+      </node>
+    </node>
+    <node concept="2sgV4H" id="54d2E3NCea5" role="1l3spa">
+      <ref role="1l3spb" to="zkto:2Zh2tjQSyQ0" resolve="org.eclipse.incquery.mps" />
+      <node concept="398BVA" id="54d2E3NC$BX" role="2JcizS">
+        <ref role="398BVh" node="54d2E3NCkaK" resolve="mps.incquery" />
       </node>
     </node>
     <node concept="2_Ic$z" id="7OyG8hrcgea" role="3989C9">
@@ -8811,6 +8821,12 @@
             <ref role="3bR37D" to="al5i:7Pr7tifzlku" resolve="com.mbeddr.platform" />
           </node>
         </node>
+        <node concept="1SiIV0" id="54d2E3NCCIf" role="3bR37C">
+          <node concept="3bR9La" id="54d2E3NCCIg" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="zkto:69NMDwEoT2y" resolve="org.eclipse.incquery.mps.build" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="398rNT" id="23LEVbRX3hP" role="1l3spd">
@@ -8908,6 +8924,30 @@
                   <property role="2Ry0Am" value="artifacts" />
                   <node concept="2Ry0Ak" id="4hvHh3QUBGO" role="2Ry0An">
                     <property role="2Ry0Am" value="mps-sl-all" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="398rNT" id="54d2E3NCkaK" role="1l3spd">
+      <property role="TrG5h" value="mps.incquery" />
+      <node concept="398BVA" id="54d2E3NClXb" role="398pKh">
+        <ref role="398BVh" node="7uZw0yZ2_Jf" resolve="mbeddr.github.core.home" />
+        <node concept="2Ry0Ak" id="54d2E3NCnpK" role="iGT6I">
+          <property role="2Ry0Am" value="code" />
+          <node concept="2Ry0Ak" id="54d2E3NCr2v" role="2Ry0An">
+            <property role="2Ry0Am" value="plugins" />
+            <node concept="2Ry0Ak" id="54d2E3NCsM4" role="2Ry0An">
+              <property role="2Ry0Am" value="mps-incquery" />
+              <node concept="2Ry0Ak" id="25FUf_GsJ8c" role="2Ry0An">
+                <property role="2Ry0Am" value="build" />
+                <node concept="2Ry0Ak" id="25FUf_GsKRL" role="2Ry0An">
+                  <property role="2Ry0Am" value="artifacts" />
+                  <node concept="2Ry0Ak" id="25FUf_GsMBm" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.eclipse.incquery.mps" />
                   </node>
                 </node>
               </node>
