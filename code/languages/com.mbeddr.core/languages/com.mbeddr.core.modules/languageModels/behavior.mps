@@ -193,7 +193,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -13844,6 +13844,22 @@
       <node concept="3cqZAl" id="4$VRXeIntul" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="3o2OLGv7CoO">
+    <ref role="13h7C2" to="x27k:3o2OLGv6VBP" resolve="ITypeDeclaration" />
+    <node concept="13i0hz" id="3o2OLGv7CoR" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="createType" />
+      <node concept="3Tm1VV" id="3o2OLGv7CoS" role="1B3o_S" />
+      <node concept="3Tqbb2" id="3o2OLGv7Cta" role="3clF45">
+        <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+      </node>
+      <node concept="3clFbS" id="3o2OLGv7CoU" role="3clF47" />
+    </node>
+    <node concept="13hLZK" id="3o2OLGv7CoP" role="13h7CW">
+      <node concept="3clFbS" id="3o2OLGv7CoQ" role="2VODD2" />
+    </node>
+  </node>
   <node concept="2k1P9p" id="431Ed0TE4KX">
     <property role="2k1P9s" value="ScopingPatterns" />
     <node concept="1bXQqE" id="431Ed0TE4PL" role="2k1P9u" />
@@ -14298,22 +14314,6 @@
     </node>
     <node concept="1bXQqE" id="431Ed0TRc_M" role="2k1P9u" />
     <node concept="1bXQqE" id="431Ed0TRcCH" role="2k1P9u" />
-  </node>
-  <node concept="13h7C7" id="3o2OLGv7CoO">
-    <ref role="13h7C2" to="x27k:3o2OLGv6VBP" resolve="ITypeDeclaration" />
-    <node concept="13i0hz" id="3o2OLGv7CoR" role="13h7CS">
-      <property role="13i0iv" value="true" />
-      <property role="13i0it" value="true" />
-      <property role="TrG5h" value="createType" />
-      <node concept="3Tm1VV" id="3o2OLGv7CoS" role="1B3o_S" />
-      <node concept="3Tqbb2" id="3o2OLGv7Cta" role="3clF45">
-        <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
-      </node>
-      <node concept="3clFbS" id="3o2OLGv7CoU" role="3clF47" />
-    </node>
-    <node concept="13hLZK" id="3o2OLGv7CoP" role="13h7CW">
-      <node concept="3clFbS" id="3o2OLGv7CoQ" role="2VODD2" />
-    </node>
   </node>
 </model>
 
