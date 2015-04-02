@@ -157,12 +157,18 @@
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
+        <reference id="1171323947160" name="concept" index="2SmgA8" />
+      </concept>
       <concept id="1145567426890" name="jetbrains.mps.lang.smodel.structure.SNodeListCreator" flags="nn" index="2T8Vx0">
         <child id="1145567471833" name="createdType" index="2T96Bj" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
         <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
+      </concept>
+      <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
+        <reference id="3562215692195600259" name="link" index="13MTZf" />
       </concept>
       <concept id="1176109685393" name="jetbrains.mps.lang.smodel.structure.Model_RootsIncludingImportedOperation" flags="nn" index="3lApI0">
         <reference id="1176109685394" name="concept" index="3lApI3" />
@@ -274,6 +280,22 @@
       <ref role="1N5Vy1" to="x27k:5ak6HMA0red" />
       <node concept="1MUpDS" id="5ak6HMA0reD" role="1N6uqs">
         <node concept="3clFbS" id="5ak6HMA0reE" role="2VODD2">
+          <node concept="3clFbF" id="3DEI5ITkOCf" role="3cqZAp">
+            <node concept="2OqwBi" id="3DEI5ITkTms" role="3clFbG">
+              <node concept="2OqwBi" id="3DEI5ITkPNO" role="2Oq$k0">
+                <node concept="2OqwBi" id="3DEI5ITkP4V" role="2Oq$k0">
+                  <node concept="21POm0" id="3DEI5ITkOCd" role="2Oq$k0" />
+                  <node concept="I4A8Y" id="3DEI5ITkPCl" role="2OqNvi" />
+                </node>
+                <node concept="2SmgA7" id="3DEI5ITkQfc" role="2OqNvi">
+                  <ref role="2SmgA8" to="x27k:5ak6HMA0rec" resolve="FunctionCall" />
+                </node>
+              </node>
+              <node concept="13MTOL" id="3DEI5ITllZn" role="2OqNvi">
+                <ref role="13MTZf" to="x27k:5ak6HMA0red" />
+              </node>
+            </node>
+          </node>
           <node concept="3clFbF" id="5ak6HMA0reF" role="3cqZAp">
             <node concept="2OqwBi" id="5ak6HMA0rfk" role="3clFbG">
               <node concept="2OqwBi" id="5ak6HMA0reS" role="2Oq$k0">
