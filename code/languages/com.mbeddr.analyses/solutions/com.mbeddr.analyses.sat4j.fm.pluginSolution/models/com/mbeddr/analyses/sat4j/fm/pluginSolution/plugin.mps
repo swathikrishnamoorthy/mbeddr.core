@@ -26,7 +26,6 @@
     <import index="b2mh" ref="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.project(MPS.IDEA/com.intellij.openapi.project@java_stub)" />
     <import index="5xh9" ref="f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.actions(MPS.Platform/jetbrains.mps.ide.actions@java_stub)" />
     <import index="qdv7" ref="r:1ff3d952-eae5-4d94-b89e-ea3060b11545(com.mbeddr.cc.var.annotations.structure)" />
-    <import index="qd6m" ref="r:c4c3f7d3-0acf-4671-a134-5fab66c4e637(com.mbeddr.core.modules.behavior)" implicit="true" />
     <import index="l077" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.extapi.module(MPS.Core/jetbrains.mps.extapi.module@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -803,8 +802,8 @@
                 <ref role="2WH_rO" node="44j14BH2NQ7" resolve="im" />
               </node>
             </node>
-            <node concept="2qgKlT" id="4$3mDZ0nrBx" role="2OqNvi">
-              <ref role="37wK5l" to="qd6m:35JkqCBlGGT" resolve="getAllImportedModules" />
+            <node concept="2qgKlT" id="5Kgle5PjLUU" role="2OqNvi">
+              <ref role="37wK5l" to="hwgx:13jltkdSd6O" resolve="allImportedChunks" />
             </node>
           </node>
         </node>
