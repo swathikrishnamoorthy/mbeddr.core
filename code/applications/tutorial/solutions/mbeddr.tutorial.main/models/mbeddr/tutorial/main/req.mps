@@ -214,6 +214,9 @@
         <child id="865293814733133843" name="result" index="3pwfKK" />
         <child id="6619757161337461931" name="comment" index="3J00qV" />
       </concept>
+      <concept id="3857533489766146428" name="com.mbeddr.core.base.structure.ElementDocumentation" flags="ng" index="1z9TsT">
+        <child id="4052432714772608243" name="text" index="1w35rA" />
+      </concept>
       <concept id="3815661793603643701" name="com.mbeddr.core.base.structure.VisualizationQuery" flags="ng" index="1EdpOq" />
       <concept id="3815661793603643767" name="com.mbeddr.core.base.structure.VisualizationResult" flags="ng" index="1EdpPo">
         <reference id="3815661793603643770" name="visualizable" index="1EdpPl" />
@@ -335,6 +338,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -652,7 +656,7 @@
         </node>
         <node concept="1d7MWx" id="uFBNcnBw6n" role="1d0Bzp">
           <node concept="3TlMh9" id="uFBNcnBw6s" role="1d7UbX">
-            <property role="2hmy$m" value="10" />
+            <property role="2hmy$m" value="0" />
           </node>
           <node concept="3TlMh9" id="uFBNcnBw6p" role="1d7X3i">
             <property role="2hmy$m" value="500" />
@@ -1782,6 +1786,15 @@
       <property role="1Ema5g" value="true" />
       <property role="2iEbMk" value="1428575310705" />
       <property role="2iEaKi" value="berndkolb" />
+      <node concept="qc_Tx" id="5mBKkp7AgIz" role="q3PPx">
+        <property role="qc_TA" value="6" />
+        <property role="qc_T$" value="0" />
+        <property role="qc_T_" value="0" />
+      </node>
+      <node concept="3l4hTA" id="5mBKkp7AgIy" role="q3PPx">
+        <property role="3l4hTz" value="26" />
+        <property role="htQvV" value="18" />
+      </node>
       <node concept="3l4mXQ" id="7A_Yc2WoUaW" role="3pwbkY">
         <property role="3I$89_" value="0" />
         <property role="Bvl76" value="false" />
@@ -1863,21 +1876,17 @@
           <ref role="3l4mYn" node="7A_Yc2WoU8W" resolve="impl2" />
         </node>
       </node>
-      <node concept="qc_Tx" id="5mBKkp7AgIz" role="q3PPx">
-        <property role="qc_TA" value="6" />
-        <property role="qc_T$" value="0" />
-        <property role="qc_T_" value="0" />
-      </node>
-      <node concept="3l4hTA" id="5mBKkp7AgIy" role="q3PPx">
-        <property role="3l4hTz" value="26" />
-        <property role="htQvV" value="18" />
-      </node>
     </node>
     <node concept="3pwaUv" id="1qjRex4iXhC" role="3pwaUu">
       <property role="TrG5h" value="RequirementsWithoutEfforts" />
       <property role="1EdQ0A" value="true" />
       <property role="2iEbMk" value="1428570453369" />
       <property role="2iEaKi" value="berndkolb" />
+      <node concept="qc_Tx" id="5mBKkp7_9HV" role="q3PPx">
+        <property role="qc_TA" value="28" />
+        <property role="qc_T$" value="3" />
+        <property role="qc_T_" value="0" />
+      </node>
       <node concept="3pwbzX" id="5mBKkp7_9HR" role="3pwbzW">
         <property role="1OfcgH" value="true" />
         <property role="3J1cY9" value="1428570453361" />
@@ -2240,10 +2249,14 @@
         </node>
       </node>
       <node concept="3pweHT" id="1qjRex4iXhE" role="3pwbkY" />
-      <node concept="qc_Tx" id="5mBKkp7_9HV" role="q3PPx">
-        <property role="qc_TA" value="28" />
-        <property role="qc_T$" value="3" />
-        <property role="qc_T_" value="0" />
+      <node concept="1z9TsT" id="4AuO4fdxmOq" role="lGtFl">
+        <node concept="OjmMv" id="4AuO4fdxmOr" role="1w35rA">
+          <node concept="19SGf9" id="4AuO4fdxmOs" role="OjmMu">
+            <node concept="19SUe$" id="4AuO4fdxmOt" role="19SJt6">
+              <property role="19SUeA" value="This element is supposed to have an error for demo purposes." />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3pwaUv" id="yBYRhyDndx" role="3pwaUu">
