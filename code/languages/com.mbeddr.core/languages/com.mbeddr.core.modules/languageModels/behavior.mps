@@ -193,7 +193,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -518,7 +518,6 @@
         <child id="996292992024530408" name="constraints" index="2k1Grq" />
       </concept>
       <concept id="996292992024500587" name="org.eclipse.incquery.mps.structure.PatternModel" flags="ng" index="2k1P9p">
-        <property id="996292992024500590" name="package" index="2k1P9s" />
         <child id="996292992024500588" name="contents" index="2k1P9u" />
       </concept>
       <concept id="996292992024449103" name="org.eclipse.incquery.mps.structure.Pattern" flags="ng" index="2k1THX">
@@ -14079,7 +14078,7 @@
     </node>
   </node>
   <node concept="2k1P9p" id="431Ed0TE4KX">
-    <property role="2k1P9s" value="ScopingPatterns" />
+    <property role="TrG5h" value="ScopePatterns" />
     <node concept="1bXQqE" id="431Ed0TE4PL" role="2k1P9u" />
     <node concept="2k1THX" id="431Ed0TEaKJ" role="2k1P9u">
       <property role="TrG5h" value="ModuleImport" />
