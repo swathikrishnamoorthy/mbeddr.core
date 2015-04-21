@@ -11,6 +11,9 @@
     <dependency reexport="false">5b1f863d-65a0-41a6-a801-33896be24202(jetbrains.mps.ide.editor)</dependency>
     <dependency reexport="false">d4280a54-f6df-4383-aa41-d1b2bffa7eb1(com.mbeddr.core.base)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+    <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
+    <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
+    <dependency reexport="false">d78ad636-1087-4a2a-8147-0f6b287011c2(org.eclipse.incquery.mps.runtime)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>ef5ea086-f248-4019-bdc4-4a594cfbdd2e(org.eclipse.incquery.mps)</usedLanguage>
