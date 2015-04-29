@@ -11,6 +11,7 @@
     <import index="90a9" ref="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.slisson.mps.all.build)" />
     <import index="p6ld" ref="r:0764bd79-eef9-46f0-a6fe-739a07a30bb2(com.mbeddr.build.build)" />
     <import index="al5i" ref="r:742f344d-4dc4-4862-992c-4bc94b094870(com.mbeddr.mpsutil.dev.build)" />
+    <import index="zkto" ref="r:b40f58fa-3189-413c-9678-41077cc732ed(org.eclipse.incquery.mps.build)" />
   </imports>
   <registry>
     <language id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests">
@@ -280,6 +281,30 @@
         </node>
       </node>
     </node>
+    <node concept="398rNT" id="3Xbaf$sKc9I" role="1l3spd">
+      <property role="TrG5h" value="mps.incquery" />
+      <node concept="398BVA" id="3Xbaf$sKc9J" role="398pKh">
+        <ref role="398BVh" node="7eF9rfAnzU3" resolve="mbeddr.github.core.home" />
+        <node concept="2Ry0Ak" id="3Xbaf$sKc9K" role="iGT6I">
+          <property role="2Ry0Am" value="code" />
+          <node concept="2Ry0Ak" id="3Xbaf$sKc9L" role="2Ry0An">
+            <property role="2Ry0Am" value="plugins" />
+            <node concept="2Ry0Ak" id="3Xbaf$sKc9M" role="2Ry0An">
+              <property role="2Ry0Am" value="mps-incquery" />
+              <node concept="2Ry0Ak" id="3Xbaf$sKc9N" role="2Ry0An">
+                <property role="2Ry0Am" value="build" />
+                <node concept="2Ry0Ak" id="3Xbaf$sKc9O" role="2Ry0An">
+                  <property role="2Ry0Am" value="artifacts" />
+                  <node concept="2Ry0Ak" id="3Xbaf$sKc9P" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.eclipse.incquery.mps" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="398rNT" id="6RmoJr9td1v" role="1l3spd">
       <property role="TrG5h" value="platform.artifacts" />
       <node concept="398BVA" id="6RmoJr9td1w" role="398pKh">
@@ -326,6 +351,12 @@
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="mps-sl-all" />
       <node concept="398BVA" id="4hvHh3QXKSB" role="2JcizS">
         <ref role="398BVh" node="4hvHh3QXKHO" resolve="sl.all" />
+      </node>
+    </node>
+    <node concept="2sgV4H" id="54d2E3NCea5" role="1l3spa">
+      <ref role="1l3spb" to="zkto:2Zh2tjQSyQ0" resolve="org.eclipse.incquery.mps" />
+      <node concept="398BVA" id="54d2E3NC$BX" role="2JcizS">
+        <ref role="398BVh" node="3Xbaf$sKc9I" resolve="mps.incquery" />
       </node>
     </node>
     <node concept="1l3spV" id="7eF9rfAnzV1" role="1l3spN">
@@ -618,6 +649,30 @@
         </node>
       </node>
     </node>
+    <node concept="398rNT" id="54d2E3NCkaK" role="1l3spd">
+      <property role="TrG5h" value="mps.incquery" />
+      <node concept="398BVA" id="54d2E3NClXb" role="398pKh">
+        <ref role="398BVh" node="7eF9rfAnzXX" resolve="mbeddr.github.core.home" />
+        <node concept="2Ry0Ak" id="54d2E3NCnpK" role="iGT6I">
+          <property role="2Ry0Am" value="code" />
+          <node concept="2Ry0Ak" id="54d2E3NCr2v" role="2Ry0An">
+            <property role="2Ry0Am" value="plugins" />
+            <node concept="2Ry0Ak" id="54d2E3NCsM4" role="2Ry0An">
+              <property role="2Ry0Am" value="mps-incquery" />
+              <node concept="2Ry0Ak" id="25FUf_GsJ8c" role="2Ry0An">
+                <property role="2Ry0Am" value="build" />
+                <node concept="2Ry0Ak" id="25FUf_GsKRL" role="2Ry0An">
+                  <property role="2Ry0Am" value="artifacts" />
+                  <node concept="2Ry0Ak" id="25FUf_GsMBm" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.eclipse.incquery.mps" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="10PD9b" id="7eF9rfAnzYC" role="10PD9s" />
     <node concept="3b7kt6" id="7eF9rfAnzYD" role="10PD9s" />
     <node concept="1gjT0q" id="7eF9rfAnzYE" role="10PD9s" />
@@ -643,6 +698,12 @@
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="mps-sl-all" />
       <node concept="398BVA" id="4hvHh3QXKqM" role="2JcizS">
         <ref role="398BVh" node="2Xjt3l5c8Xb" resolve="sl.all" />
+      </node>
+    </node>
+    <node concept="2sgV4H" id="3Xbaf$sKchV" role="1l3spa">
+      <ref role="1l3spb" to="zkto:2Zh2tjQSyQ0" resolve="org.eclipse.incquery.mps" />
+      <node concept="398BVA" id="3Xbaf$sKchW" role="2JcizS">
+        <ref role="398BVh" node="54d2E3NCkaK" resolve="mps.incquery" />
       </node>
     </node>
     <node concept="1l3spV" id="7eF9rfAnzYV" role="1l3spN">

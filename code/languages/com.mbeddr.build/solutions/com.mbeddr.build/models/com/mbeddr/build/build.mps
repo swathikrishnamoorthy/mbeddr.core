@@ -315,6 +315,9 @@
       <node concept="m$_yC" id="3AVJcIMnAY0" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5CFKsRWV4Nl" resolve="jetbrains.mps.execution.languages" />
       </node>
+      <node concept="m$_yC" id="4NsvF8A0wU3" role="m$_yJ">
+        <ref role="m$_y1" to="zkto:2Zh2tjQSyQv" resolve="org.eclipse.incquery.mps" />
+      </node>
       <node concept="3_J27D" id="7uZw0yZ43JE" role="m_cZH">
         <node concept="3Mxwew" id="7uZw0yZ43JF" role="3MwsjC">
           <property role="3MwjfP" value="mbeddr.core" />
@@ -2491,6 +2494,12 @@
           <node concept="3bR9La" id="1VzEExh4Hwz" role="1SiIV1">
             <property role="3bR36h" value="true" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LeP" resolve="jetbrains.mps.analyzers.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4NsvF8_Zw8k" role="3bR37C">
+          <node concept="3bR9La" id="4NsvF8_Zw8l" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="zkto:2Zh2tjQSyQt" resolve="org.eclipse.incquery.mps.runtime" />
           </node>
         </node>
       </node>
