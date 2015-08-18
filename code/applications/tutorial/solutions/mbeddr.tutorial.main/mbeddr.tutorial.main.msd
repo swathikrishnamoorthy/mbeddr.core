@@ -54,7 +54,6 @@
     <usedLanguage>a577a05d-67ad-41db-9547-6e5f0730b85d(mbeddr.tutorial.osconfig)</usedLanguage>
     <usedLanguage>ce2335b7-fcfd-403e-8ace-08dd457fd818(mbeddr.tutorial.osconfig.cimpl)</usedLanguage>
     <usedLanguage>8f78d0b6-57c9-4fa8-86fe-8c30d0d5b15c(mbeddr.tutorial.smtrigger)</usedLanguage>
-    <usedLanguage>3d0be1cf-4156-4c3c-ac37-fef83237d8e2(mbeddr.tutorial.vectors)</usedLanguage>
     <usedLanguage>973c8be0-8526-4588-aca6-92bcbb701b50(mbeddr.tutotial.osconfig.memory)</usedLanguage>
     <usedLanguage>01cd75cf-892b-47a7-b594-744f9e06e5e4(mbeddr.tutorial.complex)</usedLanguage>
     <usedLanguage>29594ca3-9b56-49a1-b776-aaae43264253(mbeddr.tutorial.shonan.complexNumberVector)</usedLanguage>
@@ -169,7 +168,6 @@
     <language id="ce2335b7-fcfd-403e-8ace-08dd457fd818" fqName="mbeddr.tutorial.osconfig.cimpl" version="0" />
     <language id="29594ca3-9b56-49a1-b776-aaae43264253" fqName="mbeddr.tutorial.shonan.complexNumberVector" version="0" />
     <language id="8f78d0b6-57c9-4fa8-86fe-8c30d0d5b15c" fqName="mbeddr.tutorial.smtrigger" version="0" />
-    <language id="3d0be1cf-4156-4c3c-ac37-fef83237d8e2" fqName="mbeddr.tutorial.vectors" version="0" />
     <language id="973c8be0-8526-4588-aca6-92bcbb701b50" fqName="mbeddr.tutotial.osconfig.memory" version="0" />
   </languageVersions>
 </solution>

@@ -27,7 +27,6 @@
     <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
     <usedLanguage>01cd75cf-892b-47a7-b594-744f9e06e5e4(mbeddr.tutorial.complex)</usedLanguage>
     <usedLanguage>7fc59e55-0f30-4694-b8e3-d334e472c924(mbeddr.tutorial.metadata)</usedLanguage>
-    <usedLanguage>3d0be1cf-4156-4c3c-ac37-fef83237d8e2(mbeddr.tutorial.vectors)</usedLanguage>
     <usedLanguage>3bf5377a-e904-4ded-9754-5a516023bfaa(com.mbeddr.core.pointers)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
@@ -79,7 +78,6 @@
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
     <language id="01cd75cf-892b-47a7-b594-744f9e06e5e4" fqName="mbeddr.tutorial.complex" version="0" />
     <language id="7fc59e55-0f30-4694-b8e3-d334e472c924" fqName="mbeddr.tutorial.metadata" version="0" />
-    <language id="3d0be1cf-4156-4c3c-ac37-fef83237d8e2" fqName="mbeddr.tutorial.vectors" version="0" />
   </languageVersions>
 </solution>
 
