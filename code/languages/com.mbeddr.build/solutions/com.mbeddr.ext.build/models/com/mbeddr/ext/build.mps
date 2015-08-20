@@ -367,6 +367,12 @@
       <node concept="L2wRC" id="53wbATGwbwe" role="39821P">
         <ref role="L2wRA" node="1VMOGozl7al" resolve="test.ex.ext.units" />
       </node>
+      <node concept="L2wRC" id="1_106p2kGbC" role="39821P">
+        <ref role="L2wRA" node="3p0OY6VwCI7" resolve="test.ex.ext.serialization" />
+      </node>
+      <node concept="L2wRC" id="vg5qBBPPnH" role="39821P">
+        <ref role="L2wRA" node="vg5qBBrTrr" resolve="test.ex.ext.concurrency" />
+      </node>
     </node>
     <node concept="2G$12M" id="5qO$P$PrIFi" role="3989C9">
       <property role="TrG5h" value="com.mbeddr.ext.ex.tests" />
@@ -433,6 +439,12 @@
         <property role="TrG5h" value="test.ex.ext.components" />
         <property role="2GAjPV" value="false" />
         <property role="aoJFB" value="sources and tests" />
+        <node concept="1SiIV0" id="6bZa2RkkVJe" role="3bR37C">
+          <node concept="3bR9La" id="6bZa2RkkVJf" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="p6ld:6y2eE4zZsnH" resolve="com.mbeddr.core.stdlib" />
+          </node>
+        </node>
         <node concept="398BVA" id="5qO$P$PrIN6" role="3LF7KH">
           <ref role="398BVh" node="5qO$P$PrILF" resolve="mbeddr.ext" />
           <node concept="2Ry0Ak" id="5qO$P$PrIN7" role="iGT6I">
@@ -505,6 +517,108 @@
                 <property role="2Ry0Am" value="test.ex.ext.units.msd" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="3p0OY6VwCI7" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="test.ex.ext.serialization" />
+        <property role="3LESm3" value="1c219a3b-fd18-45da-9694-65383cb7ddd7" />
+        <property role="2GAjPV" value="false" />
+        <node concept="398BVA" id="3p0OY6VwCIa" role="3LF7KH">
+          <ref role="398BVh" node="5qO$P$PrILF" resolve="mbeddr.ext" />
+          <node concept="2Ry0Ak" id="3p0OY6VwCIb" role="iGT6I">
+            <property role="2Ry0Am" value="tests" />
+            <node concept="2Ry0Ak" id="3p0OY6VwCIc" role="2Ry0An">
+              <property role="2Ry0Am" value="test.ex.ext.serialization" />
+              <node concept="2Ry0Ak" id="1_106p2kG3y" role="2Ry0An">
+                <property role="2Ry0Am" value="test.ex.ext.serialization.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1_106p2l$h_" role="3bR37C">
+          <node concept="3bR9La" id="1_106p2l$hA" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="p6ld:6y2eE4zZsnH" resolve="com.mbeddr.core.stdlib" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="vg5qBBrTrr" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="test.ex.ext.concurrency" />
+        <property role="3LESm3" value="0b681e67-1f30-4d18-a3fd-d036ab581a70" />
+        <property role="2GAjPV" value="false" />
+        <node concept="398BVA" id="vg5qBBrTrs" role="3LF7KH">
+          <ref role="398BVh" node="5qO$P$PrILF" resolve="mbeddr.ext" />
+          <node concept="2Ry0Ak" id="vg5qBBrTrt" role="iGT6I">
+            <property role="2Ry0Am" value="tests" />
+            <node concept="2Ry0Ak" id="vg5qBBrTru" role="2Ry0An">
+              <property role="2Ry0Am" value="test.ex.ext.concurrency" />
+              <node concept="2Ry0Ak" id="vg5qBBrTwl" role="2Ry0An">
+                <property role="2Ry0Am" value="tests.ex.ext.concurrency.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6ndohCVoZ0S" role="3bR37C">
+          <node concept="3bR9La" id="6ndohCVoZ0T" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="p6ld:6y2eE4zZsnH" resolve="com.mbeddr.core.stdlib" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="2kF1PD8c80G" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="test.ex.ext.concurrency.plainC" />
+        <property role="3LESm3" value="90e86bc3-eb2a-4a38-bef8-65c10092430e" />
+        <property role="2GAjPV" value="false" />
+        <node concept="1SiIV0" id="2kF1PD8c8Xn" role="3bR37C">
+          <node concept="3bR9La" id="2kF1PD8c8Xo" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="p6ld:6y2eE4zZsnH" resolve="com.mbeddr.core.stdlib" />
+          </node>
+        </node>
+        <node concept="398BVA" id="2kF1PD8c84a" role="3LF7KH">
+          <ref role="398BVh" node="5qO$P$PrILF" resolve="mbeddr.ext" />
+          <node concept="2Ry0Ak" id="2kF1PD8c8oI" role="iGT6I">
+            <property role="2Ry0Am" value="tests" />
+            <node concept="2Ry0Ak" id="2kF1PD8c8oP" role="2Ry0An">
+              <property role="2Ry0Am" value="test.ex.ext.concurrency.plainC" />
+              <node concept="2Ry0Ak" id="2kF1PD8c8oW" role="2Ry0An">
+                <property role="2Ry0Am" value="test.ex.ext.concurrency.c.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="2kF1PD8c8uB" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="test.ex.ext.components.concurrency" />
+        <property role="3LESm3" value="8b3efe9e-e578-4a3b-8e45-fe3292d81fb0" />
+        <property role="2GAjPV" value="false" />
+        <node concept="398BVA" id="2kF1PD8c8yq" role="3LF7KH">
+          <ref role="398BVh" node="5qO$P$PrILF" resolve="mbeddr.ext" />
+          <node concept="2Ry0Ak" id="2kF1PD8c8FD" role="iGT6I">
+            <property role="2Ry0Am" value="tests" />
+            <node concept="2Ry0Ak" id="2kF1PD8c8Ju" role="2Ry0An">
+              <property role="2Ry0Am" value="test.ex.ext.components.concurrency" />
+              <node concept="2Ry0Ak" id="2kF1PD8c8Nj" role="2Ry0An">
+                <property role="2Ry0Am" value="test.ex.ext.components.concurrency.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2kF1PD8c8Pd" role="3bR37C">
+          <node concept="3bR9La" id="2kF1PD8c8Pe" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="2kF1PD8c80G" resolve="test.ex.ext.concurrency.plainC" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2kF1PD8c8Pf" role="3bR37C">
+          <node concept="3bR9La" id="2kF1PD8c8Pg" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="p6ld:6y2eE4zZsnH" resolve="com.mbeddr.core.stdlib" />
           </node>
         </node>
       </node>
@@ -747,6 +861,9 @@
       <node concept="L2wRC" id="1VMOGozl88H" role="39821P">
         <ref role="L2wRA" node="1VMOGozl6xX" resolve="test.ts.ext.units" />
       </node>
+      <node concept="L2wRC" id="vg5qBBJJPa" role="39821P">
+        <ref role="L2wRA" node="vg5qBBrT$k" resolve="test.ts.ext.concurrency" />
+      </node>
     </node>
     <node concept="2G$12M" id="7Vt15sLW_ol" role="3989C9">
       <property role="TrG5h" value="com.mbeddr.ext.ts.tests" />
@@ -806,6 +923,25 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtA" id="vg5qBBrT$k" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="test.ts.ext.concurrency" />
+        <property role="3LESm3" value="1150a9b6-68b1-44b7-a7e5-cba98fe879c1" />
+        <property role="2GAjPV" value="false" />
+        <property role="aoJFB" value="sources and tests" />
+        <node concept="398BVA" id="vg5qBBrT$l" role="3LF7KH">
+          <ref role="398BVh" node="7Vt15sLW_nb" resolve="mbeddr.ext" />
+          <node concept="2Ry0Ak" id="vg5qBBrT$m" role="iGT6I">
+            <property role="2Ry0Am" value="tests" />
+            <node concept="2Ry0Ak" id="vg5qBBrT$n" role="2Ry0An">
+              <property role="2Ry0Am" value="test.ts.ext.concurrency" />
+              <node concept="2Ry0Ak" id="vg5qBBrTAz" role="2Ry0An">
+                <property role="2Ry0Am" value="test.ts.ext.concurrency.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="22LTRH" id="7Vt15sLW_oB" role="1hWBAP">
       <property role="TrG5h" value="com.mbeddr.ext.tests" />
@@ -814,6 +950,9 @@
       </node>
       <node concept="22LTRM" id="53wbATGwcIU" role="22LTRK">
         <ref role="22LTRN" node="1VMOGozl6xX" resolve="test.ts.ext.units" />
+      </node>
+      <node concept="22LTRM" id="vg5qBBJJRU" role="22LTRK">
+        <ref role="22LTRN" node="vg5qBBrT$k" resolve="test.ts.ext.concurrency" />
       </node>
     </node>
   </node>

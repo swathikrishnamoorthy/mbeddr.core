@@ -734,21 +734,42 @@
         <node concept="1QHqEQ" id="5C6ntc7KUbL" role="3cqZAp">
           <node concept="1QHqEC" id="5C6ntc7KUbN" role="1QHqEI">
             <node concept="3clFbS" id="5C6ntc7KUbP" role="1bW5cS">
-              <node concept="3clFbF" id="6N7ktxtOg42" role="3cqZAp">
-                <node concept="2OqwBi" id="6N7ktxtOg43" role="3clFbG">
-                  <node concept="2OqwBi" id="6N7ktxtQzBH" role="2Oq$k0">
-                    <node concept="2OqwBi" id="6N7ktxtOg44" role="2Oq$k0">
-                      <node concept="2WthIp" id="6N7ktxtOg45" role="2Oq$k0" />
-                      <node concept="2BZ7hE" id="6N7ktxtOg46" role="2OqNvi">
+              <node concept="3cpWs8" id="6BW7PIh2GdC" role="3cqZAp">
+                <node concept="3cpWsn" id="6BW7PIh2GdD" role="3cpWs9">
+                  <property role="TrG5h" value="dbgr" />
+                  <node concept="3uibUv" id="6BW7PIh2GdB" role="1tU5fm">
+                    <ref role="3uigEE" to="x30c:6WfZQfTHrjQ" resolve="MbeddrDebugger" />
+                  </node>
+                  <node concept="2OqwBi" id="6BW7PIh2GdE" role="33vP2m">
+                    <node concept="2OqwBi" id="6BW7PIh2GdF" role="2Oq$k0">
+                      <node concept="2WthIp" id="6BW7PIh2GdG" role="2Oq$k0" />
+                      <node concept="2BZ7hE" id="6BW7PIh2GdH" role="2OqNvi">
                         <ref role="2WH_rO" node="1ptFCtLqsns" resolve="myDebugger" />
                       </node>
                     </node>
-                    <node concept="liA8E" id="6N7ktxtQ_04" role="2OqNvi">
+                    <node concept="liA8E" id="6BW7PIh2GdI" role="2OqNvi">
                       <ref role="37wK5l" to="vft3:~AtomicReference.get():java.lang.Object" resolve="get" />
                     </node>
                   </node>
-                  <node concept="liA8E" id="6N7ktxtRWXj" role="2OqNvi">
-                    <ref role="37wK5l" to="1l1h:3SnNvqCaJCl" resolve="dispose" />
+                </node>
+              </node>
+              <node concept="3clFbJ" id="6BW7PIh2HUB" role="3cqZAp">
+                <node concept="3clFbS" id="6BW7PIh2HUD" role="3clFbx">
+                  <node concept="3clFbF" id="6N7ktxtOg42" role="3cqZAp">
+                    <node concept="2OqwBi" id="6N7ktxtOg43" role="3clFbG">
+                      <node concept="37vLTw" id="6BW7PIh2GdJ" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6BW7PIh2GdD" resolve="dbgr" />
+                      </node>
+                      <node concept="liA8E" id="6N7ktxtRWXj" role="2OqNvi">
+                        <ref role="37wK5l" to="1l1h:3SnNvqCaJCl" resolve="dispose" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3y3z36" id="6BW7PIh2JU7" role="3clFbw">
+                  <node concept="10Nm6u" id="6BW7PIh2JWa" role="3uHU7w" />
+                  <node concept="37vLTw" id="6BW7PIh2Iuo" role="3uHU7B">
+                    <ref role="3cqZAo" node="6BW7PIh2GdD" resolve="dbgr" />
                   </node>
                 </node>
               </node>
@@ -8285,6 +8306,9 @@
         <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
       </node>
       <node concept="3clFbS" id="4eMm4N7GGX5" role="3clF47">
+        <node concept="3clFbH" id="1mwQ_7zetb7" role="3cqZAp" />
+        <node concept="3clFbH" id="1mwQ_7zetre" role="3cqZAp" />
+        <node concept="3clFbH" id="1mwQ_7zeuID" role="3cqZAp" />
         <node concept="3SKdUt" id="AzX4JmFu7Z" role="3cqZAp">
           <node concept="3SKdUq" id="AzX4JmFuoo" role="3SKWNk">
             <property role="3SKdUp" value="initialize the file if the line count is zero" />
@@ -8753,6 +8777,26 @@
                                 </node>
                               </node>
                             </node>
+                            <node concept="3clFbF" id="27$w7CfufPo" role="3cqZAp">
+                              <node concept="2OqwBi" id="27$w7CfufPp" role="3clFbG">
+                                <node concept="2ShNRf" id="27$w7CfufPq" role="2Oq$k0">
+                                  <node concept="1pGfFk" id="27$w7CfufPr" role="2ShVmc">
+                                    <ref role="37wK5l" node="O5Pi0b4r$J" resolve="StreamClearer" />
+                                    <node concept="2OqwBi" id="27$w7CfufPs" role="37wK5m">
+                                      <node concept="37vLTw" id="27$w7CfufPt" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="6YlqNFRc5$N" resolve="process" />
+                                      </node>
+                                      <node concept="liA8E" id="27$w7Cfui3e" role="2OqNvi">
+                                        <ref role="37wK5l" to="e2lb:~Process.getErrorStream():java.io.InputStream" resolve="getErrorStream" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="liA8E" id="27$w7CfufPv" role="2OqNvi">
+                                  <ref role="37wK5l" to="e2lb:~Thread.start():void" resolve="start" />
+                                </node>
+                              </node>
+                            </node>
                             <node concept="3clFbF" id="6YlqNFRc5_1" role="3cqZAp">
                               <node concept="37vLTI" id="6YlqNFRc5_2" role="3clFbG">
                                 <node concept="2OqwBi" id="6YlqNFRc5_3" role="37vLTx">
@@ -8990,6 +9034,26 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="6YlqNFRdSU5" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~Thread.start():void" resolve="start" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="27$w7Cfue$e" role="3cqZAp">
+              <node concept="2OqwBi" id="27$w7Cfue$f" role="3clFbG">
+                <node concept="2ShNRf" id="27$w7Cfue$g" role="2Oq$k0">
+                  <node concept="1pGfFk" id="27$w7Cfue$h" role="2ShVmc">
+                    <ref role="37wK5l" node="O5Pi0b4r$J" resolve="StreamClearer" />
+                    <node concept="2OqwBi" id="27$w7Cfue$i" role="37wK5m">
+                      <node concept="37vLTw" id="27$w7Cfue$j" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6YlqNFRdSTS" resolve="process" />
+                      </node>
+                      <node concept="liA8E" id="27$w7Cfue$k" role="2OqNvi">
+                        <ref role="37wK5l" to="e2lb:~Process.getErrorStream():java.io.InputStream" resolve="getErrorStream" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="27$w7Cfue$l" role="2OqNvi">
                   <ref role="37wK5l" to="e2lb:~Thread.start():void" resolve="start" />
                 </node>
               </node>

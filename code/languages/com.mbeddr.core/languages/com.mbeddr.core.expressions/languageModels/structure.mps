@@ -9,6 +9,7 @@
     <import index="2gv2" ref="r:055bac8c-a50b-42ec-a317-e20a256152b4(com.mbeddr.core.debug.structure)" />
     <import index="356a" ref="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -993,6 +994,9 @@
     <node concept="PrWs8" id="aFniQEyCj4" role="PzmwI">
       <ref role="PrY4T" node="4ZVDCZCa$xx" resolve="IOrdered" />
     </node>
+    <node concept="PrWs8" id="1nTCJdU6VU6" role="PzmwI">
+      <ref role="PrY4T" node="4ZVDCZCaQ86" resolve="INumber" />
+    </node>
   </node>
   <node concept="1TIwiD" id="x3lYGTyxH3">
     <property role="3GE5qa" value="types.basic" />
@@ -1018,6 +1022,12 @@
     <ref role="1TJDcQ" node="7FQByU3CrCS" resolve="PrimitiveType" />
     <node concept="PrWs8" id="1PMTxQdVbzz" role="PzmwI">
       <ref role="PrY4T" node="67O0HaCtjdR" resolve="IUnsigned" />
+    </node>
+    <node concept="PrWs8" id="7PpDuQ6LgnW" role="PzmwI">
+      <ref role="PrY4T" node="4ZVDCZCa$xx" resolve="IOrdered" />
+    </node>
+    <node concept="PrWs8" id="1nTCJdU6TEs" role="PzmwI">
+      <ref role="PrY4T" node="4ZVDCZCaQ86" resolve="INumber" />
     </node>
   </node>
   <node concept="PlHQZ" id="hEaDaGor63">
@@ -1436,6 +1446,9 @@
       <property role="20kJfa" value="expressions" />
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="7FQByU3CrCM" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="38UNetDMRQf" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
     </node>
   </node>
   <node concept="1TIwiD" id="UslQeyQ5kC">

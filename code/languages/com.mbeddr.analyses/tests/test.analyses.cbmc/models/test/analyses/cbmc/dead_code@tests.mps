@@ -327,8 +327,8 @@
             </node>
             <node concept="34oBXx" id="4pAFZeasmtW" role="2OqNvi" />
           </node>
-          <node concept="3cmrfG" id="4pAFZeasmtX" role="3tpDZB">
-            <property role="3cmrfH" value="3" />
+          <node concept="3cmrfG" id="fupCazdhp" role="3tpDZB">
+            <property role="3cmrfH" value="2" />
           </node>
         </node>
         <node concept="3clFbH" id="4pAFZeasmtY" role="3cqZAp" />
@@ -357,6 +357,16 @@
               <node concept="Xl_RD" id="4pAFZeasAp4" role="37wK5m">
                 <property role="Xl_RC" value="Statement (6) of function unwinding is reachable" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vwNmj" id="nwVVWpK6L" role="3cqZAp">
+          <node concept="2OqwBi" id="nwVVWpKep" role="3vwVQn">
+            <node concept="37vLTw" id="nwVVWpKd8" role="2Oq$k0">
+              <ref role="3cqZAo" node="4pAFZeasAp0" resolve="res" />
+            </node>
+            <node concept="liA8E" id="nwVVWpKCC" role="2OqNvi">
+              <ref role="37wK5l" to="eqhl:6oOIJNsCfny" resolve="propertyFails" />
             </node>
           </node>
         </node>
