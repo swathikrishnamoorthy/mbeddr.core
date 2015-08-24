@@ -2625,6 +2625,18 @@
             <ref role="3bR37D" to="zkto:2Zh2tjQSyQt" resolve="org.eclipse.incquery.mps.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4rA0gR_yx7L" role="3bR37C">
+          <node concept="3bR9La" id="4rA0gR_yx7M" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfK" resolve="jetbrains.mps.dataFlow.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4rA0gR_yx7N" role="3bR37C">
+          <node concept="3bR9La" id="4rA0gR_yx7O" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="al5i:4Wyno57pInE" resolve="com.mbeddr.mpsutil.suppresswarning" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="7uZw0yZ43K6" role="2G$12L">
         <property role="BnDLt" value="true" />
