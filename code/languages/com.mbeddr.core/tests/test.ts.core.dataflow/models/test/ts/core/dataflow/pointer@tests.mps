@@ -172,6 +172,7 @@
           <ref role="3upR3M" node="1MdOvoQcaeM" />
         </node>
         <node concept="1_9egQ" id="3YMDgCWPrpC" role="3XIRFZ">
+          <property role="3upQYG" value="6" />
           <ref role="3upR3M" node="1MdOvoQcaeM" />
           <node concept="3pqW6w" id="3YMDgCWPrET" role="1_9egR">
             <node concept="YInwV" id="3YMDgCWPrEW" role="3TlMhJ">
