@@ -399,10 +399,6 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
-      <concept id="5253134957341870583" name="jetbrains.mps.lang.smodel.structure.PropertyNameRefExpression" flags="nn" index="pqAIu">
-        <reference id="5253134957341870585" name="propertyDeclaration" index="pqAIg" />
-        <reference id="5253134957341870584" name="conceptDeclaration" index="pqAIh" />
-      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
         <reference id="1138676095763" name="enumMember" index="uo_Cq" />
@@ -425,9 +421,6 @@
       </concept>
       <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
       <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
-      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
-        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
-      </concept>
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
@@ -495,9 +488,6 @@
       <concept id="996292992024566673" name="org.eclipse.incquery.mps.structure.VariableValue" flags="ng" index="2k1_2z">
         <child id="996292992024566793" name="value" index="2k1_sV" />
       </concept>
-      <concept id="996292992024567127" name="org.eclipse.incquery.mps.structure.ExpressionEvaluationValue" flags="ng" index="2k1_p_">
-        <child id="996292992024567128" name="expression" index="2k1_pE" />
-      </concept>
       <concept id="996292992024566952" name="org.eclipse.incquery.mps.structure.PatternCall" flags="ng" index="2k1_uq">
         <reference id="996292992028507459" name="patternRef" index="2nKBpL" />
         <child id="996292992028507462" name="parameters" index="2nKBpO" />
@@ -507,14 +497,6 @@
       </concept>
       <concept id="996292992024530460" name="org.eclipse.incquery.mps.structure.PatternCompositionConstraint" flags="ng" index="2k1GkI">
         <child id="996292992028393460" name="call" index="2nKVj6" />
-      </concept>
-      <concept id="996292992024530443" name="org.eclipse.incquery.mps.structure.CompareConstraint" flags="ng" index="2k1GkT">
-        <property id="8396102296983865703" name="feature" index="2957JE" />
-        <child id="8396102296983865629" name="rightOperand" index="2957Ig" />
-        <child id="8396102296983865626" name="leftOperand" index="2957In" />
-      </concept>
-      <concept id="996292992024530426" name="org.eclipse.incquery.mps.structure.CheckConstraint" flags="ng" index="2k1Gr8">
-        <child id="996292992025680416" name="expression" index="2kdl4i" />
       </concept>
       <concept id="996292992024500592" name="org.eclipse.incquery.mps.structure.Parameter" flags="ng" index="2k1P92" />
       <concept id="996292992024500593" name="org.eclipse.incquery.mps.structure.PatternBody" flags="ng" index="2k1P93">
@@ -558,9 +540,6 @@
       <concept id="7802504792141552484" name="org.eclipse.incquery.mps.structure.TemporaryVariable" flags="ng" index="2LEkIw" />
       <concept id="768444928086151186" name="org.eclipse.incquery.mps.structure.TemporaryVariableValue" flags="ng" index="MF825">
         <child id="768444928086151187" name="variable" index="MF824" />
-      </concept>
-      <concept id="7996518772785670958" name="org.eclipse.incquery.mps.structure.DataTypeDeclarationReference" flags="ng" index="2PmbLq">
-        <reference id="7996518772785671445" name="type" index="2PmbDx" />
       </concept>
       <concept id="7241148409043933760" name="org.eclipse.incquery.mps.structure.MPSIncQueryMatcherInstantiation" flags="ng" index="2UzQ1s">
         <reference id="7241148409043933812" name="pattern" index="2UzQ1C" />
@@ -10980,100 +10959,6 @@
             <node concept="2k1_2z" id="3YMDgCWHKGa" role="2kdhYP">
               <node concept="2vme6Z" id="3YMDgCWHKIr" role="2k1_sV">
                 <ref role="XkjO9" node="3YMDgCWHpAz" resolve="var" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1bXQqE" id="3YMDgCWHf21" role="2k1P9u" />
-    <node concept="2k1THX" id="7yBuW_FyBHV" role="2k1P9u">
-      <property role="TrG5h" value="statementIndex" />
-      <node concept="2k1P92" id="7yBuW_FyBI2" role="2k1P90">
-        <property role="TrG5h" value="statement" />
-        <node concept="2kdjtB" id="7yBuW_FyBIs" role="2kdkN6">
-          <ref role="2UGuZ7" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
-        </node>
-      </node>
-      <node concept="2k1P92" id="7yBuW_FyBI7" role="2k1P90">
-        <property role="TrG5h" value="index" />
-        <node concept="2PmbLq" id="7yBuW_FyBIC" role="2kdkN6">
-          <ref role="2PmbDx" to="tpck:fKAQMTA" resolve="integer" />
-        </node>
-      </node>
-      <node concept="2k1P93" id="7yBuW_FyBHX" role="2k1P96">
-        <node concept="2k1Gr8" id="7yBuW_FL8TF" role="2k1Grq">
-          <node concept="3clFbC" id="7yBuW_FL9jl" role="2kdl4i">
-            <node concept="10Nm6u" id="7yBuW_FL9ln" role="3uHU7w" />
-            <node concept="2OqwBi" id="7yBuW_FL91T" role="3uHU7B">
-              <node concept="2JrnkZ" id="7yBuW_FL90Z" role="2Oq$k0">
-                <node concept="2vme6Z" id="7yBuW_FL8U5" role="2JrQYb">
-                  <ref role="XkjO9" node="7yBuW_FyBI2" resolve="statement" />
-                </node>
-              </node>
-              <node concept="liA8E" id="7yBuW_FL98W" role="2OqNvi">
-                <ref role="37wK5l" to="ec5l:~SNode.getProperty(java.lang.String):java.lang.String" resolve="getProperty" />
-                <node concept="pqAIu" id="7yBuW_FL99D" role="37wK5m">
-                  <ref role="pqAIh" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
-                  <ref role="pqAIg" to="c4fa:5BoSfy7JSXk" resolve="index_wb" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2k1GkT" id="7yBuW_FLfb4" role="2k1Grq">
-          <property role="2957JE" value="equality" />
-          <node concept="2k1_p_" id="7yBuW_FLgbO" role="2957Ig">
-            <node concept="2OqwBi" id="7yBuW_FLgfs" role="2k1_pE">
-              <node concept="2vme6Z" id="7yBuW_FLgbW" role="2Oq$k0">
-                <ref role="XkjO9" node="7yBuW_FyBI2" resolve="statement" />
-              </node>
-              <node concept="2bSWHS" id="7yBuW_FLgA2" role="2OqNvi" />
-            </node>
-          </node>
-          <node concept="2k1_2z" id="7yBuW_FLfcW" role="2957In">
-            <node concept="2vme6Z" id="7yBuW_FLfd6" role="2k1_sV">
-              <ref role="XkjO9" node="7yBuW_FyBI7" resolve="index" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="2k1P93" id="7yBuW_FLam1" role="2k1P96">
-        <node concept="2k1Gr8" id="7yBuW_FLbtM" role="2k1Grq">
-          <node concept="3y3z36" id="7yBuW_FLbvn" role="2kdl4i">
-            <node concept="2OqwBi" id="7yBuW_FLbtP" role="3uHU7B">
-              <node concept="2JrnkZ" id="7yBuW_FLbtQ" role="2Oq$k0">
-                <node concept="2vme6Z" id="7yBuW_FLbtR" role="2JrQYb">
-                  <ref role="XkjO9" node="7yBuW_FyBI2" resolve="statement" />
-                </node>
-              </node>
-              <node concept="liA8E" id="7yBuW_FLbtS" role="2OqNvi">
-                <ref role="37wK5l" to="ec5l:~SNode.getProperty(java.lang.String):java.lang.String" resolve="getProperty" />
-                <node concept="pqAIu" id="7yBuW_FLbtT" role="37wK5m">
-                  <ref role="pqAIh" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
-                  <ref role="pqAIg" to="c4fa:5BoSfy7JSXk" resolve="index_wb" />
-                </node>
-              </node>
-            </node>
-            <node concept="10Nm6u" id="7yBuW_FLbtO" role="3uHU7w" />
-          </node>
-        </node>
-        <node concept="2k1Gkf" id="7yBuW_FLbxU" role="2k1Grq">
-          <node concept="2kdhWc" id="7yBuW_FLbxV" role="2nPj2R">
-            <ref role="2kdhXl" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
-            <node concept="2kdhXd" id="7yBuW_FLbxW" role="3X80zo">
-              <property role="2kdhYx" value="-1" />
-              <property role="2kdhYE" value="false" />
-              <node concept="2kdkRh" id="7yBuW_FLbzR" role="2nRUzH">
-                <ref role="Mx6kk" to="c4fa:5BoSfy7JSXk" resolve="index_wb" />
-              </node>
-            </node>
-            <node concept="2vme6Z" id="7yBuW_FLbzZ" role="2kdhYM">
-              <ref role="XkjO9" node="7yBuW_FyBI2" resolve="statement" />
-            </node>
-            <node concept="2k1_2z" id="7yBuW_FLb$9" role="2kdhYP">
-              <node concept="2vme6Z" id="7yBuW_FLb_A" role="2k1_sV">
-                <ref role="XkjO9" node="7yBuW_FyBI7" resolve="index" />
               </node>
             </node>
           </node>
