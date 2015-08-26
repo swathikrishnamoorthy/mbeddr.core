@@ -1087,8 +1087,8 @@
                   <node concept="3clFbS" id="3aBtU3jqBs9" role="3clFbx">
                     <node concept="3cpWs6" id="3aBtU3jqBsa" role="3cqZAp">
                       <node concept="10M0yZ" id="3ieSxUOikvt" role="3cqZAk">
-                        <ref role="3cqZAo" node="3ieSxUOiiJY" resolve="IN_SEMANTICS" />
                         <ref role="1PxDUh" node="3ieSxUOiefM" resolve="ArgumentKind_Constants" />
+                        <ref role="3cqZAo" node="3ieSxUOiiJY" resolve="IN_SEMANTICS" />
                       </node>
                     </node>
                   </node>
@@ -4040,19 +4040,6 @@
   <node concept="24kQdi" id="2tP2JaaUl3C">
     <property role="3GE5qa" value="global" />
     <ref role="1XX52x" to="x27k:3ilck8KpYYm" resolve="GlobalConstantDeclaration" />
-    <node concept="3EZMnI" id="1c_2vnOscXV" role="6VMZX">
-      <node concept="2iRkQZ" id="1c_2vnOscXW" role="2iSdaV" />
-      <node concept="3EZMnI" id="6a5SBPfZfTn" role="3EZMnx">
-        <node concept="l2Vlx" id="6a5SBPfZfTo" role="2iSdaV" />
-        <node concept="3F0ifn" id="6a5SBPfZfTp" role="3EZMnx">
-          <property role="3F0ifm" value="exported" />
-          <ref role="1k5W1q" to="r4b4:2CEi94e3iKI" resolve="PassiveText" />
-        </node>
-        <node concept="3F0A7n" id="6a5SBPfZfTq" role="3EZMnx">
-          <ref role="1NtTu8" to="x27k:19a6$uAA0vK" resolve="exported" />
-        </node>
-      </node>
-    </node>
     <node concept="3EZMnI" id="2tP2JaaUlpS" role="2wV5jI">
       <node concept="l2Vlx" id="2tP2JaaUlpT" role="2iSdaV" />
       <node concept="PMmxH" id="2tP2JaaUlpU" role="3EZMnx">
@@ -4134,6 +4121,19 @@
         <property role="VOm3f" value="true" />
       </node>
     </node>
+    <node concept="3EZMnI" id="1c_2vnOscXV" role="6VMZX">
+      <node concept="2iRkQZ" id="1c_2vnOscXW" role="2iSdaV" />
+      <node concept="3EZMnI" id="6a5SBPfZfTn" role="3EZMnx">
+        <node concept="l2Vlx" id="6a5SBPfZfTo" role="2iSdaV" />
+        <node concept="3F0ifn" id="6a5SBPfZfTp" role="3EZMnx">
+          <property role="3F0ifm" value="exported" />
+          <ref role="1k5W1q" to="r4b4:2CEi94e3iKI" resolve="PassiveText" />
+        </node>
+        <node concept="3F0A7n" id="6a5SBPfZfTq" role="3EZMnx">
+          <ref role="1NtTu8" to="x27k:19a6$uAA0vK" resolve="exported" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="24kQdi" id="6o2p2Z1sBzL">
     <property role="3GE5qa" value="functions" />
@@ -4197,11 +4197,11 @@
     </node>
   </node>
   <node concept="24kQdi" id="8PQYytEcbM">
-    <ref role="1XX52x" to="x27k:8PQYytE9VE" resolve="PragmaDeclaration" />
+    <ref role="1XX52x" to="x27k:8PQYytE9VE" resolve="ModifierModuleContent" />
     <node concept="3EZMnI" id="8PQYytEc_Q" role="2wV5jI">
       <node concept="l2Vlx" id="8PQYytEc_R" role="2iSdaV" />
       <node concept="3F0ifn" id="8PQYytEc$m" role="3EZMnx">
-        <property role="3F0ifm" value="#pragmaDeclaration" />
+        <property role="3F0ifm" value="#modifier" />
         <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
       </node>
       <node concept="3F0A7n" id="8PQYytEc_Z" role="3EZMnx">
@@ -4614,7 +4614,7 @@
         <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
       </node>
       <node concept="3F0A7n" id="IrwlmWyLjD" role="3EZMnx">
-        <ref role="1NtTu8" to="x27k:IrwlmWyLjw" resolve="pragmaString" />
+        <ref role="1NtTu8" to="x27k:IrwlmWyLjw" resolve="pragmaText" />
         <node concept="VechU" id="IrwlmWyLjE" role="3F10Kt">
           <property role="Vb096" value="darkGray" />
         </node>
@@ -4791,6 +4791,29 @@
       </node>
     </node>
   </node>
+  <node concept="1h_SRR" id="1fLWRClzi2F">
+    <property role="3GE5qa" value="functions" />
+    <property role="TrG5h" value="FunctionSignature_ActionMap" />
+    <ref role="1h_SK9" to="x27k:5_l8w1EmTvt" resolve="FunctionSignature" />
+    <node concept="1hA7zw" id="1fLWRClzi2G" role="1h_SK8">
+      <property role="1hAc7j" value="backspace_action_id" />
+      <node concept="1hAIg9" id="1fLWRClzi2H" role="1hA7z_">
+        <node concept="3clFbS" id="1fLWRClzi2I" role="2VODD2">
+          <node concept="3clFbF" id="1fLWRClzi2J" role="3cqZAp">
+            <node concept="2OqwBi" id="1fLWRClzi2K" role="3clFbG">
+              <node concept="2OqwBi" id="1fLWRClzi2L" role="2Oq$k0">
+                <node concept="0IXxy" id="1fLWRClzi2M" role="2Oq$k0" />
+                <node concept="3TrEf2" id="1fLWRClziXJ" role="2OqNvi">
+                  <ref role="3Tt5mk" to="x27k:1fLWRCluu9D" />
+                </node>
+              </node>
+              <node concept="1PgB_6" id="1fLWRClzi2O" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="24kQdi" id="1myZgySqtxX">
     <ref role="1XX52x" to="x27k:1myZgySqtjG" resolve="NameOfFunctionExpression" />
     <node concept="3EZMnI" id="1myZgySqtxY" role="2wV5jI">
@@ -4814,29 +4837,6 @@
         <property role="3F0ifm" value="&gt;" />
         <node concept="11L4FC" id="1myZgySqty6" role="3F10Kt">
           <property role="VOm3f" value="true" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1h_SRR" id="1fLWRClzi2F">
-    <property role="3GE5qa" value="functions" />
-    <property role="TrG5h" value="FunctionSignature_ActionMap" />
-    <ref role="1h_SK9" to="x27k:5_l8w1EmTvt" resolve="FunctionSignature" />
-    <node concept="1hA7zw" id="1fLWRClzi2G" role="1h_SK8">
-      <property role="1hAc7j" value="backspace_action_id" />
-      <node concept="1hAIg9" id="1fLWRClzi2H" role="1hA7z_">
-        <node concept="3clFbS" id="1fLWRClzi2I" role="2VODD2">
-          <node concept="3clFbF" id="1fLWRClzi2J" role="3cqZAp">
-            <node concept="2OqwBi" id="1fLWRClzi2K" role="3clFbG">
-              <node concept="2OqwBi" id="1fLWRClzi2L" role="2Oq$k0">
-                <node concept="0IXxy" id="1fLWRClzi2M" role="2Oq$k0" />
-                <node concept="3TrEf2" id="1fLWRClziXJ" role="2OqNvi">
-                  <ref role="3Tt5mk" to="x27k:1fLWRCluu9D" />
-                </node>
-              </node>
-              <node concept="1PgB_6" id="1fLWRClzi2O" role="2OqNvi" />
-            </node>
-          </node>
         </node>
       </node>
     </node>
