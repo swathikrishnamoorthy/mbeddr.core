@@ -59,11 +59,6 @@
       <property role="20kJfa" value="next_wb" />
       <ref role="20lvS9" node="3CmSUB7FmO3" resolve="Statement" />
     </node>
-    <node concept="1TJgyj" id="5sAkJdujL8H" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="previous_wb" />
-      <ref role="20lvS9" node="3CmSUB7FmO3" resolve="Statement" />
-    </node>
     <node concept="1TJgyj" id="5BoSfy7JT0a" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="parent_wb" />
