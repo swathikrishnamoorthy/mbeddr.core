@@ -122,6 +122,9 @@
       </concept>
     </language>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
+      <concept id="5177498440693101100" name="com.mbeddr.core.statements.structure.IWithParentPointer" flags="ng" index="Lv9_a">
+        <reference id="5177498440693075890" name="parent_wb" index="Lv6jk" />
+      </concept>
       <concept id="7254843406768833938" name="com.mbeddr.core.statements.structure.ExpressionStatement" flags="ng" index="1_9egQ">
         <child id="7254843406768833939" name="expr" index="1_9egR" />
       </concept>
@@ -358,6 +361,7 @@
             <property role="TrG5h" value="dummy" />
             <node concept="3XIRFW" id="7apEgWbJjfN" role="3XIRFX">
               <node concept="1_9egQ" id="7apEgWbJjfR" role="3XIRFZ">
+                <ref role="Lv6jk" node="7apEgWbJjfN" />
                 <node concept="3ZUYvv" id="7apEgWbJjfS" role="1_9egR">
                   <ref role="3ZUYvu" node="7apEgWbJjfP" resolve="x" />
                   <node concept="raruj" id="7apEgWbJjfT" role="lGtFl" />
@@ -404,6 +408,7 @@
             <property role="TrG5h" value="f" />
             <node concept="3XIRFW" id="7apEgWbJb9Z" role="3XIRFX">
               <node concept="1_9egQ" id="7apEgWbJba1" role="3XIRFZ">
+                <ref role="Lv6jk" node="7apEgWbJb9Z" />
                 <node concept="pF0ck" id="7apEgWbJba2" role="1_9egR">
                   <ref role="pF0ci" node="7apEgWbJb9Y" resolve="f" />
                   <node concept="raruj" id="7apEgWbJba3" role="lGtFl" />

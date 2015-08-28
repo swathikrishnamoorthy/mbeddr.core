@@ -36,6 +36,12 @@
       <concept id="7763322639126652757" name="com.mbeddr.core.statements.structure.ITypeContainingType" flags="ng" index="2umbIr">
         <child id="7763322639126652758" name="baseType" index="2umbIo" />
       </concept>
+      <concept id="5177498440693070634" name="com.mbeddr.core.statements.structure.IWithNextPointer" flags="ng" index="Lv11c">
+        <reference id="5177498440693075889" name="next_wb" index="Lv6jn" />
+      </concept>
+      <concept id="5177498440693101100" name="com.mbeddr.core.statements.structure.IWithParentPointer" flags="ng" index="Lv9_a">
+        <reference id="5177498440693075890" name="parent_wb" index="Lv6jk" />
+      </concept>
       <concept id="7254843406768833938" name="com.mbeddr.core.statements.structure.ExpressionStatement" flags="ng" index="1_9egQ">
         <child id="7254843406768833939" name="expr" index="1_9egR" />
       </concept>
@@ -169,6 +175,8 @@
             <node concept="3XIRFW" id="7KLlXp7O00f" role="3XIRFX">
               <node concept="3XIRlf" id="7KLlXp7O0gw" role="3XIRFZ">
                 <property role="TrG5h" value="v" />
+                <ref role="Lv6jk" node="7KLlXp7O00f" />
+                <ref role="Lv6jn" node="7KLlXp7O0Zh" />
                 <node concept="1sgJKr" id="7KLlXp7O0gv" role="2C2TGm">
                   <property role="2caQfQ" value="false" />
                   <property role="2c7vTL" value="false" />
@@ -176,6 +184,8 @@
                 </node>
               </node>
               <node concept="1_9egQ" id="7KLlXp7O0Zh" role="3XIRFZ">
+                <ref role="Lv6jn" node="7KLlXp7O00n" />
+                <ref role="Lv6jk" node="7KLlXp7O00f" />
                 <node concept="2qmXGp" id="7KLlXp7O12E" role="1_9egR">
                   <node concept="2kls0a" id="7KLlXp7O1j$" role="1ESnxz">
                     <property role="2kls3D" value="dummy" />
@@ -201,6 +211,7 @@
                 </node>
               </node>
               <node concept="2BFjQ_" id="7KLlXp7O00n" role="3XIRFZ">
+                <ref role="Lv6jk" node="7KLlXp7O00f" />
                 <node concept="3TlMh9" id="7KLlXp7O00o" role="2BFjQA">
                   <property role="2hmy$m" value="0" />
                 </node>
