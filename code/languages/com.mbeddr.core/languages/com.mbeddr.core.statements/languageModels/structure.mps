@@ -484,6 +484,12 @@
     <node concept="PrWs8" id="2XRfpKWxqMA" role="PzmwI">
       <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
     </node>
+    <node concept="PrWs8" id="4W47thSfb7E" role="PzmwI">
+      <ref role="PrY4T" node="4vqaQpQDF8G" resolve="IWithParentPointer" />
+    </node>
+    <node concept="PrWs8" id="4W47thSfb7S" role="PzmwI">
+      <ref role="PrY4T" node="2hKTcZ5NukP" resolve="IParentPointerTarget" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2I09F8VKHC0">
     <property role="3GE5qa" value="switch" />
