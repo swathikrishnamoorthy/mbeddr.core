@@ -6,8 +6,8 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="vj37" ref="r:4c272460-99ea-4d39-8c9a-f1bc63f0c386(mbeddr.tutorial.vectors.structure)" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
+    <import index="cetu" ref="r:fc1ad1dc-45eb-4f99-8b2c-fbe60e6e91b1(com.mbeddr.ext.math.structure)" implicit="true" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
   </imports>
   <registry>
@@ -69,7 +69,7 @@
     <node concept="3clFbS" id="3yoEvFpjHuu" role="18ibNy">
       <node concept="2Mj0R9" id="3yoEvFpjHvq" role="3cqZAp">
         <node concept="1YBJjd" id="3yoEvFpjJD7" role="2OEOjV">
-          <ref role="1YBMHb" node="3yoEvFpjHuT" resolve="cpe" />
+          <ref role="1YBMHb" node="3yoEvFpjHuT" resolve="crossProductExpression" />
         </node>
         <node concept="Xl_RD" id="3yoEvFpjJqp" role="2MkJ7o">
           <property role="Xl_RC" value="can only be used as right side of assignment expression or to init a local variable" />
@@ -77,7 +77,7 @@
         <node concept="22lmx$" id="3yoEvFpjIwC" role="2MkoU_">
           <node concept="2OqwBi" id="3yoEvFpjIBC" role="3uHU7w">
             <node concept="1YBJjd" id="3yoEvFpjIy9" role="2Oq$k0">
-              <ref role="1YBMHb" node="3yoEvFpjHuT" resolve="cpe" />
+              <ref role="1YBMHb" node="3yoEvFpjHuT" resolve="crossProductExpression" />
             </node>
             <node concept="1BlSNk" id="3yoEvFpjJmP" role="2OqNvi">
               <ref role="1BmUXE" to="mj1l:1exqRp9kgd" resolve="AssignmentExpr" />
@@ -86,7 +86,7 @@
           </node>
           <node concept="2OqwBi" id="3yoEvFpjHAt" role="3uHU7B">
             <node concept="1YBJjd" id="3yoEvFpjHvU" role="2Oq$k0">
-              <ref role="1YBMHb" node="3yoEvFpjHuT" resolve="cpe" />
+              <ref role="1YBMHb" node="3yoEvFpjHuT" resolve="crossProductExpression" />
             </node>
             <node concept="1BlSNk" id="3yoEvFpjIl5" role="2OqNvi">
               <ref role="1BmUXE" to="c4fa:3CmSUB7FprA" resolve="LocalVariableDeclaration" />
@@ -97,8 +97,8 @@
       </node>
     </node>
     <node concept="1YaCAy" id="3yoEvFpjHuT" role="1YuTPh">
-      <property role="TrG5h" value="cpe" />
-      <ref role="1YaFvo" to="vj37:4LP87XufKR$" resolve="CrossProductExpression" />
+      <property role="TrG5h" value="crossProductExpression" />
+      <ref role="1YaFvo" to="cetu:4LP87XufKR$" resolve="CrossProductExpression" />
     </node>
   </node>
 </model>

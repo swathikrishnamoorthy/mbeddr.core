@@ -5229,12 +5229,6 @@
             <ref role="3bR37D" to="90a9:6vUATgmxw8m" resolve="de.itemis.mps.editor.math.symbols" />
           </node>
         </node>
-        <node concept="1SiIV0" id="y9Q5HnX$0a" role="3bR37C">
-          <node concept="3bR9La" id="y9Q5HnX$0b" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="al5i:5GUwywcVavP" resolve="com.mbeddr.mpsutil.interpreter" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="$ZgyIcyEuz" role="3bR37C">
           <node concept="3bR9La" id="$ZgyIcyEu$" role="1SiIV1">
             <property role="3bR36h" value="false" />
@@ -5251,6 +5245,18 @@
           <node concept="3bR9La" id="$ZgyIcyEuC" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="al5i:$bJ0jguQfr" resolve="com.mbeddr.core.base" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5uivB9B_S3q" role="3bR37C">
+          <node concept="3bR9La" id="5uivB9B_S3r" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="al5i:2bBLuwR9$cn" resolve="com.mbeddr.mpsutil.interpreter.rt" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5uivB9B_S3s" role="3bR37C">
+          <node concept="3bR9La" id="5uivB9B_S3t" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
           </node>
         </node>
       </node>

@@ -9,10 +9,10 @@
   <imports>
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="9w0q" ref="r:53b3818c-04f2-432f-b16a-77fd1bc76004(mbeddr.tutorial.shonan.complexNumberVector.rt)" />
-    <import index="vj37" ref="r:4c272460-99ea-4d39-8c9a-f1bc63f0c386(mbeddr.tutorial.vectors.structure)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" />
+    <import index="cetu" ref="r:fc1ad1dc-45eb-4f99-8b2c-fbe60e6e91b1(com.mbeddr.ext.math.structure)" />
     <import index="k70c" ref="r:122f5d34-6e32-4486-bf8d-4ad324aa3b1d(mbeddr.tutorial.shonan.complexNumberVector.structure)" implicit="true" />
   </imports>
   <registry>
@@ -164,7 +164,7 @@
       <node concept="37vLTG" id="3yoEvFpBpBF" role="3clF46">
         <property role="TrG5h" value="cp" />
         <node concept="3Tqbb2" id="3yoEvFpBpBE" role="1tU5fm">
-          <ref role="ehGHo" to="vj37:4LP87XufKR$" resolve="CrossProductExpression" />
+          <ref role="ehGHo" to="cetu:4LP87XufKR$" resolve="CrossProductExpression" />
         </node>
       </node>
       <node concept="37vLTG" id="3yoEvFpBpBZ" role="3clF46">
@@ -303,7 +303,7 @@
                           </node>
                           <node concept="2OqwBi" id="3yoEvFpBm0l" role="3uHU7B">
                             <node concept="1PxgMI" id="3yoEvFpBm0m" role="2Oq$k0">
-                              <ref role="1PxNhF" to="vj37:4LP87XueIJW" resolve="VectorType" />
+                              <ref role="1PxNhF" to="cetu:4LP87XueIJW" resolve="VectorType" />
                               <node concept="2OqwBi" id="3yoEvFpBm0n" role="1PxMeX">
                                 <node concept="37vLTw" id="3yoEvFpBm0o" role="2Oq$k0">
                                   <ref role="3cqZAo" node="3yoEvFpBlZP" resolve="assignmentLeft" />
@@ -311,8 +311,8 @@
                                 <node concept="3JvlWi" id="3yoEvFpBm0p" role="2OqNvi" />
                               </node>
                             </node>
-                            <node concept="3TrcHB" id="3yoEvFpBm0q" role="2OqNvi">
-                              <ref role="3TsBF5" to="vj37:WxZteubncR" resolve="dimensionsRows" />
+                            <node concept="3TrcHB" id="1RMwipBbzU1" role="2OqNvi">
+                              <ref role="3TsBF5" to="cetu:1LM$n7wsS5T" resolve="rowCount" />
                             </node>
                           </node>
                         </node>
@@ -336,7 +336,7 @@
       <node concept="37vLTG" id="3yoEvFpBqtS" role="3clF46">
         <property role="TrG5h" value="cp" />
         <node concept="3Tqbb2" id="3yoEvFpBqtT" role="1tU5fm">
-          <ref role="ehGHo" to="vj37:4LP87XufKR$" resolve="CrossProductExpression" />
+          <ref role="ehGHo" to="cetu:4LP87XufKR$" resolve="CrossProductExpression" />
         </node>
       </node>
       <node concept="37vLTG" id="3yoEvFpBqtU" role="3clF46">
@@ -490,7 +490,7 @@
                             <node concept="37vLTw" id="3yoEvFpBz7X" role="2Oq$k0">
                               <ref role="3cqZAo" node="3yoEvFpBwn3" resolve="cp" />
                             </node>
-                            <node concept="3TrEf2" id="3yoEvFptTQ9" role="2OqNvi">
+                            <node concept="3TrEf2" id="1RMwipBbHjQ" role="2OqNvi">
                               <ref role="3Tt5mk" to="mj1l:7FQByU3CrD0" />
                             </node>
                           </node>
@@ -603,7 +603,7 @@
                           </node>
                           <node concept="2OqwBi" id="3yoEvFphrlx" role="3uHU7B">
                             <node concept="1PxgMI" id="3yoEvFphrdM" role="2Oq$k0">
-                              <ref role="1PxNhF" to="vj37:4LP87XueIJW" resolve="VectorType" />
+                              <ref role="1PxNhF" to="cetu:4LP87XueIJW" resolve="VectorType" />
                               <node concept="2OqwBi" id="3yoEvFphq6g" role="1PxMeX">
                                 <node concept="37vLTw" id="3yoEvFphq2j" role="2Oq$k0">
                                   <ref role="3cqZAo" node="3yoEvFphorv" resolve="assignmentLeft" />
@@ -611,8 +611,8 @@
                                 <node concept="3JvlWi" id="3yoEvFphqBS" role="2OqNvi" />
                               </node>
                             </node>
-                            <node concept="3TrcHB" id="3yoEvFphrWz" role="2OqNvi">
-                              <ref role="3TsBF5" to="vj37:WxZteubncR" resolve="dimensionsRows" />
+                            <node concept="3TrcHB" id="1RMwipBbOct" role="2OqNvi">
+                              <ref role="3TsBF5" to="cetu:1LM$n7wsS5T" resolve="rowCount" />
                             </node>
                           </node>
                         </node>
@@ -636,7 +636,7 @@
       <node concept="37vLTG" id="3yoEvFpBwn3" role="3clF46">
         <property role="TrG5h" value="cp" />
         <node concept="3Tqbb2" id="3yoEvFpBwn4" role="1tU5fm">
-          <ref role="ehGHo" to="vj37:4LP87XufKR$" resolve="CrossProductExpression" />
+          <ref role="ehGHo" to="cetu:4LP87XufKR$" resolve="CrossProductExpression" />
         </node>
       </node>
       <node concept="37vLTG" id="3yoEvFpBwn5" role="3clF46">

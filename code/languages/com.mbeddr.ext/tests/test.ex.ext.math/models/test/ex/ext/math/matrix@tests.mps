@@ -44,8 +44,14 @@
       <concept id="7717755763392524107" name="com.mbeddr.core.buildconfig.structure.ModuleRef" flags="ng" index="2v9HqM">
         <reference id="7717755763392524108" name="module" index="2v9HqP" />
       </concept>
-      <concept id="8719112291175211294" name="com.mbeddr.core.buildconfig.structure.PlatformReference" flags="ng" index="2xfidK">
-        <reference id="8719112291175211414" name="template" index="2xfifS" />
+      <concept id="5323740605968447022" name="com.mbeddr.core.buildconfig.structure.DesktopPlatform" flags="ng" index="2AWWZL">
+        <property id="5323740605968447025" name="compilerOptions" index="2AWWZI" />
+        <property id="5323740605968447024" name="compiler" index="2AWWZJ" />
+        <property id="3963667026125442601" name="gdb" index="3r8Kw1" />
+        <property id="3963667026125442676" name="make" index="3r8Kxs" />
+      </concept>
+      <concept id="2736179788492003936" name="com.mbeddr.core.buildconfig.structure.IDebuggablePlatform" flags="ng" index="1FkSt_">
+        <property id="2736179788492003937" name="debugOptions" index="1FkSt$" />
       </concept>
     </language>
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
@@ -358,9 +364,6 @@
     </node>
   </node>
   <node concept="2v9HqL" id="2X7IK8cZsSd">
-    <node concept="2xfidK" id="2X7IK8cZsTJ" role="2AWWZH">
-      <ref role="2xfifS" to="qst5:5dbP$RGQRy4" resolve="Desktop Platform" />
-    </node>
     <node concept="22RD12" id="2X7IK8cZsTM" role="2Q9xDr" />
     <node concept="2Q9Fgs" id="2Gt5ABeTHdb" role="2Q9xDr">
       <node concept="2Q9FjX" id="2Gt5ABeTHdc" role="2Q9FjI" />
@@ -371,6 +374,13 @@
       <node concept="2v9HqM" id="2X7IK8cZsTS" role="2eOfOg">
         <ref role="2v9HqP" node="2X7IK8cZi_3" resolve="Matrix" />
       </node>
+    </node>
+    <node concept="2AWWZL" id="1wlju5FMsoL" role="2AWWZH">
+      <property role="2AWWZJ" value="gcc" />
+      <property role="3r8Kw1" value="gdb" />
+      <property role="3r8Kxs" value="make" />
+      <property role="2AWWZI" value="-std=c99" />
+      <property role="1FkSt$" value="-g" />
     </node>
   </node>
 </model>

@@ -315,9 +315,6 @@
         <node concept="L2wRC" id="44QTgQqXkbI" role="39821P">
           <ref role="L2wRA" node="44QTgQqTlJW" resolve="mbeddr.tutorial.smtrigger" />
         </node>
-        <node concept="L2wRC" id="44QTgQqXlpg" role="39821P">
-          <ref role="L2wRA" node="44QTgQqTlJu" resolve="mbeddr.tutorial.vectors" />
-        </node>
         <node concept="L2wRC" id="5o7xQ5zpN7n" role="39821P">
           <ref role="L2wRA" node="1JjMe_3nVlY" resolve="mbeddr.tutorial.shonan.complexNumberVector" />
         </node>
@@ -620,58 +617,6 @@
           </node>
         </node>
       </node>
-      <node concept="1E1JtD" id="44QTgQqTlJu" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="mbeddr.tutorial.vectors" />
-        <property role="3LESm3" value="3d0be1cf-4156-4c3c-ac37-fef83237d8e2" />
-        <property role="2GAjPV" value="false" />
-        <node concept="398BVA" id="44QTgQqTvYw" role="3LF7KH">
-          <ref role="398BVh" node="44QTgQqTwas" resolve="tutorial.home" />
-          <node concept="2Ry0Ak" id="44QTgQqTvYx" role="iGT6I">
-            <property role="2Ry0Am" value="languages" />
-            <node concept="2Ry0Ak" id="44QTgQqTvYy" role="2Ry0An">
-              <property role="2Ry0Am" value="vectors" />
-              <node concept="2Ry0Ak" id="44QTgQqTvYz" role="2Ry0An">
-                <property role="2Ry0Am" value="vectors.mpl" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="44QTgQqTlKq" role="3bR37C">
-          <node concept="3bR9La" id="44QTgQqTlKr" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="44QTgQqTlKs" role="3bR37C">
-          <node concept="3bR9La" id="44QTgQqTlKt" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="44QTgQqTwIX" role="3bR37C">
-          <node concept="1Busua" id="44QTgQqTwIY" role="1SiIV1">
-            <ref role="1Busuk" to="p6ld:7uZw0yZ43LU" resolve="com.mbeddr.core.expressions" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1JjMe_3nV6K" role="3bR37C">
-          <node concept="3bR9La" id="1JjMe_3nV6L" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="p6ld:7uZw0yZ43JM" resolve="com.mbeddr.core.statements" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1JjMe_3nV6M" role="3bR37C">
-          <node concept="3bR9La" id="1JjMe_3nV6N" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="p6ld:7uZw0yZ43Lo" resolve="com.mbeddr.core.pointers" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1JjMe_3nV6O" role="3bR37C">
-          <node concept="1Busua" id="1JjMe_3nV6P" role="1SiIV1">
-            <ref role="1Busuk" to="p6ld:7uZw0yZ43JM" resolve="com.mbeddr.core.statements" />
-          </node>
-        </node>
-      </node>
       <node concept="1E1JtD" id="1JjMe_3nVlY" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="mbeddr.tutorial.shonan.complexNumberVector" />
@@ -770,17 +715,17 @@
               <ref role="3bR37D" to="al5i:$bJ0jguQfr" resolve="com.mbeddr.core.base" />
             </node>
           </node>
-          <node concept="1SiIV0" id="1JjMe_3nWSf" role="3bR37C">
-            <node concept="3bR9La" id="1JjMe_3nWSg" role="1SiIV1">
+          <node concept="1SiIV0" id="1RMwipBf6wz" role="3bR37C">
+            <node concept="3bR9La" id="1RMwipBf6w$" role="1SiIV1">
               <property role="3bR36h" value="false" />
-              <ref role="3bR37D" node="44QTgQqTlJu" resolve="mbeddr.tutorial.vectors" />
+              <ref role="3bR37D" to="p6ld:4i9pOwKZnaa" resolve="com.mbeddr.ext.math" />
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="1JjMe_3nWSd" role="3bR37C">
-          <node concept="3bR9La" id="1JjMe_3nWSe" role="1SiIV1">
+        <node concept="1SiIV0" id="1RMwipBf6wx" role="3bR37C">
+          <node concept="3bR9La" id="1RMwipBf6wy" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="44QTgQqTlJu" resolve="mbeddr.tutorial.vectors" />
+            <ref role="3bR37D" to="p6ld:4i9pOwKZnaa" resolve="com.mbeddr.ext.math" />
           </node>
         </node>
       </node>

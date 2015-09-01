@@ -13,7 +13,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="k70c" ref="r:122f5d34-6e32-4486-bf8d-4ad324aa3b1d(mbeddr.tutorial.shonan.complexNumberVector.structure)" implicit="true" />
-    <import index="vj37" ref="r:4c272460-99ea-4d39-8c9a-f1bc63f0c386(mbeddr.tutorial.vectors.structure)" implicit="true" />
+    <import index="cetu" ref="r:fc1ad1dc-45eb-4f99-8b2c-fbe60e6e91b1(com.mbeddr.ext.math.structure)" implicit="true" />
     <import index="af99" ref="r:16538061-0464-406e-bfe4-35690468b8db(mbeddr.tutorial.complex.behavior)" implicit="true" />
     <import index="qd6m" ref="r:c4c3f7d3-0acf-4671-a134-5fab66c4e637(com.mbeddr.core.modules.behavior)" implicit="true" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
@@ -416,7 +416,7 @@
                 <property role="TrG5h" value="crossProdutsInLVD" />
                 <node concept="A3Dl8" id="3yoEvFptH05" role="1tU5fm">
                   <node concept="3Tqbb2" id="3yoEvFptH06" role="A3Ik2">
-                    <ref role="ehGHo" to="vj37:4LP87XufKR$" resolve="CrossProductExpression" />
+                    <ref role="ehGHo" to="cetu:4LP87XufKR$" resolve="CrossProductExpression" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="3yoEvFptH07" role="33vP2m">
@@ -425,7 +425,7 @@
                       <ref role="3cqZAo" node="3yoEvFpu4rR" resolve="model" />
                     </node>
                     <node concept="2SmgA7" id="3yoEvFptH0a" role="2OqNvi">
-                      <ref role="2SmgA8" to="vj37:4LP87XufKR$" resolve="CrossProductExpression" />
+                      <ref role="2SmgA8" to="cetu:4LP87XufKR$" resolve="CrossProductExpression" />
                     </node>
                   </node>
                   <node concept="3zZkjj" id="3yoEvFptH0b" role="2OqNvi">
@@ -594,7 +594,7 @@
                 <property role="TrG5h" value="crossProdutsInAssignment" />
                 <node concept="A3Dl8" id="3yoEvFptH0S" role="1tU5fm">
                   <node concept="3Tqbb2" id="3yoEvFptH0T" role="A3Ik2">
-                    <ref role="ehGHo" to="vj37:4LP87XufKR$" resolve="CrossProductExpression" />
+                    <ref role="ehGHo" to="cetu:4LP87XufKR$" resolve="CrossProductExpression" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="3yoEvFptH0U" role="33vP2m">
@@ -603,7 +603,7 @@
                       <ref role="3cqZAo" node="3yoEvFpu4rR" resolve="model" />
                     </node>
                     <node concept="2SmgA7" id="3yoEvFptH0X" role="2OqNvi">
-                      <ref role="2SmgA8" to="vj37:4LP87XufKR$" resolve="CrossProductExpression" />
+                      <ref role="2SmgA8" to="cetu:4LP87XufKR$" resolve="CrossProductExpression" />
                     </node>
                   </node>
                   <node concept="3zZkjj" id="3yoEvFptH0Y" role="2OqNvi">
