@@ -331,5 +331,18 @@
     <property role="34LRSv" value="T" />
     <ref role="1TJDcQ" to="mj1l:3MUk0N5szEG" resolve="UnaryArithmeticExpression" />
   </node>
+  <node concept="1TIwiD" id="9TuAn4i4Nh">
+    <property role="TrG5h" value="UnrollingConfiguration" />
+    <property role="34LRSv" value="unroll" />
+    <property role="R4oN_" value="loop unrolling treshold" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="9TuAn4i4Oe" role="1TKVEl">
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="9TuAn4i4Ob" role="PzmwI">
+      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+    </node>
+  </node>
 </model>
 

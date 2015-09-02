@@ -525,9 +525,6 @@
           <node concept="la8eA" id="1yhDrW7s2rt" role="lcghm">
             <property role="lacIc" value=")" />
           </node>
-          <node concept="la8eA" id="1yhDrW7s2ru" role="lcghm">
-            <property role="lacIc" value="(" />
-          </node>
           <node concept="l9hG8" id="1yhDrW7s2rv" role="lcghm">
             <node concept="2OqwBi" id="1yhDrW7s2rw" role="lb14g">
               <node concept="117lpO" id="1yhDrW7s2rx" role="2Oq$k0" />
@@ -535,9 +532,6 @@
                 <ref role="3Tt5mk" to="mj1l:5IYyAOzBgHm" />
               </node>
             </node>
-          </node>
-          <node concept="la8eA" id="1yhDrW7s2rz" role="lcghm">
-            <property role="lacIc" value=")" />
           </node>
           <node concept="la8eA" id="1yhDrW7s2r$" role="lcghm">
             <property role="lacIc" value=")" />
