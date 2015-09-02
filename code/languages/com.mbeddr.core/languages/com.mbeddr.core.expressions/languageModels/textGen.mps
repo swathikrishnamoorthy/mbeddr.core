@@ -835,7 +835,7 @@
       <node concept="3clFbS" id="F_QT7XsiFR" role="2VODD2">
         <node concept="lc7rE" id="F_QT7XsiFS" role="3cqZAp">
           <node concept="la8eA" id="70KFWMC57Bp" role="lcghm">
-            <property role="lacIc" value="(" />
+            <property role="lacIc" value="((" />
           </node>
           <node concept="l9hG8" id="F_QT7XsiFU" role="lcghm">
             <node concept="2OqwBi" id="F_QT7XsiFX" role="lb14g">
@@ -868,7 +868,7 @@
             </node>
           </node>
           <node concept="la8eA" id="70KFWMC57bR" role="lcghm">
-            <property role="lacIc" value=")" />
+            <property role="lacIc" value="))" />
           </node>
         </node>
       </node>
