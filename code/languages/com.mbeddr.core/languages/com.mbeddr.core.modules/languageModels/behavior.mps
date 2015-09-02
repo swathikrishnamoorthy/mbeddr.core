@@ -3588,7 +3588,7 @@
       <node concept="37vLTG" id="7PpjtdjCFNd" role="3clF46">
         <property role="TrG5h" value="requiredModule" />
         <node concept="3Tqbb2" id="7PpjtdjCFNe" role="1tU5fm">
-          <ref role="ehGHo" to="x27k:5_l8w1EmTde" resolve="ImplementationModule" />
+          <ref role="ehGHo" to="x27k:5_l8w1EmTcX" resolve="Module" />
         </node>
       </node>
     </node>
@@ -3696,7 +3696,7 @@
       <node concept="37vLTG" id="ipMc9QxfL" role="3clF46">
         <property role="TrG5h" value="requiredModule" />
         <node concept="3Tqbb2" id="ipMc9QxfM" role="1tU5fm">
-          <ref role="ehGHo" to="x27k:5_l8w1EmTde" resolve="ImplementationModule" />
+          <ref role="ehGHo" to="x27k:5_l8w1EmTcX" resolve="Module" />
         </node>
       </node>
     </node>
@@ -12913,7 +12913,7 @@
         <node concept="3clFbF" id="8PQYytI6Xa" role="3cqZAp">
           <node concept="37vLTI" id="8PQYytI6Xb" role="3clFbG">
             <node concept="1PxgMI" id="8PQYytI6Xc" role="37vLTx">
-              <ref role="1PxNhF" to="x27k:8PQYytE9VE" resolve="PragmaDeclaration" />
+              <ref role="1PxNhF" to="x27k:8PQYytE9VE" resolve="ModifierModuleContent" />
               <node concept="3cpWs2" id="8PQYytI6Xd" role="1PxMeX">
                 <ref role="3cqZAo" node="8PQYytHVRJ" resolve="proxyElement" />
               </node>
@@ -13128,7 +13128,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="8PQYytHQQf">
-    <ref role="13h7C2" to="x27k:8PQYytE9VE" resolve="PragmaDeclaration" />
+    <ref role="13h7C2" to="x27k:8PQYytE9VE" resolve="ModifierModuleContent" />
     <node concept="13hLZK" id="8PQYytHQQg" role="13h7CW">
       <node concept="3clFbS" id="8PQYytHQQh" role="2VODD2">
         <node concept="3clFbF" id="8PQYytHSyN" role="3cqZAp">
