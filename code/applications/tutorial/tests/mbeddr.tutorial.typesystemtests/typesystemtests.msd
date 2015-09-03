@@ -25,7 +25,6 @@
     <usedLanguage>c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</usedLanguage>
     <usedLanguage>8585453e-6bfb-4d80-98de-b16074f1d86c(jetbrains.mps.lang.test)</usedLanguage>
     <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
-    <usedLanguage>01cd75cf-892b-47a7-b594-744f9e06e5e4(mbeddr.tutorial.complex)</usedLanguage>
     <usedLanguage>7fc59e55-0f30-4694-b8e3-d334e472c924(mbeddr.tutorial.metadata)</usedLanguage>
     <usedLanguage>3bf5377a-e904-4ded-9754-5a516023bfaa(com.mbeddr.core.pointers)</usedLanguage>
   </usedLanguages>
@@ -76,7 +75,6 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" fqName="jetbrains.mps.lang.structure" version="0" />
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" fqName="jetbrains.mps.lang.test" version="1" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
-    <language id="01cd75cf-892b-47a7-b594-744f9e06e5e4" fqName="mbeddr.tutorial.complex" version="0" />
     <language id="7fc59e55-0f30-4694-b8e3-d334e472c924" fqName="mbeddr.tutorial.metadata" version="0" />
   </languageVersions>
 </solution>

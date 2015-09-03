@@ -55,8 +55,6 @@
     <usedLanguage>ce2335b7-fcfd-403e-8ace-08dd457fd818(mbeddr.tutorial.osconfig.cimpl)</usedLanguage>
     <usedLanguage>8f78d0b6-57c9-4fa8-86fe-8c30d0d5b15c(mbeddr.tutorial.smtrigger)</usedLanguage>
     <usedLanguage>973c8be0-8526-4588-aca6-92bcbb701b50(mbeddr.tutotial.osconfig.memory)</usedLanguage>
-    <usedLanguage>01cd75cf-892b-47a7-b594-744f9e06e5e4(mbeddr.tutorial.complex)</usedLanguage>
-    <usedLanguage>29594ca3-9b56-49a1-b776-aaae43264253(mbeddr.tutorial.shonan.complexNumberVector)</usedLanguage>
     <usedLanguage>d09a16fb-1d68-4a92-a5a4-20b4b2f86a62(com.mbeddr.mpsutil.jung)</usedLanguage>
     <usedLanguage>a482b416-d0c9-473f-8f67-725ed642b3f3(com.mbeddr.mpsutil.breadcrumb)</usedLanguage>
     <usedLanguage>479c7a8c-02f9-43b5-9139-d910cb22f298(jetbrains.mps.core.xml)</usedLanguage>
@@ -124,6 +122,7 @@
     <language id="41911c23-eb23-4ee6-872f-bc7f7ebce290" fqName="com.mbeddr.ext.components.test" version="0" />
     <language id="54f2a59b-97bb-4c09-af92-928ebf9c5966" fqName="com.mbeddr.ext.compositecomponents" version="0" />
     <language id="b879012d-402b-40e0-8df7-e6fa93b9b711" fqName="com.mbeddr.ext.concurrency" version="0" />
+    <language id="d6943f81-8340-4661-9d57-8fc1e2d23b36" fqName="com.mbeddr.ext.concurrency.plainC" version="0" />
     <language id="8c1a7e14-9520-42a4-a3a7-b15e523af156" fqName="com.mbeddr.ext.concurrency.pthreads" version="0" />
     <language id="b574d547-b77e-4fed-9f60-c349c4410765" fqName="com.mbeddr.ext.math" version="0" />
     <language id="564e97d6-8fb7-41f5-bfc1-c7ed376efd62" fqName="com.mbeddr.ext.statemachines" version="0" />
@@ -162,14 +161,12 @@
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" fqName="jetbrains.mps.lang.typesystem" version="0" />
     <language id="07b580a3-cb92-4b5d-ab7c-9e2d58b9d602" fqName="mbeddr.tutorial.blocks" version="0" />
-    <language id="01cd75cf-892b-47a7-b594-744f9e06e5e4" fqName="mbeddr.tutorial.complex" version="0" />
     <language id="4930e34b-b776-4ccb-b2ff-c6f31789e126" fqName="mbeddr.tutorial.extreqref" version="0" />
     <language id="32128dbe-9db6-4d05-9eaa-43601c29f276" fqName="mbeddr.tutorial.foreach" version="0" />
     <language id="16ff087a-23cd-49b8-9c5b-a2c20cea9d3e" fqName="mbeddr.tutorial.heap" version="0" />
     <language id="8cb5ab9f-a2c3-418b-a67c-c5690ef7361b" fqName="mbeddr.tutorial.layers" version="0" />
     <language id="a577a05d-67ad-41db-9547-6e5f0730b85d" fqName="mbeddr.tutorial.osconfig" version="0" />
     <language id="ce2335b7-fcfd-403e-8ace-08dd457fd818" fqName="mbeddr.tutorial.osconfig.cimpl" version="0" />
-    <language id="29594ca3-9b56-49a1-b776-aaae43264253" fqName="mbeddr.tutorial.shonan.complexNumberVector" version="0" />
     <language id="8f78d0b6-57c9-4fa8-86fe-8c30d0d5b15c" fqName="mbeddr.tutorial.smtrigger" version="0" />
     <language id="973c8be0-8526-4588-aca6-92bcbb701b50" fqName="mbeddr.tutotial.osconfig.memory" version="0" />
   </languageVersions>

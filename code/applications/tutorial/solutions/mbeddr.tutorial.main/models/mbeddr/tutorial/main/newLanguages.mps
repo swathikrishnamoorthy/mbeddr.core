@@ -128,18 +128,8 @@
       </concept>
     </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
-      <concept id="5046689135693761556" name="com.mbeddr.core.buildconfig.structure.Binary" flags="ng" index="2eOfOj">
-        <child id="5046689135693761559" name="referencedModules" index="2eOfOg" />
-      </concept>
-      <concept id="5046689135693761554" name="com.mbeddr.core.buildconfig.structure.Executable" flags="ng" index="2eOfOl">
-        <property id="3431613015799084476" name="isTest" index="iO3LB" />
-      </concept>
       <concept id="7717755763392524104" name="com.mbeddr.core.buildconfig.structure.BuildConfiguration" flags="ng" index="2v9HqL">
-        <child id="5046689135694070731" name="binaries" index="2ePNbc" />
         <child id="5323740605968447026" name="target" index="2AWWZH" />
-      </concept>
-      <concept id="7717755763392524107" name="com.mbeddr.core.buildconfig.structure.ModuleRef" flags="ng" index="2v9HqM">
-        <reference id="7717755763392524108" name="module" index="2v9HqP" />
       </concept>
       <concept id="5323740605968447022" name="com.mbeddr.core.buildconfig.structure.DesktopPlatform" flags="ng" index="2AWWZL">
         <property id="5323740605968447025" name="compilerOptions" index="2AWWZI" />
@@ -987,13 +977,6 @@
     </node>
     <node concept="3_UEaq" id="2wGmDEKnOQ0" role="2Q9xDr">
       <node concept="3_UBHe" id="2wGmDEKnOQc" role="3_UBH6" />
-    </node>
-    <node concept="2eOfOl" id="7VsgA5L655s" role="2ePNbc">
-      <property role="iO3LB" value="true" />
-      <property role="TrG5h" value="MbeddrTutorialNewLangs" />
-      <node concept="2v9HqM" id="1A28LGR0bI" role="2eOfOg">
-        <ref role="2v9HqP" node="3kPV7z$r0b$" resolve="Vectors" />
-      </node>
     </node>
     <node concept="3yF7LM" id="5ngFs$3T$P_" role="2Q9xDr">
       <property role="3yF7Mc" value="true" />

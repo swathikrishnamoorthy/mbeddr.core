@@ -8,6 +8,7 @@
   </models>
   <accessoryModels>
     <model modelUID="r:e42b38d0-3fc9-4f28-85ca-cda3bda496dd(com.mbeddr.ext.math.util)" />
+    <model modelUID="r:a225e157-dd6d-4b35-843e-9e17146d626e(com.mbeddr.ext.math.complex)" />
   </accessoryModels>
   <generators>
     <generator name="" generatorUID="com.mbeddr.ext.math#971707942815264354" uuid="85a28967-1d70-4301-b6af-2fac82ee8295">
@@ -21,6 +22,8 @@
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
         <dependency reexport="false">2ed50273-af07-4e30-9004-b1f89545178a(com.mbeddr.core.stdlib)</dependency>
         <dependency reexport="false">2d7fadf5-33f6-4e80-a78f-0f739add2bde(com.mbeddr.core.buildconfig)</dependency>
+        <dependency reexport="false">6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)</dependency>
+        <dependency reexport="false">efda956e-491e-4f00-ba14-36af2f213ecf(com.mbeddr.core.udt)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)</usedLanguage>
@@ -35,6 +38,7 @@
         <usedLanguage>d4280a54-f6df-4383-aa41-d1b2bffa7eb1(com.mbeddr.core.base)</usedLanguage>
         <usedLanguage>c1c2a88a-323c-4605-a37d-9ab77a2ccbd2(com.mbeddr.mpsutil.suppresswarning)</usedLanguage>
         <usedLanguage>13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)</usedLanguage>
+        <usedLanguage>efda956e-491e-4f00-ba14-36af2f213ecf(com.mbeddr.core.udt)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
@@ -79,13 +83,27 @@
           <greater-priority-mapping>
             <generator generatorUID="85a28967-1d70-4301-b6af-2fac82ee8295(com.mbeddr.ext.math#971707942815264354)" />
             <external-mapping>
-              <mapping-node modelUID="r:ef72f028-14dc-4182-a491-68273037edb8(com.mbeddr.ext.math.generator.template.main@generator)" nodeID="971707942815264355" />
+              <mapping-node modelUID="r:ef72f028-14dc-4182-a491-68273037edb8(com.mbeddr.ext.math.generator.template.main@generator)" nodeID="8146080817292688510" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <generator generatorUID="6a4c6ce0-9bc6-42c5-a001-4972fd960726(com.mbeddr.core.expressions#540488879270542599)" />
+            <generator generatorUID="85a28967-1d70-4301-b6af-2fac82ee8295(com.mbeddr.ext.math#971707942815264354)" />
             <external-mapping>
-              <mapping-node modelUID="r:bf097c01-1156-46d5-9d9a-aa2e3a2414b1(com.mbeddr.core.expressions.generator.template.main@generator)" nodeID="540488879270542600" />
+              <mapping-node modelUID="r:ef72f028-14dc-4182-a491-68273037edb8(com.mbeddr.ext.math.generator.template.main@generator)" nodeID="8517117594606380563" />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
+        <mapping-priority-rule kind="strictly_after">
+          <greater-priority-mapping>
+            <generator generatorUID="85a28967-1d70-4301-b6af-2fac82ee8295(com.mbeddr.ext.math#971707942815264354)" />
+            <external-mapping>
+              <mapping-node modelUID="r:ef72f028-14dc-4182-a491-68273037edb8(com.mbeddr.ext.math.generator.template.main@generator)" nodeID="8517117594606380563" />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="85a28967-1d70-4301-b6af-2fac82ee8295(com.mbeddr.ext.math#971707942815264354)" />
+            <external-mapping>
+              <mapping-node modelUID="r:ef72f028-14dc-4182-a491-68273037edb8(com.mbeddr.ext.math.generator.template.main@generator)" nodeID="8517117594610243084" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
@@ -102,7 +120,10 @@
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
     <dependency reexport="false">735f86bc-17fb-4d1c-a664-82c2b8e8a34e(com.mbeddr.mpsutil.interpreter.rt)</dependency>
     <dependency reexport="false">2ed50273-af07-4e30-9004-b1f89545178a(com.mbeddr.core.stdlib)</dependency>
-    <dependency reexport="false">b574d547-b77e-4fed-9f60-c349c4410765(com.mbeddr.ext.math)</dependency>
+    <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
+    <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
+    <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
+    <dependency reexport="false">efda956e-491e-4f00-ba14-36af2f213ecf(com.mbeddr.core.udt)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>766348f7-6a67-4b85-9323-384840132299(de.itemis.mps.editor.math)</usedLanguage>
@@ -118,6 +139,7 @@
     <usedLanguage>3bf5377a-e904-4ded-9754-5a516023bfaa(com.mbeddr.core.pointers)</usedLanguage>
     <usedLanguage>18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</usedLanguage>
     <usedLanguage>a9d69647-0840-491e-bf39-2eb0805d2011(com.mbeddr.core.statements)</usedLanguage>
+    <usedLanguage>efda956e-491e-4f00-ba14-36af2f213ecf(com.mbeddr.core.udt)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
@@ -130,6 +152,7 @@
     <language id="6d11763d-483d-4b2b-8efc-09336c1b0001" fqName="com.mbeddr.core.modules" version="0" />
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" fqName="com.mbeddr.core.pointers" version="0" />
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" fqName="com.mbeddr.core.statements" version="1" />
+    <language id="efda956e-491e-4f00-ba14-36af2f213ecf" fqName="com.mbeddr.core.udt" version="1" />
     <language id="a482b416-d0c9-473f-8f67-725ed642b3f3" fqName="com.mbeddr.mpsutil.breadcrumb" version="0" />
     <language id="b92f861d-0184-446d-b88b-6dcf0e070241" fqName="com.mbeddr.mpsutil.intentions" version="0" />
     <language id="47f075a6-558e-4640-a606-7ce0236c8023" fqName="com.mbeddr.mpsutil.interpreter" version="0" />

@@ -11,7 +11,6 @@
     <import index="cetu" ref="r:fc1ad1dc-45eb-4f99-8b2c-fbe60e6e91b1(com.mbeddr.ext.math.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
-    <import index="cu2c" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
@@ -57,6 +56,7 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -870,6 +870,48 @@
     </node>
     <node concept="13hLZK" id="9TuAn4gZF3" role="13h7CW">
       <node concept="3clFbS" id="9TuAn4gZF4" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="3yoEvFpEdd0">
+    <property role="3GE5qa" value="complex" />
+    <ref role="13h7C2" to="cetu:3yoEvFpEd7m" resolve="ComplexTypeAccess" />
+    <node concept="13hLZK" id="3yoEvFpEdd1" role="13h7CW">
+      <node concept="3clFbS" id="3yoEvFpEdd2" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="3yoEvFpEdd3" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getTarget" />
+      <ref role="13i0hy" to="ywuz:66uzewbZgGM" resolve="getTarget" />
+      <node concept="3Tm1VV" id="3yoEvFpEdd4" role="1B3o_S" />
+      <node concept="3clFbS" id="3yoEvFpEdd7" role="3clF47">
+        <node concept="3clFbF" id="3yoEvFpEfFn" role="3cqZAp">
+          <node concept="10Nm6u" id="3yoEvFpEfFm" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="3yoEvFpEdd8" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="UYJLA$AVsz">
+    <property role="3GE5qa" value="complex" />
+    <ref role="13h7C2" to="cetu:7wlBVIeFwW3" resolve="ComplexType" />
+    <node concept="13hLZK" id="UYJLA$AVs$" role="13h7CW">
+      <node concept="3clFbS" id="UYJLA$AVs_" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="UYJLA$AVtp" role="13h7CS">
+      <property role="TrG5h" value="getUsedBytes" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="ywuz:61lw97FtLtJ" resolve="getUsedBytes" />
+      <node concept="3Tm1VV" id="UYJLA$AVtq" role="1B3o_S" />
+      <node concept="3clFbS" id="UYJLA$AVtt" role="3clF47">
+        <node concept="3cpWs6" id="74cGlvMaO9s" role="3cqZAp">
+          <node concept="3cmrfG" id="74cGlvMaO9t" role="3cqZAk">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="UYJLA$AVtu" role="3clF45" />
     </node>
   </node>
 </model>

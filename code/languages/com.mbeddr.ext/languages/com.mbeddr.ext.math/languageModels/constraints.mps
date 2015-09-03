@@ -74,6 +74,8 @@
       </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
+      <concept id="1202989531578" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="nKS2y" />
+      <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
       <concept id="1203001093456" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAParent" flags="in" index="osYL8" />
       <concept id="1203001236505" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childConcept" flags="nn" index="otxO1" />
       <concept id="1203009604308" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_link" flags="nn" index="oXsJc" />
@@ -91,6 +93,7 @@
         <reference id="1213093996982" name="concept" index="1M2myG" />
         <child id="1213098023997" name="property" index="1MhHOB" />
         <child id="1213100494875" name="referent" index="1Mr941" />
+        <child id="1213106463729" name="canBeChild" index="1MLUbF" />
         <child id="1213106478122" name="canBeParent" index="1MLXOK" />
       </concept>
       <concept id="1148684180339" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Factory" flags="in" index="1MUpDS" />
@@ -136,6 +139,9 @@
       </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
+      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
+        <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -455,6 +461,35 @@
             <node concept="1mIQ4w" id="4NQT62oMBNP" role="2OqNvi">
               <node concept="chp4Y" id="4NQT62oMBTw" role="cj9EA">
                 <ref role="cht4Q" to="cetu:4LP87XufLdW" resolve="MatrixType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3yoEvFpEwcQ">
+    <property role="3GE5qa" value="complex" />
+    <ref role="1M2myG" to="cetu:3yoEvFpEd7m" resolve="ComplexTypeAccess" />
+    <node concept="nKS2y" id="3yoEvFpEwcR" role="1MLUbF">
+      <node concept="3clFbS" id="3yoEvFpEwcS" role="2VODD2">
+        <node concept="3clFbF" id="3yoEvFpEwna" role="3cqZAp">
+          <node concept="2OqwBi" id="3yoEvFpExao" role="3clFbG">
+            <node concept="2OqwBi" id="3yoEvFpEwtS" role="2Oq$k0">
+              <node concept="2OqwBi" id="3yoEvFpECYF" role="2Oq$k0">
+                <node concept="1PxgMI" id="3yoEvFpECv0" role="2Oq$k0">
+                  <ref role="1PxNhF" to="mj1l:40tXLnqhyKc" resolve="GenericDotExpression" />
+                  <node concept="nLn13" id="3yoEvFpEwn9" role="1PxMeX" />
+                </node>
+                <node concept="3TrEf2" id="3yoEvFpEDT8" role="2OqNvi">
+                  <ref role="3Tt5mk" to="mj1l:6iIoqg1yDLg" />
+                </node>
+              </node>
+              <node concept="3JvlWi" id="3yoEvFpEwSY" role="2OqNvi" />
+            </node>
+            <node concept="1mIQ4w" id="3yoEvFpEy1c" role="2OqNvi">
+              <node concept="chp4Y" id="74cGlvMaUlM" role="cj9EA">
+                <ref role="cht4Q" to="cetu:7wlBVIeFwW3" resolve="ComplexType" />
               </node>
             </node>
           </node>

@@ -13,6 +13,17 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv">
+        <property id="6054523464626875854" name="value" index="tnX3d" />
+      </concept>
+      <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
+        <reference id="6054523464627965081" name="concept" index="trN6q" />
+      </concept>
+      <concept id="2992811758677295509" name="jetbrains.mps.lang.structure.structure.AttributeInfo" flags="ng" index="M6xJ_">
+        <property id="7588428831955550663" name="role" index="Hh88m" />
+        <child id="7588428831947959310" name="attributed" index="EQaZv" />
+        <child id="7588428831955550186" name="multiple" index="HhnKV" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
@@ -44,6 +55,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -335,6 +347,7 @@
     <property role="TrG5h" value="UnrollingConfiguration" />
     <property role="34LRSv" value="unroll" />
     <property role="R4oN_" value="loop unrolling treshold" />
+    <property role="3GE5qa" value="matrix" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="9TuAn4i4Oe" role="1TKVEl">
       <property role="TrG5h" value="value" />
@@ -342,6 +355,68 @@
     </node>
     <node concept="PrWs8" id="9TuAn4i4Ob" role="PzmwI">
       <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7wlBVIeFwW7">
+    <property role="TrG5h" value="ComplexLiteral" />
+    <property role="3GE5qa" value="complex" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrDq" resolve="Literal" />
+    <node concept="1TJgyj" id="7wlBVIeFwW8" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="real" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrDB" resolve="NumberLiteral" />
+    </node>
+    <node concept="1TJgyj" id="7wlBVIeFwW9" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="imaginary" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrDB" resolve="NumberLiteral" />
+    </node>
+    <node concept="PrWs8" id="6Jhc0CXvJlp" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7wlBVIeFwW3">
+    <property role="TrG5h" value="ComplexType" />
+    <property role="34LRSv" value="complex" />
+    <property role="3GE5qa" value="complex" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+  </node>
+  <node concept="1TIwiD" id="3yoEvFpEd7m">
+    <property role="TrG5h" value="ComplexTypeAccess" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="3GE5qa" value="complex" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3yoEvFpEd9C" role="PzmwI">
+      <ref role="PrY4T" to="mj1l:40tXLnqhXcx" resolve="IGenericDotTarget" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3yoEvFpEny_">
+    <property role="TrG5h" value="ImaginaryAccess" />
+    <property role="34LRSv" value="i" />
+    <property role="3GE5qa" value="complex" />
+    <ref role="1TJDcQ" node="3yoEvFpEd7m" resolve="ComplexTypeAccess" />
+  </node>
+  <node concept="1TIwiD" id="3yoEvFpEnyw">
+    <property role="TrG5h" value="RealAccess" />
+    <property role="34LRSv" value="r" />
+    <property role="3GE5qa" value="complex" />
+    <ref role="1TJDcQ" node="3yoEvFpEd7m" resolve="ComplexTypeAccess" />
+  </node>
+  <node concept="1TIwiD" id="7oMSlewwVWj">
+    <property role="3GE5qa" value="complex" />
+    <property role="TrG5h" value="GeneratedLocalVariable" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="7oMSlewwWnx" role="lGtFl">
+      <property role="Hh88m" value="generated" />
+      <node concept="trNpa" id="7oMSlewwWn$" role="EQaZv">
+        <ref role="trN6q" to="c4fa:3CmSUB7FprA" resolve="LocalVariableDeclaration" />
+      </node>
+      <node concept="tn0Fv" id="7oMSlewwWAF" role="HhnKV">
+        <property role="tnX3d" value="false" />
+      </node>
     </node>
   </node>
 </model>
