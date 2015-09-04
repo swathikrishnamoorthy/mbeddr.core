@@ -2,25 +2,25 @@
 <model ref="r:5502bfb4-a967-4ca4-be6d-8754034c6d99(com.mbeddr.core.buildconfig.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
-    <use id="f93d1dbe-bfd1-42dd-932a-f375fa6f5373" name="com.mbeddr.core.make" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
-    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
-    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
-    <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="-1" />
-    <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="-1" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="f93d1dbe-bfd1-42dd-932a-f375fa6f5373" name="com.mbeddr.core.make" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="1" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
+    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
+    <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="1" />
+    <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
     <import index="51wr" ref="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="ahli" ref="r:44ccebce-f3a6-4238-afbf-c4a18f6348c1(com.mbeddr.core.buildconfig.behavior)" />
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(java.io@java_stub)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io()" />
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
@@ -113,11 +113,6 @@
       </concept>
       <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
-    </language>
-    <language id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil">
-      <concept id="17217465924316850" name="com.mbeddr.mpsutil.blutil.structure.FilterOperation" flags="ng" index="2Gpcm3">
-        <reference id="17217465924316851" name="concept" index="2Gpcm2" />
-      </concept>
     </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
       <concept id="5323740605968447022" name="com.mbeddr.core.buildconfig.structure.DesktopPlatform" flags="ng" index="2AWWZL">
@@ -227,6 +222,9 @@
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
+        <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
+      </concept>
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -922,14 +920,16 @@
                     </node>
                     <node concept="2OqwBi" id="4oh1JoZBOnb" role="33vP2m">
                       <node concept="2OqwBi" id="XaN6GmWPU" role="2Oq$k0">
+                        <node concept="v3k3i" id="6jvaevO$08$" role="2OqNvi">
+                          <node concept="chp4Y" id="6jvaevO$08_" role="v3oSu">
+                            <ref role="cht4Q" to="51wr:4o9sgv8QoKi" resolve="Executable" />
+                          </node>
+                        </node>
                         <node concept="2OqwBi" id="4oh1JoZBOnd" role="2Oq$k0">
                           <node concept="30H73N" id="4oh1JoZBOne" role="2Oq$k0" />
                           <node concept="3Tsc0h" id="4oh1JoZBOnf" role="2OqNvi">
                             <ref role="3TtcxE" to="51wr:4o9sgv8R$fb" />
                           </node>
-                        </node>
-                        <node concept="2Gpcm3" id="XaN6GmWPZ" role="2OqNvi">
-                          <ref role="2Gpcm2" to="51wr:4o9sgv8QoKi" resolve="Executable" />
                         </node>
                       </node>
                       <node concept="3goQfb" id="4oh1JoZBOni" role="2OqNvi">
@@ -1016,8 +1016,8 @@
                         <node concept="3clFbF" id="4oh1JoZ_v6h" role="3cqZAp">
                           <node concept="d57v9" id="4oh1JoZ_v6j" role="3clFbG">
                             <node concept="10M0yZ" id="4oh1JoZ_v6x" role="37vLTx">
-                              <ref role="1PxDUh" to="fxg7:~File" resolve="File" />
-                              <ref role="3cqZAo" to="fxg7:~File.pathSeparator" resolve="pathSeparator" />
+                              <ref role="1PxDUh" to="guwi:~File" resolve="File" />
+                              <ref role="3cqZAo" to="guwi:~File.pathSeparator" resolve="pathSeparator" />
                             </node>
                             <node concept="3cpWsa" id="4oh1JoZBOnQ" role="37vLTJ">
                               <ref role="3cqZAo" node="4oh1JoZ_v5b" resolve="res" />
@@ -1088,14 +1088,16 @@
                     </node>
                     <node concept="2OqwBi" id="30nrkhNTMuW" role="33vP2m">
                       <node concept="2OqwBi" id="30nrkhNTMuX" role="2Oq$k0">
+                        <node concept="v3k3i" id="6jvaevO$08A" role="2OqNvi">
+                          <node concept="chp4Y" id="6jvaevO$08B" role="v3oSu">
+                            <ref role="cht4Q" to="51wr:4o9sgv8QoKi" resolve="Executable" />
+                          </node>
+                        </node>
                         <node concept="2OqwBi" id="30nrkhNTMuY" role="2Oq$k0">
                           <node concept="30H73N" id="30nrkhNTMuZ" role="2Oq$k0" />
                           <node concept="3Tsc0h" id="30nrkhNTMv0" role="2OqNvi">
                             <ref role="3TtcxE" to="51wr:4o9sgv8R$fb" />
                           </node>
-                        </node>
-                        <node concept="2Gpcm3" id="30nrkhNTMv1" role="2OqNvi">
-                          <ref role="2Gpcm2" to="51wr:4o9sgv8QoKi" resolve="Executable" />
                         </node>
                       </node>
                       <node concept="3goQfb" id="30nrkhNTMv2" role="2OqNvi">
@@ -1182,8 +1184,8 @@
                         <node concept="3clFbF" id="30nrkhNTMvA" role="3cqZAp">
                           <node concept="d57v9" id="30nrkhNTMvB" role="3clFbG">
                             <node concept="10M0yZ" id="30nrkhNTMvC" role="37vLTx">
-                              <ref role="1PxDUh" to="fxg7:~File" resolve="File" />
-                              <ref role="3cqZAo" to="fxg7:~File.pathSeparator" resolve="pathSeparator" />
+                              <ref role="1PxDUh" to="guwi:~File" resolve="File" />
+                              <ref role="3cqZAo" to="guwi:~File.pathSeparator" resolve="pathSeparator" />
                             </node>
                             <node concept="3cpWsa" id="30nrkhNTMvD" role="37vLTJ">
                               <ref role="3cqZAo" node="30nrkhNTMvj" resolve="res" />
@@ -1405,14 +1407,16 @@
             <node concept="3clFbF" id="2kkumeGQAZY" role="3cqZAp">
               <node concept="2OqwBi" id="2kkumeGQB0c" role="3clFbG">
                 <node concept="2OqwBi" id="2kkumeGQB05" role="2Oq$k0">
+                  <node concept="v3k3i" id="6jvaevO$08C" role="2OqNvi">
+                    <node concept="chp4Y" id="6jvaevO$08D" role="v3oSu">
+                      <ref role="cht4Q" to="51wr:4o9sgv8QoKi" resolve="Executable" />
+                    </node>
+                  </node>
                   <node concept="2OqwBi" id="2kkumeGQB00" role="2Oq$k0">
                     <node concept="30H73N" id="2kkumeGQAZZ" role="2Oq$k0" />
                     <node concept="3Tsc0h" id="2kkumeGQB04" role="2OqNvi">
                       <ref role="3TtcxE" to="51wr:4o9sgv8R$fb" />
                     </node>
-                  </node>
-                  <node concept="2Gpcm3" id="XaN6GmZXv" role="2OqNvi">
-                    <ref role="2Gpcm2" to="51wr:4o9sgv8QoKi" resolve="Executable" />
                   </node>
                 </node>
                 <node concept="2HwmR7" id="2kkumeGQB0g" role="2OqNvi">
@@ -1448,14 +1452,16 @@
               <node concept="3clFbF" id="4oh1JoZ_Q1w" role="3cqZAp">
                 <node concept="2OqwBi" id="4oh1JoZ_Q1x" role="3clFbG">
                   <node concept="2OqwBi" id="4oh1JoZ_Q1y" role="2Oq$k0">
+                    <node concept="v3k3i" id="6jvaevO$08E" role="2OqNvi">
+                      <node concept="chp4Y" id="6jvaevO$08F" role="v3oSu">
+                        <ref role="cht4Q" to="51wr:4o9sgv8QoKi" resolve="Executable" />
+                      </node>
+                    </node>
                     <node concept="2OqwBi" id="4oh1JoZ_Q1z" role="2Oq$k0">
                       <node concept="30H73N" id="4oh1JoZ_Q1$" role="2Oq$k0" />
                       <node concept="3Tsc0h" id="4oh1JoZ_Q1_" role="2OqNvi">
                         <ref role="3TtcxE" to="51wr:4o9sgv8R$fb" />
                       </node>
-                    </node>
-                    <node concept="2Gpcm3" id="XaN6GmZXk" role="2OqNvi">
-                      <ref role="2Gpcm2" to="51wr:4o9sgv8QoKi" resolve="Executable" />
                     </node>
                   </node>
                   <node concept="3zZkjj" id="4oh1JoZ_Q1C" role="2OqNvi">
@@ -1509,14 +1515,16 @@
                 <node concept="3clFbF" id="Dp4TemBOs5" role="3cqZAp">
                   <node concept="2OqwBi" id="Dp4TemBOsc" role="3clFbG">
                     <node concept="2OqwBi" id="2kkumeGQ_uJ" role="2Oq$k0">
+                      <node concept="v3k3i" id="6jvaevO$08G" role="2OqNvi">
+                        <node concept="chp4Y" id="6jvaevO$08H" role="v3oSu">
+                          <ref role="cht4Q" to="51wr:4o9sgv8QoKi" resolve="Executable" />
+                        </node>
+                      </node>
                       <node concept="2OqwBi" id="Dp4TemBOs7" role="2Oq$k0">
                         <node concept="30H73N" id="Dp4TemBOs6" role="2Oq$k0" />
                         <node concept="3Tsc0h" id="2kkumeGQ_uH" role="2OqNvi">
                           <ref role="3TtcxE" to="51wr:4o9sgv8R$fb" />
                         </node>
-                      </node>
-                      <node concept="2Gpcm3" id="XaN6GmZXq" role="2OqNvi">
-                        <ref role="2Gpcm2" to="51wr:4o9sgv8QoKi" resolve="Executable" />
                       </node>
                     </node>
                     <node concept="3zZkjj" id="Dp4TemBOsg" role="2OqNvi">
@@ -1685,7 +1693,7 @@
                         <ref role="3cqZAo" node="6GqYvBOfqWJ" resolve="result" />
                       </node>
                       <node concept="liA8E" id="6GqYvBOfqXJ" role="2OqNvi">
-                        <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                         <node concept="Xl_RD" id="6GqYvBOfqXK" role="37wK5m" />
                       </node>
                     </node>
@@ -1929,6 +1937,11 @@
             <property role="TrG5h" value="preprocessor" />
           </node>
           <node concept="2OqwBi" id="XaN6GmZYG" role="2GsD0m">
+            <node concept="v3k3i" id="6jvaevO$08I" role="2OqNvi">
+              <node concept="chp4Y" id="6jvaevO$08J" role="v3oSu">
+                <ref role="cht4Q" to="vs0r:4qSf1u208SI" resolve="IConfigurationItemWithProcessor" />
+              </node>
+            </node>
             <node concept="2OqwBi" id="4qSf1u20kk8" role="2Oq$k0">
               <node concept="3cpWsa" id="4qSf1u20kk5" role="2Oq$k0">
                 <ref role="3cqZAo" node="78Ts1skprlC" resolve="bc" />
@@ -1936,9 +1949,6 @@
               <node concept="3Tsc0h" id="4qSf1u20kke" role="2OqNvi">
                 <ref role="3TtcxE" to="vs0r:3R$6B6bKw0E" />
               </node>
-            </node>
-            <node concept="2Gpcm3" id="XaN6GmZYL" role="2OqNvi">
-              <ref role="2Gpcm2" to="vs0r:4qSf1u208SI" resolve="IConfigurationItemWithProcessor" />
             </node>
           </node>
           <node concept="3clFbS" id="4qSf1u20kk4" role="2LFqv$">

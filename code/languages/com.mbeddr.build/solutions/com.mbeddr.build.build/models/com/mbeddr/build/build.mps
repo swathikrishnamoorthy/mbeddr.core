@@ -4,7 +4,7 @@
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="-1" />
     <use id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests" version="-1" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="1" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="-1" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -656,6 +656,11 @@
         <property role="TrG5h" value="mbeddr.tutorial.vectors" />
         <property role="3LESm3" value="3d0be1cf-4156-4c3c-ac37-fef83237d8e2" />
         <property role="2GAjPV" value="false" />
+        <node concept="1yeLz9" id="bF97vFaiFF" role="1TViLv">
+          <property role="TrG5h" value="mbeddr.tutorial.vectors#210301905067588827" />
+          <property role="3LESm3" value="c9fff8c2-1d49-404c-8049-fbb7ffaf92af" />
+          <property role="2GAjPV" value="false" />
+        </node>
         <node concept="398BVA" id="44QTgQqTvYw" role="3LF7KH">
           <ref role="398BVh" node="44QTgQqTwas" resolve="tutorial.home" />
           <node concept="2Ry0Ak" id="44QTgQqTvYx" role="iGT6I">

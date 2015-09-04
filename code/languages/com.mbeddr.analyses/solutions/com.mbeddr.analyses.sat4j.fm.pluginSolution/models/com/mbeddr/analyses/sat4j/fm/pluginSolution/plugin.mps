@@ -18,15 +18,15 @@
     <import index="vy7l" ref="r:86500bb5-b61d-4584-98de-8e87c2a6a247(com.mbeddr.analyses.sat4j.fm.analyses)" />
     <import index="hkrp" ref="r:36e979bc-8adb-410b-b31a-7ca706dd8275(com.mbeddr.analyses.sat4j.fm.ui)" />
     <import index="ky9n" ref="r:02fd962e-fdec-4ce8-ac08-1e36622f718b(com.mbeddr.analyses.sat4j.fm.model)" />
-    <import index="vsqj" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.project(MPS.Core/jetbrains.mps.project@java_stub)" />
+    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="i6v0" ref="r:2614f5fc-e90d-4f99-b5fb-05bc371282e5(com.mbeddr.analyses.sat4j.fm.solution)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
-    <import index="jwd7" ref="f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.tools(MPS.Platform/jetbrains.mps.ide.tools@java_stub)" />
-    <import index="nx1" ref="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.actionSystem(MPS.IDEA/com.intellij.openapi.actionSystem@java_stub)" />
-    <import index="b2mh" ref="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.project(MPS.IDEA/com.intellij.openapi.project@java_stub)" />
-    <import index="5xh9" ref="f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.actions(MPS.Platform/jetbrains.mps.ide.actions@java_stub)" />
+    <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" />
+    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
+    <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
+    <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
     <import index="qdv7" ref="r:1ff3d952-eae5-4d94-b89e-ea3060b11545(com.mbeddr.cc.var.annotations.structure)" />
-    <import index="l077" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.extapi.module(MPS.Core/jetbrains.mps.extapi.module@java_stub)" implicit="true" />
+    <import index="31cb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.module(MPS.Core/)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -161,7 +161,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -292,7 +292,7 @@
     <property role="2uzpH1" value="Check Consistency" />
     <node concept="1DS2jV" id="3x0R1LJ5K1c" role="1NuT2Z">
       <property role="TrG5h" value="project" />
-      <ref role="1DUlNI" to="nx1:~CommonDataKeys.PROJECT" resolve="PROJECT" />
+      <ref role="1DUlNI" to="qkt:~CommonDataKeys.PROJECT" resolve="PROJECT" />
       <node concept="1oajcY" id="3x0R1LJ5K1d" role="1oa70y" />
     </node>
     <node concept="2S4$dB" id="3x0R1LJ5K1e" role="1NuT2Z">
@@ -305,22 +305,22 @@
     </node>
     <node concept="1DS2jV" id="3x0R1LJ5K1i" role="1NuT2Z">
       <property role="TrG5h" value="module" />
-      <ref role="1DUlNI" to="5xh9:~MPSCommonDataKeys.CONTEXT_MODULE" resolve="CONTEXT_MODULE" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.CONTEXT_MODULE" resolve="CONTEXT_MODULE" />
       <node concept="1oajcY" id="3x0R1LJ5K1j" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="3x0R1LJ5K1k" role="1NuT2Z">
       <property role="TrG5h" value="modelDescriptor" />
-      <ref role="1DUlNI" to="5xh9:~MPSCommonDataKeys.CONTEXT_MODEL" resolve="CONTEXT_MODEL" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.CONTEXT_MODEL" resolve="CONTEXT_MODEL" />
       <node concept="1oajcY" id="3x0R1LJ5K1l" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="3x0R1LJ5K1m" role="1NuT2Z">
       <property role="TrG5h" value="ctx" />
-      <ref role="1DUlNI" to="5xh9:~MPSCommonDataKeys.OPERATION_CONTEXT" resolve="OPERATION_CONTEXT" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.OPERATION_CONTEXT" resolve="OPERATION_CONTEXT" />
       <node concept="1oajcY" id="3x0R1LJ5K1n" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="3x0R1LJ5K1o" role="1NuT2Z">
       <property role="TrG5h" value="editor" />
-      <ref role="1DUlNI" to="nx1:~PlatformDataKeys.FILE_EDITOR" resolve="FILE_EDITOR" />
+      <ref role="1DUlNI" to="qkt:~PlatformDataKeys.FILE_EDITOR" resolve="FILE_EDITOR" />
       <node concept="1oajcY" id="3x0R1LJ5K1p" role="1oa70y" />
     </node>
     <node concept="tnohg" id="3x0R1LJ5K1q" role="tncku">
@@ -428,7 +428,7 @@
               <ref role="3cqZAo" node="tSjOfAgvpD" resolve="tool" />
             </node>
             <node concept="liA8E" id="1ptFCtLsc8W" role="2OqNvi">
-              <ref role="37wK5l" to="jwd7:~BaseTool.openToolLater(boolean):void" resolve="openToolLater" />
+              <ref role="37wK5l" to="71xd:~BaseTool.openToolLater(boolean):void" resolve="openToolLater" />
               <node concept="3clFbT" id="1ptFCtLsc8X" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -447,7 +447,7 @@
     <property role="2uzpH1" value="Check Consistency" />
     <node concept="1DS2jV" id="tSjOfAjuLG" role="1NuT2Z">
       <property role="TrG5h" value="project" />
-      <ref role="1DUlNI" to="nx1:~CommonDataKeys.PROJECT" resolve="PROJECT" />
+      <ref role="1DUlNI" to="qkt:~CommonDataKeys.PROJECT" resolve="PROJECT" />
       <node concept="1oajcY" id="6NFuWiCs0Rr" role="1oa70y" />
     </node>
     <node concept="2S4$dB" id="tSjOfAjuLI" role="1NuT2Z">
@@ -564,7 +564,7 @@
               <ref role="3cqZAo" node="1X8myJONsA4" resolve="tool" />
             </node>
             <node concept="liA8E" id="1X8myJONsAj" role="2OqNvi">
-              <ref role="37wK5l" to="jwd7:~BaseTool.openToolLater(boolean):void" resolve="openToolLater" />
+              <ref role="37wK5l" to="71xd:~BaseTool.openToolLater(boolean):void" resolve="openToolLater" />
               <node concept="3clFbT" id="1X8myJONsAk" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -591,7 +591,7 @@
     <property role="2uzpH1" value="Check Variability Consistency" />
     <node concept="1DS2jV" id="44j14BH2NQ5" role="1NuT2Z">
       <property role="TrG5h" value="project" />
-      <ref role="1DUlNI" to="nx1:~CommonDataKeys.PROJECT" resolve="PROJECT" />
+      <ref role="1DUlNI" to="qkt:~CommonDataKeys.PROJECT" resolve="PROJECT" />
       <node concept="1oajcY" id="44j14BH2NQ6" role="1oa70y" />
     </node>
     <node concept="2S4$dB" id="44j14BH2NQ7" role="1NuT2Z">
@@ -604,22 +604,22 @@
     </node>
     <node concept="1DS2jV" id="44j14BH2NQb" role="1NuT2Z">
       <property role="TrG5h" value="module" />
-      <ref role="1DUlNI" to="5xh9:~MPSCommonDataKeys.CONTEXT_MODULE" resolve="CONTEXT_MODULE" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.CONTEXT_MODULE" resolve="CONTEXT_MODULE" />
       <node concept="1oajcY" id="44j14BH2NQc" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="44j14BH2NQd" role="1NuT2Z">
       <property role="TrG5h" value="modelDescriptor" />
-      <ref role="1DUlNI" to="5xh9:~MPSCommonDataKeys.CONTEXT_MODEL" resolve="CONTEXT_MODEL" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.CONTEXT_MODEL" resolve="CONTEXT_MODEL" />
       <node concept="1oajcY" id="44j14BH2NQe" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="44j14BH2NQf" role="1NuT2Z">
       <property role="TrG5h" value="ctx" />
-      <ref role="1DUlNI" to="5xh9:~MPSCommonDataKeys.OPERATION_CONTEXT" resolve="OPERATION_CONTEXT" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.OPERATION_CONTEXT" resolve="OPERATION_CONTEXT" />
       <node concept="1oajcY" id="44j14BH2NQg" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="44j14BH2NQh" role="1NuT2Z">
       <property role="TrG5h" value="editor" />
-      <ref role="1DUlNI" to="nx1:~PlatformDataKeys.FILE_EDITOR" resolve="FILE_EDITOR" />
+      <ref role="1DUlNI" to="qkt:~PlatformDataKeys.FILE_EDITOR" resolve="FILE_EDITOR" />
       <node concept="1oajcY" id="44j14BH2NQi" role="1oa70y" />
     </node>
     <node concept="tnohg" id="44j14BH2NQj" role="tncku">
@@ -729,7 +729,7 @@
               <ref role="3cqZAo" node="44j14BH2NQ_" resolve="moduleConsistencyTool" />
             </node>
             <node concept="liA8E" id="44j14BH2NQO" role="2OqNvi">
-              <ref role="37wK5l" to="jwd7:~BaseTool.openToolLater(boolean):void" resolve="openToolLater" />
+              <ref role="37wK5l" to="71xd:~BaseTool.openToolLater(boolean):void" resolve="openToolLater" />
               <node concept="3clFbT" id="44j14BH2NQP" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -796,14 +796,14 @@
             </node>
           </node>
           <node concept="2OqwBi" id="4$3mDZ0nqcY" role="2GsD0m">
+            <node concept="2qgKlT" id="5Kgle5PjLUU" role="2OqNvi">
+              <ref role="37wK5l" to="hwgx:13jltkdSd6O" resolve="allImportedChunks" />
+            </node>
             <node concept="2OqwBi" id="4$3mDZ0nlHn" role="2Oq$k0">
               <node concept="2WthIp" id="4$3mDZ0nc2i" role="2Oq$k0" />
               <node concept="3gHZIF" id="4$3mDZ0nmw$" role="2OqNvi">
                 <ref role="2WH_rO" node="44j14BH2NQ7" resolve="im" />
               </node>
-            </node>
-            <node concept="2qgKlT" id="5Kgle5PjLUU" role="2OqNvi">
-              <ref role="37wK5l" to="hwgx:13jltkdSd6O" resolve="allImportedChunks" />
             </node>
           </node>
         </node>
@@ -883,7 +883,7 @@
       <property role="TrG5h" value="project" />
       <node concept="3Tm1VV" id="44j14BHiWbt" role="1B3o_S" />
       <node concept="3uibUv" id="44j14BHiZGZ" role="1tU5fm">
-        <ref role="3uigEE" to="b2mh:~Project" resolve="Project" />
+        <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
       </node>
     </node>
     <node concept="2UmK3q" id="44j14BHeQVy" role="2Um5zG">
@@ -923,12 +923,12 @@
     <property role="2uzpH1" value="Check Consistency of Variability Use" />
     <node concept="1DS2jV" id="1X8myJOEqbS" role="1NuT2Z">
       <property role="TrG5h" value="project" />
-      <ref role="1DUlNI" to="nx1:~CommonDataKeys.PROJECT" resolve="PROJECT" />
+      <ref role="1DUlNI" to="qkt:~CommonDataKeys.PROJECT" resolve="PROJECT" />
       <node concept="1oajcY" id="1X8myJOEqbT" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="1X8myJOEqc0" role="1NuT2Z">
       <property role="TrG5h" value="modelDescriptor" />
-      <ref role="1DUlNI" to="5xh9:~MPSCommonDataKeys.CONTEXT_MODEL" resolve="CONTEXT_MODEL" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.CONTEXT_MODEL" resolve="CONTEXT_MODEL" />
       <node concept="1oajcY" id="1X8myJOEqc1" role="1oa70y" />
     </node>
     <node concept="tnohg" id="1X8myJOEqc6" role="tncku">
@@ -1039,7 +1039,7 @@
               <ref role="3cqZAo" node="1X8myJOEqcF" resolve="moduleConsistencyTool" />
             </node>
             <node concept="liA8E" id="1X8myJOEqd2" role="2OqNvi">
-              <ref role="37wK5l" to="jwd7:~BaseTool.openToolLater(boolean):void" resolve="openToolLater" />
+              <ref role="37wK5l" to="71xd:~BaseTool.openToolLater(boolean):void" resolve="openToolLater" />
               <node concept="3clFbT" id="1X8myJOEqd3" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -1128,12 +1128,12 @@
     <property role="2uzpH1" value="Check Variability Consistency" />
     <node concept="1DS2jV" id="1X8myJOL9pv" role="1NuT2Z">
       <property role="TrG5h" value="project" />
-      <ref role="1DUlNI" to="nx1:~CommonDataKeys.PROJECT" resolve="PROJECT" />
+      <ref role="1DUlNI" to="qkt:~CommonDataKeys.PROJECT" resolve="PROJECT" />
       <node concept="1oajcY" id="1X8myJOL9pw" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="2Gn1WTgS$Yk" role="1NuT2Z">
       <property role="TrG5h" value="solution" />
-      <ref role="1DUlNI" to="5xh9:~MPSCommonDataKeys.CONTEXT_MODULE" resolve="CONTEXT_MODULE" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.CONTEXT_MODULE" resolve="CONTEXT_MODULE" />
       <node concept="1oajcY" id="2Gn1WTgS$Yl" role="1oa70y" />
     </node>
     <node concept="tnohg" id="1X8myJOL9pz" role="tncku">
@@ -1244,7 +1244,7 @@
               <ref role="3cqZAo" node="1X8myJOL9pQ" resolve="moduleConsistencyTool" />
             </node>
             <node concept="liA8E" id="1X8myJOL9qd" role="2OqNvi">
-              <ref role="37wK5l" to="jwd7:~BaseTool.openToolLater(boolean):void" resolve="openToolLater" />
+              <ref role="37wK5l" to="71xd:~BaseTool.openToolLater(boolean):void" resolve="openToolLater" />
               <node concept="3clFbT" id="1X8myJOL9qe" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -1266,7 +1266,7 @@
           <node concept="3fqX7Q" id="4XJOimFO40z" role="3clFbw">
             <node concept="2ZW3vV" id="2Gn1WTgSCdc" role="3fr31v">
               <node concept="3uibUv" id="2Gn1WTgSCuh" role="2ZW6by">
-                <ref role="3uigEE" to="vsqj:~Solution" resolve="Solution" />
+                <ref role="3uigEE" to="z1c3:~Solution" resolve="Solution" />
               </node>
               <node concept="2OqwBi" id="2Gn1WTgS_iB" role="2ZW6bz">
                 <node concept="2WthIp" id="2Gn1WTgS_iE" role="2Oq$k0" />
@@ -1316,7 +1316,7 @@
             <node concept="1eOMI4" id="4XJOimFOaSj" role="2Oq$k0">
               <node concept="10QFUN" id="4XJOimFOaSg" role="1eOMHV">
                 <node concept="3uibUv" id="4XJOimFObtS" role="10QFUM">
-                  <ref role="3uigEE" to="vsqj:~Solution" resolve="Solution" />
+                  <ref role="3uigEE" to="z1c3:~Solution" resolve="Solution" />
                 </node>
                 <node concept="2OqwBi" id="4XJOimFO7pf" role="10QFUP">
                   <node concept="2WthIp" id="4XJOimFO5EQ" role="2Oq$k0" />
@@ -1327,7 +1327,7 @@
               </node>
             </node>
             <node concept="liA8E" id="4XJOimFOgKK" role="2OqNvi">
-              <ref role="37wK5l" to="l077:~SModuleBase.getModels():java.util.List" resolve="getModels" />
+              <ref role="37wK5l" to="31cb:~SModuleBase.getModels():java.util.List" resolve="getModels" />
             </node>
           </node>
         </node>
@@ -1359,12 +1359,12 @@
     <property role="2uzpH1" value="Check Consistency of Variability Definition" />
     <node concept="1DS2jV" id="1X8myJOV2oB" role="1NuT2Z">
       <property role="TrG5h" value="project" />
-      <ref role="1DUlNI" to="nx1:~CommonDataKeys.PROJECT" resolve="PROJECT" />
+      <ref role="1DUlNI" to="qkt:~CommonDataKeys.PROJECT" resolve="PROJECT" />
       <node concept="1oajcY" id="1X8myJOV2oC" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="1X8myJOV2oD" role="1NuT2Z">
       <property role="TrG5h" value="modelDescriptor" />
-      <ref role="1DUlNI" to="5xh9:~MPSCommonDataKeys.CONTEXT_MODEL" resolve="CONTEXT_MODEL" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.CONTEXT_MODEL" resolve="CONTEXT_MODEL" />
       <node concept="1oajcY" id="1X8myJOV2oE" role="1oa70y" />
     </node>
     <node concept="tnohg" id="1X8myJOV2oF" role="tncku">
@@ -1463,7 +1463,7 @@
               <ref role="3cqZAo" node="1X8myJOV2oY" resolve="moduleConsistencyTool" />
             </node>
             <node concept="liA8E" id="1X8myJOV2pr" role="2OqNvi">
-              <ref role="37wK5l" to="jwd7:~BaseTool.openToolLater(boolean):void" resolve="openToolLater" />
+              <ref role="37wK5l" to="71xd:~BaseTool.openToolLater(boolean):void" resolve="openToolLater" />
               <node concept="3clFbT" id="1X8myJOV2ps" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
