@@ -961,8 +961,8 @@
       <node concept="m$_yC" id="5dchr4Qjtvw" role="m$_yJ">
         <ref role="m$_y1" to="90a9:4hvHh3QW$Eh" resolve="de.slisson.mps.all" />
       </node>
-      <node concept="m$_yC" id="54d2E3NCEup" role="m$_yJ">
-        <ref role="m$_y1" to="zkto:2Zh2tjQSyQv" resolve="org.eclipse.incquery.mps" />
+      <node concept="m$_yC" id="7J_kTvUFVxP" role="m$_yJ">
+        <ref role="m$_y1" to="zkto:7J_kTvUFPMC" resolve="org.eclipse.incquery.mps.build" />
       </node>
     </node>
     <node concept="2igEWh" id="$bJ0jguQs8" role="1hWBAP">
@@ -2656,6 +2656,12 @@
           <node concept="3bR9La" id="5fIUEY6tu59" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7J_kTvUEVvK" role="3bR37C">
+          <node concept="3bR9La" id="7J_kTvUEVvL" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
       </node>
@@ -9686,34 +9692,34 @@
             <ref role="3bR37D" to="al5i:7Pr7tifzlku" resolve="com.mbeddr.platform" />
           </node>
         </node>
-        <node concept="1SiIV0" id="54d2E3NCCIf" role="3bR37C">
-          <node concept="3bR9La" id="54d2E3NCCIg" role="1SiIV1">
+        <node concept="1SiIV0" id="7J_kTvUFV1m" role="3bR37C">
+          <node concept="3bR9La" id="7J_kTvUFV1n" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="zkto:69NMDwEoT2y" resolve="org.eclipse.incquery.mps.build" />
+            <ref role="3bR37D" to="zkto:7J_kTvUFQWQ" resolve="org.eclipse.incquery.mps.build" />
           </node>
         </node>
       </node>
     </node>
     <node concept="398rNT" id="23LEVbRX3hP" role="1l3spd">
       <property role="TrG5h" value="mps.home" />
-      <node concept="55IIr" id="23LEVbRX3hQ" role="398pKh">
-        <node concept="2Ry0Ak" id="4i9pOwKUDzk" role="iGT6I">
+      <node concept="55IIr" id="6ucYLjovqL9" role="398pKh">
+        <node concept="2Ry0Ak" id="6ucYLjovr$S" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="4i9pOwKUExy" role="2Ry0An">
+          <node concept="2Ry0Ak" id="6ucYLjovr$V" role="2Ry0An">
             <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="4i9pOwKUFvK" role="2Ry0An">
+            <node concept="2Ry0Ak" id="6ucYLjovsoE" role="2Ry0An">
               <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="4i9pOwKUGtY" role="2Ry0An">
+              <node concept="2Ry0Ak" id="6ucYLjovu08" role="2Ry0An">
                 <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="72hnVyXpvaY" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6RmoJr9rYtC" role="2Ry0An">
                   <property role="2Ry0Am" value=".." />
-                  <node concept="2Ry0Ak" id="72hnVyXpy6I" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="7J_kTvUERNh" role="2Ry0An">
                     <property role="2Ry0Am" value=".." />
-                    <node concept="2Ry0Ak" id="72hnVyXpz6N" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="7J_kTvUET64" role="2Ry0An">
                       <property role="2Ry0Am" value="Applications" />
-                      <node concept="2Ry0Ak" id="72hnVyXp$6S" role="2Ry0An">
-                        <property role="2Ry0Am" value="MPS_3.2.2.app" />
-                        <node concept="2Ry0Ak" id="72hnVyXp$AZ" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="7J_kTvUEUoR" role="2Ry0An">
+                        <property role="2Ry0Am" value="MPS_3.3.app" />
+                        <node concept="2Ry0Ak" id="7J_kTvUEUp0" role="2Ry0An">
                           <property role="2Ry0Am" value="Contents" />
                         </node>
                       </node>
