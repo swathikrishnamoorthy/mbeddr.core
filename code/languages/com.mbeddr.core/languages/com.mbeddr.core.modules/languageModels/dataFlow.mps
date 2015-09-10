@@ -5,8 +5,8 @@
     <use id="7fa12e9c-b949-4976-b4fa-19accbc320b4" name="jetbrains.mps.lang.dataFlow" version="-1" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
     <use id="d4615e3b-d671-4ba9-af01-2b78369b0ba7" name="jetbrains.mps.lang.pattern" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
     <use id="97a52717-898f-4598-8150-573d9fd03868" name="jetbrains.mps.lang.dataFlow.analyzers" version="-1" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -194,7 +194,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -2966,10 +2966,10 @@
                 </node>
               </node>
               <node concept="3y3z36" id="1Inv$7Z7eOz" role="3clFbw">
+                <node concept="10Nm6u" id="1Inv$7Z7eWe" role="3uHU7w" />
                 <node concept="2GrUjf" id="1Inv$7Z7eNt" role="3uHU7B">
                   <ref role="2Gs0qQ" node="2vgBKozqFEH" resolve="var" />
                 </node>
-                <node concept="10Nm6u" id="1Inv$7Z7eWe" role="3uHU7w" />
               </node>
             </node>
           </node>
@@ -3517,18 +3517,11 @@
                 </node>
               </node>
               <node concept="3clFbJ" id="6ndMKCeB1Aj" role="3cqZAp">
-                <node concept="3clFbS" id="6ndMKCeB1Am" role="3clFbx">
-                  <node concept="3cpWs6" id="1bv6$DWd$J" role="3cqZAp">
-                    <node concept="2YIFZM" id="1bv6$DWfCb" role="3cqZAk">
-                      <ref role="37wK5l" to="3o3z:~Sets.newHashSet(java.lang.Object...):java.util.HashSet" resolve="newHashSet" />
-                      <ref role="1Pybhc" to="3o3z:~Sets" resolve="Sets" />
-                      <node concept="2ShNRf" id="1bv6$DWfCc" role="37wK5m">
-                        <node concept="1pGfFk" id="1bv6$DWfCd" role="2ShVmc">
-                          <ref role="37wK5l" node="7Ehk3$1DXTG" resolve="VariableWrapper" />
-                          <node concept="37vLTw" id="1bv6$DWfCe" role="37wK5m">
-                            <ref role="3cqZAo" node="6ndMKCeB0K9" resolve="resolvedExpression" />
-                          </node>
-                        </node>
+                <node concept="9aQIb" id="1bv6$DWeju" role="9aQIa">
+                  <node concept="3clFbS" id="1bv6$DWejv" role="9aQI4">
+                    <node concept="3cpWs6" id="6ndMKCeB1VO" role="3cqZAp">
+                      <node concept="37vLTw" id="6ndMKCeB1XC" role="3cqZAk">
+                        <ref role="3cqZAo" node="L2WnbQM5Oz" resolve="EMPTY_SET" />
                       </node>
                     </node>
                   </node>
@@ -3543,11 +3536,18 @@
                     </node>
                   </node>
                 </node>
-                <node concept="9aQIb" id="1bv6$DWeju" role="9aQIa">
-                  <node concept="3clFbS" id="1bv6$DWejv" role="9aQI4">
-                    <node concept="3cpWs6" id="6ndMKCeB1VO" role="3cqZAp">
-                      <node concept="37vLTw" id="6ndMKCeB1XC" role="3cqZAk">
-                        <ref role="3cqZAo" node="L2WnbQM5Oz" resolve="EMPTY_SET" />
+                <node concept="3clFbS" id="6ndMKCeB1Am" role="3clFbx">
+                  <node concept="3cpWs6" id="1bv6$DWd$J" role="3cqZAp">
+                    <node concept="2YIFZM" id="1bv6$DWfCb" role="3cqZAk">
+                      <ref role="37wK5l" to="3o3z:~Sets.newHashSet(java.lang.Object...):java.util.HashSet" resolve="newHashSet" />
+                      <ref role="1Pybhc" to="3o3z:~Sets" resolve="Sets" />
+                      <node concept="2ShNRf" id="1bv6$DWfCc" role="37wK5m">
+                        <node concept="1pGfFk" id="1bv6$DWfCd" role="2ShVmc">
+                          <ref role="37wK5l" node="7Ehk3$1DXTG" resolve="VariableWrapper" />
+                          <node concept="37vLTw" id="1bv6$DWfCe" role="37wK5m">
+                            <ref role="3cqZAo" node="6ndMKCeB0K9" resolve="resolvedExpression" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -3851,6 +3851,16 @@
                 </node>
               </node>
               <node concept="3clFbJ" id="6ndMKCeAV0q" role="3cqZAp">
+                <node concept="2OqwBi" id="1bv6$DVUS9" role="3clFbw">
+                  <node concept="37vLTw" id="6ndMKCeAYA7" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6ndMKCeAMtB" resolve="resolvedExpression" />
+                  </node>
+                  <node concept="1mIQ4w" id="1bv6$DVVmU" role="2OqNvi">
+                    <node concept="chp4Y" id="1bv6$DVVoj" role="cj9EA">
+                      <ref role="cht4Q" to="mj1l:1LDGRqyYkTP" resolve="IVariableDeclaration" />
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbS" id="6ndMKCeAV0t" role="3clFbx">
                   <node concept="3cpWs8" id="4zFXTqqkSY5" role="3cqZAp">
                     <node concept="3cpWsn" id="4zFXTqqkSY6" role="3cpWs9">
@@ -3904,16 +3914,6 @@
                           <ref role="3cqZAo" node="L2WnbQIAoi" resolve="values" />
                         </node>
                       </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="1bv6$DVUS9" role="3clFbw">
-                  <node concept="37vLTw" id="6ndMKCeAYA7" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6ndMKCeAMtB" resolve="resolvedExpression" />
-                  </node>
-                  <node concept="1mIQ4w" id="1bv6$DVVmU" role="2OqNvi">
-                    <node concept="chp4Y" id="1bv6$DVVoj" role="cj9EA">
-                      <ref role="cht4Q" to="mj1l:1LDGRqyYkTP" resolve="IVariableDeclaration" />
                     </node>
                   </node>
                 </node>
@@ -5366,11 +5366,6 @@
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="P$JXv" id="5G6GJ5xe$GR" role="lGtFl">
-        <node concept="TZ5HA" id="5G6GJ5xe$GS" role="TZ5H$">
-          <node concept="1dT_AC" id="5G6GJ5xe$GT" role="1dT_Ay">
-            <property role="1dT_AB" value="Generic map union between two multi-maps. " />
-          </node>
-        </node>
         <node concept="TUZQ0" id="5G6GJ5xe$GU" role="3nqlJM">
           <property role="TUZQ4" value="the first map" />
           <node concept="zr_55" id="5G6GJ5xe$GV" role="zr_5Q">
@@ -5391,6 +5386,11 @@
         </node>
         <node concept="x79VA" id="5G6GJ5xe$H0" role="3nqlJM">
           <property role="x79VB" value="the resulting intersection" />
+        </node>
+        <node concept="TZ5HA" id="5G6GJ5xe$GS" role="TZ5H$">
+          <node concept="1dT_AC" id="5G6GJ5xe$GT" role="1dT_Ay">
+            <property role="1dT_AB" value="Generic map union between two multi-maps. " />
+          </node>
         </node>
       </node>
       <node concept="3clFbS" id="5G6GJ5xe$H1" role="3clF47">

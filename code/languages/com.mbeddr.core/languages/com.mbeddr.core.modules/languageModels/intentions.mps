@@ -5,24 +5,24 @@
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="-1" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
+    <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="-1" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
     <use id="b92f861d-0184-446d-b88b-6dcf0e070241" name="com.mbeddr.mpsutil.intentions" version="-1" />
-    <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
+    <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" />
     <import index="qd6m" ref="r:c4c3f7d3-0acf-4671-a134-5fab66c4e637(com.mbeddr.core.modules.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" />
     <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
-    <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" />
-    <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
-    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -109,7 +109,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -4007,6 +4007,45 @@
     </node>
     <node concept="1SWQZ3" id="1fLWRClrart" role="lGtFl">
       <property role="1SWRpm" value="DATAFLOW" />
+    </node>
+  </node>
+  <node concept="2S6QgY" id="7e09zBH57lM">
+    <property role="3GE5qa" value="external" />
+    <property role="TrG5h" value="generateHeader" />
+    <ref role="2ZfgGC" to="x27k:5jyom5fOqJ1" resolve="ExternalModule" />
+    <node concept="2S6ZIM" id="7e09zBH57lN" role="2ZfVej">
+      <node concept="3clFbS" id="7e09zBH57lO" role="2VODD2">
+        <node concept="3clFbF" id="7e09zBH57YW" role="3cqZAp">
+          <node concept="Xl_RD" id="7e09zBH57YV" role="3clFbG">
+            <property role="Xl_RC" value="Toggle Generate Header" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="7e09zBH57lP" role="2ZfgGD">
+      <node concept="3clFbS" id="7e09zBH57lQ" role="2VODD2">
+        <node concept="3clFbF" id="7e09zBH5ajL" role="3cqZAp">
+          <node concept="37vLTI" id="7e09zBH5cxc" role="3clFbG">
+            <node concept="3fqX7Q" id="7e09zBH5cxx" role="37vLTx">
+              <node concept="2OqwBi" id="7e09zBH5cGV" role="3fr31v">
+                <node concept="2Sf5sV" id="7e09zBH5c$3" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7e09zBH5e2x" role="2OqNvi">
+                  <ref role="3TsBF5" to="x27k:7e09zBH54Yr" resolve="generateHeader" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7e09zBH5aqK" role="37vLTJ">
+              <node concept="2Sf5sV" id="7e09zBH5ajK" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7e09zBH5bIo" role="2OqNvi">
+                <ref role="3TsBF5" to="x27k:7e09zBH54Yr" resolve="generateHeader" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1SWQZ3" id="7e09zBH5ajI" role="lGtFl">
+      <property role="1SWRpm" value="MODULES" />
     </node>
   </node>
 </model>
