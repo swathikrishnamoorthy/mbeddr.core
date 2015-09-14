@@ -360,6 +360,8 @@
   <node concept="1TIwiD" id="7wlBVIeFwW7">
     <property role="TrG5h" value="ComplexLiteral" />
     <property role="3GE5qa" value="complex" />
+    <property role="34LRSv" value="complex literal" />
+    <property role="R4oN_" value="complex literal" />
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrDq" resolve="Literal" />
     <node concept="1TJgyj" id="7wlBVIeFwW8" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

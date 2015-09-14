@@ -69,7 +69,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -149,8 +149,6 @@
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
       <concept id="1236083041311" name="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" flags="ng" index="3ciAk0">
-        <property id="1236771579180" name="leftIsExact" index="3PlagN" />
-        <property id="1236771585835" name="rightIsExact" index="3PlbSO" />
         <child id="1236083115043" name="leftOperandType" index="3ciSkW" />
         <child id="1236083115200" name="rightOperandType" index="3ciSnv" />
       </concept>
@@ -1503,8 +1501,6 @@
     <property role="TrG5h" value="complexNumberOperations" />
     <property role="3GE5qa" value="complex" />
     <node concept="3ciAk0" id="7wlBVIeFydE" role="3he0YX">
-      <property role="3PlagN" value="true" />
-      <property role="3PlbSO" value="true" />
       <node concept="2ShNRf" id="7wlBVIeFydF" role="3ciSkW">
         <node concept="3zrR0B" id="7wlBVIeFydG" role="2ShVmc">
           <node concept="3Tqbb2" id="7wlBVIeFydH" role="3zrR0E">
