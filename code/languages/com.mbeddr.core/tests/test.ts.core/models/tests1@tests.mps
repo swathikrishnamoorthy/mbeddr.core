@@ -24,7 +24,7 @@
     <import index="fvu6" ref="r:8c46b4ec-76a7-4335-baef-93cb86f4b0fc(com.mbeddr.core.udt.typesystem)" />
     <import index="1ok9" ref="r:a604a9bb-58f8-4cf0-a289-ef69bb1576bb(com.mbeddr.core.__spreferences.PlatformTemplates)" />
     <import index="iqxh" ref="r:3ff8d811-87f2-49a7-b8a3-5cb1e610f6d2(com.mbeddr.core.buildconfig.typesystem)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -310,9 +310,6 @@
       </concept>
     </language>
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
-      <concept id="7787579437361950085" name="com.mbeddr.core.base.structure.SuppressWarnings" flags="ng" index="242QuT">
-        <child id="5213617122587433763" name="kinds" index="yVqo5" />
-      </concept>
       <concept id="7024921229556133803" name="com.mbeddr.core.base.structure.ICommentedCode" flags="ng" index="vHEs8">
         <child id="7024921229556133804" name="commentedCode" index="vHEsf" />
       </concept>
@@ -1527,7 +1524,7 @@
               </node>
             </node>
             <node concept="liA8E" id="1UQ4qqkvab9" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="Xl_RD" id="1UQ4qqkvaeA" role="37wK5m">
                 <property role="Xl_RC" value="5" />
               </node>
@@ -1675,7 +1672,7 @@
               <ref role="3cqZAo" node="7xjZ2Jfx4Qp" resolve="outerSize" />
             </node>
             <node concept="liA8E" id="7xjZ2Jfx24W" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="Xl_RD" id="7xjZ2Jfx24X" role="37wK5m">
                 <property role="Xl_RC" value="5" />
               </node>
@@ -1807,7 +1804,7 @@
               <ref role="3cqZAo" node="7xjZ2Jfx4QS" resolve="innerSize" />
             </node>
             <node concept="liA8E" id="7xjZ2Jfx3uB" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="Xl_RD" id="7xjZ2Jfx3uC" role="37wK5m">
                 <property role="Xl_RC" value="2" />
               </node>
@@ -5658,7 +5655,7 @@
           <node concept="7OXhh" id="knfPudfS2U" role="7EUXB" />
         </node>
         <node concept="2P5Msn" id="7NFOBxm4qR0" role="lGtFl">
-          <node concept="BCzjf" id="7NFOBxm4rmR" role="yVqo5" />
+          <node concept="BCzjf" id="6_CUGSFP8dV" role="2P5Msk" />
           <node concept="2P5Msh" id="79g_UwK0GUR" role="2P5Msk" />
         </node>
       </node>

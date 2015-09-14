@@ -10,8 +10,8 @@
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
-    <import index="51wr" ref="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="51wr" ref="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -331,6 +331,12 @@
   <node concept="PlHQZ" id="7ehmsbAuQbH">
     <property role="3GE5qa" value="configuration.cbmc" />
     <property role="TrG5h" value="ICbmcSettings" />
+    <node concept="1TJgyj" id="2OfxaHaxQ5e" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="externalFiles" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="vs0r:5lKnBeAtNw8" resolve="AbstractPicker" />
+    </node>
     <node concept="1TJgyi" id="7ehmsbAE0gk" role="1TKVEl">
       <property role="TrG5h" value="hasLocalCbmcSettings" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
@@ -374,6 +380,10 @@
     <node concept="1TJgyi" id="7ehmsbAxlnk" role="1TKVEl">
       <property role="TrG5h" value="timeoutForSingleAnalysis" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2OfxaHayosY" role="1TKVEl">
+      <property role="TrG5h" value="hasExternalFilesSettings" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyi" id="jmYEA6F408" role="1TKVEl">
       <property role="TrG5h" value="hasLocalArchitectureSettings" />

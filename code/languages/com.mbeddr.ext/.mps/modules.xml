@@ -3,6 +3,9 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="${mbeddr.github.core.home}/code/languages/com.mbeddr.build/solutions/com.mbeddr.ext.build/build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/_spreferences/CodeReviewPreferences/module.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/_spreferences/PlatformTemplates/module.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/_spreferences/TypeSizeConfiguration/module.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/com.mbeddr.concurrency/com.mbeddr.concurrency.devkit" folder="concurrency" />
       <modulePath path="$PROJECT_DIR$/devkits/com.mbeddr.ext.components/components.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/com.mbeddr.ext.math/com.mbeddr.math.devkit" folder="" />
@@ -24,12 +27,10 @@
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.ext.concurrency/com.mbeddr.ext.concurrency.mpl" folder="concurrency" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.ext.math/com.mbeddr.ext.math.mpl" folder="math" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.ext.messaging/com.mbeddr.ext.messaging.mpl" folder="serialization" />
-      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.ext.parallel.primitives/com.mbeddr.ext.parallel.primitives.mpl" folder="parallel.primitives" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.ext.serialization/com.mbeddr.ext.serialization.mpl" folder="serialization" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.ext.statemachines/pluginSolution/com.mbeddr.ext.statemachines.pluginSolution.msd" folder="statemachine" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.ext.statemachines/statemachines.mpl" folder="statemachine" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.ext.units/com.mbeddr.ext.units.mpl" folder="units" />
-      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.ext.parallel.primitives.runtime/com.mbeddr.ext.parallel.primitives.runtime.msd" folder="parallel.primitives" />
       <modulePath path="$PROJECT_DIR$/tests/test.ex.ext.comp_mocking/comp_mocking.msd" folder="tests.comp" />
       <modulePath path="$PROJECT_DIR$/tests/test.ex.ext.components.concurrency/test.ex.ext.components.concurrency.msd" folder="tests.comp" />
       <modulePath path="$PROJECT_DIR$/tests/test.ex.ext.components.sri/sri.msd" folder="tests.comp" />

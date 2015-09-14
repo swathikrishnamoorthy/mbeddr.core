@@ -11,7 +11,7 @@
   </languages>
   <imports>
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
-    <import index="dbrf" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
+    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="hbjw" ref="r:2ffefd76-4fe0-43c2-9fbd-203c67a47b34(com.mbeddr.mpsutil.process.structure)" />
     <import index="tp4h" ref="r:00000000-0000-4000-0000-011c8959036d(jetbrains.mps.baseLanguage.classifiers.behavior)" />
@@ -215,7 +215,7 @@
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
-      <concept id="1172420572800" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3THzug">
+      <concept id="1172420572800" name="jetbrains.mps.lang.smodel.structure.ConceptNodeType" flags="in" index="3THzug">
         <reference id="1180481110358" name="conceptDeclaraton" index="3qa414" />
       </concept>
       <concept id="1172424058054" name="jetbrains.mps.lang.smodel.structure.ConceptRefExpression" flags="nn" index="3TUQnm">
@@ -411,7 +411,7 @@
         <node concept="3cpWs6" id="5Kcl6zlI6fz" role="3cqZAp">
           <node concept="2c44tf" id="5Kcl6zlI6in" role="3cqZAk">
             <node concept="3uibUv" id="5Kcl6zlI6jl" role="2c44tc">
-              <ref role="3uigEE" to="dbrf:~JComponent" resolve="JComponent" />
+              <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
             </node>
           </node>
         </node>
@@ -1972,6 +1972,34 @@
         </node>
       </node>
       <node concept="10P_77" id="2rKkvx5ZdH$" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="4ZRMpUzeNsP" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="4ZRMpUzeNsT" role="1B3o_S" />
+      <node concept="3clFbS" id="4ZRMpUzeNsV" role="3clF47">
+        <node concept="3clFbF" id="4ZRMpUzeNV_" role="3cqZAp">
+          <node concept="2OqwBi" id="rF8Sb98yDE" role="3clFbG">
+            <node concept="2OqwBi" id="rF8Sb98yau" role="2Oq$k0">
+              <node concept="13iPFW" id="4ZRMpUzeO_b" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="rF8Sb98yBB" role="2OqNvi">
+                <node concept="1xMEDy" id="rF8Sb98yBD" role="1xVPHs">
+                  <node concept="chp4Y" id="rF8Sb98yCb" role="ri$Ld">
+                    <ref role="cht4Q" to="hbjw:rF8Sb8ZYzM" resolve="IStepContextProvider" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2qgKlT" id="rF8Sb98yMa" role="2OqNvi">
+              <ref role="37wK5l" node="rF8Sb98y7f" resolve="getOutputType" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="4ZRMpUzeNsW" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="6JByj2CoklN">
