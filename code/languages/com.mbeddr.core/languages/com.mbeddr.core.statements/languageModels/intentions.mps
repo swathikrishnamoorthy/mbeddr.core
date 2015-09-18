@@ -4,13 +4,13 @@
   <languages>
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="-1" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="-1" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />
     <use id="b92f861d-0184-446d-b88b-6dcf0e070241" name="com.mbeddr.mpsutil.intentions" version="-1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -183,7 +183,7 @@
         <child id="1182506816063" name="smodel" index="1iTxcG" />
       </concept>
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
-        <reference id="1171323947160" name="concept" index="2SmgA8" />
+        <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
       <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
@@ -1294,7 +1294,9 @@
               <node concept="I4A8Y" id="3auG_84cMrv" role="2OqNvi" />
             </node>
             <node concept="2SmgA7" id="3auG_84cMrw" role="2OqNvi">
-              <ref role="2SmgA8" to="c4fa:4vqaQpQDzGE" resolve="IWithNextPointer" />
+              <node concept="chp4Y" id="6RAVMJI3oyq" role="1dBWTz">
+                <ref role="cht4Q" to="c4fa:4vqaQpQDzGE" resolve="IWithNextPointer" />
+              </node>
             </node>
           </node>
         </node>
@@ -1432,7 +1434,9 @@
               <node concept="I4A8Y" id="4vqaQpQDMZK" role="2OqNvi" />
             </node>
             <node concept="2SmgA7" id="4vqaQpQDMZL" role="2OqNvi">
-              <ref role="2SmgA8" to="c4fa:4vqaQpQDF8G" resolve="IWithParentPointer" />
+              <node concept="chp4Y" id="6RAVMJI3oys" role="1dBWTz">
+                <ref role="cht4Q" to="c4fa:4vqaQpQDF8G" resolve="IWithParentPointer" />
+              </node>
             </node>
           </node>
         </node>
