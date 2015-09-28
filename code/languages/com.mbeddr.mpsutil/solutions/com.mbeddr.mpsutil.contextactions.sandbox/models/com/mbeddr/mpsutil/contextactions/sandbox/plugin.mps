@@ -88,9 +88,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
-        <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -154,10 +152,6 @@
       <concept id="5022141054903067959" name="com.mbeddr.mpsutil.contextactions.structure.ActionIdReference" flags="ng" index="gPhYp">
         <reference id="5022141054903067962" name="action" index="gPhYk" />
       </concept>
-      <concept id="5143518692707244814" name="com.mbeddr.mpsutil.contextactions.structure.IntentionsActionSource" flags="ng" index="2p1eBL">
-        <child id="5143518692707244818" name="folder" index="2p1eBH" />
-        <child id="5143518692707272511" name="intentionIds" index="2p1Rn0" />
-      </concept>
       <concept id="5143518692707292632" name="com.mbeddr.mpsutil.contextactions.structure.IntentionIdReference" flags="ng" index="2p1MsB">
         <reference id="5143518692707296615" name="intention" index="2p1Luo" />
       </concept>
@@ -176,9 +170,24 @@
       <concept id="6294660000051228497" name="com.mbeddr.mpsutil.contextactions.structure.SubstituteInfoSource" flags="ng" index="NGJ2U">
         <child id="573955333602854986" name="folder" index="37Ct4v" />
       </concept>
+      <concept id="8009069486209215732" name="com.mbeddr.mpsutil.contextactions.structure.IntentionsActionSource_Compact" flags="ng" index="3_N$aR">
+        <child id="8009069486209215751" name="intentionId" index="3_N$d4" />
+        <child id="8009069486209215749" name="label" index="3_N$d6" />
+        <child id="8009069486209215752" name="icon" index="3_N$db" />
+      </concept>
+      <concept id="8009069486207518454" name="com.mbeddr.mpsutil.contextactions.structure.NewRootSource_Compact" flags="ng" index="3_X2yP">
+        <child id="8009069486207518470" name="include" index="3_X2_5" />
+      </concept>
+      <concept id="8009069486207462978" name="com.mbeddr.mpsutil.contextactions.structure.ActionSourceWithCondition" flags="ng" index="3_Xg01">
+        <child id="8009069486207463378" name="sources" index="3_Xg6h" />
+        <child id="8009069486207463329" name="condition" index="3_Xg7y" />
+      </concept>
+      <concept id="8009069486207417460" name="com.mbeddr.mpsutil.contextactions.structure.ActionSourceWithFolder" flags="ng" index="3_Xt8R">
+        <child id="8009069486207417477" name="folder" index="3_Xtb6" />
+        <child id="8009069486207417616" name="sources" index="3_Xtdj" />
+      </concept>
       <concept id="5090237812300945600" name="com.mbeddr.mpsutil.contextactions.structure.IdeaActionsSource" flags="ng" index="1QOr2i">
         <child id="5022141054902920964" name="actionIds" index="gPHQE" />
-        <child id="5090237812300945604" name="folder" index="1QOr2m" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -214,9 +223,6 @@
           <property role="2V$B1Q" value="com.mbeddr.core.modules" />
         </node>
       </node>
-      <node concept="gM8T0" id="4mMeETlwJEr" role="gMbp_">
-        <ref role="gMfwh" to="tpee:g7HP654" resolve="Interface" />
-      </node>
       <node concept="2OqwBi" id="4mMeETlwLSU" role="gKNLk">
         <node concept="2OqwBi" id="4mMeETlwLfB" role="2Oq$k0">
           <node concept="2OqwBi" id="4mMeETlwL7e" role="2Oq$k0">
@@ -235,6 +241,49 @@
             <property role="Xl_RC" value="plugin" />
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="3_Xt8R" id="6W_V$eaOezH" role="NGJ24">
+      <node concept="3_Xg01" id="6W_V$eaOklJ" role="3_Xtdj">
+        <node concept="3_X2yP" id="6W_V$eaWTCC" role="3_Xg6h">
+          <node concept="gM8T0" id="6W_V$eaWTDX" role="3_X2_5">
+            <ref role="gMfwh" to="tpee:g7HP654" resolve="Interface" />
+          </node>
+        </node>
+        <node concept="3_N$aR" id="6W_V$eaV6YK" role="3_Xg6h">
+          <node concept="2p1MsB" id="6W_V$eaV70c" role="3_N$d4">
+            <ref role="2p1Luo" to="tvob:4txsJZuq17J" resolve="addAToName" />
+          </node>
+          <node concept="Xl_RD" id="6W_V$eaV70h" role="3_N$d6">
+            <property role="Xl_RC" value="Add 'A' to name" />
+          </node>
+          <node concept="10M0yZ" id="6W_V$eaV7kd" role="3_N$db">
+            <ref role="1PxDUh" to="9w4s:~Icons" resolve="Icons" />
+            <ref role="3cqZAo" to="9w4s:~PlatformIcons.ADD_ICON" resolve="ADD_ICON" />
+          </node>
+        </node>
+        <node concept="2OqwBi" id="6W_V$eaOqQC" role="3_Xg7y">
+          <node concept="2OqwBi" id="6W_V$eaOqQD" role="2Oq$k0">
+            <node concept="2OqwBi" id="6W_V$eaOqQE" role="2Oq$k0">
+              <node concept="gKNx_" id="6W_V$eaOqQF" role="2Oq$k0" />
+              <node concept="liA8E" id="6W_V$eaOqQG" role="2OqNvi">
+                <ref role="37wK5l" to="1ne1:5tr7YH$UxYk" resolve="getModel" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6W_V$eaOqQH" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SModel.getModelName():java.lang.String" resolve="getModelName" />
+            </node>
+          </node>
+          <node concept="liA8E" id="6W_V$eaOqQI" role="2OqNvi">
+            <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+            <node concept="Xl_RD" id="6W_V$eaOqQJ" role="37wK5m">
+              <property role="Xl_RC" value="plugin" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="Xl_RD" id="6W_V$eaOeQj" role="3_Xtb6">
+        <property role="Xl_RC" value="Folder 1" />
       </node>
     </node>
     <node concept="_pgUC" id="4q$a58Kskwk" role="NGJ24">
@@ -264,20 +313,19 @@
         </node>
       </node>
     </node>
-    <node concept="1QOr2i" id="4q$a58KvkpT" role="NGJ24">
-      <node concept="Xl_RD" id="4q$a58Kvkq9" role="1QOr2m">
+    <node concept="3_Xt8R" id="6W_V$ebdCMc" role="NGJ24">
+      <node concept="3_Xt8R" id="6W_V$ebef3n" role="3_Xtdj">
+        <node concept="Xl_RD" id="6W_V$ebefds" role="3_Xtb6">
+          <property role="Xl_RC" value="A" />
+        </node>
+        <node concept="1QOr2i" id="4q$a58KvkpT" role="3_Xtdj">
+          <node concept="gPhYp" id="4mMeETlpNLr" role="gPHQE">
+            <ref role="gPhYk" node="4mMeETlpNKH" resolve="action1" />
+          </node>
+        </node>
+      </node>
+      <node concept="Xl_RD" id="6W_V$ebdD39" role="3_Xtb6">
         <property role="Xl_RC" value="Actions" />
-      </node>
-      <node concept="gPhYp" id="4mMeETlpNLr" role="gPHQE">
-        <ref role="gPhYk" node="4mMeETlpNKH" resolve="action1" />
-      </node>
-    </node>
-    <node concept="2p1eBL" id="4txsJZup_g5" role="NGJ24">
-      <node concept="Xl_RD" id="4txsJZup_n7" role="2p1eBH">
-        <property role="Xl_RC" value="Intentions" />
-      </node>
-      <node concept="2p1MsB" id="657q32pChkk" role="2p1Rn0">
-        <ref role="2p1Luo" to="tvob:4txsJZuq17J" resolve="addAToName" />
       </node>
     </node>
     <node concept="geMak" id="6c435dJIjYZ" role="NGJ24">
@@ -366,9 +414,7 @@
         <property role="Xl_RC" value="Abc" />
       </node>
     </node>
-    <node concept="3clFbT" id="7vUP_qcXrzF" role="3V_frF">
-      <property role="3clFbU" value="true" />
-    </node>
+    <node concept="3clFbT" id="7vUP_qcXrzF" role="3V_frF" />
   </node>
   <node concept="sE7Ow" id="4mMeETlpNKH">
     <property role="TrG5h" value="action1" />
@@ -434,7 +480,7 @@
   </node>
   <node concept="2DaZZR" id="4mMeETlr7Di" />
   <node concept="2p2md1" id="4txsJZuq7nY">
-    <property role="TrG5h" value="SanboxConcept" />
+    <property role="TrG5h" value="RootConceptA" />
   </node>
 </model>
 
