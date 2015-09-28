@@ -13995,6 +13995,7 @@
   <node concept="3TKv5i" id="4prsFNe9fdq">
     <property role="3GE5qa" value="dataflow.pointer" />
     <property role="TrG5h" value="FlowSensitivePointerAnalysis" />
+    <property role="3TKv5n" value="true" />
     <node concept="3zyOaA" id="4prsFNebcQs" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="pointsTo_before" />
@@ -14495,7 +14496,7 @@
     </node>
     <node concept="1XdyHe" id="4prsFNeaAvj" role="1dubk0" />
     <node concept="3zyOaA" id="4prsFNea_ks" role="1dubk0">
-      <property role="1aKoCf" value="true" />
+      <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="assign_plain_addr" />
       <node concept="1dv5OH" id="4prsFNea__o" role="1dv5OJ">
         <property role="TrG5h" value="statement" />
