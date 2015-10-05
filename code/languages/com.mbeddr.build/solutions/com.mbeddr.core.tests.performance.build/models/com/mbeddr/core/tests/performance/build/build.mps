@@ -313,30 +313,6 @@
         </node>
       </node>
     </node>
-    <node concept="398rNT" id="54d2E3NCkaK" role="1l3spd">
-      <property role="TrG5h" value="mps.incquery" />
-      <node concept="398BVA" id="54d2E3NClXb" role="398pKh">
-        <ref role="398BVh" node="7eF9rfAuuuk" resolve="mbeddr.github.core.home" />
-        <node concept="2Ry0Ak" id="54d2E3NCnpK" role="iGT6I">
-          <property role="2Ry0Am" value="code" />
-          <node concept="2Ry0Ak" id="54d2E3NCr2v" role="2Ry0An">
-            <property role="2Ry0Am" value="plugins" />
-            <node concept="2Ry0Ak" id="54d2E3NCsM4" role="2Ry0An">
-              <property role="2Ry0Am" value="mps-incquery" />
-              <node concept="2Ry0Ak" id="25FUf_GsJ8c" role="2Ry0An">
-                <property role="2Ry0Am" value="build" />
-                <node concept="2Ry0Ak" id="25FUf_GsKRL" role="2Ry0An">
-                  <property role="2Ry0Am" value="artifacts" />
-                  <node concept="2Ry0Ak" id="25FUf_GsMBm" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.eclipse.incquery.mps" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="398rNT" id="4AnCPexDnpL" role="1l3spd">
       <property role="TrG5h" value="platform.artifacts" />
       <node concept="398BVA" id="4AnCPexAm7Q" role="398pKh">
@@ -383,12 +359,6 @@
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="mps-sl-all" />
       <node concept="398BVA" id="4hvHh3QXNfN" role="2JcizS">
         <ref role="398BVh" node="2Xjt3l5c8Xb" resolve="sl.all" />
-      </node>
-    </node>
-    <node concept="2sgV4H" id="54d2E3NCea5" role="1l3spa">
-      <ref role="1l3spb" to="zkto:2Zh2tjQSyQ0" resolve="org.eclipse.incquery.mps" />
-      <node concept="398BVA" id="54d2E3NC$BX" role="2JcizS">
-        <ref role="398BVh" node="54d2E3NCkaK" resolve="mps.incquery" />
       </node>
     </node>
     <node concept="1l3spV" id="7eF9rfAuuva" role="1l3spN">

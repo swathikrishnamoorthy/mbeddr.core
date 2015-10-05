@@ -10110,7 +10110,7 @@
   </node>
   <node concept="312cEu" id="7jJCf_GVBDD">
     <property role="3GE5qa" value="dataflow.pointer" />
-    <property role="TrG5h" value="FlowSensitivePointerAnalysisHelper" />
+    <property role="TrG5h" value="CFGHelper" />
     <node concept="2tJIrI" id="7jJCf_GVBDJ" role="jymVt" />
     <node concept="2YIFZL" id="7jJCf_GVBEj" role="jymVt">
       <property role="TrG5h" value="isCompositeStatement" />
@@ -10316,14 +10316,14 @@
           <node concept="1Wc70l" id="4DUBAtDD0sf" role="2kdl4i">
             <node concept="2YIFZM" id="4DUBAtDD0tL" role="3uHU7w">
               <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
-              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
               <node concept="1sjAk5" id="4NbZ2zxK6DF" role="37wK5m">
                 <ref role="1sjAk2" node="4DUBAtDCZ_W" resolve="successor" />
               </node>
             </node>
             <node concept="2YIFZM" id="4DUBAtDD0ix" role="3uHU7B">
               <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
-              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
               <node concept="1sjAk5" id="4NbZ2zxK6_I" role="37wK5m">
                 <ref role="1sjAk2" node="4DUBAtDCZBm" resolve="predecessor" />
               </node>
@@ -10457,7 +10457,7 @@
         <node concept="1XdGlb" id="4DUBAtDCGZd" role="1dgzf0">
           <node concept="2YIFZM" id="4DUBAtDCH1M" role="2kdl4i">
             <ref role="37wK5l" node="7jJCf_GVBEj" resolve="isCompositeStatement" />
-            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
             <node concept="1sjAk5" id="4NbZ2zxKbxw" role="37wK5m">
               <ref role="1sjAk2" node="4DUBAtDCGWz" resolve="target" />
             </node>
@@ -10539,7 +10539,7 @@
           <node concept="3fqX7Q" id="4DUBAtDDtlq" role="2kdl4i">
             <node concept="2YIFZM" id="4DUBAtDDtpM" role="3fr31v">
               <ref role="37wK5l" node="7jJCf_GVBEj" resolve="isCompositeStatement" />
-              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
               <node concept="1sjAk5" id="4NbZ2zxKbA4" role="37wK5m">
                 <ref role="1sjAk2" node="4DUBAtDDsej" resolve="grandParent" />
               </node>
@@ -10866,7 +10866,7 @@
           <node concept="3fqX7Q" id="4DUBAtDCmJ2" role="2kdl4i">
             <node concept="2YIFZM" id="4DUBAtDCmJX" role="3fr31v">
               <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
-              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
               <node concept="1sjAk5" id="4NbZ2zxKbEI" role="37wK5m">
                 <ref role="1sjAk2" node="4DUBAtDC9It" resolve="predecessor" />
               </node>
@@ -11008,7 +11008,7 @@
         <node concept="1XdGlb" id="4DUBAtDBS$b" role="1dgzf0">
           <node concept="2YIFZM" id="4DUBAtDBSLd" role="2kdl4i">
             <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
-            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
             <node concept="1sjAk5" id="4NbZ2zxKbIt" role="37wK5m">
               <ref role="1sjAk2" node="4DUBAtDBSpD" resolve="target" />
             </node>
@@ -11061,7 +11061,7 @@
           <node concept="3fqX7Q" id="4DUBAtDB3Yh" role="2kdl4i">
             <node concept="2YIFZM" id="4DUBAtDB40Z" role="3fr31v">
               <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
-              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
               <node concept="1sjAk5" id="4NbZ2zxKbM6" role="37wK5m">
                 <ref role="1sjAk2" node="4DUBAtDB3zq" resolve="target" />
               </node>
@@ -11146,7 +11146,7 @@
         <node concept="1XdGlb" id="4DUBAtDB9xZ" role="1dgzf0">
           <node concept="3fqX7Q" id="4DUBAtDB9y0" role="2kdl4i">
             <node concept="2YIFZM" id="4DUBAtDB9y1" role="3fr31v">
-              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
               <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
               <node concept="1sjAk5" id="4NbZ2zxKbPP" role="37wK5m">
                 <ref role="1sjAk2" node="4DUBAtDB9xV" resolve="target" />
@@ -11227,7 +11227,7 @@
         <node concept="1XdGlb" id="4DUBAtDBbe7" role="1dgzf0">
           <node concept="3fqX7Q" id="4DUBAtDBbe8" role="2kdl4i">
             <node concept="2YIFZM" id="4DUBAtDBbe9" role="3fr31v">
-              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
               <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
               <node concept="1sjAk5" id="4NbZ2zxKbT$" role="37wK5m">
                 <ref role="1sjAk2" node="4DUBAtDBbe3" resolve="target" />
@@ -11295,7 +11295,7 @@
           <node concept="3fqX7Q" id="4DUBAtDBfXv" role="2kdl4i">
             <node concept="2YIFZM" id="4DUBAtDBfXw" role="3fr31v">
               <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
-              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
               <node concept="1sjAk5" id="4NbZ2zxKbXj" role="37wK5m">
                 <ref role="1sjAk2" node="4DUBAtDBfXq" resolve="target" />
               </node>
@@ -11362,7 +11362,7 @@
           <node concept="3fqX7Q" id="4DUBAtDBiIa" role="2kdl4i">
             <node concept="2YIFZM" id="4DUBAtDBiIb" role="3fr31v">
               <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
-              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
               <node concept="1sjAk5" id="4NbZ2zxKc12" role="37wK5m">
                 <ref role="1sjAk2" node="4DUBAtDBiI5" resolve="target" />
               </node>
@@ -11405,7 +11405,7 @@
           <node concept="3fqX7Q" id="4DUBAtDBksp" role="2kdl4i">
             <node concept="2YIFZM" id="4DUBAtDBksq" role="3fr31v">
               <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
-              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
               <node concept="1sjAk5" id="4NbZ2zxKc4L" role="37wK5m">
                 <ref role="1sjAk2" node="4DUBAtDBksk" resolve="target" />
               </node>
@@ -11458,7 +11458,7 @@
         <node concept="1XdGlb" id="4DUBAtDAV$X" role="1dgzf0">
           <node concept="2YIFZM" id="4DUBAtDAVDI" role="2kdl4i">
             <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
-            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
             <node concept="1sjAk5" id="4NbZ2zxKc8w" role="37wK5m">
               <ref role="1sjAk2" node="4DUBAtDAVnc" resolve="statemet" />
             </node>
@@ -11503,7 +11503,7 @@
         </node>
         <node concept="1XdGlb" id="4DUBAtDAVOD" role="1dgzf0">
           <node concept="2YIFZM" id="4DUBAtDAVOE" role="2kdl4i">
-            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
             <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
             <node concept="1sjAk5" id="4NbZ2zxKcc9" role="37wK5m">
               <ref role="1sjAk2" node="4DUBAtDAVO_" resolve="statemet" />
@@ -11544,7 +11544,7 @@
         </node>
         <node concept="1XdGlb" id="4DUBAtDAVV$" role="1dgzf0">
           <node concept="2YIFZM" id="4DUBAtDAVV_" role="2kdl4i">
-            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
             <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
             <node concept="1sjAk5" id="4NbZ2zxKcfM" role="37wK5m">
               <ref role="1sjAk2" node="4DUBAtDAVVw" resolve="statemet" />
@@ -11585,7 +11585,7 @@
         </node>
         <node concept="1XdGlb" id="4DUBAtDAW5t" role="1dgzf0">
           <node concept="2YIFZM" id="4DUBAtDAW5u" role="2kdl4i">
-            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
             <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
             <node concept="1sjAk5" id="4NbZ2zxKcjr" role="37wK5m">
               <ref role="1sjAk2" node="4DUBAtDAW5p" resolve="statemet" />
@@ -11626,7 +11626,7 @@
         </node>
         <node concept="1XdGlb" id="4DUBAtDAWhh" role="1dgzf0">
           <node concept="2YIFZM" id="4DUBAtDAWhi" role="2kdl4i">
-            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
             <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
             <node concept="1sjAk5" id="4NbZ2zxKcn4" role="37wK5m">
               <ref role="1sjAk2" node="4DUBAtDAWhd" resolve="statemet" />
@@ -11668,7 +11668,7 @@
         <node concept="1XdGlb" id="4DUBAtDB0wg" role="1dgzf0">
           <node concept="2YIFZM" id="4DUBAtDB0wh" role="2kdl4i">
             <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
-            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
             <node concept="1sjAk5" id="4NbZ2zxKcqH" role="37wK5m">
               <ref role="1sjAk2" node="4DUBAtDB0wc" resolve="statemet" />
             </node>
@@ -12025,7 +12025,7 @@
         <node concept="1XdGlb" id="7VjQZ2rI_D9" role="1dgzf0">
           <node concept="2YIFZM" id="7VjQZ2rI_Ew" role="2kdl4i">
             <ref role="37wK5l" node="3H3uGMVb0bd" resolve="isLoopStatement" />
-            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+            <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
             <node concept="1sjAk5" id="4NbZ2zxKdt1" role="37wK5m">
               <ref role="1sjAk2" node="7VjQZ2rI_xC" resolve="loop" />
             </node>
@@ -12069,7 +12069,7 @@
           <node concept="3fqX7Q" id="7VjQZ2rIA5L" role="2kdl4i">
             <node concept="2YIFZM" id="7VjQZ2rIA5N" role="3fr31v">
               <ref role="37wK5l" node="3H3uGMVb0bd" resolve="isLoopStatement" />
-              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+              <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
               <node concept="1sjAk5" id="4NbZ2zxKdxP" role="37wK5m">
                 <ref role="1sjAk2" node="7VjQZ2rI_VY" resolve="intermediate" />
               </node>
@@ -12675,7 +12675,7 @@
                       </node>
                     </node>
                     <node concept="2YIFZM" id="kHpA8Kv$5r" role="3uHU7w">
-                      <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+                      <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
                       <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
                       <node concept="37vLTw" id="kHpA8Kv$5s" role="37wK5m">
                         <ref role="3cqZAo" node="kHpA8Kv$51" resolve="statement" />
@@ -13001,7 +13001,7 @@
                     </node>
                     <node concept="2YIFZM" id="4zb$$PHWtBm" role="3uHU7w">
                       <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
-                      <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+                      <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
                       <node concept="37vLTw" id="4zb$$PHWtBn" role="37wK5m">
                         <ref role="3cqZAo" node="4zb$$PHWtAY" resolve="statement" />
                       </node>
@@ -13501,7 +13501,7 @@
                 </node>
                 <node concept="2YIFZM" id="39Z5Fu8QNZ9" role="3uHU7w">
                   <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
-                  <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="FlowSensitivePointerAnalysisHelper" />
+                  <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
                   <node concept="37vLTw" id="39Z5Fu8QNZV" role="37wK5m">
                     <ref role="3cqZAo" node="5O4bqrThPve" resolve="statement" />
                   </node>

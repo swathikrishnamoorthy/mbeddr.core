@@ -291,30 +291,6 @@
         </node>
       </node>
     </node>
-    <node concept="398rNT" id="54d2E3NCkaK" role="1l3spd">
-      <property role="TrG5h" value="mps.incquery" />
-      <node concept="398BVA" id="54d2E3NClXb" role="398pKh">
-        <ref role="398BVh" node="3bBV0dtdsWF" resolve="mbeddr.github.core.home" />
-        <node concept="2Ry0Ak" id="54d2E3NCnpK" role="iGT6I">
-          <property role="2Ry0Am" value="code" />
-          <node concept="2Ry0Ak" id="54d2E3NCr2v" role="2Ry0An">
-            <property role="2Ry0Am" value="plugins" />
-            <node concept="2Ry0Ak" id="54d2E3NCsM4" role="2Ry0An">
-              <property role="2Ry0Am" value="mps-incquery" />
-              <node concept="2Ry0Ak" id="25FUf_GsJ8c" role="2Ry0An">
-                <property role="2Ry0Am" value="build" />
-                <node concept="2Ry0Ak" id="25FUf_GsKRL" role="2Ry0An">
-                  <property role="2Ry0Am" value="artifacts" />
-                  <node concept="2Ry0Ak" id="25FUf_GsMBm" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.eclipse.incquery.mps" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="398rNT" id="6RmoJr9qF5L" role="1l3spd">
       <property role="TrG5h" value="platform.artifacts" />
       <node concept="398BVA" id="6RmoJr9qHDK" role="398pKh">
@@ -360,12 +336,6 @@
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="mps-sl-all" />
       <node concept="398BVA" id="4hvHh3QXHAL" role="2JcizS">
         <ref role="398BVh" node="2Xjt3l5c8Xb" resolve="sl.all" />
-      </node>
-    </node>
-    <node concept="2sgV4H" id="54d2E3NCea5" role="1l3spa">
-      <ref role="1l3spb" to="zkto:2Zh2tjQSyQ0" resolve="org.eclipse.incquery.mps" />
-      <node concept="398BVA" id="54d2E3NC$BX" role="2JcizS">
-        <ref role="398BVh" node="54d2E3NCkaK" resolve="mps.incquery" />
       </node>
     </node>
     <node concept="1l3spV" id="3bBV0dtdsXm" role="1l3spN">
@@ -609,30 +579,6 @@
         </node>
       </node>
     </node>
-    <node concept="398rNT" id="3Xbaf$sKWWj" role="1l3spd">
-      <property role="TrG5h" value="mps.incquery" />
-      <node concept="398BVA" id="3Xbaf$sKWWk" role="398pKh">
-        <ref role="398BVh" node="7Vt15sLWjM6" resolve="mbeddr.github.core.home" />
-        <node concept="2Ry0Ak" id="3Xbaf$sKWWl" role="iGT6I">
-          <property role="2Ry0Am" value="code" />
-          <node concept="2Ry0Ak" id="3Xbaf$sKWWm" role="2Ry0An">
-            <property role="2Ry0Am" value="plugins" />
-            <node concept="2Ry0Ak" id="3Xbaf$sKWWn" role="2Ry0An">
-              <property role="2Ry0Am" value="mps-incquery" />
-              <node concept="2Ry0Ak" id="3Xbaf$sKWWo" role="2Ry0An">
-                <property role="2Ry0Am" value="build" />
-                <node concept="2Ry0Ak" id="3Xbaf$sKWWp" role="2Ry0An">
-                  <property role="2Ry0Am" value="artifacts" />
-                  <node concept="2Ry0Ak" id="3Xbaf$sKWWq" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.eclipse.incquery.mps" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="398rNT" id="6RmoJr9tbDV" role="1l3spd">
       <property role="TrG5h" value="platform.artifacts" />
       <node concept="398BVA" id="6RmoJr9tbDW" role="398pKh">
@@ -679,12 +625,6 @@
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="mps-sl-all" />
       <node concept="398BVA" id="4hvHh3QXI1L" role="2JcizS">
         <ref role="398BVh" node="4hvHh3QXHMq" resolve="sl.all" />
-      </node>
-    </node>
-    <node concept="2sgV4H" id="3Xbaf$sKX49" role="1l3spa">
-      <ref role="1l3spb" to="zkto:2Zh2tjQSyQ0" resolve="org.eclipse.incquery.mps" />
-      <node concept="398BVA" id="3Xbaf$sKX4a" role="2JcizS">
-        <ref role="398BVh" node="3Xbaf$sKWWj" resolve="mps.incquery" />
       </node>
     </node>
     <node concept="1l3spV" id="7Vt15sLWjMR" role="1l3spN">
