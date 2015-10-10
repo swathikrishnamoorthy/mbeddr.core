@@ -8,6 +8,7 @@
     <use id="9a64cf6b-cacc-4231-bf69-dddc8eb0f265" name="com.mbeddr.mpsutil.suppresswarning.gen" version="-1" />
     <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
+    <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.eclipse.incquery.mps.sq" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -199,7 +200,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -10533,7 +10534,7 @@
             <node concept="2YIFZM" id="4DUBAtDD0ix" role="3uHU7B">
               <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
               <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
-              <node concept="1sjAk5" id="4NbZ2zxK6_I" role="37wK5m">
+              <node concept="1sjAk5" id="3gmcGjHz3iO" role="37wK5m">
                 <ref role="1sjAk2" node="4DUBAtDCZBm" resolve="predecessor" />
               </node>
             </node>
@@ -11076,7 +11077,7 @@
             <node concept="2YIFZM" id="4DUBAtDCmJX" role="3fr31v">
               <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
               <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
-              <node concept="1sjAk5" id="4NbZ2zxKbEI" role="37wK5m">
+              <node concept="1sjAk5" id="3gmcGjHz3ij" role="37wK5m">
                 <ref role="1sjAk2" node="4DUBAtDC9It" resolve="predecessor" />
               </node>
             </node>
