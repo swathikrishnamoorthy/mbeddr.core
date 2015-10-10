@@ -52,8 +52,8 @@
     <import index="hbme" ref="1338ba73-5059-479b-a929-de86597a62b8/java:edu.uci.ics.jung.visualization.util(com.mbeddr.mpsutil.jung.pluginSolution/)" />
     <import index="ln2k" ref="r:2b6ea9fa-3d7f-4d82-86fe-4fd697fec5a2(com.mbeddr.mpsutil.jung.behavior)" />
     <import index="iuxj" ref="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" />
-    <import index="p15z" ref="63e0e566-5131-447e-90e3-12ea330e1a00/r:ac36bf27-36e9-407d-ba8e-953c68088e41(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.behavior)" />
     <import index="wcxw" ref="r:b9f36c08-4a75-4513-9277-a390d3426e0f(jetbrains.mps.editor.runtime.impl.cellActions)" />
+    <import index="p15z" ref="63e0e566-5131-447e-90e3-12ea330e1a00/r:ac36bf27-36e9-407d-ba8e-953c68088e41(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.behavior)" />
     <import index="hba4" ref="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
@@ -632,6 +632,9 @@
       <node concept="3cqZAl" id="57qKfjsimA1" role="3clF45" />
       <node concept="3clFbS" id="57qKfjsi03A" role="3clF47" />
     </node>
+    <node concept="13hLZK" id="65XyadYNwtM" role="13h7CW">
+      <node concept="3clFbS" id="65XyadYNwtN" role="2VODD2" />
+    </node>
     <node concept="13i0hz" id="57qKfjsitGr" role="13h7CS">
       <property role="TrG5h" value="getDeprecationMessage" />
       <property role="2Ki8OM" value="false" />
@@ -724,9 +727,6 @@
         </node>
       </node>
       <node concept="3cqZAl" id="57qKfjsitH4" role="3clF45" />
-    </node>
-    <node concept="13hLZK" id="65XyadYNwtM" role="13h7CW">
-      <node concept="3clFbS" id="65XyadYNwtN" role="2VODD2" />
     </node>
   </node>
   <node concept="13h7C7" id="3m8H$lmFM61">
@@ -3065,19 +3065,6 @@
       <node concept="37vLTG" id="7hIyKqbGtku" role="3clF46">
         <property role="TrG5h" value="id" />
         <node concept="17QB3L" id="7hIyKqbGtkv" role="1tU5fm" />
-      </node>
-    </node>
-    <node concept="13i0hz" id="6iaOvgbxrZO" role="13h7CS">
-      <property role="TrG5h" value="getXMLRepresentation" />
-      <property role="13i0it" value="true" />
-      <node concept="3Tm1VV" id="6iaOvgbxrZP" role="1B3o_S" />
-      <node concept="3clFbS" id="6iaOvgbxrZQ" role="3clF47">
-        <node concept="3clFbF" id="6iaOvgbxs74" role="3cqZAp">
-          <node concept="10Nm6u" id="6iaOvgbxs73" role="3clFbG" />
-        </node>
-      </node>
-      <node concept="3Tqbb2" id="6iaOvgbxs6L" role="3clF45">
-        <ref role="ehGHo" to="iuxj:5M4a$b5iL2M" resolve="XmlElement" />
       </node>
     </node>
     <node concept="13hLZK" id="K292flwHwc" role="13h7CW">
@@ -9217,7 +9204,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="true" />
       <property role="TrG5h" value="doNotShowDebugger" />
-      <property role="IEkAT" value="true" />
+      <property role="IEkAT" value="false" />
       <node concept="P$JXv" id="6KLCBzCT0$m" role="lGtFl">
         <node concept="TZ5HI" id="6KLCBzCT0$n" role="3nqlJM">
           <node concept="TZ5HA" id="6KLCBzCT0$o" role="3HnX3l">
