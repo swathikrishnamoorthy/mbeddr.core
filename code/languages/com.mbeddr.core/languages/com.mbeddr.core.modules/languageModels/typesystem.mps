@@ -3,12 +3,13 @@
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <use id="97a52717-898f-4598-8150-573d9fd03868" name="jetbrains.mps.lang.dataFlow.analyzers" version="0" />
     <use id="9a64cf6b-cacc-4231-bf69-dddc8eb0f265" name="com.mbeddr.mpsutil.suppresswarning.gen" version="0" />
     <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.eclipse.incquery.mps.sq" version="0" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -14183,7 +14184,7 @@
           </node>
         </node>
         <node concept="30Nfyg" id="4prsFNebdqA" role="1dgzf0">
-          <property role="30RX_7" value="false" />
+          <property role="30RX_7" value="true" />
           <node concept="2k1GkI" id="4prsFNebdsk" role="30Nf_D">
             <node concept="2k1_uq" id="4prsFNebdsm" role="2nKVj6">
               <ref role="2nKBpL" node="4prsFNebaed" resolve="pointsTo_after" />
@@ -14318,7 +14319,7 @@
           <property role="1dubkF" value="u = &amp;v : u -&gt; v" />
         </node>
         <node concept="30Nfyg" id="4prsFNebpac" role="1dgzf0">
-          <property role="30RX_7" value="false" />
+          <property role="30RX_7" value="true" />
           <node concept="2k1GkI" id="4prsFNebph6" role="30Nf_D">
             <node concept="2k1_uq" id="4prsFNebph8" role="2nKVj6">
               <ref role="2nKBpL" node="4prsFNea_ks" resolve="assign_plain_addr" />
