@@ -15163,5 +15163,10 @@
       </node>
     </node>
   </node>
+  <node concept="3TKv5i" id="2tV8qO6OBNA">
+    <property role="3GE5qa" value="dataflow.pointer" />
+    <property role="TrG5h" value="ControlFlowGraphSimplified" />
+    <node concept="1XdyHe" id="2tV8qO6OBNB" role="1dubk0" />
+  </node>
 </model>
 
