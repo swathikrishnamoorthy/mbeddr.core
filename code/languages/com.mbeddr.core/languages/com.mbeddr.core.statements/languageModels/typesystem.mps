@@ -83,7 +83,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
@@ -2191,7 +2191,7 @@
   </node>
   <node concept="18kY7G" id="5sAkJdu_Y2N">
     <property role="TrG5h" value="IWithNextPointer_WB" />
-    <property role="3GE5qa" value="wellbehaving" />
+    <property role="3GE5qa" value="cfg" />
     <node concept="3clFbS" id="5sAkJdu_Y2O" role="18ibNy">
       <node concept="3cpWs8" id="5fIUEY6x8iP" role="3cqZAp">
         <node concept="3cpWsn" id="5fIUEY6x8iQ" role="3cpWs9">
@@ -2464,7 +2464,7 @@
   </node>
   <node concept="18kY7G" id="4vqaQpQDGHL">
     <property role="TrG5h" value="IWithParentPointer_WB" />
-    <property role="3GE5qa" value="wellbehaving" />
+    <property role="3GE5qa" value="cfg" />
     <node concept="3clFbS" id="4vqaQpQDGHM" role="18ibNy">
       <node concept="3cpWs8" id="5fIUEY6xcMU" role="3cqZAp">
         <node concept="3cpWsn" id="5fIUEY6xcMV" role="3cpWs9">
