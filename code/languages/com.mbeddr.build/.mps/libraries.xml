@@ -11,6 +11,14 @@
             </Library>
           </value>
         </entry>
+        <entry key="mps.inquery">
+          <value>
+            <Library>
+              <option name="name" value="mps.inquery" />
+              <option name="path" value="${mbeddr.github.core.home}/code/plugins/mps-incquery" />
+            </Library>
+          </value>
+        </entry>
         <entry key="sl-all">
           <value>
             <Library>
