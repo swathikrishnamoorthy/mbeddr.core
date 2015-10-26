@@ -319,6 +319,9 @@
       <node concept="m$_yC" id="3AVJcIMnAY0" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5CFKsRWV4Nl" resolve="jetbrains.mps.execution.languages" />
       </node>
+      <node concept="m$_yC" id="3ccORk5htI4" role="m$_yJ">
+        <ref role="m$_y1" to="zkto:2Zh2tjQSyQv" resolve="org.eclipse.incquery.mps" />
+      </node>
       <node concept="3_J27D" id="7uZw0yZ43JE" role="m_cZH">
         <node concept="3Mxwew" id="7uZw0yZ43JF" role="3MwsjC">
           <property role="3MwjfP" value="mbeddr.core" />
@@ -957,6 +960,9 @@
       </node>
       <node concept="m$_yC" id="5dchr4Qjtvw" role="m$_yJ">
         <ref role="m$_y1" to="90a9:4hvHh3QW$Eh" resolve="de.slisson.mps.all" />
+      </node>
+      <node concept="m$_yC" id="3ccORk5hryA" role="m$_yJ">
+        <ref role="m$_y1" to="zkto:3uP4IkDkXID" resolve="org.eclipse.incquery.mps.build" />
       </node>
     </node>
     <node concept="2igEWh" id="$bJ0jguQs8" role="1hWBAP">
@@ -2789,12 +2795,6 @@
               <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
             </node>
           </node>
-          <node concept="1SiIV0" id="18IM2C4$5_8" role="3bR37C">
-            <node concept="3bR9La" id="18IM2C4$5_9" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" to="ffeo:7Kfy9QB6L0C" resolve="collections.runtime" />
-            </node>
-          </node>
           <node concept="1SiIV0" id="5WQm$FZbT2W" role="3bR37C">
             <node concept="3bR9La" id="5WQm$FZbT2X" role="1SiIV1">
               <property role="3bR36h" value="false" />
@@ -2829,12 +2829,6 @@
           <node concept="3bR9La" id="60lJDGE3ASa" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="7uZw0yZ43L9" resolve="com.mbeddr.core.modules" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2hV3DxXD275" role="3bR37C">
-          <node concept="3bR9La" id="2hV3DxXD276" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
       </node>
