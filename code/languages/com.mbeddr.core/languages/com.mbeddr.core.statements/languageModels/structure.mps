@@ -524,6 +524,15 @@
     <node concept="PrWs8" id="4W47thSfb7S" role="PzmwI">
       <ref role="PrY4T" node="2hKTcZ5NukP" resolve="IParentPointerTarget" />
     </node>
+    <node concept="PrWs8" id="6yxJ2rEGYid" role="PzmwI">
+      <ref role="PrY4T" node="2tV8qO6QC_3" resolve="INextPointerTarget" />
+    </node>
+    <node concept="PrWs8" id="6yxJ2rEGYng" role="PzmwI">
+      <ref role="PrY4T" node="4vqaQpQDzGE" resolve="IWithNextPointer" />
+    </node>
+    <node concept="PrWs8" id="6yxJ2rEGYsn" role="PzmwI">
+      <ref role="PrY4T" node="2tV8qO6QC_4" resolve="ICFGNode" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2I09F8VKHC0">
     <property role="3GE5qa" value="switch" />

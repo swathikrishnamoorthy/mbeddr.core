@@ -236,7 +236,7 @@
 
 	<target name="build-platform-and-mbeddr" >
 		<antcall target="build-platform" />
-    <antcall target="build-mps-incquery" />
+    	<antcall target="build-mps-incquery" />
 		<antcall target="build-mbeddr" />
 	</target>
 
