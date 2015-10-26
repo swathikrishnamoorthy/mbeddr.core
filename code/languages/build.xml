@@ -23,7 +23,7 @@
 
 	<!-- misc properties -->
 	<property name="mbeddr.scripts.base-path" value="${mbeddr.github.core.home}/build" />
-	<property name="sl-all.scripts.base-path" value="${mbeddr.github.core.home}/code/plugins" />
+	<property name="plugins.scripts.base-path" value="${mbeddr.github.core.home}/code/plugins" />
 	<property name="build.dir" value="${mbeddr.github.core.home}" />
 	<property name="artifacts.root" value="${build.dir}/artifacts" />
 	<property name="clean-generated-code.task" value="cleanSources" /> 
@@ -33,7 +33,7 @@
 	<property name="run-tests.task" value="check" />
 	
 	<!-- de.slisson.mps.all -->
-	<property name="de.slisson.mps.all.build-file.location" value="${sl-all.scripts.base-path}/sl-all" />
+	<property name="de.slisson.mps.all.build-file.location" value="${plugins.scripts.base-path}/sl-all" />
 	<property name="de.slisson.mps.all.build-file.name" value="build.xml" />
 	<property name="mps-sl-all.zip-file.name" value="mps-sl-all.zip" />
 	<property name="mps-sl-all.expanded-folder.name" value="mps-sl-all" />
@@ -102,11 +102,7 @@
 
   <!-- mps-incquery -->
   <property name="mps-incquery.build-file.name" value="build.xml" />
-  <property name="mps-incquery.build-file.location" value="${mbeddr.github.core.home}/code/plugins/mps-incquery" />
-  <property name="mps-incquery.build-tmp" value="${mbeddr.github.core.home}/code/plugins/mps-incquery/build/tmp" />
-  <property name="mps-incquery.build-path" value="${mbeddr.github.core.home}/code/plugins/mps-incquery/build/artifacts/org.eclipse.incquery.mps.build" />
-  <property name="artifacts.mps-incquery" value="${mps-incquery.build-path}" />
-
+  <property name="mps-incquery.build-file.location" value="${plugins.scripts.base-path}/mps-incquery" />
 
 	<!-- mbeddr.allScripts -->
 	<property name="com.mbeddr.allScripts.build-file.location" value="${mbeddr.scripts.base-path}/com.mbeddr.allScripts" />    
@@ -461,7 +457,6 @@
   <target name="build-mps-incquery">
     <ant antfile="${mps-incquery.build-file.name}" dir="${mps-incquery.build-file.location}" target="${generate-code.task}" />
     <ant antfile="${mps-incquery.build-file.name}" dir="${mps-incquery.build-file.location}" target="${build-plugin.task}" />
-    <delete dir="${mps-incquery.build-tmp}" />
   </target>     
 
 	<target name="make-tests" description="Run 'make test' for child Makefiles">
