@@ -243,6 +243,7 @@
       <concept id="1143224127713" name="jetbrains.mps.lang.smodel.structure.Node_InsertPrevSiblingOperation" flags="nn" index="HtX7F">
         <child id="1143224127716" name="insertedNode" index="HtX7I" />
       </concept>
+      <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1240170042401" name="jetbrains.mps.lang.smodel.structure.SEnumMemberType" flags="in" index="2ZThk1">
         <reference id="1240170836027" name="enum" index="2ZWj4r" />
@@ -4044,6 +4045,40 @@
       </node>
     </node>
     <node concept="1SWQZ3" id="7e09zBH5ajI" role="lGtFl">
+      <property role="1SWRpm" value="MODULES" />
+    </node>
+  </node>
+  <node concept="2S6QgY" id="58l7RC3$ZKD">
+    <property role="3GE5qa" value="preprocessor" />
+    <property role="TrG5h" value="addTemp" />
+    <ref role="2ZfgGC" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="2S6ZIM" id="58l7RC3$ZKE" role="2ZfVej">
+      <node concept="3clFbS" id="58l7RC3$ZKF" role="2VODD2">
+        <node concept="3clFbF" id="58l7RC3$ZPO" role="3cqZAp">
+          <node concept="Xl_RD" id="58l7RC3$ZPN" role="3clFbG">
+            <property role="Xl_RC" value="This is a super duper test" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="58l7RC3$ZKG" role="2ZfgGD">
+      <node concept="3clFbS" id="58l7RC3$ZKH" role="2VODD2">
+        <node concept="3clFbF" id="58l7RC3_02H" role="3cqZAp">
+          <node concept="2OqwBi" id="58l7RC3_1uN" role="3clFbG">
+            <node concept="2OqwBi" id="58l7RC3_05_" role="2Oq$k0">
+              <node concept="2Sf5sV" id="58l7RC3_02G" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="58l7RC3_0yI" role="2OqNvi">
+                <node concept="3CFYIy" id="58l7RC3_0zm" role="3CFYIz">
+                  <ref role="3CFYIx" to="x27k:58l7RC3lpw7" resolve="HashIfReplacement" />
+                </node>
+              </node>
+            </node>
+            <node concept="WFELt" id="58l7RC3_3ID" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1SWQZ3" id="g155HFnRmH" role="lGtFl">
       <property role="1SWRpm" value="MODULES" />
     </node>
   </node>
