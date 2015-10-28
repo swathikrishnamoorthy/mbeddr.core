@@ -39,9 +39,9 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util()" />
     <import index="b3bi" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.impl.cellActions(MPS.Editor/)" />
     <import index="iq8l" ref="r:ffb23717-2675-4f36-b47c-a7d3b95c99a7(com.mbeddr.core.expressions.runtime.plugin)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
     <import index="p15z" ref="63e0e566-5131-447e-90e3-12ea330e1a00/r:ac36bf27-36e9-407d-ba8e-953c68088e41(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.behavior)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -281,6 +281,9 @@
       <concept id="5667201763537739848" name="com.mbeddr.mpsutil.blutil.structure.LogExpr" flags="ng" index="sxT6M">
         <property id="5667201763537739900" name="label" index="sxT66" />
         <child id="5667201763537739902" name="expr" index="sxT64" />
+      </concept>
+      <concept id="5667201763537504944" name="com.mbeddr.mpsutil.blutil.structure.LogStatement" flags="ng" index="sINHa">
+        <property id="4987804909765039412" name="disabled" index="3ahEGn" />
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -20062,6 +20065,7 @@
         </node>
         <node concept="sxT6M" id="7x2kTsyKNZF" role="3cqZAp">
           <property role="sxT66" value="role" />
+          <property role="3ahEGn" value="true" />
           <node concept="37vLTw" id="7x2kTsyKOaZ" role="sxT64">
             <ref role="3cqZAo" node="7x2kTsyFCcX" resolve="role" />
           </node>
@@ -20080,12 +20084,14 @@
         </node>
         <node concept="sxT6M" id="7x2kTsyLHet" role="3cqZAp">
           <property role="sxT66" value="expr" />
+          <property role="3ahEGn" value="true" />
           <node concept="37vLTw" id="7x2kTsyLHpH" role="sxT64">
             <ref role="3cqZAo" node="3bfDwHbRG77" resolve="expr" />
           </node>
         </node>
         <node concept="sxT6M" id="7x2kTsyLHvA" role="3cqZAp">
           <property role="sxT66" value="expr.copy" />
+          <property role="3ahEGn" value="true" />
           <node concept="2OqwBi" id="7x2kTsyLHNS" role="sxT64">
             <node concept="37vLTw" id="7x2kTsyLHvB" role="2Oq$k0">
               <ref role="3cqZAo" node="3bfDwHbRG77" resolve="expr" />
@@ -20095,12 +20101,14 @@
         </node>
         <node concept="sxT6M" id="7x2kTsyOER0" role="3cqZAp">
           <property role="sxT66" value="instance" />
+          <property role="3ahEGn" value="true" />
           <node concept="37vLTw" id="7x2kTsyOFqE" role="sxT64">
             <ref role="3cqZAo" node="3bfDwHbRK4y" resolve="instance" />
           </node>
         </node>
         <node concept="sxT6M" id="7x2kTsyRirU" role="3cqZAp">
           <property role="sxT66" value="instance.parent" />
+          <property role="3ahEGn" value="true" />
           <node concept="2OqwBi" id="7x2kTsyRjcO" role="sxT64">
             <node concept="37vLTw" id="7x2kTsyRj7Y" role="2Oq$k0">
               <ref role="3cqZAo" node="3bfDwHbRK4y" resolve="instance" />
