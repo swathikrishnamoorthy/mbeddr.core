@@ -2,7 +2,7 @@
 <model ref="r:3e67bdff-5e9f-43bc-9cf3-65e492181be4(com.mbeddr.analyses.cbmc.testsgen.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -22,11 +22,17 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
+      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
         <reference id="1082985295845" name="dataType" index="AX2Wp" />
@@ -46,15 +52,10 @@
   <node concept="1TIwiD" id="67iKQ7o3v2L">
     <property role="TrG5h" value="TestsgenCBMCAnalysis" />
     <property role="34LRSv" value="Testsgen Config" />
+    <property role="1pbfSe" value="971027474" />
     <ref role="1TJDcQ" to="q5q6:7Bqs07i8Hdj" resolve="CProverBasedMbeddrAnalysis" />
-    <node concept="1TJgyj" id="73BQep1PU1O" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="saveIntoModule" />
-      <ref role="20lvS9" to="x27k:5_l8w1EmTde" resolve="ImplementationModule" />
-    </node>
-    <node concept="1TJgyi" id="67iKQ7ohdEj" role="1TKVEl">
-      <property role="TrG5h" value="coverageCriterion" />
-      <ref role="AX2Wp" node="67iKQ7ohdEy" resolve="CoverageCriterion" />
+    <node concept="PrWs8" id="1UHnSpzBigd" role="PzmwI">
+      <ref role="PrY4T" node="1UHnSpzBief" resolve="ITestgenAnalysis" />
     </node>
   </node>
   <node concept="AxPO7" id="67iKQ7ohdEy">
@@ -63,6 +64,22 @@
     <node concept="M4N5e" id="67iKQ7ohdEz" role="M5hS2">
       <property role="1uS6qv" value="branch" />
       <property role="1uS6qo" value="branch" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1UHnSpzBief">
+    <property role="TrG5h" value="ITestgenAnalysis" />
+    <node concept="1TJgyi" id="1UHnSpzBifk" role="1TKVEl">
+      <property role="TrG5h" value="clearModuleBeforeSaving" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="67iKQ7ohdEj" role="1TKVEl">
+      <property role="TrG5h" value="coverageCriterion" />
+      <ref role="AX2Wp" node="67iKQ7ohdEy" resolve="CoverageCriterion" />
+    </node>
+    <node concept="1TJgyj" id="73BQep1PU1O" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="saveIntoModule" />
+      <ref role="20lvS9" to="x27k:5_l8w1EmTde" resolve="ImplementationModule" />
     </node>
   </node>
 </model>

@@ -5,8 +5,8 @@
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="3" />
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
@@ -127,9 +127,6 @@
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
       <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
-      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
-        <property id="1068580320021" name="value" index="3cmrfH" />
-      </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
@@ -163,13 +160,6 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="1184950988562" name="jetbrains.mps.baseLanguage.structure.ArrayCreator" flags="nn" index="3$_iS1">
-        <child id="1184951007469" name="componentType" index="3$_nBY" />
-        <child id="1184952969026" name="dimensionExpression" index="3$GQph" />
-      </concept>
-      <concept id="1184952934362" name="jetbrains.mps.baseLanguage.structure.DimensionExpression" flags="nn" index="3$GHV9">
-        <child id="1184953288404" name="expression" index="3$I4v7" />
-      </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -583,25 +573,22 @@
         <node concept="3Tm1VV" id="3wED9Ce4fiP" role="1B3o_S" />
         <node concept="3clFbS" id="3wED9Ce4fiQ" role="3clF47">
           <node concept="XkiVB" id="3wED9Ce4$C4" role="3cqZAp">
-            <ref role="37wK5l" to="f2k0:~UrlClassLoader.&lt;init&gt;(java.net.URL[],java.lang.ClassLoader)" resolve="UrlClassLoader" />
-            <node concept="2ShNRf" id="5GaLjsuTFnN" role="37wK5m">
-              <node concept="3$_iS1" id="5GaLjsuTFnP" role="2ShVmc">
-                <node concept="3$GHV9" id="5GaLjsuTFnQ" role="3$GQph">
-                  <node concept="3cmrfG" id="5GaLjsuTFOA" role="3$I4v7">
-                    <property role="3cmrfH" value="0" />
+            <ref role="37wK5l" to="f2k0:~UrlClassLoader.&lt;init&gt;(com.intellij.util.lang.UrlClassLoader$Builder)" resolve="UrlClassLoader" />
+            <node concept="2OqwBi" id="255pNv$JGBS" role="37wK5m">
+              <node concept="2YIFZM" id="255pNv$JGvF" role="2Oq$k0">
+                <ref role="1Pybhc" to="f2k0:~UrlClassLoader" resolve="UrlClassLoader" />
+                <ref role="37wK5l" to="f2k0:~UrlClassLoader.build():com.intellij.util.lang.UrlClassLoader$Builder" resolve="build" />
+              </node>
+              <node concept="liA8E" id="255pNv$JGLO" role="2OqNvi">
+                <ref role="37wK5l" to="f2k0:~UrlClassLoader$Builder.parent(java.lang.ClassLoader):com.intellij.util.lang.UrlClassLoader$Builder" resolve="parent" />
+                <node concept="2OqwBi" id="3wED9Ce4$CR" role="37wK5m">
+                  <node concept="3VsKOn" id="3wED9Ce4$C_" role="2Oq$k0">
+                    <ref role="3VsUkX" node="3wED9Ce43t1" resolve="SpawnerLoader25" />
+                  </node>
+                  <node concept="liA8E" id="3wED9Ce4$CY" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
                   </node>
                 </node>
-                <node concept="3uibUv" id="5GaLjsuTFnS" role="3$_nBY">
-                  <ref role="3uigEE" to="zf81:~URL" resolve="URL" />
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="3wED9Ce4$CR" role="37wK5m">
-              <node concept="3VsKOn" id="3wED9Ce4$C_" role="2Oq$k0">
-                <ref role="3VsUkX" node="3wED9Ce43t1" resolve="SpawnerLoader25" />
-              </node>
-              <node concept="liA8E" id="3wED9Ce4$CY" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
               </node>
             </node>
           </node>

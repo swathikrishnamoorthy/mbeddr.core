@@ -4,7 +4,7 @@
   <languages>
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="2" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="3" />
   </languages>
   <imports>
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
@@ -1427,6 +1427,21 @@
         <node concept="10Oyi0" id="2nIaZ7ix0SW" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="2nIaZ7ix0SX" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="255pNv$HdwO" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getCaretPosition" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="255pNv$HdwP" role="1B3o_S" />
+      <node concept="10Oyi0" id="255pNv$HdwR" role="3clF45" />
+      <node concept="3clFbS" id="255pNv$HdwU" role="3clF47">
+        <node concept="3clFbF" id="255pNv$HncJ" role="3cqZAp">
+          <node concept="3cmrfG" id="255pNv$HncI" role="3clFbG">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="2nIaZ7ix0SY">
