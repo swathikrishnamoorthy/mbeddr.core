@@ -871,10 +871,22 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="3y3z36" id="4G5wNx$Nz7D" role="3clFbw">
-                        <node concept="10Nm6u" id="4G5wNx$Nzcm" role="3uHU7w" />
-                        <node concept="37vLTw" id="4G5wNx$Nz0R" role="3uHU7B">
-                          <ref role="3cqZAo" node="2tV8qO6SMQP" resolve="prev" />
+                      <node concept="1Wc70l" id="A8siLhKhus" role="3clFbw">
+                        <node concept="2OqwBi" id="A8siLhKhBn" role="3uHU7w">
+                          <node concept="37vLTw" id="A8siLhKh$Y" role="2Oq$k0">
+                            <ref role="3cqZAo" node="2tV8qO6SMQP" resolve="prev" />
+                          </node>
+                          <node concept="1mIQ4w" id="A8siLhKhGs" role="2OqNvi">
+                            <node concept="chp4Y" id="A8siLhKhHk" role="cj9EA">
+                              <ref role="cht4Q" to="c4fa:4vqaQpQDzGE" resolve="IWithNextPointer" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3y3z36" id="4G5wNx$Nz7D" role="3uHU7B">
+                          <node concept="37vLTw" id="4G5wNx$Nz0R" role="3uHU7B">
+                            <ref role="3cqZAo" node="2tV8qO6SMQP" resolve="prev" />
+                          </node>
+                          <node concept="10Nm6u" id="4G5wNx$Nzcm" role="3uHU7w" />
                         </node>
                       </node>
                     </node>
