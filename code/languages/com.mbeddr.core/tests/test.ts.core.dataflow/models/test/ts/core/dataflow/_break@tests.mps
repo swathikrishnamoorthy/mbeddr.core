@@ -15,6 +15,10 @@
   </imports>
   <registry>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
+      <concept id="8441331188640899788" name="com.mbeddr.core.statements.structure.DoWhileStatement" flags="ng" index="27u4cL">
+        <child id="8441331188640899789" name="condition" index="27u4cK" />
+        <child id="8441331188640899790" name="body" index="27u4cN" />
+      </concept>
       <concept id="8441331188640862326" name="com.mbeddr.core.statements.structure.BreakStatement" flags="ng" index="27uf6b" />
       <concept id="8441331188640771826" name="com.mbeddr.core.statements.structure.WhileStatement" flags="ng" index="27v$Wf">
         <child id="8441331188640771828" name="body" index="27v$W9" />
@@ -140,7 +144,7 @@
         </node>
         <node concept="27v$Wf" id="3bGjHom68Wq" role="3XIRFZ">
           <ref role="Lv6jk" node="1fBH7vtqbu3" />
-          <ref role="Lv6jn" node="3bGjHom68Z4" resolve="c" />
+          <ref role="Lv6jn" node="3pfGrKEUT2C" />
           <node concept="3XIRFW" id="3bGjHom68Wr" role="27v$W9">
             <ref role="Lv6jk" node="3bGjHom68Wq" />
             <node concept="c0U19" id="3bGjHom695p" role="3XIRFZ">
@@ -177,15 +181,50 @@
             <ref role="3O_q_h" node="1fBH7vtqbuF" resolve="cond" />
           </node>
         </node>
-        <node concept="3XIRlf" id="3bGjHom68Z4" role="3XIRFZ">
-          <property role="TrG5h" value="c" />
+        <node concept="27u4cL" id="3pfGrKEUT2C" role="3XIRFZ">
           <ref role="Lv6jk" node="1fBH7vtqbu3" />
-          <node concept="26Vqph" id="3bGjHom68Z5" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
+          <node concept="3XIRFW" id="3pfGrKEUT2D" role="27u4cN">
+            <ref role="Lv6jk" node="3pfGrKEUT2C" />
+            <node concept="c0U19" id="3pfGrKEUTaq" role="3XIRFZ">
+              <ref role="Lv6jk" node="3pfGrKEUT2D" />
+              <node concept="3XIRFW" id="3pfGrKEUTar" role="c0U17">
+                <ref role="Lv6jk" node="3pfGrKEUTaq" />
+                <node concept="3XIRlf" id="3bGjHom68Z4" role="3XIRFZ">
+                  <property role="TrG5h" value="c" />
+                  <ref role="Lv6jk" node="3pfGrKEUTar" />
+                  <node concept="26Vqph" id="3bGjHom68Z5" role="2C2TGm">
+                    <property role="2caQfQ" value="false" />
+                    <property role="2c7vTL" value="false" />
+                  </node>
+                  <node concept="3TlMh9" id="3bGjHom68Z6" role="3XIe9u">
+                    <property role="2hmy$m" value="10" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3O_q_g" id="3pfGrKEUTc5" role="c0U16">
+                <ref role="3O_q_h" node="1fBH7vtqbuF" resolve="cond" />
+              </node>
+              <node concept="1ly_i6" id="3pfGrKEUTAZ" role="ggAap">
+                <ref role="Lv6jk" node="3pfGrKEUTaq" />
+                <node concept="3XIRFW" id="3pfGrKEUTB0" role="1ly_ph">
+                  <ref role="Lv6jk" node="3pfGrKEUTAZ" />
+                  <node concept="3XIRlf" id="3pfGrKEUTCo" role="3XIRFZ">
+                    <property role="TrG5h" value="d" />
+                    <ref role="Lv6jk" node="3pfGrKEUTB0" />
+                    <node concept="26Vqph" id="3pfGrKEUTCp" role="2C2TGm">
+                      <property role="2caQfQ" value="false" />
+                      <property role="2c7vTL" value="false" />
+                    </node>
+                    <node concept="3TlMh9" id="3pfGrKEUTCq" role="3XIe9u">
+                      <property role="2hmy$m" value="10" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
-          <node concept="3TlMh9" id="3bGjHom68Z6" role="3XIe9u">
-            <property role="2hmy$m" value="10" />
+          <node concept="3O_q_g" id="3pfGrKEUT4h" role="27u4cK">
+            <ref role="3O_q_h" node="1fBH7vtqbuF" resolve="cond" />
           </node>
         </node>
       </node>
