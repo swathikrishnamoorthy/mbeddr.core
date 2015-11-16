@@ -224,19 +224,28 @@
     </node>
     <node concept="398rNT" id="7eF9rfAuuoT" role="1l3spd">
       <property role="TrG5h" value="mps.home" />
-      <node concept="55IIr" id="7eF9rfAuuoU" role="398pKh">
-        <node concept="2Ry0Ak" id="7eF9rfAuuoV" role="iGT6I">
+      <node concept="55IIr" id="2H3iRMKCraS" role="398pKh">
+        <node concept="2Ry0Ak" id="2H3iRMKCraT" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="7eF9rfAuuoW" role="2Ry0An">
+          <node concept="2Ry0Ak" id="2H3iRMKCraU" role="2Ry0An">
             <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="7eF9rfAuuoX" role="2Ry0An">
+            <node concept="2Ry0Ak" id="2H3iRMKCraV" role="2Ry0An">
               <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="7eF9rfAuuoY" role="2Ry0An">
+              <node concept="2Ry0Ak" id="2H3iRMKCraW" role="2Ry0An">
                 <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="7eF9rfAuuoZ" role="2Ry0An">
-                  <property role="2Ry0Am" value="Programs" />
-                  <node concept="2Ry0Ak" id="7eF9rfAuup0" role="2Ry0An">
-                    <property role="2Ry0Am" value="Newest-MPS-Installation" />
+                <node concept="2Ry0Ak" id="2H3iRMKCraX" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                  <node concept="2Ry0Ak" id="2H3iRMKCr8K" role="2Ry0An">
+                    <property role="2Ry0Am" value=".." />
+                    <node concept="2Ry0Ak" id="2H3iRMKCr9t" role="2Ry0An">
+                      <property role="2Ry0Am" value="Applications" />
+                      <node concept="2Ry0Ak" id="2H3iRMKCr9A" role="2Ry0An">
+                        <property role="2Ry0Am" value="MPS_3.3.142.230_miq.app" />
+                        <node concept="2Ry0Ak" id="2H3iRMKCr9J" role="2Ry0An">
+                          <property role="2Ry0Am" value="Contents" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -307,6 +316,15 @@
         </node>
       </node>
     </node>
+    <node concept="398rNT" id="2H3iRMKCqXF" role="1l3spd">
+      <property role="TrG5h" value="inquery.artifacts" />
+      <node concept="398BVA" id="2H3iRMKCqXG" role="398pKh">
+        <ref role="398BVh" node="5ueaxoTn615" resolve="artifacts.root" />
+        <node concept="2Ry0Ak" id="2H3iRMKCqXH" role="iGT6I">
+          <property role="2Ry0Am" value="org.eclipse.incquery.mps" />
+        </node>
+      </node>
+    </node>
     <node concept="10PD9b" id="7eF9rfAuupC" role="10PD9s" />
     <node concept="3b7kt6" id="7eF9rfAuupD" role="10PD9s" />
     <node concept="1gjT0q" id="7eF9rfAuupE" role="10PD9s" />
@@ -339,6 +357,9 @@
     </node>
     <node concept="2sgV4H" id="6f6nn42yTsY" role="1l3spa">
       <ref role="1l3spb" to="zkto:2Zh2tjQSyQ0" resolve="org.eclipse.incquery.mps" />
+      <node concept="398BVA" id="2H3iRMKCr0Z" role="2JcizS">
+        <ref role="398BVh" node="2H3iRMKCqXF" resolve="inquery.artifacts" />
+      </node>
     </node>
     <node concept="1l3spV" id="7eF9rfAuupR" role="1l3spN">
       <node concept="L2wRC" id="7eF9rfAuupS" role="39821P">
@@ -633,10 +654,19 @@
               <property role="2Ry0Am" value=".." />
               <node concept="2Ry0Ak" id="7eF9rfAuuuh" role="2Ry0An">
                 <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="7eF9rfAuuui" role="2Ry0An">
-                  <property role="2Ry0Am" value="Programs" />
-                  <node concept="2Ry0Ak" id="7eF9rfAuuuj" role="2Ry0An">
-                    <property role="2Ry0Am" value="Newest-MPS-Installation" />
+                <node concept="2Ry0Ak" id="7eF9rfAuuuj" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                  <node concept="2Ry0Ak" id="2H3iRMKCreO" role="2Ry0An">
+                    <property role="2Ry0Am" value=".." />
+                    <node concept="2Ry0Ak" id="2H3iRMKCreP" role="2Ry0An">
+                      <property role="2Ry0Am" value="Applications" />
+                      <node concept="2Ry0Ak" id="2H3iRMKCreQ" role="2Ry0An">
+                        <property role="2Ry0Am" value="MPS_3.3.142.230_miq.app" />
+                        <node concept="2Ry0Ak" id="2H3iRMKCreR" role="2Ry0An">
+                          <property role="2Ry0Am" value="Contents" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -707,6 +737,15 @@
         </node>
       </node>
     </node>
+    <node concept="398rNT" id="6f6nn42z2ca" role="1l3spd">
+      <property role="TrG5h" value="inquery.artifacts" />
+      <node concept="398BVA" id="6f6nn42z6R4" role="398pKh">
+        <ref role="398BVh" node="5ueaxoTn616" resolve="artifacts.root" />
+        <node concept="2Ry0Ak" id="6f6nn42z6R5" role="iGT6I">
+          <property role="2Ry0Am" value="org.eclipse.incquery.mps" />
+        </node>
+      </node>
+    </node>
     <node concept="10PD9b" id="7eF9rfAuuuV" role="10PD9s" />
     <node concept="3b7kt6" id="7eF9rfAuuuW" role="10PD9s" />
     <node concept="1gjT0q" id="7eF9rfAuuuX" role="10PD9s" />
@@ -736,6 +775,9 @@
     </node>
     <node concept="2sgV4H" id="6f6nn42yToZ" role="1l3spa">
       <ref role="1l3spb" to="zkto:2Zh2tjQSyQ0" resolve="org.eclipse.incquery.mps" />
+      <node concept="398BVA" id="2H3iRMKCqT5" role="2JcizS">
+        <ref role="398BVh" node="6f6nn42z2ca" resolve="inquery.artifacts" />
+      </node>
     </node>
     <node concept="1l3spV" id="7eF9rfAuuva" role="1l3spN">
       <node concept="L2wRC" id="7eF9rfAuuvc" role="39821P">

@@ -1003,6 +1003,9 @@
     </node>
     <node concept="2sgV4H" id="3uP4IkDjN84" role="1l3spa">
       <ref role="1l3spb" to="zkto:2Zh2tjQSyQ0" resolve="org.eclipse.incquery.mps" />
+      <node concept="398BVA" id="6f6nn42z17d" role="2JcizS">
+        <ref role="398BVh" node="6f6nn42z2ca" resolve="inquery.artifacts" />
+      </node>
     </node>
     <node concept="2sgV4H" id="6ucYLjokM$t" role="1l3spa">
       <ref role="1l3spb" to="al5i:3AVJcIMlF8l" resolve="com.mbeddr.platform" />
@@ -10042,7 +10045,7 @@
                     <node concept="2Ry0Ak" id="5Px1zmPlfV0" role="2Ry0An">
                       <property role="2Ry0Am" value="Applications" />
                       <node concept="2Ry0Ak" id="5Px1zmPlfV5" role="2Ry0An">
-                        <property role="2Ry0Am" value="MPS_3.3.app" />
+                        <property role="2Ry0Am" value="MPS_3.3.142.230_miq.app" />
                         <node concept="2Ry0Ak" id="5Px1zmPlfVa" role="2Ry0An">
                           <property role="2Ry0Am" value="Contents" />
                         </node>
@@ -10193,6 +10196,15 @@
         <ref role="398BVh" node="4MR$$QmqomQ" resolve="artifacts.root" />
         <node concept="2Ry0Ak" id="5ueaxoTpkOn" role="iGT6I">
           <property role="2Ry0Am" value="com.mbeddr.platform" />
+        </node>
+      </node>
+    </node>
+    <node concept="398rNT" id="6f6nn42z2ca" role="1l3spd">
+      <property role="TrG5h" value="inquery.artifacts" />
+      <node concept="398BVA" id="6f6nn42z6R4" role="398pKh">
+        <ref role="398BVh" node="4MR$$QmqomQ" resolve="artifacts.root" />
+        <node concept="2Ry0Ak" id="6f6nn42z6R5" role="iGT6I">
+          <property role="2Ry0Am" value="org.eclipse.incquery.mps" />
         </node>
       </node>
     </node>

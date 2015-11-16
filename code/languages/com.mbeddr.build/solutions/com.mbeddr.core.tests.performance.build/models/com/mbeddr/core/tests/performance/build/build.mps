@@ -223,10 +223,19 @@
               <property role="2Ry0Am" value=".." />
               <node concept="2Ry0Ak" id="7eF9rfAuuuh" role="2Ry0An">
                 <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="7eF9rfAuuui" role="2Ry0An">
-                  <property role="2Ry0Am" value="Programs" />
-                  <node concept="2Ry0Ak" id="7eF9rfAuuuj" role="2Ry0An">
-                    <property role="2Ry0Am" value="Newest-MPS-Installation" />
+                <node concept="2Ry0Ak" id="7eF9rfAuuuj" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                  <node concept="2Ry0Ak" id="2H3iRMKCr8K" role="2Ry0An">
+                    <property role="2Ry0Am" value=".." />
+                    <node concept="2Ry0Ak" id="2H3iRMKCr9t" role="2Ry0An">
+                      <property role="2Ry0Am" value="Applications" />
+                      <node concept="2Ry0Ak" id="2H3iRMKCr9A" role="2Ry0An">
+                        <property role="2Ry0Am" value="MPS_3.3.142.230_miq.app" />
+                        <node concept="2Ry0Ak" id="2H3iRMKCr9J" role="2Ry0An">
+                          <property role="2Ry0Am" value="Contents" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
