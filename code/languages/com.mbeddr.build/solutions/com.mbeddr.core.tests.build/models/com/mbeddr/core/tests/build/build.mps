@@ -11,6 +11,7 @@
     <import index="90a9" ref="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.slisson.mps.all.build)" />
     <import index="p6ld" ref="r:0764bd79-eef9-46f0-a6fe-739a07a30bb2(com.mbeddr.build.build)" />
     <import index="al5i" ref="r:742f344d-4dc4-4862-992c-4bc94b094870(com.mbeddr.mpsutil.dev.build)" />
+    <import index="zkto" ref="r:b40f58fa-3189-413c-9678-41077cc732ed(org.eclipse.incquery.mps.build)" />
   </imports>
   <registry>
     <language id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests">
@@ -335,6 +336,9 @@
       <node concept="398BVA" id="4hvHh3QXMcw" role="2JcizS">
         <ref role="398BVh" node="2Xjt3l5c8Xb" resolve="platform.sl-all" />
       </node>
+    </node>
+    <node concept="2sgV4H" id="6f6nn42yTsY" role="1l3spa">
+      <ref role="1l3spb" to="zkto:2Zh2tjQSyQ0" resolve="org.eclipse.incquery.mps" />
     </node>
     <node concept="1l3spV" id="7eF9rfAuupR" role="1l3spN">
       <node concept="L2wRC" id="7eF9rfAuupS" role="39821P">
@@ -730,6 +734,9 @@
         <ref role="398BVh" node="4hvHh3QXMqd" resolve="platform.sl-all" />
       </node>
     </node>
+    <node concept="2sgV4H" id="6f6nn42yToZ" role="1l3spa">
+      <ref role="1l3spb" to="zkto:2Zh2tjQSyQ0" resolve="org.eclipse.incquery.mps" />
+    </node>
     <node concept="1l3spV" id="7eF9rfAuuva" role="1l3spN">
       <node concept="L2wRC" id="7eF9rfAuuvc" role="39821P">
         <ref role="L2wRA" node="7eF9rfAuutL" resolve="com.mbeddr.core.__spreferences.PlatformTemplates" />
@@ -964,6 +971,9 @@
       <node concept="398BVA" id="2coa6XmoC92" role="2JcizS">
         <ref role="398BVh" node="6RmoJr95HnI" resolve="mbeddr.artifacts" />
       </node>
+    </node>
+    <node concept="2sgV4H" id="6f6nn42yT9Z" role="1l3spa">
+      <ref role="1l3spb" to="zkto:2Zh2tjQSyQ0" resolve="org.eclipse.incquery.mps" />
     </node>
     <node concept="1l3spV" id="58DJDcMhr7o" role="1l3spN">
       <node concept="L2wRC" id="58DJDcMhr7s" role="39821P">

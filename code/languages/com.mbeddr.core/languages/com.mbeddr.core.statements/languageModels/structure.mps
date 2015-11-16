@@ -131,6 +131,9 @@
     <node concept="PrWs8" id="4Ixybz5aKel" role="PzmwI">
       <ref role="PrY4T" node="4Ixybz5aK1O" resolve="IValueLike" />
     </node>
+    <node concept="PrWs8" id="4l9ku5Eye_" role="PzmwI">
+      <ref role="PrY4T" to="mj1l:4l9ku5EnYC" resolve="IAssignmentSide" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3CmSUB7Fp_l">
     <property role="TrG5h" value="StatementList" />

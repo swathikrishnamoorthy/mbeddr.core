@@ -3403,7 +3403,9 @@
           <node concept="3cpWsn" id="1z2_LfBRP0a" role="3cpWs9">
             <property role="TrG5h" value="measureMemory" />
             <node concept="10P_77" id="1z2_LfBRP0b" role="1tU5fm" />
-            <node concept="3clFbT" id="1z2_LfBRP0c" role="33vP2m" />
+            <node concept="3clFbT" id="1z2_LfBRP0c" role="33vP2m">
+              <property role="3clFbU" value="true" />
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="1z2_LfBROLQ" role="3cqZAp" />
@@ -3482,7 +3484,7 @@
                   </node>
                   <node concept="3eOVzh" id="1z2_LfBR_Zy" role="1Dwp0S">
                     <node concept="3cmrfG" id="1z2_LfBR_Zz" role="3uHU7w">
-                      <property role="3cmrfH" value="2" />
+                      <property role="3cmrfH" value="1" />
                     </node>
                     <node concept="37vLTw" id="1z2_LfBR_Z$" role="3uHU7B">
                       <ref role="3cqZAo" node="1z2_LfBR_Zv" resolve="j" />
@@ -3684,7 +3686,7 @@
           </node>
           <node concept="3eOVzh" id="4zb$$PHV0it" role="1Dwp0S">
             <node concept="3cmrfG" id="4zb$$PHV0iu" role="3uHU7w">
-              <property role="3cmrfH" value="200" />
+              <property role="3cmrfH" value="100" />
             </node>
             <node concept="37vLTw" id="4zb$$PHV0iv" role="3uHU7B">
               <ref role="3cqZAo" node="4zb$$PHV0iq" resolve="i" />

@@ -296,6 +296,12 @@
             <ref role="3bR37D" node="6ucYLjoxZBc" resolve="com.mbeddr.platform" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6f6nn42yXIo" role="3bR37C">
+          <node concept="3bR9La" id="6f6nn42yXIp" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="54d2E3NDB3_" resolve="org.eclipse.incquery.mps.build" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="2coa6XmWDsH" role="2G$12L">
         <property role="BnDLt" value="true" />

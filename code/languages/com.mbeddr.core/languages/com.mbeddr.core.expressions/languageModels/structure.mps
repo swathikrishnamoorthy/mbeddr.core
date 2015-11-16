@@ -87,6 +87,9 @@
     <node concept="PrWs8" id="$bJ0jgXxo3" role="PzmwI">
       <ref role="PrY4T" to="vs0r:$bJ0jgPete" resolve="IValueDebuggable" />
     </node>
+    <node concept="PrWs8" id="4l9ku5Eru4" role="PzmwI">
+      <ref role="PrY4T" node="4l9ku5EnYC" resolve="IAssignmentSide" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7FQByU3CrCO">
     <property role="TrG5h" value="BinaryExpression" />
@@ -1659,6 +1662,10 @@
     <property role="1pbfSe" value="502806611" />
     <property role="3GE5qa" value="types" />
     <property role="TrG5h" value="ITypeTextGenContext" />
+  </node>
+  <node concept="PlHQZ" id="4l9ku5EnYC">
+    <property role="1pbfSe" value="2034326289" />
+    <property role="TrG5h" value="IAssignmentSide" />
   </node>
 </model>
 
