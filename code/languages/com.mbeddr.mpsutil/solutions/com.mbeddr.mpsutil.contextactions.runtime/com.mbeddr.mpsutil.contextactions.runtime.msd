@@ -18,6 +18,7 @@
     <dependency reexport="false">3ecd7c84-cde3-45de-886c-135ecc69b742(jetbrains.mps.lang.refactoring)</dependency>
   </dependencies>
   <languageVersions>
+    <language id="5ff9daa0-c44c-465f-93d3-d01a5e3528f8" fqName="com.zurich.vsl.modernization.fumo.fumo" version="-1" />
     <language id="654422bf-e75f-44dc-936d-188890a746ce" fqName="de.slisson.mps.reflection" version="0" />
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="3" />
     <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
