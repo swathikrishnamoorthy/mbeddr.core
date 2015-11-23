@@ -7641,12 +7641,6 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
           </node>
         </node>
-        <node concept="1SiIV0" id="4997BZGiCMd" role="3bR37C">
-          <node concept="3bR9La" id="4997BZGiCMe" role="1SiIV1">
-            <property role="3bR36h" value="true" />
-            <ref role="3bR37D" node="4gGXGcLW61e" resolve="com.mbeddr.mpsutil.editor.utils" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="4997BZGiCMf" role="3bR37C">
           <node concept="3bR9La" id="4997BZGiCMg" role="1SiIV1">
             <property role="3bR36h" value="false" />
@@ -7736,6 +7730,51 @@
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" to="ffeo:3MI1gu0QouH" resolve="jetbrains.mps.editor.runtime" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4997BZGm12Y" role="3bR37C">
+          <node concept="3bR9La" id="4997BZGm12Z" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" node="4997BZGlXL$" resolve="com.mbeddr.mpsutil.createTargetCell.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4997BZGm130" role="3bR37C">
+          <node concept="3bR9La" id="4997BZGm131" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1E0d5M" id="4997BZGm132" role="1E1XAP">
+          <ref role="1E0d5P" node="4997BZGlXL$" resolve="com.mbeddr.mpsutil.createTargetCell.runtime" />
+        </node>
+      </node>
+      <node concept="1E1JtA" id="4997BZGlXL$" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.mbeddr.mpsutil.createTargetCell.runtime" />
+        <property role="3LESm3" value="24684189-9d52-41e3-999b-2108bb58759c" />
+        <property role="2GAjPV" value="false" />
+        <node concept="398BVA" id="4997BZGlZBl" role="3LF7KH">
+          <ref role="398BVh" node="7uZw0yZ2_Lj" resolve="mpsutil" />
+          <node concept="2Ry0Ak" id="4997BZGlZBt" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="4997BZGlZB$" role="2Ry0An">
+              <property role="2Ry0Am" value="com.mbeddr.mpsutil.createTargetCell.runtime" />
+              <node concept="2Ry0Ak" id="4997BZGlZBF" role="2Ry0An">
+                <property role="2Ry0Am" value="com.mbeddr.mpsutil.createTargetCell.runtime.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4997BZGm0eQ" role="3bR37C">
+          <node concept="3bR9La" id="4997BZGm0eR" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="4gGXGcLW61e" resolve="com.mbeddr.mpsutil.editor.utils" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4997BZGm0eS" role="3bR37C">
+          <node concept="3bR9La" id="4997BZGm0eT" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
           </node>
         </node>
       </node>
