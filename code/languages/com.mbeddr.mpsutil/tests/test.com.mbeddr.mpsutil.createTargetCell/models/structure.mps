@@ -14,6 +14,7 @@
         <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -69,6 +70,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="4FBHGsdteGn" resolve="TargetRef" />
     </node>
+    <node concept="1TJgyj" id="4997BZGmb_X" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="binaries" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="4997BZGmb_C" resolve="Binary" />
+    </node>
     <node concept="1TJgyj" id="4FBHGsdteGl" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="container" />
@@ -94,6 +101,33 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4FBHGsdteGd" resolve="Target" />
     </node>
+    <node concept="PrWs8" id="4997BZGmb_T" role="PzmwI">
+      <ref role="PrY4T" node="4997BZGmb_D" resolve="ISomething" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4997BZGmb_C">
+    <property role="1pbfSe" value="782358503" />
+    <property role="TrG5h" value="Binary" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4997BZGmb_E" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4997BZGmb_D" resolve="ISomething" />
+    </node>
+    <node concept="1TJgyj" id="4997BZGmb_M" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4997BZGmb_D" resolve="ISomething" />
+    </node>
+    <node concept="PrWs8" id="4997BZGmb_I" role="PzmwI">
+      <ref role="PrY4T" node="4997BZGmb_D" resolve="ISomething" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4997BZGmb_D">
+    <property role="1pbfSe" value="782358504" />
+    <property role="TrG5h" value="ISomething" />
   </node>
 </model>
 

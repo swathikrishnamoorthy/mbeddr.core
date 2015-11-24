@@ -409,6 +409,35 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="4997BZGmpD8" role="3cqZAp">
+          <node concept="2OqwBi" id="4997BZGmpD5" role="3clFbG">
+            <node concept="10M0yZ" id="4997BZGmpD6" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="4997BZGmpD7" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="4997BZGmq7H" role="37wK5m">
+                <node concept="37vLTw" id="4997BZGmqd8" role="3uHU7w">
+                  <ref role="3cqZAo" node="4997BZGkdGZ" resolve="pattern" />
+                </node>
+                <node concept="3cpWs3" id="4997BZGmpTg" role="3uHU7B">
+                  <node concept="3cpWs3" id="4997BZGmpNA" role="3uHU7B">
+                    <node concept="Xl_RD" id="4997BZGmpG8" role="3uHU7B">
+                      <property role="Xl_RC" value="errorText: " />
+                    </node>
+                    <node concept="37vLTw" id="4997BZGmpPn" role="3uHU7w">
+                      <ref role="3cqZAo" node="4997BZGkdte" resolve="errorText" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="4997BZGmpTG" role="3uHU7w">
+                    <property role="Xl_RC" value=" pattern: " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="4997BZGkhqH" role="3cqZAp">
           <node concept="1rXfSq" id="4997BZGkhqF" role="3clFbG">
             <ref role="37wK5l" node="4997BZGkdW1" resolve="doGetMatchingText" />
