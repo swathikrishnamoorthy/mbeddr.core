@@ -9,7 +9,6 @@
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.eclipse.incquery.mps.sq" version="0" />
-    <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -642,6 +641,7 @@
       <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
+      <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
         <child id="1153944424730" name="inputSequence" index="2GsD0m" />
@@ -7599,16 +7599,19 @@
               </node>
               <node concept="2OqwBi" id="4fD91B_1$jg" role="33vP2m">
                 <node concept="2OqwBi" id="4fD91B_1B_A" role="2Oq$k0">
-                  <node concept="2OqwBi" id="4fD91B_1$jh" role="2Oq$k0">
-                    <node concept="37vLTw" id="4fD91B_1$ji" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4fD91B_1nrP" resolve="visibleElementProvider" />
-                    </node>
-                    <node concept="2qgKlT" id="4fD91B_1$jj" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:6clJcrJXo2_" resolve="visibleContentsOfType" />
-                      <node concept="3TUQnm" id="4fD91B_1$jk" role="37wK5m">
-                        <ref role="3TV0OU" to="x27k:5_l8w1EmTvw" resolve="FunctionPrototype" />
+                  <node concept="2OqwBi" id="7hpKUiMmR6" role="2Oq$k0">
+                    <node concept="2OqwBi" id="4fD91B_1$jh" role="2Oq$k0">
+                      <node concept="37vLTw" id="4fD91B_1$ji" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4fD91B_1nrP" resolve="visibleElementProvider" />
+                      </node>
+                      <node concept="2qgKlT" id="4fD91B_1$jj" role="2OqNvi">
+                        <ref role="37wK5l" to="hwgx:6clJcrJXo2_" resolve="visibleContentsOfType" />
+                        <node concept="3TUQnm" id="4fD91B_1$jk" role="37wK5m">
+                          <ref role="3TV0OU" to="x27k:5_l8w1EmTvw" resolve="FunctionPrototype" />
+                        </node>
                       </node>
                     </node>
+                    <node concept="ANE8D" id="7hpKUiMn5L" role="2OqNvi" />
                   </node>
                   <node concept="v3k3i" id="4fD91B_1Ch7" role="2OqNvi">
                     <node concept="chp4Y" id="4fD91B_1Cnx" role="v3oSu">
