@@ -99,10 +99,10 @@
 	<property name="com.mbeddr.platform.build-file.name" value="build.xml" /> 
 	<property name="com.mbeddr.platform.test-build-file.name" value="build-ts-tests.xml" /> 
 	<property name="com.mbeddr.platform.working-dir" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.platform" />  
-
-  <!-- mps-incquery -->
-  <property name="mps-incquery.build-file.name" value="build.xml" />
-  <property name="mps-incquery.build-file.location" value="${plugins.scripts.base-path}/mps-incquery" />
+	
+	<!-- inca -->
+	<property name="inca.build-file.name" value="build.xml" />
+	<property name="inca.build-file.location" value="${plugins.scripts.base-path}/inca/code" />
 
 	<!-- mbeddr.allScripts -->
 	<property name="com.mbeddr.allScripts.build-file.location" value="${mbeddr.scripts.base-path}/com.mbeddr.allScripts" />    
@@ -236,7 +236,7 @@
 
 	<target name="build-platform-and-mbeddr" >
 		<antcall target="build-platform" />
-    	<antcall target="build-mps-incquery" />
+    	<antcall target="build-inca" />
 		<antcall target="build-mbeddr" />
 	</target>
 
@@ -454,9 +454,9 @@
 		<ant antfile="${com.mbeddr.tutorial.tests-build-file.name}" dir="${com.mbeddr.tutorial.build-file.location}" target="${build-plugin.task}" />
 	</target>
 
-  <target name="build-mps-incquery">
-    <ant antfile="${mps-incquery.build-file.name}" dir="${mps-incquery.build-file.location}" target="${generate-code.task}" />
-    <ant antfile="${mps-incquery.build-file.name}" dir="${mps-incquery.build-file.location}" target="${build-plugin.task}" />
+  <target name="build-inca">
+    <ant antfile="${inca.build-file.name}" dir="${inca.build-file.location}" target="${generate-code.task}" />
+    <ant antfile="${inca.build-file.name}" dir="${inca.build-file.location}" target="${build-plugin.task}" />
   </target>     
 
 	<target name="make-tests" description="Run 'make test' for child Makefiles">

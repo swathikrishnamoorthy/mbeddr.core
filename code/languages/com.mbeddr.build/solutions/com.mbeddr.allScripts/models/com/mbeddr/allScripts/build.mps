@@ -905,13 +905,16 @@
             <node concept="2Ry0Ak" id="54d2E3NDB3C" role="2Ry0An">
               <property role="2Ry0Am" value="plugins" />
               <node concept="2Ry0Ak" id="54d2E3NDBSY" role="2Ry0An">
-                <property role="2Ry0Am" value="mps-incquery" />
+                <property role="2Ry0Am" value="inca" />
                 <node concept="2Ry0Ak" id="54d2E3NDC2v" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
+                  <property role="2Ry0Am" value="code" />
                   <node concept="2Ry0Ak" id="54d2E3NDCc0" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.eclipse.incquery.mps.build" />
-                    <node concept="2Ry0Ak" id="54d2E3NDClx" role="2Ry0An">
-                      <property role="2Ry0Am" value="org.eclipse.incquery.mps.build.msd" />
+                    <property role="2Ry0Am" value="solutions" />
+                    <node concept="2Ry0Ak" id="1_IDj7Gy5SV" role="2Ry0An">
+                      <property role="2Ry0Am" value="org.eclipse.incquery.mps.build" />
+                      <node concept="2Ry0Ak" id="1_IDj7Gy5XK" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.incquery.mps.build.msd" />
+                      </node>
                     </node>
                   </node>
                 </node>

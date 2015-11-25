@@ -365,20 +365,20 @@
     </echoxml>
     <jar destfile="${build.tmp}/default/com.mbeddr.allScripts.zip/mbeddr.allScripts/languages/org.eclipse.incquery.mps.build.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.eclipse.incquery.mps.build" />
-      <fileset dir="${mbeddr.github.core.home}/code/plugins/mps-incquery/solutions/org.eclipse.incquery.mps.build" includes="icons/**, resources/**" />
-      <fileset dir="${mbeddr.github.core.home}/code/plugins/mps-incquery/solutions/org.eclipse.incquery.mps.build/source_gen" includes="**/trace.info, **/exports" />
+      <fileset dir="${mbeddr.github.core.home}/code/plugins/inca/code/solutions/org.eclipse.incquery.mps.build" includes="icons/**, resources/**" />
+      <fileset dir="${mbeddr.github.core.home}/code/plugins/inca/code/solutions/org.eclipse.incquery.mps.build/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.eclipse.incquery.mps.build.jar" />
     </jar>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/code-plugins-mps-incquery-solutions-org.eclipse.incquery.mps.build-models">
-      <fileset dir="${mbeddr.github.core.home}/code/plugins/mps-incquery/solutions/org.eclipse.incquery.mps.build/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/code-plugins-inca-code-solutions-org.eclipse.incquery.mps.build-models">
+      <fileset dir="${mbeddr.github.core.home}/code/plugins/inca/code/solutions/org.eclipse.incquery.mps.build/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.tmp}/default/com.mbeddr.allScripts.zip/mbeddr.allScripts/languages/org.eclipse.incquery.mps.build-src.jar" duplicate="preserve">
-      <fileset dir="${mbeddr.github.core.home}/code/plugins/mps-incquery/solutions/org.eclipse.incquery.mps.build/source_gen">
+      <fileset dir="${mbeddr.github.core.home}/code/plugins/inca/code/solutions/org.eclipse.incquery.mps.build/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
       </fileset>
-      <zipfileset file="${mbeddr.github.core.home}/code/plugins/mps-incquery/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" prefix="module" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/code-plugins-mps-incquery-solutions-org.eclipse.incquery.mps.build-models" prefix="module/models" />
+      <zipfileset file="${mbeddr.github.core.home}/code/plugins/inca/code/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/code-plugins-inca-code-solutions-org.eclipse.incquery.mps.build-models" prefix="module/models" />
     </jar>
     <zip destfile="${build.layout}/com.mbeddr.allScripts.zip">
       <fileset dir="${build.tmp}/default/com.mbeddr.allScripts.zip" />
@@ -494,7 +494,7 @@
         <module file="${mbeddr.github.core.home}/code/languages/com.mbeddr.build/solutions/com.mbeddr.build.build/com.mbeddr.build.build.msd" />
         <module file="${mbeddr.github.core.home}/code/plugins/sl-all/solutions/de.slisson.mps.all.build/de.slisson.mps.all.build.msd" />
         <module file="${mbeddr.github.core.home}/code/languages/com.mbeddr.build/solutions/jetbrains.mps.minimal/jetbrains.mps.minimal.msd" />
-        <module file="${mbeddr.github.core.home}/code/plugins/mps-incquery/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" />
+        <module file="${mbeddr.github.core.home}/code/plugins/inca/code/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" />
       </chunk>
       <jvmargs>
         <arg value="-Xmx512m" />
@@ -801,17 +801,17 @@
   </target>
   
   <target name="java.compile.org.eclipse.incquery.mps.build">
-    <mkdir dir="${mbeddr.github.core.home}/code/plugins/mps-incquery/solutions/org.eclipse.incquery.mps.build/source_gen" />
+    <mkdir dir="${mbeddr.github.core.home}/code/plugins/inca/code/solutions/org.eclipse.incquery.mps.build/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.eclipse.incquery.mps.build" />
     <javac destdir="${build.tmp}/java/out/org.eclipse.incquery.mps.build" fork="false" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mbeddr.github.core.home}/code/plugins/mps-incquery/solutions/org.eclipse.incquery.mps.build/source_gen" />
+        <path location="${mbeddr.github.core.home}/code/plugins/inca/code/solutions/org.eclipse.incquery.mps.build/source_gen" />
       </src>
       <classpath />
     </javac>
     <copy todir="${build.tmp}/java/out/org.eclipse.incquery.mps.build">
-      <fileset dir="${mbeddr.github.core.home}/code/plugins/mps-incquery/solutions/org.eclipse.incquery.mps.build/source_gen">
+      <fileset dir="${mbeddr.github.core.home}/code/plugins/inca/code/solutions/org.eclipse.incquery.mps.build/source_gen">
         <include name="**/*.info" />
       </fileset>
     </copy>
@@ -832,6 +832,6 @@
     <delete dir="${mbeddr.build}/solutions/com.mbeddr.build.build/source_gen" />
     <delete dir="${mbeddr.github.core.home}/code/plugins/sl-all/solutions/de.slisson.mps.all.build/source_gen" />
     <delete dir="${mbeddr.build}/solutions/jetbrains.mps.minimal/source_gen" />
-    <delete dir="${mbeddr.github.core.home}/code/plugins/mps-incquery/solutions/org.eclipse.incquery.mps.build/source_gen" />
+    <delete dir="${mbeddr.github.core.home}/code/plugins/inca/code/solutions/org.eclipse.incquery.mps.build/source_gen" />
   </target>
 </project>
