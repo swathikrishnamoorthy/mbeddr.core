@@ -543,31 +543,31 @@
     </node>
     <node concept="ftmFs" id="4eWR0HOKnDF" role="ftER_">
       <node concept="tCFHf" id="5w4aNPZxr2S" role="ftvYc">
-        <ref role="tCJdB" node="5w4aNPZx76K" resolve="ValidationSingle_MPS" />
+        <ref role="tCJdB" node="5w4aNPZx76K" resolve="WF_NonInc_Single" />
       </node>
       <node concept="tCFHf" id="4Apa03b69xC" role="ftvYc">
-        <ref role="tCJdB" node="4Apa03b69jD" resolve="ValidationSingle_IncQuery" />
+        <ref role="tCJdB" node="4Apa03b69jD" resolve="WF_IncA_Single" />
       </node>
       <node concept="tCFHf" id="36hysIxXKEO" role="ftvYc">
-        <ref role="tCJdB" node="7M7$7ZOLSB7" resolve="ValidationSeries_IncQuery" />
+        <ref role="tCJdB" node="7M7$7ZOLSB7" resolve="WF_IncA" />
       </node>
       <node concept="tCFHf" id="5PknKJDR6XW" role="ftvYc">
-        <ref role="tCJdB" node="5PknKJDPbNu" resolve="ValidationSeries_MPS" />
+        <ref role="tCJdB" node="5PknKJDPbNu" resolve="WF_NonInc" />
       </node>
       <node concept="tCFHf" id="7$Y1SIDpaX" role="ftvYc">
-        <ref role="tCJdB" node="7$Y1SICub5" resolve="PointerAnalyzeAction_Compare" />
+        <ref role="tCJdB" node="7$Y1SICub5" resolve="PointsToAnalysis_Compare" />
       </node>
       <node concept="tCFHf" id="4CQh_WBydvO" role="ftvYc">
-        <ref role="tCJdB" node="4CQh_WBuCM2" resolve="PointerAnalyzeAction_MPS" />
+        <ref role="tCJdB" node="4CQh_WBuCM2" resolve="PointsToAnalysis_NonInc" />
       </node>
       <node concept="tCFHf" id="4CQh_WBydwt" role="ftvYc">
-        <ref role="tCJdB" node="4CQh_WBvbAk" resolve="PointerAnalyzeAction_IncQuery" />
+        <ref role="tCJdB" node="4CQh_WBvbAk" resolve="PointsToAnalysis_IncA" />
       </node>
     </node>
   </node>
   <node concept="sE7Ow" id="5w4aNPZx76K">
-    <property role="TrG5h" value="ValidationSingle_MPS" />
-    <property role="2uzpH1" value="VALIDATION - Validate Model (MPS)" />
+    <property role="TrG5h" value="WF_NonInc_Single" />
+    <property role="2uzpH1" value="EVAL - Well-formedness Analysis Non-inc. Single" />
     <property role="3GE5qa" value="actions.wf" />
     <node concept="tnohg" id="5w4aNPZx76L" role="tncku">
       <node concept="3clFbS" id="5w4aNPZx76M" role="2VODD2">
@@ -607,8 +607,8 @@
     </node>
   </node>
   <node concept="sE7Ow" id="4Apa03b69jD">
-    <property role="TrG5h" value="ValidationSingle_IncQuery" />
-    <property role="2uzpH1" value="VALIDATION - Validate Model (IncQuery)" />
+    <property role="TrG5h" value="WF_IncA_Single" />
+    <property role="2uzpH1" value="EVAL - Well-formedness Analysis IncA Single" />
     <property role="3GE5qa" value="actions.wf" />
     <node concept="tnohg" id="4Apa03b69jE" role="tncku">
       <node concept="3clFbS" id="4Apa03b69jF" role="2VODD2">
@@ -2176,8 +2176,8 @@
     <node concept="3Tm1VV" id="QW_2SlbkJj" role="1B3o_S" />
   </node>
   <node concept="sE7Ow" id="7M7$7ZOLSB7">
-    <property role="TrG5h" value="ValidationSeries_IncQuery" />
-    <property role="2uzpH1" value="VALIDATION - Execute Measurement (IncQuery)" />
+    <property role="TrG5h" value="WF_IncA" />
+    <property role="2uzpH1" value="EVAL - Well-formedness Analysis IncA" />
     <property role="3GE5qa" value="actions.wf" />
     <node concept="1DS2jV" id="7M7$7ZOMbGo" role="1NuT2Z">
       <property role="TrG5h" value="project" />
@@ -2190,9 +2190,7 @@
           <node concept="3cpWsn" id="3vpfMDO5427" role="3cpWs9">
             <property role="TrG5h" value="measureMemory" />
             <node concept="10P_77" id="3vpfMDO5422" role="1tU5fm" />
-            <node concept="3clFbT" id="5rAEUzfROtC" role="33vP2m">
-              <property role="3clFbU" value="true" />
-            </node>
+            <node concept="3clFbT" id="5rAEUzfROtC" role="33vP2m" />
           </node>
         </node>
         <node concept="3clFbH" id="3vpfMDO53IB" role="3cqZAp" />
@@ -2291,7 +2289,7 @@
                         <ref role="37wK5l" to="wyt6:~Thread.sleep(long):void" resolve="sleep" />
                         <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
                         <node concept="3cmrfG" id="3vpfMDO52Dx" role="37wK5m">
-                          <property role="3cmrfH" value="1000" />
+                          <property role="3cmrfH" value="2000" />
                         </node>
                       </node>
                     </node>
@@ -2778,6 +2776,22 @@
             </node>
           </node>
         </node>
+        <node concept="1X3_iC" id="7R8np4iAPwD" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="7R8np4iAieb" role="8Wnug">
+            <node concept="2OqwBi" id="7R8np4iAiec" role="3clFbG">
+              <node concept="37vLTw" id="7R8np4iAilb" role="2Oq$k0">
+                <ref role="3cqZAo" node="7$Y1SICDs5" resolve="modelNames" />
+              </node>
+              <node concept="TSZUe" id="7R8np4iAiee" role="2OqNvi">
+                <node concept="Xl_RD" id="7R8np4iAief" role="25WWJ7">
+                  <property role="Xl_RC" value="de.itemis.mbeddr.cimporter.test.toyota_exp@tests" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7$Y1SICDsb" role="3cqZAp">
           <node concept="2OqwBi" id="7$Y1SICDsc" role="3clFbG">
             <node concept="37vLTw" id="7$Y1SICDsd" role="2Oq$k0">
@@ -2785,7 +2799,7 @@
             </node>
             <node concept="TSZUe" id="7$Y1SICDse" role="2OqNvi">
               <node concept="Xl_RD" id="7$Y1SICDsf" role="25WWJ7">
-                <property role="Xl_RC" value="de.itemis.mbeddr.cimporter.test.toyota_exp@tests" />
+                <property role="Xl_RC" value="toyota.itc.root" />
               </node>
             </node>
           </node>
@@ -2919,8 +2933,8 @@
     <node concept="3Tm1VV" id="3CE75__e$S0" role="1B3o_S" />
   </node>
   <node concept="sE7Ow" id="5PknKJDPbNu">
-    <property role="TrG5h" value="ValidationSeries_MPS" />
-    <property role="2uzpH1" value="VALIDATION - Execute Measurement (MPS)" />
+    <property role="TrG5h" value="WF_NonInc" />
+    <property role="2uzpH1" value="EVAL - Well-formedness Analysis Non-inc." />
     <property role="3GE5qa" value="actions.wf" />
     <node concept="1DS2jV" id="5PknKJDPbNv" role="1NuT2Z">
       <property role="TrG5h" value="project" />
@@ -3104,8 +3118,8 @@
     </node>
   </node>
   <node concept="sE7Ow" id="7$Y1SICub5">
-    <property role="TrG5h" value="PointerAnalyzeAction_Compare" />
-    <property role="2uzpH1" value="POINTER - Analyze (Compare results)" />
+    <property role="TrG5h" value="PointsToAnalysis_Compare" />
+    <property role="2uzpH1" value="EVAL - Points-to Analysis Compare Results" />
     <property role="3GE5qa" value="actions.pointer" />
     <node concept="1DS2jV" id="7$Y1SICub6" role="1NuT2Z">
       <property role="TrG5h" value="project" />
@@ -3239,8 +3253,8 @@
     </node>
   </node>
   <node concept="sE7Ow" id="4CQh_WBuCM2">
-    <property role="TrG5h" value="PointerAnalyzeAction_MPS" />
-    <property role="2uzpH1" value="POINTER - Analyze (MPS)" />
+    <property role="TrG5h" value="PointsToAnalysis_NonInc" />
+    <property role="2uzpH1" value="EVAL - Points-to Analysis Non-inc." />
     <property role="3GE5qa" value="actions.pointer" />
     <node concept="1DS2jV" id="4CQh_WBuCM3" role="1NuT2Z">
       <property role="TrG5h" value="project" />
@@ -3422,8 +3436,8 @@
     </node>
   </node>
   <node concept="sE7Ow" id="4CQh_WBvbAk">
-    <property role="TrG5h" value="PointerAnalyzeAction_IncQuery" />
-    <property role="2uzpH1" value="POINTER - Analyze (IncQuery)" />
+    <property role="TrG5h" value="PointsToAnalysis_IncA" />
+    <property role="2uzpH1" value="EVAL - Points-to Analysis IncA" />
     <property role="3GE5qa" value="actions.pointer" />
     <node concept="1DS2jV" id="4CQh_WBvbAl" role="1NuT2Z">
       <property role="TrG5h" value="project" />
@@ -3436,9 +3450,7 @@
           <node concept="3cpWsn" id="1z2_LfBRP0a" role="3cpWs9">
             <property role="TrG5h" value="measureMemory" />
             <node concept="10P_77" id="1z2_LfBRP0b" role="1tU5fm" />
-            <node concept="3clFbT" id="1z2_LfBRP0c" role="33vP2m">
-              <property role="3clFbU" value="true" />
-            </node>
+            <node concept="3clFbT" id="1z2_LfBRP0c" role="33vP2m" />
           </node>
         </node>
         <node concept="3clFbH" id="1z2_LfBROLQ" role="3cqZAp" />
@@ -3520,7 +3532,7 @@
                       <ref role="3cqZAo" node="1z2_LfBR_Zv" resolve="j" />
                     </node>
                     <node concept="3cmrfG" id="18ERtnoAKo" role="3uHU7w">
-                      <property role="3cmrfH" value="1" />
+                      <property role="3cmrfH" value="5" />
                     </node>
                   </node>
                   <node concept="3uNrnE" id="1z2_LfBR_Z_" role="1Dwrff">
@@ -3536,7 +3548,7 @@
                         <ref role="37wK5l" to="wyt6:~Thread.sleep(long):void" resolve="sleep" />
                         <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
                         <node concept="3cmrfG" id="1z2_LfBR_ZF" role="37wK5m">
-                          <property role="3cmrfH" value="1000" />
+                          <property role="3cmrfH" value="2000" />
                         </node>
                       </node>
                     </node>

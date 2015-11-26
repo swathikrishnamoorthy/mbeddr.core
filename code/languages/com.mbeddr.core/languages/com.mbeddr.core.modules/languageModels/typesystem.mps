@@ -9,6 +9,8 @@
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.eclipse.incquery.mps.sq" version="0" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.eclipse.incquery.mps.base" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -330,6 +332,21 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA">
+        <property id="5858074156537516431" name="text" index="x79VB" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+    </language>
     <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.eclipse.incquery.mps.base">
       <concept id="996292992024567127" name="org.eclipse.incquery.mps.base.structure.ExpressionEvaluationValue" flags="ng" index="2k1_p_">
         <child id="996292992024567128" name="expression" index="2k1_pE" />
@@ -353,6 +370,10 @@
       </concept>
       <concept id="7447605944636584242" name="org.eclipse.incquery.mps.base.structure.MPSIncQueryMatch" flags="ig" index="2yvosn">
         <reference id="7447605944636589388" name="pattern" index="2yvvdD" />
+      </concept>
+      <concept id="266511528377428275" name="org.eclipse.incquery.mps.base.structure.ParameterCommentTag" flags="ng" index="2MMnZx">
+        <property id="266511528377428276" name="text" index="2MMnZA" />
+        <reference id="266511528377428278" name="parameter" index="2MMnZ$" />
       </concept>
       <concept id="7241148409043933760" name="org.eclipse.incquery.mps.base.structure.MPSIncQueryMatcherInstantiation" flags="ng" index="2UzQ1s">
         <reference id="7241148409043933812" name="pattern" index="2UzQ1C" />
@@ -384,6 +405,7 @@
         <child id="4530729936991567856" name="parameters" index="1dv5OJ" />
         <child id="1925259677761359694" name="bodies" index="3zVECR" />
       </concept>
+      <concept id="5024559837613016203" name="org.eclipse.incquery.mps.base.structure.IPatternComment" flags="ng" index="1k99o6" />
       <concept id="3634481308605751419" name="org.eclipse.incquery.mps.base.structure.BaseVariableReference" flags="ng" index="1sjAk5">
         <reference id="3634481308605751420" name="variable" index="1sjAk2" />
       </concept>
@@ -10555,7 +10577,7 @@
   </node>
   <node concept="3TKv5i" id="4prsFNe9fdq">
     <property role="3GE5qa" value="dataflow.pointer" />
-    <property role="TrG5h" value="FlowSensitivePointerAnalysis" />
+    <property role="TrG5h" value="PointsToAnalysis" />
     <node concept="3zyOaA" id="4prsFNebcQs" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="pointsToBefore" />
@@ -10578,7 +10600,7 @@
           </node>
           <node concept="2k1GkI" id="3e1iAvwqM7R" role="34ocZk">
             <node concept="2k1_uq" id="3e1iAvwqM7S" role="2nKVj6">
-              <ref role="2nKBpL" node="2tV8qO6VbS6" resolve="cfg0" />
+              <ref role="2nKBpL" node="5HJW9usCTKS" resolve="cfg" />
               <node concept="30NkWi" id="3e1iAvwqPxe" role="2nKBpO">
                 <ref role="XkjO9" node="7Bq0by3kMb3" resolve="n" />
               </node>
@@ -10604,6 +10626,24 @@
           <ref role="2UGuZ7" to="mj1l:1LDGRqyYkTP" resolve="IVariableDeclaration" />
         </node>
       </node>
+      <node concept="1k99o6" id="6HD5lCpgeFq" role="lGtFl">
+        <node concept="TZ5HA" id="6HD5lCpgeFr" role="TZ5H$">
+          <node concept="1dT_AC" id="6HD5lCpgeFs" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the points-to tuple targets for a variable before the execution of CFG node 'n'." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="6HD5lCpgeFt" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG node" />
+          <ref role="2MMnZ$" node="7Bq0by3kMb3" resolve="n" />
+        </node>
+        <node concept="2MMnZx" id="6HD5lCpgeFu" role="3nqlJM">
+          <property role="2MMnZA" value="the pointer variable" />
+          <ref role="2MMnZ$" node="3e1iAvwsa8T" resolve="u" />
+        </node>
+        <node concept="x79VA" id="6HD5lCpgeFv" role="3nqlJM">
+          <property role="x79VB" value="the pointed-to variable" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="4prsFNebbYF" role="1dubk0" />
     <node concept="3zyOaA" id="4prsFNebaed" role="1dubk0">
@@ -10622,53 +10662,32 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="4prsFNebaeg" role="3zVECR">
-        <node concept="34odk1" id="3e1iAvwsNZ9" role="1dgzf0">
-          <node concept="2k1_ex" id="3e1iAvwsFPL" role="34ocZn">
-            <node concept="30KbLJ" id="3e1iAvwsHdr" role="3tmOSN">
-              <property role="TrG5h" value="x" />
-            </node>
-            <node concept="30KbLJ" id="3e1iAvwsLg1" role="3tmOSN">
-              <property role="TrG5h" value="y" />
-            </node>
-          </node>
-          <node concept="2k1GkI" id="3e1iAvwsPmi" role="34ocZk">
-            <node concept="2k1_uq" id="3e1iAvwsPmj" role="2nKVj6">
-              <ref role="2nKBpL" node="2lZQFsJEy61" resolve="pointsToAt" />
-              <node concept="30NkWi" id="3e1iAvwsQEa" role="2nKBpO">
-                <ref role="XkjO9" node="7Bq0by3kTau" resolve="n" />
-              </node>
-            </node>
-          </node>
+        <node concept="1XdyHb" id="6HD5lCpdAoN" role="1dgzf0">
+          <property role="1dubkF" value="no new binding at the current node 'n'" />
         </node>
-        <node concept="34ocy7" id="3e1iAvwsS5v" role="1dgzf0">
-          <node concept="34ofKa" id="3e1iAvwsUKy" role="34ocs8">
-            <node concept="30NkWi" id="3e1iAvwsTrc" role="34ocZn">
-              <ref role="XkjO9" node="3e1iAvwsHdr" resolve="x" />
-            </node>
-            <node concept="30NkWi" id="3e1iAvwsWam" role="34ocZk">
-              <ref role="XkjO9" node="3e1iAvwsgVW" resolve="u" />
-            </node>
-          </node>
-        </node>
-        <node concept="34odk1" id="3e1iAvwst6O" role="1dgzf0">
-          <node concept="30KbLJ" id="3e1iAvwsqq2" role="34ocZn">
-            <property role="TrG5h" value="v" />
-          </node>
-          <node concept="2k1GkI" id="3e1iAvwsuta" role="34ocZk">
-            <node concept="2k1_uq" id="3e1iAvwsutb" role="2nKVj6">
-              <ref role="2nKBpL" node="4prsFNebcQs" resolve="pointsToBefore" />
-              <node concept="30NkWi" id="3e1iAvwsx5D" role="2nKBpO">
-                <ref role="XkjO9" node="7Bq0by3kTau" resolve="n" />
-              </node>
-              <node concept="30NkWi" id="3e1iAvwszFD" role="2nKBpO">
-                <ref role="XkjO9" node="3e1iAvwsgVW" resolve="u" />
+        <node concept="34ocy7" id="6HD5lCpbFZ6" role="1dgzf0">
+          <node concept="34sUYq" id="6HD5lCpbHXl" role="34ocs8">
+            <node concept="2k1GkI" id="6HD5lCpbHXn" role="34sUSb">
+              <node concept="2k1_uq" id="6HD5lCpcLi0" role="2nKVj6">
+                <ref role="2nKBpL" node="6HD5lCpcs3M" resolve="pointsToAt" />
+                <node concept="30NkWi" id="6HD5lCpcNea" role="2nKBpO">
+                  <ref role="XkjO9" node="7Bq0by3kTau" resolve="n" />
+                </node>
               </node>
             </node>
           </node>
         </node>
         <node concept="30Nfyg" id="4prsFNebfYJ" role="1dgzf0">
-          <node concept="30NkWi" id="3e1iAvwsX$D" role="30Nf_D">
-            <ref role="XkjO9" node="3e1iAvwsqq2" resolve="v" />
+          <node concept="2k1GkI" id="6HD5lCpaYFX" role="30Nf_D">
+            <node concept="2k1_uq" id="6HD5lCpaYFY" role="2nKVj6">
+              <ref role="2nKBpL" node="4prsFNebcQs" resolve="pointsToBefore" />
+              <node concept="30NkWi" id="6HD5lCpb0EI" role="2nKBpO">
+                <ref role="XkjO9" node="7Bq0by3kTau" resolve="n" />
+              </node>
+              <node concept="30NkWi" id="6HD5lCpb4xO" role="2nKBpO">
+                <ref role="XkjO9" node="3e1iAvwsgVW" resolve="u" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -10677,7 +10696,59 @@
           <ref role="2UGuZ7" to="mj1l:1LDGRqyYkTP" resolve="IVariableDeclaration" />
         </node>
       </node>
+      <node concept="3zV_Rz" id="6HD5lCpcR9X" role="3zVECR">
+        <node concept="1XdyHb" id="6HD5lCpedGk" role="1dgzf0">
+          <property role="1dubkF" value="there is a binding at the current node but it does not affect 'u'" />
+        </node>
+        <node concept="34odk1" id="6HD5lCpd6OL" role="1dgzf0">
+          <node concept="2k1_ex" id="6HD5lCpcV2e" role="34ocZn">
+            <node concept="30KbLJ" id="6HD5lCpcX0a" role="3tmOSN">
+              <property role="TrG5h" value="x" />
+            </node>
+            <node concept="30KbLJ" id="6HD5lCpd2V4" role="3tmOSN">
+              <property role="TrG5h" value="y" />
+            </node>
+          </node>
+          <node concept="2k1GkI" id="6HD5lCpd8KC" role="34ocZk">
+            <node concept="2k1_uq" id="6HD5lCpd8KD" role="2nKVj6">
+              <ref role="2nKBpL" node="6HD5lCpcs3M" resolve="pointsToAt" />
+              <node concept="30NkWi" id="6HD5lCpdaKr" role="2nKBpO">
+                <ref role="XkjO9" node="7Bq0by3kTau" resolve="n" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="34ocy7" id="6HD5lCpdcFk" role="1dgzf0">
+          <node concept="34ofKa" id="6HD5lCpdkzv" role="34ocs8">
+            <node concept="30NkWi" id="6HD5lCpdi$$" role="34ocZn">
+              <ref role="XkjO9" node="6HD5lCpcX0a" resolve="x" />
+            </node>
+            <node concept="30NkWi" id="6HD5lCpdmyp" role="34ocZk">
+              <ref role="XkjO9" node="3e1iAvwsgVW" resolve="u" />
+            </node>
+          </node>
+        </node>
+        <node concept="30Nfyg" id="6HD5lCpdqxA" role="1dgzf0">
+          <node concept="2k1GkI" id="6HD5lCpdsws" role="30Nf_D">
+            <node concept="2k1_uq" id="6HD5lCpdswt" role="2nKVj6">
+              <ref role="2nKBpL" node="4prsFNebcQs" resolve="pointsToBefore" />
+              <node concept="30NkWi" id="6HD5lCpduuu" role="2nKBpO">
+                <ref role="XkjO9" node="7Bq0by3kTau" resolve="n" />
+              </node>
+              <node concept="30NkWi" id="6HD5lCpdypN" role="2nKBpO">
+                <ref role="XkjO9" node="3e1iAvwsgVW" resolve="u" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3zV_Rz" id="4prsFNebgBW" role="3zVECR">
+        <node concept="1XdyHb" id="6HD5lCpeR8z" role="1dgzf0">
+          <property role="1dubkF" value="there is a binding at the current node and it affects 'u'" />
+        </node>
+        <node concept="1XdyHb" id="6HD5lCpfUCV" role="1dgzf0">
+          <property role="1dubkF" value="and the binding does not point to the null literal" />
+        </node>
         <node concept="34odk1" id="3e1iAvwt0je" role="1dgzf0">
           <node concept="2k1_ex" id="3e1iAvwt0jf" role="34ocZn">
             <node concept="30KbLJ" id="3e1iAvwt0jg" role="3tmOSN">
@@ -10689,7 +10760,7 @@
           </node>
           <node concept="2k1GkI" id="3e1iAvwt0ji" role="34ocZk">
             <node concept="2k1_uq" id="3e1iAvwt0jj" role="2nKVj6">
-              <ref role="2nKBpL" node="2lZQFsJEy61" resolve="pointsToAt" />
+              <ref role="2nKBpL" node="6HD5lCpcs3M" resolve="pointsToAt" />
               <node concept="30NkWi" id="3e1iAvwt0jk" role="2nKBpO">
                 <ref role="XkjO9" node="7Bq0by3kTau" resolve="n" />
               </node>
@@ -10706,75 +10777,133 @@
             </node>
           </node>
         </node>
-        <node concept="30Nfyg" id="4prsFNebpac" role="1dgzf0">
-          <node concept="30NkWi" id="3e1iAvwt8JB" role="30Nf_D">
-            <ref role="XkjO9" node="3e1iAvwt0jh" resolve="y" />
+        <node concept="34ocy7" id="6HD5lCpfEAp" role="1dgzf0">
+          <node concept="2BbxxA" id="6HD5lCpfIGO" role="34ocs8">
+            <ref role="2Bbxxd" to="yq40:4AGl5dzxdX6" resolve="NullExpression" />
+            <node concept="30NkWi" id="6HD5lCpfGDv" role="2Bbxxk">
+              <ref role="XkjO9" node="3e1iAvwt0jh" resolve="y" />
+            </node>
           </node>
+        </node>
+        <node concept="30Nfyg" id="4prsFNebpac" role="1dgzf0">
+          <node concept="2k1GkI" id="6HD5lCpfOF3" role="30Nf_D">
+            <node concept="2k1_uq" id="6HD5lCpfOF4" role="2nKVj6">
+              <ref role="2nKBpL" node="2lZQFsJBCK7" resolve="variableInAssignmentSide_right" />
+              <node concept="30NkWi" id="6HD5lCpfQAN" role="2nKBpO">
+                <ref role="XkjO9" node="3e1iAvwt0jh" resolve="y" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1k99o6" id="6HD5lCpggHJ" role="lGtFl">
+        <node concept="TZ5HA" id="6HD5lCpggHK" role="TZ5H$">
+          <node concept="1dT_AC" id="6HD5lCpggHL" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the points-to tuple targets for a variable after the execution of CFG node 'n'." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="6HD5lCpggHM" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG node" />
+          <ref role="2MMnZ$" node="7Bq0by3kTau" resolve="n" />
+        </node>
+        <node concept="2MMnZx" id="6HD5lCpggHN" role="3nqlJM">
+          <property role="2MMnZA" value="the pointer variable" />
+          <ref role="2MMnZ$" node="3e1iAvwsgVW" resolve="u" />
+        </node>
+        <node concept="x79VA" id="6HD5lCpggHO" role="3nqlJM">
+          <property role="x79VB" value="the pointed-to variable" />
         </node>
       </node>
     </node>
     <node concept="1XdyHe" id="4prsFNeaDdi" role="1dubk0" />
-    <node concept="3zyOaA" id="2lZQFsJEy61" role="1dubk0">
+    <node concept="3zyOaA" id="6HD5lCpcs3M" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="pointsToAt" />
-      <node concept="1VLyuc" id="2lZQFsJEA2I" role="1dv5OJ">
+      <node concept="3TL$xT" id="6HD5lCpcsp$" role="3TLBbI">
+        <node concept="2kdjtB" id="6HD5lCpcspO" role="1dukDx">
+          <ref role="2UGuZ7" to="mj1l:1LDGRqyYkTP" resolve="IVariableDeclaration" />
+        </node>
+      </node>
+      <node concept="3TL$xT" id="6HD5lCpcsq1" role="3TLBbI">
+        <node concept="2kdjtB" id="6HD5lCpcGC0" role="1dukDx">
+          <ref role="2UGuZ7" to="mj1l:4l9ku5EnYC" resolve="IAssignmentSide" />
+        </node>
+      </node>
+      <node concept="1VLyuc" id="6HD5lCpcsoC" role="1dv5OJ">
         <property role="TrG5h" value="n" />
-        <node concept="2kdjtB" id="2lZQFsJPcFT" role="1dukDx">
+        <node concept="2kdjtB" id="6HD5lCpcsoZ" role="1dukDx">
           <ref role="2UGuZ7" to="c4fa:2tV8qO6QC_4" resolve="ICFGNode" />
         </node>
       </node>
-      <node concept="3TL$xT" id="2lZQFsJEy64" role="3TLBbI">
-        <node concept="2kdjtB" id="2lZQFsJEA44" role="1dukDx">
-          <ref role="2UGuZ7" to="mj1l:1LDGRqyYkTP" resolve="IVariableDeclaration" />
-        </node>
-      </node>
-      <node concept="3TL$xT" id="2lZQFsJEA4r" role="3TLBbI">
-        <node concept="2kdjtB" id="2lZQFsJEA5l" role="1dukDx">
-          <ref role="2UGuZ7" to="mj1l:1LDGRqyYkTP" resolve="IVariableDeclaration" />
-        </node>
-      </node>
-      <node concept="3zV_Rz" id="4l9ku5NbG8" role="3zVECR">
-        <node concept="34odk1" id="3e1iAvwu8tX" role="1dgzf0">
-          <node concept="2k1_ex" id="3e1iAvwtYJN" role="34ocZn">
-            <node concept="30KbLJ" id="3e1iAvwu0n_" role="3tmOSN">
+      <node concept="3zV_Rz" id="6HD5lCpcs3N" role="3zVECR">
+        <node concept="34odk1" id="6HD5lCpcsrL" role="1dgzf0">
+          <node concept="2k1_ex" id="6HD5lCpcsrM" role="34ocZn">
+            <node concept="30KbLJ" id="6HD5lCpcsrN" role="3tmOSN">
               <property role="TrG5h" value="l" />
             </node>
-            <node concept="30KbLJ" id="3e1iAvwu5aQ" role="3tmOSN">
+            <node concept="30KbLJ" id="6HD5lCpcsrO" role="3tmOSN">
               <property role="TrG5h" value="r" />
             </node>
           </node>
-          <node concept="2k1GkI" id="3e1iAvwua4s" role="34ocZk">
-            <node concept="2k1_uq" id="3e1iAvwua4t" role="2nKVj6">
+          <node concept="2k1GkI" id="6HD5lCpcsrP" role="34ocZk">
+            <node concept="2k1_uq" id="6HD5lCpcsrQ" role="2nKVj6">
               <ref role="2nKBpL" node="4l9ku5AMNl" resolve="extractSides" />
-              <node concept="30NkWi" id="3e1iAvwubG3" role="2nKBpO">
-                <ref role="XkjO9" node="2lZQFsJEA2I" resolve="n" />
+              <node concept="30NkWi" id="6HD5lCpcsrR" role="2nKBpO">
+                <ref role="XkjO9" node="6HD5lCpcsoC" resolve="n" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="30Nfyg" id="3e1iAvwudLc" role="1dgzf0">
-          <node concept="2k1_ex" id="3e1iAvwufpi" role="30Nf_D">
-            <node concept="2k1GkI" id="3e1iAvwuh0s" role="3tmOSN">
-              <node concept="2k1_uq" id="3e1iAvwuh0t" role="2nKVj6">
-                <ref role="2nKBpL" node="2lZQFsJMRnc" resolve="variableInAssignmentSide_left" />
-                <node concept="30NkWi" id="3e1iAvwuiBV" role="2nKBpO">
-                  <ref role="XkjO9" node="3e1iAvwu0n_" resolve="l" />
-                </node>
+        <node concept="34odk1" id="6HD5lCpcsvZ" role="1dgzf0">
+          <node concept="30KbLJ" id="6HD5lCpcstE" role="34ocZn">
+            <property role="TrG5h" value="u" />
+          </node>
+          <node concept="2k1GkI" id="6HD5lCpcsx_" role="34ocZk">
+            <node concept="2k1_uq" id="6HD5lCpcsxA" role="2nKVj6">
+              <ref role="2nKBpL" node="2lZQFsJMRnc" resolve="variableInAssignmentSide_left" />
+              <node concept="30NkWi" id="6HD5lCpcsyK" role="2nKBpO">
+                <ref role="XkjO9" node="6HD5lCpcsrN" resolve="l" />
               </node>
             </node>
-            <node concept="2k1GkI" id="3e1iAvwumhe" role="3tmOSN">
-              <node concept="2k1_uq" id="3e1iAvwumhf" role="2nKVj6">
-                <ref role="2nKBpL" node="2lZQFsJBCK7" resolve="variableInAssignmentSide_right" />
-                <node concept="30NkWi" id="3e1iAvwuoir" role="2nKBpO">
-                  <ref role="XkjO9" node="3e1iAvwu5aQ" resolve="r" />
-                </node>
-              </node>
+          </node>
+        </node>
+        <node concept="30Nfyg" id="6HD5lCpcwy9" role="1dgzf0">
+          <node concept="2k1_ex" id="6HD5lCpcyzY" role="30Nf_D">
+            <node concept="30NkWi" id="6HD5lCpc$_D" role="3tmOSN">
+              <ref role="XkjO9" node="6HD5lCpcstE" resolve="u" />
+            </node>
+            <node concept="30NkWi" id="6HD5lCpcCAU" role="3tmOSN">
+              <ref role="XkjO9" node="6HD5lCpcsrO" resolve="r" />
             </node>
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="6HD5lCpgiIB" role="lGtFl">
+        <node concept="TZ5HA" id="6HD5lCpgiIC" role="TZ5H$">
+          <node concept="1dT_AC" id="6HD5lCpgiID" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the points-to binding at a CFG node." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6HD5lCpgmMS" role="TZ5H$">
+          <node concept="1dT_AC" id="6HD5lCpgmMT" role="1dT_Ay">
+            <property role="1dT_AB" value="The pointed-to element of the tuple has type IAssignmentSide, because" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6HD5lCpgoMN" role="TZ5H$">
+          <node concept="1dT_AC" id="6HD5lCpgoMO" role="1dT_Ay">
+            <property role="1dT_AB" value="pointsToAfter needs to handle the null assignment as well." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="6HD5lCpgiIE" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG node" />
+          <ref role="2MMnZ$" node="6HD5lCpcsoC" resolve="n" />
+        </node>
+        <node concept="x79VA" id="6HD5lCpgiIF" role="3nqlJM">
+          <property role="x79VB" value="the current binding" />
+        </node>
+      </node>
     </node>
-    <node concept="1XdyHe" id="4l9ku5AFTs" role="1dubk0" />
+    <node concept="1XdyHe" id="6HD5lCpcrJf" role="1dubk0" />
     <node concept="3zyOaA" id="4l9ku5AMNl" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="extractSides" />
@@ -10865,6 +10994,20 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="1k99o6" id="6HD5lCpgqL7" role="lGtFl">
+        <node concept="TZ5HA" id="6HD5lCpgqL8" role="TZ5H$">
+          <node concept="1dT_AC" id="6HD5lCpgqL9" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the potential sides of assignments at a CFG node." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="6HD5lCpgqLa" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG node" />
+          <ref role="2MMnZ$" node="4l9ku5BgyO" resolve="n" />
+        </node>
+        <node concept="x79VA" id="6HD5lCpgqLb" role="3nqlJM">
+          <property role="x79VB" value="the sides of assignment(s)" />
         </node>
       </node>
     </node>
@@ -11041,6 +11184,20 @@
               <ref role="XkjO9" node="4l9ku5K1ZG" resolve="n" />
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="1k99o6" id="6HD5lCpgsM4" role="lGtFl">
+        <node concept="TZ5HA" id="6HD5lCpgsM5" role="TZ5H$">
+          <node concept="1dT_AC" id="6HD5lCpgsM6" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the expressions at a CFG node n." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="6HD5lCpgsM7" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG node" />
+          <ref role="2MMnZ$" node="4l9ku5K1ZG" resolve="n" />
+        </node>
+        <node concept="x79VA" id="6HD5lCpgsM8" role="3nqlJM">
+          <property role="x79VB" value="the expressions at the node" />
         </node>
       </node>
     </node>
@@ -11249,6 +11406,20 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="6HD5lCpgt98" role="lGtFl">
+        <node concept="TZ5HA" id="6HD5lCpgt99" role="TZ5H$">
+          <node concept="1dT_AC" id="6HD5lCpgt9a" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the assignment expression(s) in an expression node." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="6HD5lCpgt9b" role="3nqlJM">
+          <property role="2MMnZA" value="the expression" />
+          <ref role="2MMnZ$" node="4l9ku5I2cd" resolve="e" />
+        </node>
+        <node concept="x79VA" id="6HD5lCpgt9c" role="3nqlJM">
+          <property role="x79VB" value="the assignment expression(s)" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="4l9ku5HFyW" role="1dubk0" />
     <node concept="3zyOaA" id="2lZQFsJMRnc" role="1dubk0">
@@ -11335,6 +11506,31 @@
           <ref role="2UGuZ7" to="mj1l:1LDGRqyYkTP" resolve="IVariableDeclaration" />
         </node>
       </node>
+      <node concept="3zV_Rz" id="6HD5lCpbJV1" role="3zVECR">
+        <node concept="34ocy7" id="6HD5lCpbLTp" role="1dgzf0">
+          <node concept="34oehE" id="6HD5lCpbPSv" role="34ocs8">
+            <ref role="34o0ic" to="mj1l:4ZVDCZCbtj7" resolve="ParensExpression" />
+            <node concept="30NkWi" id="6HD5lCpbNS2" role="34oecr">
+              <ref role="XkjO9" node="2lZQFsJNg20" resolve="s" />
+            </node>
+          </node>
+        </node>
+        <node concept="30Nfyg" id="6HD5lCpbVN9" role="1dgzf0">
+          <node concept="2k1GkI" id="6HD5lCpbXO1" role="30Nf_D">
+            <node concept="2k1_uq" id="6HD5lCpbXO2" role="2nKVj6">
+              <ref role="2nKBpL" node="2lZQFsJMRnc" resolve="variableInAssignmentSide_left" />
+              <node concept="2kdhWc" id="6HD5lCpc1Lg" role="2nKBpO">
+                <node concept="2qPR2i" id="6HD5lCpc3K$" role="3zVzRQ">
+                  <ref role="3zVwH8" to="mj1l:6iIoqg1yDLg" />
+                </node>
+                <node concept="30NkWi" id="6HD5lCpbZMF" role="2kdhYM">
+                  <ref role="XkjO9" node="2lZQFsJNg20" resolve="s" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3zV_Rz" id="2lZQFsJOEBE" role="3zVECR">
         <node concept="30Nfyg" id="2lZQFsJOHJC" role="1dgzf0">
           <node concept="2k1GkI" id="2lZQFsJOKQX" role="30Nf_D">
@@ -11345,6 +11541,25 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="1k99o6" id="6HD5lCpgv8B" role="lGtFl">
+        <node concept="TZ5HA" id="6HD5lCpgv8C" role="TZ5H$">
+          <node concept="1dT_AC" id="6HD5lCpgv8D" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the pointer variable from an assignmet left hand side" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6HD5lCpgxbu" role="TZ5H$">
+          <node concept="1dT_AC" id="6HD5lCpgxbv" role="1dT_Ay">
+            <property role="1dT_AB" value="based on Andersen's rules." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="6HD5lCpgv8E" role="3nqlJM">
+          <property role="2MMnZA" value="the left hand side of an assignment" />
+          <ref role="2MMnZ$" node="2lZQFsJNg20" resolve="s" />
+        </node>
+        <node concept="x79VA" id="6HD5lCpgv8F" role="3nqlJM">
+          <property role="x79VB" value="the pointer variable" />
         </node>
       </node>
     </node>
@@ -11458,6 +11673,31 @@
           </node>
         </node>
       </node>
+      <node concept="3zV_Rz" id="6HD5lCpc5G3" role="3zVECR">
+        <node concept="34ocy7" id="6HD5lCpc7GW" role="1dgzf0">
+          <node concept="34oehE" id="6HD5lCpcbBX" role="34ocs8">
+            <ref role="34o0ic" to="mj1l:4ZVDCZCbtj7" resolve="ParensExpression" />
+            <node concept="30NkWi" id="6HD5lCpc9Db" role="34oecr">
+              <ref role="XkjO9" node="2lZQFsJBGze" resolve="s" />
+            </node>
+          </node>
+        </node>
+        <node concept="30Nfyg" id="6HD5lCpchvQ" role="1dgzf0">
+          <node concept="2k1GkI" id="6HD5lCpcjtL" role="30Nf_D">
+            <node concept="2k1_uq" id="6HD5lCpcjtM" role="2nKVj6">
+              <ref role="2nKBpL" node="2lZQFsJBCK7" resolve="variableInAssignmentSide_right" />
+              <node concept="2kdhWc" id="6HD5lCpcnu$" role="2nKBpO">
+                <node concept="2qPR2i" id="6HD5lCpcpt_" role="3zVzRQ">
+                  <ref role="3zVwH8" to="mj1l:6iIoqg1yDLg" />
+                </node>
+                <node concept="30NkWi" id="6HD5lCpcltE" role="2kdhYM">
+                  <ref role="XkjO9" node="2lZQFsJBGze" resolve="s" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3zV_Rz" id="2lZQFsJDMc9" role="3zVECR">
         <node concept="34odk1" id="3e1iAvwtKh_" role="1dgzf0">
           <node concept="30KbLJ" id="3e1iAvwtH5k" role="34ocZn">
@@ -11513,6 +11753,25 @@
           <node concept="30NkWi" id="3e1iAvwtVw6" role="30Nf_D">
             <ref role="XkjO9" node="3e1iAvwtSh3" resolve="v" />
           </node>
+        </node>
+      </node>
+      <node concept="1k99o6" id="6HD5lCpgzcz" role="lGtFl">
+        <node concept="TZ5HA" id="6HD5lCpg_cT" role="TZ5H$">
+          <node concept="1dT_AC" id="6HD5lCpg_cU" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the pointed-to variable from an assignmet right hand side" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6HD5lCpg_cV" role="TZ5H$">
+          <node concept="1dT_AC" id="6HD5lCpg_cW" role="1dT_Ay">
+            <property role="1dT_AB" value="based on Andersen's rules." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="6HD5lCpgzcA" role="3nqlJM">
+          <property role="2MMnZA" value="the right hand side of an assignment" />
+          <ref role="2MMnZ$" node="2lZQFsJBGze" resolve="s" />
+        </node>
+        <node concept="x79VA" id="6HD5lCpgzcB" role="3nqlJM">
+          <property role="x79VB" value="the pointed-to variable" />
         </node>
       </node>
     </node>
@@ -11604,6 +11863,20 @@
           <node concept="30NkWi" id="4l9ku5QkQ6" role="30Nf_D">
             <ref role="XkjO9" node="7Bq0by3kVRi" resolve="s" />
           </node>
+        </node>
+      </node>
+      <node concept="1k99o6" id="6HD5lCpgDf0" role="lGtFl">
+        <node concept="TZ5HA" id="6HD5lCpgDf1" role="TZ5H$">
+          <node concept="1dT_AC" id="6HD5lCpgDf2" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the variable in an assignment side." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="6HD5lCpgDf3" role="3nqlJM">
+          <property role="2MMnZA" value="the assignment side (left or right)" />
+          <ref role="2MMnZ$" node="7Bq0by3kVRi" resolve="s" />
+        </node>
+        <node concept="x79VA" id="6HD5lCpgDf4" role="3nqlJM">
+          <property role="x79VB" value="the variable" />
         </node>
       </node>
     </node>
@@ -13105,7 +13378,7 @@
                               </node>
                             </node>
                             <node concept="2ynNkJ" id="4prsFNee0wq" role="2ynQY$">
-                              <ref role="2yn2eV" node="4prsFNebae_" resolve="out_0" />
+                              <ref role="2yn2eV" node="3e1iAvwsgVW" resolve="u" />
                               <node concept="37vLTw" id="4prsFNee0wr" role="2ynMYd">
                                 <ref role="3cqZAo" node="5O4bqrTirhZ" resolve="from" />
                               </node>
