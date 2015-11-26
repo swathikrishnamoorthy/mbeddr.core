@@ -35,7 +35,7 @@
         <version>${versionNumber}</version>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
-        <idea-version since-build="141.1" until-build="142.1" />
+        <idea-version since-build="141.1" until-build="143.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -78,7 +78,7 @@
         <version>${versionNumber}</version>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
-        <idea-version since-build="141.1" until-build="142.1" />
+        <idea-version since-build="141.1" until-build="143.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -166,7 +166,7 @@
         <vendor url="https://commons.apache.org/">Apache Foundation</vendor>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
-        <idea-version since-build="141.1" until-build="142.1" />
+        <idea-version since-build="141.1" until-build="143.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -222,7 +222,7 @@
         <depends>de.itemis.mps.editor.widgets</depends>
         <depends>de.itemis.mps.selection</depends>
         <depends>de.slisson.mps.conditionalEditor</depends>
-        <idea-version since-build="141.1" until-build="142.1" />
+        <idea-version since-build="141.1" until-build="143.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -571,7 +571,7 @@
         <version>${versionNumber}</version>
         <depends>jetbrains.mps.core</depends>
         <depends>de.slisson.mps.hacks</depends>
-        <idea-version since-build="141.1" until-build="142.1" />
+        <idea-version since-build="141.1" until-build="143.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -680,7 +680,7 @@
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
         <depends>de.itemis.mps.selection</depends>
-        <idea-version since-build="141.1" until-build="142.1" />
+        <idea-version since-build="141.1" until-build="143.1" />
         <description>An editor component for properties that supports wrapping of long lines and new lines by pressing ENTER.</description>
         
         <extensions defaultExtensionNs="com.intellij">
@@ -793,7 +793,7 @@
         <depends>jetbrains.mps.core</depends>
         <depends>de.slisson.mps.editor.multiline</depends>
         <depends>de.itemis.mps.selection</depends>
-        <idea-version since-build="141.1" until-build="142.1" />
+        <idea-version since-build="141.1" until-build="143.1" />
         <description>Mixing of plain text and MPS nodes.</description>
         
         <extensions defaultExtensionNs="com.intellij">
@@ -926,7 +926,7 @@
         <depends>jetbrains.mps.build</depends>
         <depends>de.slisson.mps.hacks</depends>
         <depends>de.itemis.mps.tooltips</depends>
-        <idea-version since-build="141.1" until-build="142.1" />
+        <idea-version since-build="141.1" until-build="143.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -1247,7 +1247,7 @@
         <vendor url="https://github.com/slisson/mps-math">itemis AG</vendor>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
-        <idea-version since-build="141.1" until-build="142.1" />
+        <idea-version since-build="141.1" until-build="143.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -1441,7 +1441,7 @@
         <depends>jetbrains.mps.build</depends>
         <depends>com.intellij.modules.mps</depends>
         <depends>de.itemis.mps.selection</depends>
-        <idea-version since-build="141.1" until-build="142.1" />
+        <idea-version since-build="141.1" until-build="143.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -1554,7 +1554,7 @@
         <version>${versionNumber}</version>
         <vendor url="https://github.com/slisson/mps-all">itemis AG</vendor>
         <depends>jetbrains.mps.core</depends>
-        <idea-version since-build="141.1" until-build="142.1" />
+        <idea-version since-build="141.1" until-build="143.1" />
         <description>With this plugin you can select nodes in MPS using the mouse.</description>
         
         <extensions defaultExtensionNs="com.intellij">
@@ -1664,7 +1664,7 @@
         <version>${versionNumber}</version>
         <depends>jetbrains.mps.core</depends>
         <depends>de.slisson.mps.hacks</depends>
-        <idea-version since-build="141.1" until-build="142.1" />
+        <idea-version since-build="141.1" until-build="143.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -1824,7 +1824,7 @@
         <name>de.slisson.mps.hacks</name>
         <version>${versionNumber}</version>
         <depends>jetbrains.mps.core</depends>
-        <idea-version since-build="141.1" until-build="142.1" />
+        <idea-version since-build="141.1" until-build="143.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -1957,7 +1957,7 @@
         <version>${versionNumber}</version>
         <depends>jetbrains.mps.core</depends>
         <depends>de.slisson.mps.hacks</depends>
-        <idea-version since-build="141.1" until-build="142.1" />
+        <idea-version since-build="141.1" until-build="143.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -2066,7 +2066,7 @@
         <version>${versionNumber}</version>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
-        <idea-version since-build="141.1" until-build="142.1" />
+        <idea-version since-build="141.1" until-build="143.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -2218,6 +2218,7 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.script.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.sharedConcepts.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
+      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.query.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.textGen.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
@@ -2630,8 +2631,8 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/jmock-junit3-2.5.1.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/jmock-junit4-2.5.1.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/objenesis-1.0.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/junit-4.12.jar" />
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/junit-4.11.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
         <fileset file="${artifacts.IDEA}/lib/ecj-4.4.jar" />
@@ -3748,8 +3749,8 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/jmock-junit3-2.5.1.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/jmock-junit4-2.5.1.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/objenesis-1.0.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/junit-4.12.jar" />
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/junit-4.11.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
         <fileset file="${artifacts.IDEA}/lib/ecj-4.4.jar" />
@@ -3813,8 +3814,8 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/jmock-junit3-2.5.1.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/jmock-junit4-2.5.1.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/objenesis-1.0.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/junit-4.12.jar" />
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/junit-4.11.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
         <fileset file="${artifacts.IDEA}/lib/ecj-4.4.jar" />

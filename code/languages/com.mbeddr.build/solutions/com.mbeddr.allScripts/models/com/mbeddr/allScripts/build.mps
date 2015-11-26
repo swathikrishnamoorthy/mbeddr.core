@@ -895,7 +895,7 @@
       </node>
     </node>
     <node concept="2G$12M" id="54d2E3NDB3$" role="3989C9">
-      <property role="TrG5h" value="mps-incquery" />
+      <property role="TrG5h" value="inca" />
       <node concept="1E1JtA" id="54d2E3NDB3_" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.eclipse.incquery.mps.build" />
@@ -1012,7 +1012,7 @@
       </node>
     </node>
     <node concept="398rNT" id="2H3iRMKCqXF" role="1l3spd">
-      <property role="TrG5h" value="inquery.artifacts" />
+      <property role="TrG5h" value="inca.artifacts" />
       <node concept="398BVA" id="2H3iRMKCqXG" role="398pKh">
         <ref role="398BVh" node="5ueaxoTn60W" resolve="artifacts.root" />
         <node concept="2Ry0Ak" id="2H3iRMKCqXH" role="iGT6I">

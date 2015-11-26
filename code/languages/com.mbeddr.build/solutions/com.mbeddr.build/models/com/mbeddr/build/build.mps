@@ -1004,7 +1004,7 @@
     <node concept="2sgV4H" id="3uP4IkDjN84" role="1l3spa">
       <ref role="1l3spb" to="zkto:2Zh2tjQSyQ0" resolve="org.eclipse.incquery.mps" />
       <node concept="398BVA" id="6f6nn42z17d" role="2JcizS">
-        <ref role="398BVh" node="6f6nn42z2ca" resolve="inquery.artifacts" />
+        <ref role="398BVh" node="6f6nn42z2ca" resolve="inca.artifacts" />
       </node>
     </node>
     <node concept="2sgV4H" id="6ucYLjokM$t" role="1l3spa">
@@ -10248,7 +10248,7 @@
       </node>
     </node>
     <node concept="398rNT" id="6f6nn42z2ca" role="1l3spd">
-      <property role="TrG5h" value="inquery.artifacts" />
+      <property role="TrG5h" value="inca.artifacts" />
       <node concept="398BVA" id="6f6nn42z6R4" role="398pKh">
         <ref role="398BVh" node="4MR$$QmqomQ" resolve="artifacts.root" />
         <node concept="2Ry0Ak" id="6f6nn42z6R5" role="iGT6I">
