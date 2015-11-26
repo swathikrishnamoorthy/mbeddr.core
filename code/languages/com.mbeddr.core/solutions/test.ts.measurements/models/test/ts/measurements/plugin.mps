@@ -97,7 +97,6 @@
       <concept id="6368683143941319361" name="org.eclipse.incquery.mps.sq.structure.SPatternModel" flags="ng" index="3TKv5i" />
       <concept id="6368683143941346282" name="org.eclipse.incquery.mps.sq.structure.SAnonymousParameter" flags="ng" index="3TL$xT" />
       <concept id="5458164179963309291" name="org.eclipse.incquery.mps.sq.structure.SParameter" flags="ng" index="1VLyuc" />
-      <concept id="6151553526979403292" name="org.eclipse.incquery.mps.sq.structure.SComment" flags="ng" index="1XdyHb" />
       <concept id="6151553526979403289" name="org.eclipse.incquery.mps.sq.structure.SEmptyContent" flags="ng" index="1XdyHe" />
     </language>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -325,10 +324,23 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA">
+        <property id="5858074156537516431" name="text" index="x79VB" />
+      </concept>
+      <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
+      <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
+        <reference id="6832197706140518108" name="param" index="zr_51" />
+      </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
-      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv">
+        <child id="8465538089690917625" name="param" index="TUOzN" />
+      </concept>
+      <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
+        <child id="6832197706140518123" name="parameter" index="zr_5Q" />
+      </concept>
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
       </concept>
@@ -362,6 +374,10 @@
         <reference id="7447605944636589388" name="pattern" index="2yvvdD" />
       </concept>
       <concept id="5058472606515023075" name="org.eclipse.incquery.mps.base.structure.TrueLiteral" flags="ng" index="2Br0bF" />
+      <concept id="266511528377428275" name="org.eclipse.incquery.mps.base.structure.ParameterCommentTag" flags="ng" index="2MMnZx">
+        <property id="266511528377428276" name="text" index="2MMnZA" />
+        <reference id="266511528377428278" name="parameter" index="2MMnZ$" />
+      </concept>
       <concept id="7241148409043933760" name="org.eclipse.incquery.mps.base.structure.MPSIncQueryMatcherInstantiation" flags="ng" index="2UzQ1s">
         <reference id="7241148409043933812" name="pattern" index="2UzQ1C" />
         <child id="8066520122896896506" name="model" index="HflyE" />
@@ -375,9 +391,6 @@
       <concept id="4530729936991344605" name="org.eclipse.incquery.mps.base.structure.IPatternBody" flags="ng" index="1dubk2">
         <child id="4530729936991965471" name="contents" index="1dgzf0" />
       </concept>
-      <concept id="4530729936991344618" name="org.eclipse.incquery.mps.base.structure.Comment" flags="ng" index="1dubkP">
-        <property id="4530729936991344628" name="text" index="1dubkF" />
-      </concept>
       <concept id="4530729936991344019" name="org.eclipse.incquery.mps.base.structure.IPatternModel" flags="ng" index="1dubtc">
         <child id="4530729936991344607" name="contents" index="1dubk0" />
       </concept>
@@ -389,6 +402,7 @@
         <child id="4530729936991567856" name="parameters" index="1dv5OJ" />
         <child id="1925259677761359694" name="bodies" index="3zVECR" />
       </concept>
+      <concept id="5024559837613016203" name="org.eclipse.incquery.mps.base.structure.IPatternComment" flags="ng" index="1k99o6" />
       <concept id="3634481308605751419" name="org.eclipse.incquery.mps.base.structure.BaseVariableReference" flags="ng" index="1sjAk5">
         <reference id="3634481308605751420" name="variable" index="1sjAk2" />
       </concept>
@@ -5070,15 +5084,9 @@
   <node concept="3TKv5i" id="2GrU8tMwiwp">
     <property role="3GE5qa" value="validation" />
     <property role="TrG5h" value="ValidationPatterns" />
-    <node concept="1XdyHb" id="7MFo37pESPl" role="1dubk0">
-      <property role="1dubkF" value="returns the operations that are declared by the interfaces of" />
-    </node>
-    <node concept="1XdyHb" id="4d1CLNv1pGU" role="1dubk0">
-      <property role="1dubkF" value="component 'c' but are not implemented" />
-    </node>
     <node concept="3zyOaA" id="2GrU8tMwmT7" role="1dubk0">
       <property role="1aKoCf" value="false" />
-      <property role="TrG5h" value="IncompleteComponent" />
+      <property role="TrG5h" value="getIncompleteOperations" />
       <node concept="1VLyuc" id="2BFEbb0AIk7" role="1dv5OJ">
         <property role="TrG5h" value="c" />
         <node concept="2kdjtB" id="2BFEbb0AImB" role="1dukDx">
@@ -5092,7 +5100,7 @@
           </node>
           <node concept="2k1GkI" id="4d1CLNv1oUo" role="34ocZk">
             <node concept="2k1_uq" id="4d1CLNv1oUp" role="2nKVj6">
-              <ref role="2nKBpL" node="2GrU8tMwiwt" resolve="ProvidedOperations" />
+              <ref role="2nKBpL" node="2GrU8tMwiwt" resolve="getProvidedOperations" />
               <node concept="30NkWi" id="4d1CLNv1oV5" role="2nKBpO">
                 <ref role="XkjO9" node="2BFEbb0AIk7" resolve="c" />
               </node>
@@ -5106,7 +5114,7 @@
             </node>
             <node concept="2k1GkI" id="4d1CLNv1p72" role="34ocZk">
               <node concept="2k1_uq" id="4d1CLNv1p73" role="2nKVj6">
-                <ref role="2nKBpL" node="2GrU8tMwkKQ" resolve="ImplementedOperations" />
+                <ref role="2nKBpL" node="2GrU8tMwkKQ" resolve="getImplementedOperations" />
                 <node concept="30NkWi" id="4d1CLNv1pc1" role="2nKBpO">
                   <ref role="XkjO9" node="2BFEbb0AIk7" resolve="c" />
                 </node>
@@ -5125,14 +5133,30 @@
           <ref role="2UGuZ7" to="v7ag:3TmmsQkC_PW" resolve="Operation" />
         </node>
       </node>
+      <node concept="1k99o6" id="eMPHaLywj0" role="lGtFl">
+        <node concept="TZ5HA" id="eMPHaLywj1" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLywj2" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the operations of a component that are declared by its " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="eMPHaLyw$f" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyw$g" role="1dT_Ay">
+            <property role="1dT_AB" value="realized interfaces but not implemented actually. " />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="eMPHaLywj3" role="3nqlJM">
+          <property role="2MMnZA" value="the component" />
+          <ref role="2MMnZ$" node="2BFEbb0AIk7" resolve="c" />
+        </node>
+        <node concept="x79VA" id="eMPHaLywj4" role="3nqlJM">
+          <property role="x79VB" value="the incomplete operations" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2GrU8tMwmJp" role="1dubk0" />
-    <node concept="1XdyHb" id="4d1CLNv1lPT" role="1dubk0">
-      <property role="1dubkF" value="returns the declared operations of component 'c'" />
-    </node>
     <node concept="3zyOaA" id="2GrU8tMwiwt" role="1dubk0">
       <property role="1aKoCf" value="true" />
-      <property role="TrG5h" value="ProvidedOperations" />
+      <property role="TrG5h" value="getProvidedOperations" />
       <node concept="1VLyuc" id="2BFEbb0AM9j" role="1dv5OJ">
         <property role="TrG5h" value="c" />
         <node concept="2kdjtB" id="2BFEbb0AM9k" role="1dukDx">
@@ -5214,14 +5238,30 @@
           <ref role="2UGuZ7" to="v7ag:3TmmsQkC_PW" resolve="Operation" />
         </node>
       </node>
+      <node concept="1k99o6" id="eMPHaLyxhs" role="lGtFl">
+        <node concept="TZ5HA" id="eMPHaLyxht" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyxhu" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the operations that are declared by the interfaces of" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="eMPHaLyxlj" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyxlk" role="1dT_Ay">
+            <property role="1dT_AB" value="a component." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="eMPHaLyxhv" role="3nqlJM">
+          <property role="2MMnZA" value="the component" />
+          <ref role="2MMnZ$" node="2BFEbb0AM9j" resolve="c" />
+        </node>
+        <node concept="x79VA" id="eMPHaLyxhw" role="3nqlJM">
+          <property role="x79VB" value="the declared operations" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2GrU8tMwkA_" role="1dubk0" />
-    <node concept="1XdyHb" id="4d1CLNv1oB0" role="1dubk0">
-      <property role="1dubkF" value="returns the operations implemented by component 'c'" />
-    </node>
     <node concept="3zyOaA" id="2GrU8tMwkKQ" role="1dubk0">
       <property role="1aKoCf" value="true" />
-      <property role="TrG5h" value="ImplementedOperations" />
+      <property role="TrG5h" value="getImplementedOperations" />
       <node concept="1VLyuc" id="2BFEbb0AMOk" role="1dv5OJ">
         <property role="TrG5h" value="c" />
         <node concept="2kdjtB" id="2BFEbb0AMOl" role="1dukDx">
@@ -5303,14 +5343,25 @@
           <ref role="2UGuZ7" to="v7ag:3TmmsQkC_PW" resolve="Operation" />
         </node>
       </node>
+      <node concept="1k99o6" id="eMPHaLyyp5" role="lGtFl">
+        <node concept="TZ5HA" id="eMPHaLyyp6" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyyp7" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the implemented operations of a component. " />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="eMPHaLyyp8" role="3nqlJM">
+          <property role="2MMnZA" value="the component" />
+          <ref role="2MMnZ$" node="2BFEbb0AMOk" resolve="c" />
+        </node>
+        <node concept="x79VA" id="eMPHaLyyp9" role="3nqlJM">
+          <property role="x79VB" value="the implemented operations" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="1Bam1FzIJoF" role="1dubk0" />
-    <node concept="1XdyHb" id="1Bam1FzLlq3" role="1dubk0">
-      <property role="1dubkF" value="global variables with same name" />
-    </node>
     <node concept="3zyOaA" id="1Bam1FzIX1L" role="1dubk0">
       <property role="1aKoCf" value="false" />
-      <property role="TrG5h" value="GlobalVariablesWithSameName" />
+      <property role="TrG5h" value="getGlobalVariablesWithSameName" />
       <node concept="1VLyuc" id="2BFEbb0ANyJ" role="1dv5OJ">
         <property role="TrG5h" value="m" />
         <node concept="2kdjtB" id="2BFEbb0ANFU" role="1dukDx">
@@ -5454,7 +5505,7 @@
           </node>
           <node concept="2k1GkI" id="4d1CLNv1Szb" role="34ocZk">
             <node concept="2k1_uq" id="4d1CLNv1Szc" role="2nKVj6">
-              <ref role="2nKBpL" node="1Bam1FzLaxz" resolve="getAllModuleDependencies_Reexported" />
+              <ref role="2nKBpL" node="1Bam1FzLaxz" resolve="getAllModuleDependenciesReexported" />
               <node concept="30NkWi" id="4d1CLNv1SFX" role="2nKBpO">
                 <ref role="XkjO9" node="2BFEbb0ANyJ" resolve="m" />
               </node>
@@ -5554,11 +5605,45 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="eMPHaLyzsS" role="lGtFl">
+        <node concept="TZ5HA" id="eMPHaLyzsT" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyzsU" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns pairs of global variables which have the same name " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="eMPHaLyzIW" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyzIX" role="1dT_Ay">
+            <property role="1dT_AB" value="in the context of a module. The context is used to search for " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="eMPHaLyzZO" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyzZP" role="1dT_Ay">
+            <property role="1dT_AB" value="global variables that are either in the same module or one of them" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="eMPHaLy$hC" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLy$hD" role="1dT_Ay">
+            <property role="1dT_AB" value="is in the given module and the other one is in some transitively imported" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="eMPHaLy$zb" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLy$zc" role="1dT_Ay">
+            <property role="1dT_AB" value="module. " />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="eMPHaLyzsV" role="3nqlJM">
+          <property role="2MMnZA" value="the module" />
+          <ref role="2MMnZ$" node="2BFEbb0ANyJ" resolve="m" />
+        </node>
+        <node concept="x79VA" id="eMPHaLyzsW" role="3nqlJM">
+          <property role="x79VB" value="the pair of conflicting global variables" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="1Bam1FzIFuK" role="1dubk0" />
     <node concept="3zyOaA" id="1Bam1FzLaxz" role="1dubk0">
       <property role="1aKoCf" value="true" />
-      <property role="TrG5h" value="getAllModuleDependencies_Reexported" />
+      <property role="TrG5h" value="getAllModuleDependenciesReexported" />
       <node concept="1VLyuc" id="2BFEbb0AYtN" role="1dv5OJ">
         <property role="TrG5h" value="m" />
         <node concept="2kdjtB" id="2BFEbb0AYtO" role="1dukDx">
@@ -5600,12 +5685,36 @@
           <node concept="2k1GkI" id="1Bam1FzLk3C" role="30Nf_D">
             <node concept="2k1_uq" id="1Bam1FzLk3E" role="2nKVj6">
               <property role="2nKBpM" value="true" />
-              <ref role="2nKBpL" node="1Bam1FzLbIh" resolve="getModuleDependency_Reexported" />
+              <ref role="2nKBpL" node="1Bam1FzLbIh" resolve="getModuleDependencyReexported" />
               <node concept="30NkWi" id="4d1CLNv1G0r" role="2nKBpO">
                 <ref role="XkjO9" node="4d1CLNv1Ftp" resolve="i" />
               </node>
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="1k99o6" id="eMPHaLy_hh" role="lGtFl">
+        <node concept="TZ5HA" id="eMPHaLy_hi" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLy_hj" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns all reexported module dependencies of a module, which consist of" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="eMPHaLy_yo" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLy_yp" role="1dT_Ay">
+            <property role="1dT_AB" value="(1) the direct dependencies of the module" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="eMPHaLy_Ng" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLy_Nh" role="1dT_Ay">
+            <property role="1dT_AB" value="(2) the transitively imported modules where the imports have the reexport flag" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="eMPHaLy_hk" role="3nqlJM">
+          <property role="2MMnZA" value="the module" />
+          <ref role="2MMnZ$" node="2BFEbb0AYtN" resolve="m" />
+        </node>
+        <node concept="x79VA" id="eMPHaLy_hl" role="3nqlJM">
+          <property role="x79VB" value="all reexported module dependencies" />
         </node>
       </node>
     </node>
@@ -5685,6 +5794,20 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="eMPHaLyAzh" role="lGtFl">
+        <node concept="TZ5HA" id="eMPHaLyAzi" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyAzj" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the contents of a module" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="eMPHaLyAzk" role="3nqlJM">
+          <property role="2MMnZA" value="the module" />
+          <ref role="2MMnZ$" node="2BFEbb0AWm5" resolve="m" />
+        </node>
+        <node concept="x79VA" id="eMPHaLyAzl" role="3nqlJM">
+          <property role="x79VB" value="the module contents" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="1Bam1FzJ08u" role="1dubk0" />
     <node concept="3zyOaA" id="1Bam1FzIXTp" role="1dubk0">
@@ -5729,11 +5852,65 @@
           <ref role="2UGuZ7" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
         </node>
       </node>
+      <node concept="3zV_Rz" id="4mUOCOh_Y5S" role="3zVECR">
+        <node concept="34odk1" id="4mUOCOh_Zp1" role="1dgzf0">
+          <node concept="30KbLJ" id="4mUOCOh_Zp2" role="34ocZn">
+            <property role="TrG5h" value="c" />
+          </node>
+          <node concept="2kdhWc" id="4mUOCOh_Zp3" role="34ocZk">
+            <node concept="2qPR2i" id="4mUOCOh_Zp4" role="3zVzRQ">
+              <ref role="3zVwH8" to="x27k:5DwX9xlExfN" />
+            </node>
+            <node concept="30NkWi" id="4mUOCOh_Zp5" role="2kdhYM">
+              <ref role="XkjO9" node="2BFEbb0B082" resolve="s" />
+            </node>
+          </node>
+        </node>
+        <node concept="34ocy7" id="4mUOCOh_Zp6" role="1dgzf0">
+          <node concept="2BbxxA" id="4mUOCOh_Zp7" role="34ocs8">
+            <ref role="2Bbxxd" to="x27k:5DwX9xlExfL" resolve="Section" />
+            <node concept="30NkWi" id="4mUOCOh_Zp8" role="2Bbxxk">
+              <ref role="XkjO9" node="4mUOCOh_Zp2" resolve="c" />
+            </node>
+          </node>
+        </node>
+        <node concept="30Nfyg" id="4mUOCOh_Zp9" role="1dgzf0">
+          <node concept="2k1GkI" id="4mUOCOh_ZW5" role="30Nf_D">
+            <node concept="2k1_uq" id="4mUOCOh_ZW6" role="2nKVj6">
+              <ref role="2nKBpL" node="1Bam1FzIXTp" resolve="getSectionContents" />
+              <node concept="30NkWi" id="4mUOCOhA0ee" role="2nKBpO">
+                <ref role="XkjO9" node="4mUOCOh_Zp2" resolve="c" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1k99o6" id="eMPHaLyBjz" role="lGtFl">
+        <node concept="TZ5HA" id="eMPHaLyBj$" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyBj_" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the contents of a section. " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="eMPHaLyB_y" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyB_z" role="1dT_Ay">
+            <property role="1dT_AB" value="Contents may be directly contained or nested (potentially" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="eMPHaLyBPr" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyBPs" role="1dT_Ay">
+            <property role="1dT_AB" value="multiple times) in sections. " />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="eMPHaLyBjA" role="3nqlJM">
+          <property role="2MMnZA" value="the section" />
+          <ref role="2MMnZ$" node="2BFEbb0B082" resolve="s" />
+        </node>
+        <node concept="x79VA" id="eMPHaLyBjB" role="3nqlJM">
+          <property role="x79VB" value="the section contents" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="1Bam1FzIXGu" role="1dubk0" />
-    <node concept="1XdyHb" id="1Bam1FzIJcT" role="1dubk0">
-      <property role="1dubkF" value="Returns all dependencies (direct or transitive) of source" />
-    </node>
     <node concept="3zyOaA" id="1Bam1FzIIBC" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="AllModuleDependencies" />
@@ -5761,11 +5938,35 @@
           <ref role="2UGuZ7" to="x27k:5_l8w1EmTcX" resolve="Module" />
         </node>
       </node>
+      <node concept="1k99o6" id="eMPHaLyCAz" role="lGtFl">
+        <node concept="TZ5HA" id="eMPHaLyDT0" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyDT1" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns all module dependencies of a module, which consist of" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="eMPHaLyDT2" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyDT3" role="1dT_Ay">
+            <property role="1dT_AB" value="(1) the direct dependencies of the module" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="eMPHaLyDT4" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyDT5" role="1dT_Ay">
+            <property role="1dT_AB" value="(2) the transitively imported modules (no reexport is needed)" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="eMPHaLyCAA" role="3nqlJM">
+          <property role="2MMnZA" value="the module" />
+          <ref role="2MMnZ$" node="2BFEbb0B5Qu" resolve="m" />
+        </node>
+        <node concept="x79VA" id="eMPHaLyCAB" role="3nqlJM">
+          <property role="x79VB" value="all module dependencies" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="1Bam1FzIIrX" role="1dubk0" />
     <node concept="3zyOaA" id="1Bam1FzLbIh" role="1dubk0">
       <property role="1aKoCf" value="true" />
-      <property role="TrG5h" value="getModuleDependency_Reexported" />
+      <property role="TrG5h" value="getModuleDependencyReexported" />
       <node concept="1VLyuc" id="2BFEbb0B6fA" role="1dv5OJ">
         <property role="TrG5h" value="m" />
         <node concept="2kdjtB" id="2BFEbb0B6fB" role="1dukDx">
@@ -5849,6 +6050,20 @@
           <ref role="2UGuZ7" to="x27k:5_l8w1EmTcX" resolve="Module" />
         </node>
       </node>
+      <node concept="1k99o6" id="eMPHaLyERu" role="lGtFl">
+        <node concept="TZ5HA" id="eMPHaLyERv" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyERw" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the direct, reexported dependencies of a module. " />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="eMPHaLyERx" role="3nqlJM">
+          <property role="2MMnZA" value="the module" />
+          <ref role="2MMnZ$" node="2BFEbb0B6fA" resolve="m" />
+        </node>
+        <node concept="x79VA" id="eMPHaLyERy" role="3nqlJM">
+          <property role="x79VB" value="the direct dependency" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="1Bam1FzLf5_" role="1dubk0" />
     <node concept="3zyOaA" id="1Bam1FzIG$f" role="1dubk0">
@@ -5914,11 +6129,22 @@
           <ref role="2UGuZ7" to="x27k:5_l8w1EmTcX" resolve="Module" />
         </node>
       </node>
+      <node concept="1k99o6" id="eMPHaLyFCm" role="lGtFl">
+        <node concept="TZ5HA" id="eMPHaLyFCn" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyFCo" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the direct dependencies of a module. " />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="eMPHaLyFCp" role="3nqlJM">
+          <property role="2MMnZA" value="the module" />
+          <ref role="2MMnZ$" node="2BFEbb0B6Gd" resolve="m" />
+        </node>
+        <node concept="x79VA" id="eMPHaLyFCq" role="3nqlJM">
+          <property role="x79VB" value="the direct dependency" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="7MFo37pESZh" role="1dubk0" />
-    <node concept="1XdyHb" id="1DglclGIc35" role="1dubk0">
-      <property role="1dubkF" value="Lists all the function calls which are part of a recursive function call chain" />
-    </node>
     <node concept="3zyOaA" id="1Bam1FzIEWi" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="recursiveFunctionCall" />
@@ -5944,6 +6170,17 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="1k99o6" id="eMPHaLyGo2" role="lGtFl">
+        <node concept="TZ5HA" id="eMPHaLyGo3" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyGo4" role="1dT_Ay">
+            <property role="1dT_AB" value="Enumerates function call which are part of a recursive function call chain." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="eMPHaLyGo5" role="3nqlJM">
+          <property role="2MMnZA" value="the function call" />
+          <ref role="2MMnZ$" node="4d1CLNv1znL" resolve="c" />
         </node>
       </node>
     </node>
@@ -6033,6 +6270,25 @@
       <node concept="3TL$xT" id="1DglclGIcqR" role="3TLBbI">
         <node concept="2kdjtB" id="1DglclGIcBu" role="1dukDx">
           <ref role="2UGuZ7" to="x27k:5ak6HMA0rec" resolve="FunctionCall" />
+        </node>
+      </node>
+      <node concept="1k99o6" id="eMPHaLyGSG" role="lGtFl">
+        <node concept="TZ5HA" id="eMPHaLyGSH" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyGSI" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the function calls which are called in the function of a function call." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="eMPHaLyH3s" role="TZ5H$">
+          <node concept="1dT_AC" id="eMPHaLyH3t" role="1dT_Ay">
+            <property role="1dT_AB" value="This function is used to construct a function call graph. " />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="eMPHaLyGSJ" role="3nqlJM">
+          <property role="2MMnZA" value="the function call" />
+          <ref role="2MMnZ$" node="2BFEbb0B91T" resolve="c" />
+        </node>
+        <node concept="x79VA" id="eMPHaLyGSK" role="3nqlJM">
+          <property role="x79VB" value="the target function calls" />
         </node>
       </node>
     </node>
@@ -6697,6 +6953,16 @@
           <node concept="3Tqbb2" id="6_H1v0B1Ync" role="3O5elw" />
         </node>
       </node>
+      <node concept="P$JXv" id="4mUOCOhBgCm" role="lGtFl">
+        <node concept="TZ5HA" id="4mUOCOhBgCn" role="TZ5H$">
+          <node concept="1dT_AC" id="4mUOCOhBgCo" role="1dT_Ay" />
+        </node>
+        <node concept="TUZQ0" id="4mUOCOhBgCp" role="TUOzN">
+          <node concept="zr_55" id="4mUOCOhBgCr" role="zr_5Q">
+            <ref role="zr_51" node="6_H1v0B1Yna" resolve="rootNodes" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="6_H1v0B1Ynd" role="jymVt" />
     <node concept="2YIFZL" id="6_H1v0B1Yne" role="jymVt">
@@ -6875,10 +7141,10 @@
           <node concept="3cpWsn" id="6_H1v0B1Yor" role="3cpWs9">
             <property role="TrG5h" value="matcher3" />
             <node concept="VdqW6" id="6_H1v0B1Yos" role="1tU5fm">
-              <ref role="Vdrjr" node="1Bam1FzIX1L" resolve="GlobalVariablesWithSameName" />
+              <ref role="Vdrjr" node="1Bam1FzIX1L" resolve="getGlobalVariablesWithSameName" />
             </node>
             <node concept="2UzQ1s" id="6_H1v0B1Yot" role="33vP2m">
-              <ref role="2UzQ1C" node="1Bam1FzIX1L" resolve="GlobalVariablesWithSameName" />
+              <ref role="2UzQ1C" node="1Bam1FzIX1L" resolve="getGlobalVariablesWithSameName" />
               <node concept="37vLTw" id="6_H1v0B1You" role="HflyE">
                 <ref role="3cqZAo" node="6_H1v0B1YsR" resolve="rootNodes" />
               </node>
@@ -6889,10 +7155,10 @@
           <node concept="3cpWsn" id="6_H1v0B1Yow" role="3cpWs9">
             <property role="TrG5h" value="matcher4" />
             <node concept="VdqW6" id="6_H1v0B1Yox" role="1tU5fm">
-              <ref role="Vdrjr" node="2GrU8tMwmT7" resolve="IncompleteComponent" />
+              <ref role="Vdrjr" node="2GrU8tMwmT7" resolve="getIncompleteOperations" />
             </node>
             <node concept="2UzQ1s" id="6_H1v0B1Yoy" role="33vP2m">
-              <ref role="2UzQ1C" node="2GrU8tMwmT7" resolve="IncompleteComponent" />
+              <ref role="2UzQ1C" node="2GrU8tMwmT7" resolve="getIncompleteOperations" />
               <node concept="37vLTw" id="6_H1v0B1Yoz" role="HflyE">
                 <ref role="3cqZAo" node="6_H1v0B1YsR" resolve="rootNodes" />
               </node>
@@ -7212,7 +7478,7 @@
                   <node concept="3cpWsn" id="6_H1v0B1Yqz" role="3cpWs9">
                     <property role="TrG5h" value="partialMatch" />
                     <node concept="2yvosn" id="6_H1v0B1Yq$" role="1tU5fm">
-                      <ref role="2yvvdD" node="1Bam1FzIX1L" resolve="GlobalVariablesWithSameName" />
+                      <ref role="2yvvdD" node="1Bam1FzIX1L" resolve="getGlobalVariablesWithSameName" />
                     </node>
                     <node concept="2OqwBi" id="6_H1v0B1Yq_" role="33vP2m">
                       <node concept="37vLTw" id="6_H1v0B1YqA" role="2Oq$k0">
@@ -7358,7 +7624,7 @@
                   <node concept="3cpWsn" id="6_H1v0B1Yrt" role="3cpWs9">
                     <property role="TrG5h" value="partialMatch" />
                     <node concept="2yvosn" id="6_H1v0B1Yru" role="1tU5fm">
-                      <ref role="2yvvdD" node="2GrU8tMwmT7" resolve="IncompleteComponent" />
+                      <ref role="2yvvdD" node="2GrU8tMwmT7" resolve="getIncompleteOperations" />
                     </node>
                     <node concept="2OqwBi" id="6_H1v0B1Yrv" role="33vP2m">
                       <node concept="37vLTw" id="6_H1v0B1Yrw" role="2Oq$k0">
