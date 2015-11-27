@@ -14,11 +14,12 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956807" name="final" index="R5$K2" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -34,6 +35,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -45,8 +49,11 @@
     <property role="34LRSv" value="%&lt;{linkDeclaration}&gt;%*-&gt;" />
     <property role="R4oN_" value="reference with creation option" />
     <ref role="1TJDcQ" to="tpc2:fPiCG$y" resolve="CellModel_RefCell" />
-    <node concept="PrWs8" id="4997BZGbVTt" role="PzmwI">
-      <ref role="PrY4T" node="4997BZGbVT1" resolve="ICreateTarget" />
+    <node concept="1TJgyj" id="2MUgTiwU_yf" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="creatorEntries" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2MUgTiwU$g6" resolve="CreateTargetEntry" />
     </node>
   </node>
   <node concept="1TIwiD" id="4FBHGsdt7ps">
@@ -62,55 +69,72 @@
   </node>
   <node concept="1TIwiD" id="4FBHGsdt8Jv">
     <property role="1pbfSe" value="1482441382" />
-    <property role="TrG5h" value="CreationMenuEntryQuery" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <property role="TrG5h" value="CreationMatchingTextQuery" />
+    <property role="3GE5qa" value="functions" />
+    <property role="34LRSv" value="matchingText" />
+    <ref role="1TJDcQ" node="2MUgTiwU$jM" resolve="AbstractCreateTargetConceptFunction" />
   </node>
   <node concept="1TIwiD" id="4FBHGsdt8Jw">
     <property role="1pbfSe" value="1482441383" />
     <property role="TrG5h" value="TargetCreator" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <property role="3GE5qa" value="functions" />
+    <property role="34LRSv" value="createTarget" />
+    <ref role="1TJDcQ" node="2MUgTiwU$jM" resolve="AbstractCreateTargetConceptFunction" />
   </node>
-  <node concept="1TIwiD" id="4FBHGsdt9P1">
-    <property role="1pbfSe" value="1482445832" />
-    <property role="TrG5h" value="Parameter_errorText" />
-    <property role="34LRSv" value="errorText" />
-    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
-  </node>
-  <node concept="1TIwiD" id="4997BZGbVS3">
-    <property role="1pbfSe" value="779672706" />
-    <property role="TrG5h" value="CellModel_CreateTargetRefNodeList" />
-    <property role="34LRSv" value="%&lt;{linkDeclaration}&gt;%*" />
-    <property role="R4oN_" value="multiple aggregation" />
-    <ref role="1TJDcQ" to="tpc2:fBF2Hee" resolve="CellModel_RefNodeList" />
-    <node concept="PrWs8" id="4997BZGbVT_" role="PzmwI">
-      <ref role="PrY4T" node="4997BZGbVT1" resolve="ICreateTarget" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="4997BZGbVSv">
-    <property role="TrG5h" value="StubCellModel_CreateTargetRefNodeList" />
-    <property role="1pbfSe" value="779672734" />
-    <ref role="1TJDcQ" node="4997BZGbVS3" resolve="CellModel_CreateTargetRefNodeList" />
-    <node concept="PrWs8" id="4997BZGbVSw" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
-    <node concept="PrWs8" id="4997BZGbVSx" role="PzmwI">
-      <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="4997BZGbVT1">
-    <property role="1pbfSe" value="779672768" />
-    <property role="TrG5h" value="ICreateTarget" />
-    <node concept="1TJgyj" id="4FBHGsdt8Jx" role="1TKVEi">
+  <node concept="1TIwiD" id="2MUgTiwU$g6">
+    <property role="1pbfSe" value="844855398" />
+    <property role="TrG5h" value="CreateTargetEntry" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2MUgTiwU$gd" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="creationMenuEntryQuery" />
-      <ref role="20lvS9" node="4FBHGsdt8Jv" resolve="CreationMenuEntryQuery" />
+      <property role="20kJfa" value="applicabilityQuery" />
+      <ref role="20lvS9" node="2MUgTiwU$gk" resolve="CreateTargetApplicabilityQuery" />
     </node>
-    <node concept="1TJgyj" id="4FBHGsdt8Jz" role="1TKVEi">
+    <node concept="1TJgyj" id="2MUgTiwU$g7" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="matchingTextQuery" />
+      <ref role="20lvS9" node="4FBHGsdt8Jv" resolve="CreationMatchingTextQuery" />
+    </node>
+    <node concept="1TJgyj" id="2MUgTiwUXmB" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="descriptionQuery" />
+      <ref role="20lvS9" node="2MUgTiwUXkI" resolve="CreationDescriptionQuery" />
+    </node>
+    <node concept="1TJgyj" id="2MUgTiwU$g8" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="targetCreator" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4FBHGsdt8Jw" resolve="TargetCreator" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="2MUgTiwU$gk">
+    <property role="1pbfSe" value="844855384" />
+    <property role="TrG5h" value="CreateTargetApplicabilityQuery" />
+    <property role="3GE5qa" value="functions" />
+    <property role="34LRSv" value="isApplicable" />
+    <ref role="1TJDcQ" node="2MUgTiwU$jM" resolve="AbstractCreateTargetConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="2MUgTiwU$jM">
+    <property role="1pbfSe" value="844855162" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="TrG5h" value="AbstractCreateTargetConceptFunction" />
+    <property role="3GE5qa" value="functions" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="2MUgTiwU$nE">
+    <property role="1pbfSe" value="844854914" />
+    <property role="3GE5qa" value="functions" />
+    <property role="TrG5h" value="Parameter_existingActions" />
+    <property role="34LRSv" value="existingActions" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="2MUgTiwUXkI">
+    <property role="1pbfSe" value="844752702" />
+    <property role="TrG5h" value="CreationDescriptionQuery" />
+    <property role="3GE5qa" value="functions" />
+    <property role="34LRSv" value="description" />
+    <ref role="1TJDcQ" node="2MUgTiwU$jM" resolve="AbstractCreateTargetConceptFunction" />
   </node>
 </model>
 
