@@ -13515,33 +13515,6 @@
   <node concept="3TKv5i" id="2tV8qO6OBNA">
     <property role="3GE5qa" value="dataflow.pointer" />
     <property role="TrG5h" value="ControlFlowAnalysis" />
-    <node concept="1XdyHb" id="2esDlhw_2x1" role="1dubk0">
-      <property role="1dubkF" value="returns the node(s) in the control flow graph that has an edge pointing to 'n'" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGG5qL" role="1dubk0">
-      <property role="1dubkF" value="the alternatives produce cfg edges by considering" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGGiuP" role="1dubk0">
-      <property role="1dubkF" value="(1) syntactically preceding nodes" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGGmeD" role="1dubk0">
-      <property role="1dubkF" value="(2) test first control statements (if, while, for, switch)" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGGpYd" role="1dubk0">
-      <property role="1dubkF" value="(3) test after control statements (do while)" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGHCbL" role="1dubk0">
-      <property role="1dubkF" value="(4) case and default branches and else if parts" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGHFZA" role="1dubk0">
-      <property role="1dubkF" value="(5) continue statements" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGHJKP" role="1dubk0">
-      <property role="1dubkF" value="(6) break statements" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGHNy5" role="1dubk0">
-      <property role="1dubkF" value="(7) sections" />
-    </node>
     <node concept="3zyOaA" id="5HJW9usCTKS" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="cfg" />
@@ -13584,10 +13557,24 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGkHRm" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGkHRn" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkHRo" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the node(s) in the CFG that has an edge pointing to node 'n'." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGkHRp" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG target" />
+          <ref role="2MMnZ$" node="5HJW9usCVLH" resolve="n" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGkHRq" role="3nqlJM">
+          <property role="x79VB" value="the CFG source(s)" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="5HJW9usCPP$" role="1dubk0" />
     <node concept="3zyOaA" id="2tV8qO6VbS6" role="1dubk0">
-      <property role="1aKoCf" value="false" />
+      <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg0" />
       <node concept="1VLyuc" id="2tV8qO6VccS" role="1dv5OJ">
         <property role="TrG5h" value="n" />
@@ -13708,17 +13695,27 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGkJeX" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGkJeY" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkJeZ" role="1dT_Ay">
+            <property role="1dT_AB" value="Helper function for function cfg. This function does not" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGkM0g" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkM0h" role="1dT_Ay">
+            <property role="1dT_AB" value="filter out return statements as illegal CFG sources." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGkJf0" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG target" />
+          <ref role="2MMnZ$" node="2tV8qO6VccS" resolve="n" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGkJf1" role="3nqlJM">
+          <property role="x79VB" value="the CFG source(s)" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2R6rQ654Cas" role="1dubk0" />
-    <node concept="1XdyHb" id="InJBIGGPPN" role="1dubk0">
-      <property role="1dubkF" value="cfg edges related to continue statements" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGGPPO" role="1dubk0">
-      <property role="1dubkF" value="(1) 'n' is the first loop ancestor of a continue statement 's'" />
-    </node>
-    <node concept="1XdyHb" id="3e1iAvwmVEo" role="1dubk0">
-      <property role="1dubkF" value="    produced edge: 's' -&gt; 'n'" />
-    </node>
     <node concept="3zyOaA" id="3bGjHomi6EQ" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_continue" />
@@ -13763,20 +13760,27 @@
           <ref role="2UGuZ7" to="c4fa:73rdeY8WW4b" resolve="ContinueStatement" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGkPpA" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGkQLn" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkQLo" role="1dT_Ay">
+            <property role="1dT_AB" value="CFG edges related to continue statements" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGkTwQ" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkTwR" role="1dT_Ay">
+            <property role="1dT_AB" value="(1) node 'n' is the first loop ancestor of a continue statement 's'" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGkPpD" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG target loop" />
+          <ref role="2MMnZ$" node="3bGjHomi9tO" resolve="n" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGkPpE" role="3nqlJM">
+          <property role="x79VB" value="the CFG source continue statement" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="6Be3XpkDwpy" role="1dubk0" />
-    <node concept="1XdyHb" id="InJBIGGTCP" role="1dubk0">
-      <property role="1dubkF" value="cfg edges related to break statements" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGGTCQ" role="1dubk0">
-      <property role="1dubkF" value="(1) there exists a break statement 's', its first loop ancestor is 'l' " />
-    </node>
-    <node concept="1XdyHb" id="InJBIGGXuL" role="1dubk0">
-      <property role="1dubkF" value="    and the first cfg node after 'l' is 'n'" />
-    </node>
-    <node concept="1XdyHb" id="3e1iAvwmZvf" role="1dubk0">
-      <property role="1dubkF" value="    produced edge: 's' -&gt; 'n'" />
-    </node>
     <node concept="3zyOaA" id="6Be3XpkD_IO" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_break" />
@@ -13828,7 +13832,7 @@
             </node>
             <node concept="2k1GkI" id="InJBIGHx8m" role="34ocZk">
               <node concept="2k1_uq" id="InJBIGHx8n" role="2nKVj6">
-                <ref role="2nKBpL" node="2esDlhwod9C" resolve="firstStatement" />
+                <ref role="2nKBpL" node="2esDlhwod9C" resolve="firstNodes" />
                 <node concept="30NkWi" id="InJBIGHx8R" role="2nKBpO">
                   <ref role="XkjO9" node="InJBIGHlSt" resolve="a" />
                 </node>
@@ -13847,11 +13851,32 @@
           <ref role="2UGuZ7" to="c4fa:7k_CvRMnl1Q" resolve="BreakStatement" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGkX0F" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGkX0G" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkX0H" role="1dT_Ay">
+            <property role="1dT_AB" value="CFG edges related to break statements" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGkYoK" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkYoL" role="1dT_Ay">
+            <property role="1dT_AB" value="(1) there exists a break statement 's', its first loop ancestor is 'l'" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGkZLL" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkZLM" role="1dT_Ay">
+            <property role="1dT_AB" value="    and the first CFG node after 'l' is 'n': 's' -&gt; 'n'" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGkX0I" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG target" />
+          <ref role="2MMnZ$" node="6Be3XpkDCrG" resolve="n" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGkX0J" role="3nqlJM">
+          <property role="x79VB" value="the CFG source break statement" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="3bGjHomi3TT" role="1dubk0" />
-    <node concept="1XdyHb" id="2esDlhw$JnI" role="1dubk0">
-      <property role="1dubkF" value="cfg edges related to else if parts and switch branches" />
-    </node>
     <node concept="3zyOaA" id="2esDlhwt4Es" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_special" />
@@ -13890,11 +13915,22 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGl3hR" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGl3hS" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGl3hT" role="1dT_Ay">
+            <property role="1dT_AB" value="CFG edges related to else if parts and switch branches." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGl3hU" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG target" />
+          <ref role="2MMnZ$" node="2esDlhwt4Et" resolve="n" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGl3hV" role="3nqlJM">
+          <property role="x79VB" value="the CFG source" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2esDlhwt2qg" role="1dubk0" />
-    <node concept="1XdyHb" id="2esDlhw$Oan" role="1dubk0">
-      <property role="1dubkF" value="cfg edges related to test first control statements" />
-    </node>
     <node concept="3zyOaA" id="2esDlhws4JX" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_testFirstControl" />
@@ -14021,11 +14057,22 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGl6Kw" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGl6Kx" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGl6Ky" role="1dT_Ay">
+            <property role="1dT_AB" value="CFG edges related to test first control statements. " />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGl6Kz" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG target" />
+          <ref role="2MMnZ$" node="2esDlhws4JY" resolve="n" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGl6K$" role="3nqlJM">
+          <property role="x79VB" value="the CFG source" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2esDlhws0fI" role="1dubk0" />
-    <node concept="1XdyHb" id="2esDlhw$SWT" role="1dubk0">
-      <property role="1dubkF" value="cfg edges produced by test after control statements" />
-    </node>
     <node concept="3zyOaA" id="2esDlhwsyst" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_testAfterControl" />
@@ -14068,27 +14115,29 @@
           <ref role="2UGuZ7" to="c4fa:2tV8qO6QC_4" resolve="ICFGNode" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGlb_R" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGlb_S" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGlb_T" role="1dT_Ay">
+            <property role="1dT_AB" value="CFG edges related to test after control statements." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGlb_U" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG target" />
+          <ref role="2MMnZ$" node="2esDlhwsysu" resolve="n" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGlb_V" role="3nqlJM">
+          <property role="x79VB" value="the CFG source" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2esDlhwstTB" role="1dubk0" />
-    <node concept="1XdyHb" id="2esDlhw$XJu" role="1dubk0">
-      <property role="1dubkF" value="cfg edges produced through the syntactic precedence relationship" />
-    </node>
-    <node concept="1XdyHb" id="3e1iAvwpBUu" role="1dubk0">
-      <property role="1dubkF" value="(1) 's' is a statement, 'b' is directly before 's'" />
-    </node>
-    <node concept="1XdyHb" id="3e1iAvwpFOw" role="1dubk0">
-      <property role="1dubkF" value="    and 'l' is the last statement of 'b'" />
-    </node>
-    <node concept="1XdyHb" id="3e1iAvwpJEP" role="1dubk0">
-      <property role="1dubkF" value="    produced edge: 'l' -&gt; 's'" />
-    </node>
     <node concept="3zyOaA" id="2R6rQ654EoV" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_before" />
       <node concept="1VLyuc" id="2R6rQ654EoW" role="1dv5OJ">
         <property role="TrG5h" value="s" />
-        <node concept="2kdjtB" id="2R6rQ654EoX" role="1dukDx">
-          <ref role="2UGuZ7" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+        <node concept="2kdjtB" id="1Rbh1GGlhSQ" role="1dukDx">
+          <ref role="2UGuZ7" to="c4fa:2tV8qO6QC_4" resolve="ICFGNode" />
         </node>
       </node>
       <node concept="3zV_Rz" id="2R6rQ654EoY" role="3zVECR">
@@ -14111,7 +14160,7 @@
           </node>
           <node concept="2k1GkI" id="3e1iAvwo7z8" role="34ocZk">
             <node concept="2k1_uq" id="3e1iAvwo7z9" role="2nKVj6">
-              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastStatement" />
+              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastNodes" />
               <node concept="30NkWi" id="3e1iAvwo8OF" role="2nKBpO">
                 <ref role="XkjO9" node="3e1iAvwnW6c" resolve="b" />
               </node>
@@ -14137,20 +14186,27 @@
           <ref role="2UGuZ7" to="c4fa:2tV8qO6QC_4" resolve="ICFGNode" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGlf8X" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGlf8Y" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGlf8Z" role="1dT_Ay">
+            <property role="1dT_AB" value="CFG edges produced through the syntactic precedence relationship." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGlgvD" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGlgvE" role="1dT_Ay">
+            <property role="1dT_AB" value="(1) node 'b' is directly before node 's' and node 'l' is a last CFG node of 'b': 'l' -&gt; 's'" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGlf90" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG target" />
+          <ref role="2MMnZ$" node="2R6rQ654EoW" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGlf91" role="3nqlJM">
+          <property role="x79VB" value="the CFG source" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2esDlhwuud9" role="1dubk0" />
-    <node concept="1XdyHb" id="3e1iAvwqa30" role="1dubk0">
-      <property role="1dubkF" value="returns the &quot;headless&quot; parent of statement 's'" />
-    </node>
-    <node concept="1XdyHb" id="3e1iAvwqdST" role="1dubk0">
-      <property role="1dubkF" value="headless stands for the fact that do while and" />
-    </node>
-    <node concept="1XdyHb" id="3e1iAvwqhJR" role="1dubk0">
-      <property role="1dubkF" value="section statements do not start with an element where" />
-    </node>
-    <node concept="1XdyHb" id="3e1iAvwql$Q" role="1dubk0">
-      <property role="1dubkF" value="control can jump to" />
-    </node>
     <node concept="3zyOaA" id="2esDlhwwRO9" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_headless_parent" />
@@ -14294,11 +14350,32 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGljZu" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGljZv" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGljZw" role="1dT_Ay">
+            <property role="1dT_AB" value="We call a statement headless if the very first CFG node in the context of the statement " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGllne" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGllnf" role="1dT_Ay">
+            <property role="1dT_AB" value="is not the statement itself, rather some other contained CFG node." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGlmHi" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGlmHj" role="1dT_Ay">
+            <property role="1dT_AB" value="The function returns the headless parent of a statement 's', if any. " />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGljZx" role="3nqlJM">
+          <property role="2MMnZA" value="the contained statement" />
+          <ref role="2MMnZ$" node="2esDlhwwUfD" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGljZy" role="3nqlJM">
+          <property role="x79VB" value="the container headless statement" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2esDlhwxAP5" role="1dubk0" />
-    <node concept="1XdyHb" id="3e1iAvwqpvw" role="1dubk0">
-      <property role="1dubkF" value="returns the cfg sources of statement 's' after skipping headless parents" />
-    </node>
     <node concept="3zyOaA" id="2esDlhwxFE4" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_headless_traversal" />
@@ -14388,11 +14465,27 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGlqbL" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGlqbM" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGlqbN" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the CFG source(s) of statement 's' after skipping all " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGlr_x" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGlr_y" role="1dT_Ay">
+            <property role="1dT_AB" value="headless ancestors. " />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGlqbO" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG target" />
+          <ref role="2MMnZ$" node="2esDlhwxI4L" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGlqbP" role="3nqlJM">
+          <property role="x79VB" value="the CFG source" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2esDlhwwPpe" role="1dubk0" />
-    <node concept="1XdyHb" id="3e1iAvwqvnP" role="1dubk0">
-      <property role="1dubkF" value="cfg edges produced by section statements" />
-    </node>
     <node concept="3zyOaA" id="2CaJY_ylZpb" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_section" />
@@ -14431,41 +14524,22 @@
           <ref role="2UGuZ7" to="c4fa:2tV8qO6QC_4" resolve="ICFGNode" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGlv4M" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGlv4N" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGlv4O" role="1dT_Ay">
+            <property role="1dT_AB" value="CFG edges related to sections." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGlv4P" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG target" />
+          <ref role="2MMnZ$" node="2CaJY_ym61k" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGlv4Q" role="3nqlJM">
+          <property role="x79VB" value="the CFG source" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2CaJY_ylSIE" role="1dubk0" />
-    <node concept="1XdyHb" id="InJBIGE8wh" role="1dubk0">
-      <property role="1dubkF" value="cfg edges related to do while statements" />
-    </node>
-    <node concept="1XdyHb" id="3e1iAvwlMta" role="1dubk0">
-      <property role="1dubkF" value="(1) 's' is a statement which can act as an edge target" />
-    </node>
-    <node concept="1XdyHb" id="3e1iAvwlQf2" role="1dubk0">
-      <property role="1dubkF" value="    'd' is a do while statement" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGEi91" role="1dubk0">
-      <property role="1dubkF" value="    's' is the first statement in the body of 'd'" />
-    </node>
-    <node concept="1XdyHb" id="3e1iAvwlVV3" role="1dubk0">
-      <property role="1dubkF" value="    produced edge: 'd' -&gt; 's'" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGE8wk" role="1dubk0">
-      <property role="1dubkF" value="(2) 's' is a statement which can act as an edge target" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGE8wl" role="1dubk0">
-      <property role="1dubkF" value="    's' is nested (potentially recursively) in statements which cannot act as edge source" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGFfQB" role="1dubk0">
-      <property role="1dubkF" value="    these statements needs to be skipped" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGE8wm" role="1dubk0">
-      <property role="1dubkF" value="(3) 's' is a do while statement" />
-    </node>
-    <node concept="1XdyHb" id="3e1iAvwmMa9" role="1dubk0">
-      <property role="1dubkF" value="    'l' is not a break statement and it is the last statement of the body of 's'" />
-    </node>
-    <node concept="1XdyHb" id="3e1iAvwmPY6" role="1dubk0">
-      <property role="1dubkF" value="    produced edge: 'l' -&gt; 's'" />
-    </node>
     <node concept="3zyOaA" id="6yxJ2rEMUUG" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_doWhile" />
@@ -14503,7 +14577,7 @@
             </node>
             <node concept="2k1GkI" id="InJBIGEVF0" role="34ocZk">
               <node concept="2k1_uq" id="InJBIGEVF1" role="2nKVj6">
-                <ref role="2nKBpL" node="2esDlhwod9C" resolve="firstStatement" />
+                <ref role="2nKBpL" node="2esDlhwod9C" resolve="firstNodes" />
                 <node concept="30NkWi" id="InJBIGEVPa" role="2nKBpO">
                   <ref role="XkjO9" node="InJBIGEM$c" resolve="d" />
                 </node>
@@ -14574,7 +14648,7 @@
           </node>
           <node concept="2k1GkI" id="InJBIGF$PW" role="34ocZk">
             <node concept="2k1_uq" id="InJBIGF$PX" role="2nKVj6">
-              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastStatement" />
+              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastNodes" />
               <node concept="30NkWi" id="InJBIGFA4M" role="2nKBpO">
                 <ref role="XkjO9" node="InJBIGFpq9" resolve="i" />
               </node>
@@ -14595,29 +14669,37 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGlae0" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGlae1" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGlae2" role="1dT_Ay">
+            <property role="1dT_AB" value="CFG edges related to do while statements" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGlyAz" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGlyA$" role="1dT_Ay">
+            <property role="1dT_AB" value="(1) there is a do while statement 'd' whose first CFG node is 's': 'd' -&gt; 's'" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGlzXJ" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGlzXK" role="1dT_Ay">
+            <property role="1dT_AB" value="(2) CFG source(s) obtained after skipping all headless ancestors." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGl_mw" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGl_mx" role="1dT_Ay">
+            <property role="1dT_AB" value="(3) 's' is a do while statement and 'l' is a last node in 's': 'l' -&gt; 's'" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGlae3" role="3nqlJM">
+          <property role="2MMnZA" value="the statement in the context of a do while statement" />
+          <ref role="2MMnZ$" node="6yxJ2rEMWZy" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGlae4" role="3nqlJM">
+          <property role="x79VB" value="the CFG source" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="6yxJ2rEN97w" role="1dubk0" />
-    <node concept="1XdyHb" id="InJBIGCq$m" role="1dubk0">
-      <property role="1dubkF" value="cfg edges related to if statements" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGCq$n" role="1dubk0">
-      <property role="1dubkF" value="(1) 's' is the first statement in the body of the then part of an " />
-    </node>
-    <node concept="1XdyHb" id="InJBIGCvYj" role="1dubk0">
-      <property role="1dubkF" value="    if statement 'e' or in the body of an else if part 'e': 'e' -&gt; 's'" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGCq$o" role="1dubk0">
-      <property role="1dubkF" value="(2) 's' is the first statement in the body of an else part 'e'" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGCz_a" role="1dubk0">
-      <property role="1dubkF" value="    control flows to 's' from the container if statement 'i' if that has no else if part: 'i' -&gt; 's'" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGCBd3" role="1dubk0">
-      <property role="1dubkF" value="(3) 's' is the first statement in the body of an else part 'e'" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGCBd4" role="1dubk0">
-      <property role="1dubkF" value="    control flows to 's' from the last else if part 'f' of the container if statement: 'f' -&gt; 's'" />
-    </node>
     <node concept="3zyOaA" id="2tV8qO6TgJ3" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_if" />
@@ -14894,29 +14976,52 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGky7R" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGky7S" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGky7T" role="1dT_Ay">
+            <property role="1dT_AB" value="CFG edges related to if statements" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGkzwZ" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkzx0" role="1dT_Ay">
+            <property role="1dT_AB" value="(1) statement 's' is the first statement in the body of an if statement 'e' or " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGk$Rg" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGk$Rh" role="1dT_Ay">
+            <property role="1dT_AB" value="    in the body of an else if part 'e': 'e' -&gt; 's'" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGkAf7" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkAf8" role="1dT_Ay">
+            <property role="1dT_AB" value="(2) statement 's' is the first statement in the body of an else part 'e' and the container" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGkBBY" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkBBZ" role="1dT_Ay">
+            <property role="1dT_AB" value="    if statement's last else if part is 'f': 'f' -&gt; 's'" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGkD0X" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkD0Y" role="1dT_Ay">
+            <property role="1dT_AB" value="(3) statement 's' is the first statement in the body of an else part 'e' and the container" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGkErI" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkErJ" role="1dT_Ay">
+            <property role="1dT_AB" value="    if statement 'i' has no else if part: 'i' -&gt; 's'" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGky7U" role="3nqlJM">
+          <property role="2MMnZA" value="the statement in the context of a switch statement" />
+          <ref role="2MMnZ$" node="2tV8qO6TgJ4" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGky7V" role="3nqlJM">
+          <property role="x79VB" value="the CFG source" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="4QOgZJSOreG" role="1dubk0" />
-    <node concept="1XdyHb" id="InJBIGB1xf" role="1dubk0">
-      <property role="1dubkF" value="cfg edges related to switch statements" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGB1xg" role="1dubk0">
-      <property role="1dubkF" value="(1) 's' is the first statement in the body of a case 'c': 'c' -&gt; 's'" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGBbaT" role="1dubk0">
-      <property role="1dubkF" value="(2) 's' is the first statement in the body of the default case 'd'" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGBeDM" role="1dubk0">
-      <property role="1dubkF" value="    the container switch statement 'c' introduces an edge: 'c' -&gt; 's'" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGB1xh" role="1dubk0">
-      <property role="1dubkF" value="(3) 's' is the first statement in the body of a switch branch" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGBAV2" role="1dubk0">
-      <property role="1dubkF" value="    and the control falls through from the last statement(s) 'l' of the previous branch" />
-    </node>
-    <node concept="1XdyHb" id="InJBIGBEtA" role="1dubk0">
-      <property role="1dubkF" value="    if that is not a break statement: 'l' -&gt; 's'" />
-    </node>
     <node concept="3zyOaA" id="6yxJ2rEH6FC" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_switch" />
@@ -15161,7 +15266,7 @@
           </node>
           <node concept="2k1GkI" id="InJBIGCbBs" role="34ocZk">
             <node concept="2k1_uq" id="InJBIGCbBt" role="2nKVj6">
-              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastStatement" />
+              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastNodes" />
               <node concept="30NkWi" id="InJBIGCcLY" role="2nKBpO">
                 <ref role="XkjO9" node="InJBIGBYBp" resolve="i" />
               </node>
@@ -15182,20 +15287,47 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGkl5y" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGkmsE" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkmsF" role="1dT_Ay">
+            <property role="1dT_AB" value="CFG edges related to switch statements" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGkmsG" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkmsH" role="1dT_Ay">
+            <property role="1dT_AB" value="(1) statement 's' is the first statement in the body of a case branch 'c': 'f' -&gt; 's'" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGknNj" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGknNk" role="1dT_Ay">
+            <property role="1dT_AB" value="(2) statement 's' is the first statement in the body of a default branch 'd' and the container " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGkq_f" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkq_g" role="1dT_Ay">
+            <property role="1dT_AB" value="    switch statement is 'c': 'c' -&gt; 's'" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGkpdp" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkpdq" role="1dT_Ay">
+            <property role="1dT_AB" value="(3) statement 's' is the first statement in the body of a branch and the control" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGkrWo" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkrWp" role="1dT_Ay">
+            <property role="1dT_AB" value="    falls through from the last statement(s) 'l' of the previous branch: 'l' -&gt; 's'" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGkl5_" role="3nqlJM">
+          <property role="2MMnZA" value="the statement in the context of a switch statement" />
+          <ref role="2MMnZ$" node="6yxJ2rEH8fh" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGkl5A" role="3nqlJM">
+          <property role="x79VB" value="the CFG source" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="6yxJ2rEH9Pj" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5eUKT" role="1dubk0">
-      <property role="1dubkF" value="cfg edges related to while statements" />
-    </node>
-    <node concept="1XdyHb" id="4IP8Ul5eY17" role="1dubk0">
-      <property role="1dubkF" value="(1) 's' is the first statement in the body of a while satement 'f': 'f' -&gt; 's'" />
-    </node>
-    <node concept="1XdyHb" id="4IP8Ul5f1eV" role="1dubk0">
-      <property role="1dubkF" value="(2) 's' is a while statement and 'l' is a last statement in its body " />
-    </node>
-    <node concept="1XdyHb" id="4IP8Ul5f1eW" role="1dubk0">
-      <property role="1dubkF" value="    and 'l' is not a break statement: 'l' -&gt; 's'" />
-    </node>
     <node concept="3zyOaA" id="4QOgZJSOtMU" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_while" />
@@ -15299,7 +15431,7 @@
           </node>
           <node concept="2k1GkI" id="4IP8Ul5f6B_" role="34ocZk">
             <node concept="2k1_uq" id="4IP8Ul5f6BA" role="2nKVj6">
-              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastStatement" />
+              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastNodes" />
               <node concept="30NkWi" id="4IP8Ul5f6BB" role="2nKBpO">
                 <ref role="XkjO9" node="4IP8Ul5f6Bv" resolve="i" />
               </node>
@@ -15320,20 +15452,32 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGkdzQ" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGkdzR" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkdzS" role="1dT_Ay">
+            <property role="1dT_AB" value="CFG edges related to while statements" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGkeVN" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkeVO" role="1dT_Ay">
+            <property role="1dT_AB" value="(1) statement 's' is the first statement in the body of a while statement 'f': 'f' -&gt; 's'" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGkgjB" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGkgjC" role="1dT_Ay">
+            <property role="1dT_AB" value="(2) 's' is a while statement and 'l' is a last statement in its body: 'l' -&gt; 's'" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGkjJ4" role="3nqlJM">
+          <property role="2MMnZA" value="the statement in the context of a while statement" />
+          <ref role="2MMnZ$" node="4QOgZJSOtMV" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGkdzU" role="3nqlJM">
+          <property role="x79VB" value="the CFG source" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="3ccORk5era8" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5dG58" role="1dubk0">
-      <property role="1dubkF" value="cfg edges related to for statements" />
-    </node>
-    <node concept="1XdyHb" id="4IP8Ul5dJb0" role="1dubk0">
-      <property role="1dubkF" value="(1) 's' is the first statement in the body of a for satement 'f': 'f' -&gt; 's'" />
-    </node>
-    <node concept="1XdyHb" id="4IP8Ul5dMkJ" role="1dubk0">
-      <property role="1dubkF" value="(2) 's' is a for statement and 'l' is a last statement in its body " />
-    </node>
-    <node concept="1XdyHb" id="4IP8Ul5e4CE" role="1dubk0">
-      <property role="1dubkF" value="    and 'l' is not a break statement: 'l' -&gt; 's'" />
-    </node>
     <node concept="3zyOaA" id="3ccORk5eu5Y" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_for" />
@@ -15437,7 +15581,7 @@
           </node>
           <node concept="2k1GkI" id="4IP8Ul5eK2C" role="34ocZk">
             <node concept="2k1_uq" id="4IP8Ul5eK2D" role="2nKVj6">
-              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastStatement" />
+              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastNodes" />
               <node concept="30NkWi" id="4IP8Ul5eL3L" role="2nKBpO">
                 <ref role="XkjO9" node="4IP8Ul5eA9P" resolve="i" />
               </node>
@@ -15458,17 +15602,32 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGk7j0" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGk7j1" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGk7j2" role="1dT_Ay">
+            <property role="1dT_AB" value="CFG edges related to for statements." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGk8I1" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGk8I2" role="1dT_Ay">
+            <property role="1dT_AB" value="(1) statement 's' is the first statement in the body of a for statement 'f': 'f' -&gt; 's'" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGka6Q" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGka6R" role="1dT_Ay">
+            <property role="1dT_AB" value="(2) 's' is a for statement and 'l' is a last statement in its body: 'l' -&gt; 's'" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGk7j3" role="3nqlJM">
+          <property role="2MMnZA" value="the statement in the context of a for statement" />
+          <ref role="2MMnZ$" node="3ccORk5eu5Z" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGk7j4" role="3nqlJM">
+          <property role="x79VB" value="the CFG source" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="4QOgZJSOZlF" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5ddik" role="1dubk0">
-      <property role="1dubkF" value="cfg edge to else if part 'e'" />
-    </node>
-    <node concept="1XdyHb" id="4IP8Ul5ddil" role="1dubk0">
-      <property role="1dubkF" value="(1) syntactically preceding else if part" />
-    </node>
-    <node concept="1XdyHb" id="4IP8Ul5dgjF" role="1dubk0">
-      <property role="1dubkF" value="(2) container if statement if this is the first else if part" />
-    </node>
     <node concept="3zyOaA" id="2tV8qO6V6gA" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_elseIf" />
@@ -15551,14 +15710,32 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGk147" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGk148" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGk149" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the CFG source of an else if part." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGk2sL" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGk2sM" role="1dT_Ay">
+            <property role="1dT_AB" value="(1) the direct predecessor else if part" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGk3QX" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGk3QY" role="1dT_Ay">
+            <property role="1dT_AB" value="(2) the container if statement if (1) is rejected" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGk14a" role="3nqlJM">
+          <property role="2MMnZA" value="the else if part" />
+          <ref role="2MMnZ$" node="2tV8qO6V6D3" resolve="e" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGk14b" role="3nqlJM">
+          <property role="x79VB" value="the CFG source" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="6yxJ2rEHbrz" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5d0R0" role="1dubk0">
-      <property role="1dubkF" value="cfg edge to case branch 'c'" />
-    </node>
-    <node concept="1XdyHb" id="4IP8Ul5dbM1" role="1dubk0">
-      <property role="1dubkF" value="(1) from container switch statement" />
-    </node>
     <node concept="3zyOaA" id="6yxJ2rEHezX" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="cfg_switchCase" />
@@ -15601,14 +15778,30 @@
           <ref role="2UGuZ7" to="c4fa:2tV8qO6QC_4" resolve="ICFGNode" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGjWhG" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGjWhH" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjWhI" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the CFG source of a switch case branch." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGjZHO" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjZHP" role="1dT_Ay">
+            <property role="1dT_AB" value="The CFG source if the cotainer switch statement." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGjWhJ" role="3nqlJM">
+          <property role="2MMnZA" value="the switch case branch" />
+          <ref role="2MMnZ$" node="6yxJ2rEHgde" resolve="c" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGjWhK" role="3nqlJM">
+          <property role="x79VB" value="the CFG source" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2esDlhwo8Ok" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5cU4b" role="1dubk0">
-      <property role="1dubkF" value="returns the first statement of the cfg node 'n'" />
-    </node>
     <node concept="3zyOaA" id="2esDlhwod9C" role="1dubk0">
       <property role="1aKoCf" value="true" />
-      <property role="TrG5h" value="firstStatement" />
+      <property role="TrG5h" value="firstNodes" />
       <node concept="1VLyuc" id="2esDlhwofmq" role="1dv5OJ">
         <property role="TrG5h" value="n" />
         <node concept="2kdjtB" id="5HJW9us_x0R" role="1dukDx">
@@ -15670,7 +15863,7 @@
         <node concept="30Nfyg" id="2esDlhwogTd" role="1dgzf0">
           <node concept="2k1GkI" id="2esDlhwp01w" role="30Nf_D">
             <node concept="2k1_uq" id="2esDlhwp01x" role="2nKVj6">
-              <ref role="2nKBpL" node="2esDlhwod9C" resolve="firstStatement" />
+              <ref role="2nKBpL" node="2esDlhwod9C" resolve="firstNodes" />
               <node concept="30NkWi" id="4IP8Ul5cZtB" role="2nKBpO">
                 <ref role="XkjO9" node="4IP8Ul5cYLH" resolve="f" />
               </node>
@@ -15678,14 +15871,35 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGjM4P" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGjM4Q" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjM4R" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the CFG node which can act as the first node in a given CFG node." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGjSTb" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjSTc" role="1dT_Ay">
+            <property role="1dT_AB" value="First means that in the context of a given node this node represents" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGjSTd" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjSTe" role="1dT_Ay">
+            <property role="1dT_AB" value="the first control flow point during execution. " />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGjM4S" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG node" />
+          <ref role="2MMnZ$" node="2esDlhwofmq" resolve="n" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGjM4T" role="3nqlJM">
+          <property role="x79VB" value="the first node" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2R6rQ6538Hc" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5cjxp" role="1dubk0">
-      <property role="1dubkF" value="returns the last statement(s) of the statement 's'" />
-    </node>
     <node concept="3zyOaA" id="2R6rQ653aZS" role="1dubk0">
       <property role="1aKoCf" value="true" />
-      <property role="TrG5h" value="lastStatement" />
+      <property role="TrG5h" value="lastNodes" />
       <node concept="3zV_Rz" id="4G5wNx$JGmS" role="3zVECR">
         <node concept="1XdyHb" id="3ccORk5dYOe" role="1dgzf0">
           <property role="1dubkF" value="if statement is a last statement itself if it has neither else if part(s) nor else part" />
@@ -15694,7 +15908,7 @@
           <node concept="34oehE" id="4IP8Ul5clMN" role="34ocs8">
             <ref role="34o0ic" to="c4fa:5so5TTr6Vvn" resolve="IfStatement" />
             <node concept="30NkWi" id="4IP8Ul5clHI" role="34oecr">
-              <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+              <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
             </node>
           </node>
         </node>
@@ -15704,7 +15918,7 @@
               <node concept="2k1_uq" id="4IP8Ul5cnil" role="2nKVj6">
                 <ref role="2nKBpL" node="1vT_cYLcJ_D" resolve="lastElseIfInIfStatement" />
                 <node concept="30NkWi" id="4IP8Ul5cnqt" role="2nKBpO">
-                  <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+                  <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
                 </node>
               </node>
             </node>
@@ -15716,7 +15930,7 @@
               <node concept="2k1_uq" id="4IP8Ul5cmBZ" role="2nKVj6">
                 <ref role="2nKBpL" node="2tV8qO6VgpA" resolve="elsePartOfIf" />
                 <node concept="30NkWi" id="4IP8Ul5cmJP" role="2nKBpO">
-                  <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+                  <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
                 </node>
               </node>
             </node>
@@ -15724,18 +15938,18 @@
         </node>
         <node concept="30Nfyg" id="4G5wNx$JMgh" role="1dgzf0">
           <node concept="30NkWi" id="4G5wNx$JMgi" role="30Nf_D">
-            <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+            <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
           </node>
         </node>
       </node>
       <node concept="1VLyuc" id="2R6rQ653aZT" role="1dv5OJ">
-        <property role="TrG5h" value="s" />
-        <node concept="2kdjtB" id="4QOgZJSRD6y" role="1dukDx">
-          <ref role="2UGuZ7" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+        <property role="TrG5h" value="n" />
+        <node concept="2kdjtB" id="1Rbh1GGjzDh" role="1dukDx">
+          <ref role="2UGuZ7" to="c4fa:2tV8qO6QC_4" resolve="ICFGNode" />
         </node>
       </node>
       <node concept="3TL$xT" id="2R6rQ653b0a" role="3TLBbI">
-        <node concept="2kdjtB" id="4G5wNx$M5qc" role="1dukDx">
+        <node concept="2kdjtB" id="1Rbh1GGjApO" role="1dukDx">
           <ref role="2UGuZ7" to="c4fa:2tV8qO6QC_4" resolve="ICFGNode" />
         </node>
       </node>
@@ -15747,7 +15961,7 @@
           <node concept="34oehE" id="4IP8Ul5crbx" role="34ocs8">
             <ref role="34o0ic" to="c4fa:5so5TTr6Vvn" resolve="IfStatement" />
             <node concept="30NkWi" id="4IP8Ul5cr3q" role="34oecr">
-              <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+              <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
             </node>
           </node>
         </node>
@@ -15757,7 +15971,7 @@
               <node concept="2k1_uq" id="4IP8Ul5crZX" role="2nKVj6">
                 <ref role="2nKBpL" node="2tV8qO6VgpA" resolve="elsePartOfIf" />
                 <node concept="30NkWi" id="4IP8Ul5cs8b" role="2nKBpO">
-                  <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+                  <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
                 </node>
               </node>
             </node>
@@ -15771,7 +15985,7 @@
             <node concept="2k1_uq" id="4IP8Ul5ct64" role="2nKVj6">
               <ref role="2nKBpL" node="1vT_cYLcJ_D" resolve="lastElseIfInIfStatement" />
               <node concept="30NkWi" id="4IP8Ul5cteE" role="2nKBpO">
-                <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+                <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
               </node>
             </node>
           </node>
@@ -15790,7 +16004,7 @@
           <node concept="34oehE" id="4IP8Ul5curB" role="34ocs8">
             <ref role="34o0ic" to="c4fa:5so5TTr6Vvn" resolve="IfStatement" />
             <node concept="30NkWi" id="4IP8Ul5curC" role="34oecr">
-              <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+              <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
             </node>
           </node>
         </node>
@@ -15802,7 +16016,7 @@
             <node concept="2k1_uq" id="4IP8Ul5cvOZ" role="2nKVj6">
               <ref role="2nKBpL" node="2R6rQ653lNt" resolve="lastStatementInIf" />
               <node concept="30NkWi" id="4IP8Ul5cwbJ" role="2nKBpO">
-                <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+                <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
               </node>
             </node>
           </node>
@@ -15810,7 +16024,7 @@
         <node concept="30Nfyg" id="4G5wNx$KdiS" role="1dgzf0">
           <node concept="2k1GkI" id="4G5wNx$Kek_" role="30Nf_D">
             <node concept="2k1_uq" id="4G5wNx$KekA" role="2nKVj6">
-              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastStatement" />
+              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastNodes" />
               <node concept="30NkWi" id="4IP8Ul5cxlz" role="2nKBpO">
                 <ref role="XkjO9" node="4IP8Ul5cuMw" resolve="l" />
               </node>
@@ -15826,7 +16040,7 @@
           <node concept="34oehE" id="4IP8Ul5czmU" role="34ocs8">
             <ref role="34o0ic" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
             <node concept="30NkWi" id="4IP8Ul5cyO3" role="34oecr">
-              <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+              <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
             </node>
           </node>
         </node>
@@ -15838,7 +16052,7 @@
             <node concept="2k1_uq" id="4IP8Ul5cBiW" role="2nKVj6">
               <ref role="2nKBpL" node="1vT_cYLcGX0" resolve="lastStatementInStatementList" />
               <node concept="30NkWi" id="4IP8Ul5cBRE" role="2nKBpO">
-                <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+                <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
               </node>
             </node>
           </node>
@@ -15846,7 +16060,7 @@
         <node concept="30Nfyg" id="3ccORk5jjK4" role="1dgzf0">
           <node concept="2k1GkI" id="3ccORk5jjK5" role="30Nf_D">
             <node concept="2k1_uq" id="3ccORk5jjK6" role="2nKVj6">
-              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastStatement" />
+              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastNodes" />
               <node concept="30NkWi" id="4IP8Ul5cD0Y" role="2nKBpO">
                 <ref role="XkjO9" node="4IP8Ul5c_B7" resolve="l" />
               </node>
@@ -15862,13 +16076,13 @@
           <node concept="34oehE" id="4IP8Ul5cFhH" role="34ocs8">
             <ref role="34o0ic" to="c4fa:7k_CvRMmYVM" resolve="WhileStatement" />
             <node concept="30NkWi" id="4IP8Ul5cEI5" role="34oecr">
-              <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+              <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
             </node>
           </node>
         </node>
         <node concept="30Nfyg" id="4QOgZJSTnwk" role="1dgzf0">
           <node concept="30NkWi" id="4QOgZJSToMH" role="30Nf_D">
-            <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+            <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
           </node>
         </node>
       </node>
@@ -15880,13 +16094,13 @@
           <node concept="34oehE" id="4IP8Ul5cH3u" role="34ocs8">
             <ref role="34o0ic" to="c4fa:6iIoqg1xIpQ" resolve="ForStatement" />
             <node concept="30NkWi" id="4IP8Ul5cH3v" role="34oecr">
-              <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+              <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
             </node>
           </node>
         </node>
         <node concept="30Nfyg" id="3ccORk5eN86" role="1dgzf0">
           <node concept="30NkWi" id="3ccORk5eN87" role="30Nf_D">
-            <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+            <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
           </node>
         </node>
       </node>
@@ -15898,13 +16112,13 @@
           <node concept="34oehE" id="4IP8Ul5cIh3" role="34ocs8">
             <ref role="34o0ic" to="c4fa:7k_CvRMnubc" resolve="DoWhileStatement" />
             <node concept="30NkWi" id="4IP8Ul5cIh4" role="34oecr">
-              <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+              <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
             </node>
           </node>
         </node>
         <node concept="30Nfyg" id="6yxJ2rEM7ar" role="1dgzf0">
           <node concept="30NkWi" id="6yxJ2rEM7as" role="30Nf_D">
-            <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+            <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
           </node>
         </node>
       </node>
@@ -15919,7 +16133,7 @@
                 <ref role="37wK5l" node="2hKTcZ5TJol" resolve="isPrimitiveStatement" />
                 <ref role="1Pybhc" node="7jJCf_GVBDD" resolve="CFGHelper" />
                 <node concept="1sjAk5" id="4IP8Ul5cMzi" role="37wK5m">
-                  <ref role="1sjAk2" node="2R6rQ653aZT" resolve="s" />
+                  <ref role="1sjAk2" node="2R6rQ653aZT" resolve="n" />
                 </node>
               </node>
             </node>
@@ -15927,7 +16141,7 @@
         </node>
         <node concept="30Nfyg" id="3ccORk5jSOI" role="1dgzf0">
           <node concept="30NkWi" id="3ccORk5jSOJ" role="30Nf_D">
-            <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+            <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
           </node>
         </node>
       </node>
@@ -15939,7 +16153,7 @@
           <node concept="34oehE" id="4IP8Ul5cOpr" role="34ocs8">
             <ref role="34o0ic" to="c4fa:2I09F8VKHBW" resolve="SwitchStatement" />
             <node concept="30NkWi" id="4IP8Ul5cOps" role="34oecr">
-              <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+              <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
             </node>
           </node>
         </node>
@@ -15951,7 +16165,7 @@
             <node concept="2k1_uq" id="4IP8Ul5cPEK" role="2nKVj6">
               <ref role="2nKBpL" node="2R6rQ653lON" resolve="lastStatementInSwitch" />
               <node concept="30NkWi" id="4IP8Ul5cPEL" role="2nKBpO">
-                <ref role="XkjO9" node="2R6rQ653aZT" resolve="s" />
+                <ref role="XkjO9" node="2R6rQ653aZT" resolve="n" />
               </node>
             </node>
           </node>
@@ -15959,12 +16173,36 @@
         <node concept="30Nfyg" id="6yxJ2rEJn5O" role="1dgzf0">
           <node concept="2k1GkI" id="6yxJ2rEJn5P" role="30Nf_D">
             <node concept="2k1_uq" id="6yxJ2rEJn5Q" role="2nKVj6">
-              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastStatement" />
+              <ref role="2nKBpL" node="2R6rQ653aZS" resolve="lastNodes" />
               <node concept="30NkWi" id="4IP8Ul5cSc6" role="2nKBpO">
                 <ref role="XkjO9" node="4IP8Ul5cPEI" resolve="l" />
               </node>
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="1k99o6" id="1Rbh1GGjyhj" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGjyhk" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjyhl" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the CFG node(s) which can act as the last node(s) in a given CFG node." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGjBOe" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjBOf" role="1dT_Ay">
+            <property role="1dT_AB" value="Last means that in the context of a given node these nodes represent" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGjDbW" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjDbX" role="1dT_Ay">
+            <property role="1dT_AB" value="the final control flow points during execution. " />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGjyhm" role="3nqlJM">
+          <property role="2MMnZA" value="the CFG node" />
+          <ref role="2MMnZ$" node="2R6rQ653aZT" resolve="n" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGjyhn" role="3nqlJM">
+          <property role="x79VB" value="the last node(s)" />
         </node>
       </node>
     </node>
@@ -16002,11 +16240,24 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGjvwT" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGjvwU" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjvwV" role="1dT_Ay">
+            <property role="1dT_AB" value="Enumerates CFG nodes which cannot act as CFG edge targets " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1Rbh1GGjwUf" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjwUg" role="1dT_Ay">
+            <property role="1dT_AB" value="from syntcatically before the node. " />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGjvwW" role="3nqlJM">
+          <property role="2MMnZA" value="the node" />
+          <ref role="2MMnZ$" node="3e1iAvwmlKu" resolve="n" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="3e1iAvwmhZe" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5ccIH" role="1dubk0">
-      <property role="1dubkF" value="returns the first loop-like ancestor of the node 'child'" />
-    </node>
     <node concept="3zyOaA" id="3bGjHomfHKh" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="firstLoopAncestor" />
@@ -16094,11 +16345,22 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGjs4H" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGjs4I" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjs4J" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the first loop-like ancestor of a node." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGjs4K" role="3nqlJM">
+          <property role="2MMnZA" value="the child node" />
+          <ref role="2MMnZ$" node="3bGjHomfHKi" resolve="child" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGjs4L" role="3nqlJM">
+          <property role="x79VB" value="the loop ancestor" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="3bGjHomfF68" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5bZSQ" role="1dubk0">
-      <property role="1dubkF" value="returns the last statement(s) of the if statement 's'" />
-    </node>
     <node concept="3zyOaA" id="2R6rQ653lNt" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="lastStatementInIf" />
@@ -16194,11 +16456,22 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGjoGM" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGjoGN" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjoGO" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the last statement(s) of an if statement." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGjoGP" role="3nqlJM">
+          <property role="2MMnZA" value="the if statement" />
+          <ref role="2MMnZ$" node="2R6rQ653lNu" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGjoGQ" role="3nqlJM">
+          <property role="x79VB" value="the last statement(s)" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2R6rQ653lO2" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5bUI_" role="1dubk0">
-      <property role="1dubkF" value="returns the last statement(s) of the do while statement 's'" />
-    </node>
     <node concept="3zyOaA" id="2R6rQ653lO3" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="lastStatementInDoWhile" />
@@ -16238,11 +16511,22 @@
           <ref role="2UGuZ7" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGjli_" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGjliA" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjliB" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the last statement of a do while statement." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGjliC" role="3nqlJM">
+          <property role="2MMnZA" value="the do while statement" />
+          <ref role="2MMnZ$" node="2R6rQ653lO4" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGjliD" role="3nqlJM">
+          <property role="x79VB" value="the last statement" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2R6rQ653lOi" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5bRxr" role="1dubk0">
-      <property role="1dubkF" value="returns the first statement(s) of the do while statement 's'" />
-    </node>
     <node concept="3zyOaA" id="2esDlhwp9Y5" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="firstStatementInDoWhile" />
@@ -16282,11 +16566,22 @@
           <ref role="2UGuZ7" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGjhPu" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGjhPv" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjhPw" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the first statement of a do while statement." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGjhPx" role="3nqlJM">
+          <property role="2MMnZA" value="the do while statement" />
+          <ref role="2MMnZ$" node="2esDlhwp9Y6" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGjhPy" role="3nqlJM">
+          <property role="x79VB" value="the first statement" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2esDlhwpGUk" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5bMkB" role="1dubk0">
-      <property role="1dubkF" value="returns the last statement(s) of the while statement 's'" />
-    </node>
     <node concept="3zyOaA" id="2R6rQ653lOj" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="lastStatementInWhile" />
@@ -16326,11 +16621,22 @@
           <ref role="2UGuZ7" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGjetG" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGjetH" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjetI" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the last statement of a while statement." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGjetJ" role="3nqlJM">
+          <property role="2MMnZA" value="the while statement" />
+          <ref role="2MMnZ$" node="2R6rQ653lOk" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGjetK" role="3nqlJM">
+          <property role="x79VB" value="the last statement" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2esDlhwp7Lo" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5bHUt" role="1dubk0">
-      <property role="1dubkF" value="returns the last statement(s) of the for statement 's'" />
-    </node>
     <node concept="3zyOaA" id="2R6rQ653lOz" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="lastStatementInFor" />
@@ -16370,11 +16676,22 @@
           <ref role="2UGuZ7" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGjb2M" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGjb2N" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGjb2O" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the last statement of a for statement." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGjb2P" role="3nqlJM">
+          <property role="2MMnZA" value="the for statement" />
+          <ref role="2MMnZ$" node="2R6rQ653lO$" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGjb2Q" role="3nqlJM">
+          <property role="x79VB" value="the last statement" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2R6rQ653lOM" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5byfL" role="1dubk0">
-      <property role="1dubkF" value="returns the last statement(s) of the switch statement 's'" />
-    </node>
     <node concept="3zyOaA" id="2R6rQ653lON" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="lastStatementInSwitch" />
@@ -16455,11 +16772,22 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGj7Cv" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGj7Cw" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGj7Cx" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the last statement(s) of a switch statement." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGj7Cy" role="3nqlJM">
+          <property role="2MMnZA" value="the switch statement" />
+          <ref role="2MMnZ$" node="2R6rQ653lOO" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGj7Cz" role="3nqlJM">
+          <property role="x79VB" value="the last statement(s)" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="3bGjHomcRbb" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5bs9N" role="1dubk0">
-      <property role="1dubkF" value="returns the last statement in the case branch 'c'" />
-    </node>
     <node concept="3zyOaA" id="3bGjHomcWq0" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="lastStatementInSwitchCase" />
@@ -16499,11 +16827,22 @@
           <ref role="2UGuZ7" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGj4bB" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGj4bC" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGj4bD" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the last statement of a switch case branch." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGj4bE" role="3nqlJM">
+          <property role="2MMnZA" value="the case branch" />
+          <ref role="2MMnZ$" node="3bGjHomcZ3w" resolve="c" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGj4bF" role="3nqlJM">
+          <property role="x79VB" value="the last statement" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2R6rQ653jeD" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5bmZj" role="1dubk0">
-      <property role="1dubkF" value="returns the last statement in the default branch 'd'" />
-    </node>
     <node concept="3zyOaA" id="3bGjHomdOaV" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="lastStatementInSwitchDefault" />
@@ -16543,11 +16882,22 @@
           <ref role="2UGuZ7" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGj0E7" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGj0E8" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGj0E9" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the last statement of a switch default branch." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGj0Ea" role="3nqlJM">
+          <property role="2MMnZA" value="the default branch" />
+          <ref role="2MMnZ$" node="3bGjHomdOaW" resolve="d" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGj0Eb" role="3nqlJM">
+          <property role="x79VB" value="the last statement" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="3bGjHomdLwU" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5bj7k" role="1dubk0">
-      <property role="1dubkF" value="returns the else part of an if statement 's'" />
-    </node>
     <node concept="3zyOaA" id="2tV8qO6VgpA" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="elsePartOfIf" />
@@ -16574,11 +16924,22 @@
           <ref role="2UGuZ7" to="c4fa:1iWV611dFzA" resolve="ElsePart" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGiXgG" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGiXgH" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGiXgI" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the else part of an if statement." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGiXgJ" role="3nqlJM">
+          <property role="2MMnZA" value="the if statement" />
+          <ref role="2MMnZ$" node="2tV8qO6VgpB" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGiXgK" role="3nqlJM">
+          <property role="x79VB" value="the else part" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="1vT_cYLcExn" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5bh11" role="1dubk0">
-      <property role="1dubkF" value="returns the last statement in the statement list 'l'" />
-    </node>
     <node concept="3zyOaA" id="1vT_cYLcGX0" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="lastStatementInStatementList" />
@@ -16625,11 +16986,22 @@
           <ref role="2UGuZ7" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGiTSC" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGiTSD" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGiTSE" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the last statement in a statement list." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGiTSF" role="3nqlJM">
+          <property role="2MMnZA" value="the statement list" />
+          <ref role="2MMnZ$" node="1vT_cYLcGX1" resolve="l" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGiTSG" role="3nqlJM">
+          <property role="x79VB" value="the last statement" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2esDlhwoli8" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5b3BE" role="1dubk0">
-      <property role="1dubkF" value="returns the first statement in the statement list 'l'" />
-    </node>
     <node concept="3zyOaA" id="2esDlhwop$O" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="firstStatementInStatementList" />
@@ -16676,11 +17048,22 @@
           <ref role="2UGuZ7" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGiQtA" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGiQtB" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGiQtC" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the first statement in a statement list." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGiQtD" role="3nqlJM">
+          <property role="2MMnZA" value="the statement list" />
+          <ref role="2MMnZ$" node="2esDlhworN2" resolve="l" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGiQtE" role="3nqlJM">
+          <property role="x79VB" value="the first statement" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="1vT_cYLcIx3" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5aYwU" role="1dubk0">
-      <property role="1dubkF" value="returns the last else if part of the if statement 's'" />
-    </node>
     <node concept="3zyOaA" id="1vT_cYLcJ_D" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="lastElseIfInIfStatement" />
@@ -16727,11 +17110,22 @@
           <ref role="2UGuZ7" to="c4fa:2I09F8VKBaA" resolve="ElseIfPart" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGiN4B" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGiN4C" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGiN4D" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the last else if part of an if statement." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGiN4E" role="3nqlJM">
+          <property role="2MMnZA" value="the if statement" />
+          <ref role="2MMnZ$" node="1vT_cYLcKcp" resolve="s" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGiN4F" role="3nqlJM">
+          <property role="x79VB" value="the last else if part" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2tV8qO6VfC9" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5aTDI" role="1dubk0">
-      <property role="1dubkF" value="returns the parent node of 'child'" />
-    </node>
     <node concept="3zyOaA" id="2tV8qO6UCRK" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="parent" />
@@ -16758,11 +17152,22 @@
           <ref role="2UGuZ7" to="c4fa:2hKTcZ5NukP" resolve="IParentPointerTarget" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGiJBx" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGiJBy" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGiJBz" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the parent node of a child node." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGiJB$" role="3nqlJM">
+          <property role="2MMnZA" value="the child node" />
+          <ref role="2MMnZ$" node="2tV8qO6UD7u" resolve="child" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGiJB_" role="3nqlJM">
+          <property role="x79VB" value="the parent node" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="2tV8qO6Tg$R" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5aShp" role="1dubk0">
-      <property role="1dubkF" value="returns the node which syntactically precedes 'trg'" />
-    </node>
     <node concept="3zyOaA" id="2tV8qO6T5hl" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="directlyBefore" />
@@ -16807,11 +17212,22 @@
           <ref role="2UGuZ7" to="c4fa:4vqaQpQDzGE" resolve="IWithNextPointer" />
         </node>
       </node>
+      <node concept="1k99o6" id="1Rbh1GGiFZC" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGiFZD" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGiFZE" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the node which is syntactically before a given node." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGiFZF" role="3nqlJM">
+          <property role="2MMnZA" value="the successor node" />
+          <ref role="2MMnZ$" node="2tV8qO6T5jV" resolve="trg" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGiFZG" role="3nqlJM">
+          <property role="x79VB" value="the predecessor node" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="4IP8Ul5b6Sk" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul5b9HE" role="1dubk0">
-      <property role="1dubkF" value="returns the node which syntactically succeeds 'src'" />
-    </node>
     <node concept="3zyOaA" id="4IP8Ul5b8gW" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="directlyAfter" />
@@ -16836,6 +17252,20 @@
               <ref role="XkjO9" node="4IP8Ul5b8Xv" resolve="src" />
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="1k99o6" id="1Rbh1GGiCDP" role="lGtFl">
+        <node concept="TZ5HA" id="1Rbh1GGiCDQ" role="TZ5H$">
+          <node concept="1dT_AC" id="1Rbh1GGiCDR" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the node which is syntactically after a given node." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="1Rbh1GGiCDS" role="3nqlJM">
+          <property role="2MMnZA" value="the predecessor node" />
+          <ref role="2MMnZ$" node="4IP8Ul5b8Xv" resolve="src" />
+        </node>
+        <node concept="x79VA" id="1Rbh1GGiCDT" role="3nqlJM">
+          <property role="x79VB" value="the successor node" />
         </node>
       </node>
     </node>
