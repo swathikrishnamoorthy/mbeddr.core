@@ -14,6 +14,7 @@
     <dependency reexport="false">97d24244-51db-4e2e-97fc-7bd73b1f5f40(com.mbeddr.ext.components)</dependency>
     <dependency reexport="false">7766a138-716a-422a-9c88-131459fb8d6a(org.eclipse.incquery.mps.core)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+    <dependency reexport="false">2714927b-ee2d-4136-bf1f-a7ff22ff91af(org.eclipse.incquery.mps.measurements)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
@@ -117,6 +118,7 @@
     <module reference="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" version="0" />
     <module reference="bc791f96-4749-4311-a6e4-241e47ca97f9(org.eclipse.incquery.mps.base.runtime)" version="0" />
     <module reference="7766a138-716a-422a-9c88-131459fb8d6a(org.eclipse.incquery.mps.core)" version="0" />
+    <module reference="2714927b-ee2d-4136-bf1f-a7ff22ff91af(org.eclipse.incquery.mps.measurements)" version="0" />
     <module reference="be1f34d6-c4d2-4f7a-bf3c-cd4eeb0a857a(test.ts.measurements)" version="0" />
   </dependencyVersions>
 </solution>
