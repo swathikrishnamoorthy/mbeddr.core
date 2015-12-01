@@ -38,6 +38,7 @@
       <languageVersions>
         <language id="9d69e719-78c8-4286-90db-fb19c107d049" fqName="com.mbeddr.mpsutil.grammarcells" version="0" />
         <language id="b4f35ed8-45af-4efa-abe4-00ac26956e69" fqName="com.mbeddr.mpsutil.grammarcells.runtimelang" version="0" />
+        <language id="52733268-be24-4f5f-ab84-a73b7c0c03b0" fqName="de.slisson.mps.richtext.customcell" version="0" />
         <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="3" />
         <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
         <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" fqName="jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -97,7 +98,7 @@
         <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
       </dependencyVersions>
       <mapping-priorities>
-        <mapping-priority-rule kind="strictly_together">
+        <mapping-priority-rule kind="strictly_before">
           <greater-priority-mapping>
             <generator generatorUID="312f2d86-1dd3-4f57-b85f-0f9735c16a1c(com.mbeddr.mpsutil.createTargetCell#5397483644467312200)" />
             <external-mapping>
@@ -105,23 +106,9 @@
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <generator generatorUID="0647eca7-da98-422a-8a8b-6ebc0bd014ea(jetbrains.mps.lang.editor#1129914002149)" />
-            <external-mapping>
-              <mapping-node modelUID="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" nodeID="1096629760203" />
-            </external-mapping>
-          </lesser-priority-mapping>
-        </mapping-priority-rule>
-        <mapping-priority-rule kind="strictly_before">
-          <greater-priority-mapping>
-            <generator generatorUID="312f2d86-1dd3-4f57-b85f-0f9735c16a1c(com.mbeddr.mpsutil.createTargetCell#5397483644467312200)" />
-            <external-mapping>
-              <mapping-node modelUID="r:3e390b56-34e3-4212-9bec-c037fedf0e27(com.mbeddr.mpsutil.createTargetCell.generator.template.main@generator)" nodeID="3222962788972062017" />
-            </external-mapping>
-          </greater-priority-mapping>
-          <lesser-priority-mapping>
             <generator generatorUID="3caaaa06-4186-4d6e-8cb4-37c75a1dbcaf(com.mbeddr.mpsutil.grammarcells#1749127723000258530)" />
             <external-mapping>
-              <all-local-mappings />
+              <mapping-node modelUID="r:0e2d0780-27a1-4dda-a429-65b192261fcc(com.mbeddr.mpsutil.grammarcells.generator.template.main@generator)" nodeID="7363578995839495914" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>

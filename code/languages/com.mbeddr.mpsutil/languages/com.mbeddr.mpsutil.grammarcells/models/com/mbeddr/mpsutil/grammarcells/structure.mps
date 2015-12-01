@@ -575,6 +575,9 @@
     <node concept="PrWs8" id="6rhOS_xv6AX" role="PzmwI">
       <ref role="PrY4T" node="6rhOS_xv5cy" resolve="IGeneratorOnly" />
     </node>
+    <node concept="PrWs8" id="4B$Xb8cUdVL" role="PzmwI">
+      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6jH9yJK5usy">
     <property role="1pbfSe" value="1426263373" />

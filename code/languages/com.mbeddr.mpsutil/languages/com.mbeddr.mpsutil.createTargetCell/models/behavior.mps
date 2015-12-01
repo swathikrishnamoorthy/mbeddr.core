@@ -49,6 +49,7 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
@@ -223,6 +224,22 @@
     <ref role="13h7C2" to="lbin:2MUgTiwU$gk" resolve="CreateTargetApplicabilityQuery" />
     <node concept="13hLZK" id="2MUgTiwU$h6" role="13h7CW">
       <node concept="3clFbS" id="2MUgTiwU$h7" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="4B$Xb8cU7x3" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="4B$Xb8cU7x7" role="1B3o_S" />
+      <node concept="3clFbS" id="4B$Xb8cU7x9" role="3clF47">
+        <node concept="3clFbF" id="4B$Xb8cU7$y" role="3cqZAp">
+          <node concept="2c44tf" id="4B$Xb8cU7$o" role="3clFbG">
+            <node concept="10P_77" id="4B$Xb8cU7_0" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="4B$Xb8cU7xa" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="2MUgTiwU$lS">
