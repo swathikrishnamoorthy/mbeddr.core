@@ -34,9 +34,14 @@
       <concept id="994107119628459644" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformGenerator" flags="ig" index="2bVX_k">
         <child id="7621529404680555921" name="removals" index="22Ud4d" />
       </concept>
+      <concept id="5324649705017893054" name="com.mbeddr.mpsutil.grammarcells.structure.GeneratedSubstituteRemovals" flags="ng" index="157xgc" />
       <concept id="7363578995839261502" name="com.mbeddr.mpsutil.grammarcells.structure.SubstituteActionsGenerator" flags="ig" index="1kHAGF" />
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
+      <concept id="1177413882405" name="jetbrains.mps.lang.actions.structure.RemoveByConditionPart" flags="ng" index="zlxcR">
+        <child id="1177414109676" name="condition" index="zmozY" />
+      </concept>
+      <concept id="1177413954598" name="jetbrains.mps.lang.actions.structure.QueryFunction_RemoveBy_Condition" flags="in" index="zlMOO" />
       <concept id="1197454418909" name="jetbrains.mps.lang.actions.structure.QueryFunction_ST_RemoveBy_Condition" flags="in" index="3dQ6bb" />
       <concept id="1197454626277" name="jetbrains.mps.lang.actions.structure.RemoveSTByConditionPart" flags="ng" index="3dQSNN">
         <child id="1197454635481" name="condition" index="3dQV3f" />
@@ -46,6 +51,7 @@
       </concept>
       <concept id="1112058030570" name="jetbrains.mps.lang.actions.structure.NodeSubstituteActionsBuilder" flags="ig" index="3FOIzC">
         <reference id="1112058088712" name="applicableConcept" index="3FOWKa" />
+        <child id="1177324142645" name="part" index="tZc4B" />
       </concept>
       <concept id="1138079221458" name="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActionsBuilder" flags="ig" index="3UNGvq">
         <property id="1215605257730" name="side" index="7I3sp" />
@@ -62,12 +68,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="3FK_9_" id="2MUgTix1t8k">
-    <property role="TrG5h" value="grammarCellWrappers" />
-    <node concept="1kHAGF" id="2MUgTix1t8l" role="3FOPby">
-      <ref role="3FOWKa" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    </node>
-  </node>
   <node concept="3UOs0u" id="2MUgTix1t8u">
     <property role="TrG5h" value="GeneratedSideTransformActions" />
     <node concept="2bVX_k" id="2MUgTix1t8o" role="3UOs0v">
@@ -149,6 +149,21 @@
           <node concept="3clFbS" id="2MUgTix1t8U" role="2VODD2">
             <node concept="3cpWs6" id="2MUgTix1t8V" role="3cqZAp">
               <node concept="3clFbT" id="2MUgTix1t8W" role="3cqZAk" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3FK_9_" id="16iTrc3jVZ7">
+    <property role="TrG5h" value="GeneratedNodeSubstituteActions" />
+    <node concept="1kHAGF" id="16iTrc3jVZ8" role="3FOPby">
+      <ref role="3FOWKa" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <node concept="157xgc" id="16iTrc3jVZ9" role="tZc4B">
+        <node concept="zlMOO" id="16iTrc3jVZa" role="zmozY">
+          <node concept="3clFbS" id="16iTrc3jVZb" role="2VODD2">
+            <node concept="3cpWs6" id="16iTrc3jVZc" role="3cqZAp">
+              <node concept="3clFbT" id="16iTrc3jVZd" role="3cqZAk" />
             </node>
           </node>
         </node>

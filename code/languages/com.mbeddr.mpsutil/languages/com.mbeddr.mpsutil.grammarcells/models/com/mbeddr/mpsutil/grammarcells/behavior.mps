@@ -2968,5 +2968,116 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="16iTrc3aDqR">
+    <property role="3GE5qa" value="cells" />
+    <ref role="13h7C2" to="teg0:4B$Xb8d3_aj" resolve="NodeSubstituteCell_RemoveHandler" />
+    <node concept="13i0hz" id="16iTrc3aDqU" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getParameters" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRM" resolve="getParameters" />
+      <node concept="3Tm1VV" id="16iTrc3aDqV" role="1B3o_S" />
+      <node concept="3clFbS" id="16iTrc3aDqW" role="3clF47">
+        <node concept="3clFbF" id="16iTrc3aDqX" role="3cqZAp">
+          <node concept="2ShNRf" id="16iTrc3aDqY" role="3clFbG">
+            <node concept="Tc6Ow" id="16iTrc3aDqZ" role="2ShVmc">
+              <node concept="3THzug" id="16iTrc3aDr0" role="HW$YZ">
+                <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="3TUQnm" id="16iTrc3aDr1" role="HW$Y0">
+                <ref role="3TV0OU" to="teg0:16iTrc3aEZI" resolve="NodeSubstituteCell_RemoveHandler_action" />
+              </node>
+              <node concept="3TUQnm" id="16iTrc3aDr2" role="HW$Y0">
+                <ref role="3TV0OU" to="teg0:16iTrc3aFzx" resolve="NodeSubstituteCell_RemoveHandler_allActions" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="16iTrc3aDr3" role="3clF45">
+        <node concept="3THzug" id="16iTrc3aDr4" role="_ZDj9">
+          <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="16iTrc3aDr5" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="16iTrc3aDr6" role="1B3o_S" />
+      <node concept="3clFbS" id="16iTrc3aDr7" role="3clF47">
+        <node concept="3clFbF" id="16iTrc3aDr8" role="3cqZAp">
+          <node concept="2c44tf" id="16iTrc3aDr9" role="3clFbG">
+            <node concept="A3Dl8" id="16iTrc3aDra" role="2c44tc">
+              <node concept="3uibUv" id="16iTrc3aDrb" role="A3Ik2">
+                <ref role="3uigEE" to="f4zo:~SubstituteAction" resolve="SubstituteAction" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="16iTrc3aDrc" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="16iTrc3aDqS" role="13h7CW">
+      <node concept="3clFbS" id="16iTrc3aDqT" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="16iTrc3aEZJ">
+    <property role="3GE5qa" value="cells" />
+    <ref role="13h7C2" to="teg0:16iTrc3aEZI" resolve="NodeSubstituteCell_RemoveHandler_action" />
+    <node concept="13hLZK" id="16iTrc3aEZK" role="13h7CW">
+      <node concept="3clFbS" id="16iTrc3aEZL" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="16iTrc3aEZM" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3Tm1VV" id="16iTrc3aEZN" role="1B3o_S" />
+      <node concept="3clFbS" id="16iTrc3aEZS" role="3clF47">
+        <node concept="3clFbF" id="16iTrc3aFyi" role="3cqZAp">
+          <node concept="2c44tf" id="16iTrc3aFyg" role="3clFbG">
+            <node concept="3uibUv" id="16iTrc3aFz8" role="2c44tc">
+              <ref role="3uigEE" to="f4zo:~SubstituteAction" resolve="SubstituteAction" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="16iTrc3aEZT" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="16iTrc3aFzy">
+    <property role="3GE5qa" value="cells" />
+    <ref role="13h7C2" to="teg0:16iTrc3aFzx" resolve="NodeSubstituteCell_RemoveHandler_allActions" />
+    <node concept="13hLZK" id="16iTrc3aFzz" role="13h7CW">
+      <node concept="3clFbS" id="16iTrc3aFz$" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="16iTrc3aFz_" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3Tm1VV" id="16iTrc3aFzA" role="1B3o_S" />
+      <node concept="3clFbS" id="16iTrc3aFzF" role="3clF47">
+        <node concept="3clFbF" id="16iTrc3aFAe" role="3cqZAp">
+          <node concept="2c44tf" id="16iTrc3aFAc" role="3clFbG">
+            <node concept="_YKpA" id="16iTrc3aFB4" role="2c44tc">
+              <node concept="3uibUv" id="16iTrc3aFBx" role="_ZDj9">
+                <ref role="3uigEE" to="f4zo:~SubstituteAction" resolve="SubstituteAction" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="16iTrc3aFzG" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+    </node>
+  </node>
 </model>
 
