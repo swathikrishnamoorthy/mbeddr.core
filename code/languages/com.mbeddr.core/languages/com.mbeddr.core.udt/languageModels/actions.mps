@@ -87,6 +87,7 @@
       <concept id="994107119628459644" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformGenerator" flags="ig" index="2bVX_k">
         <child id="7621529404680555921" name="removals" index="22Ud4d" />
       </concept>
+      <concept id="5324649705017893054" name="com.mbeddr.mpsutil.grammarcells.structure.GeneratedSubstituteRemovals" flags="ng" index="157xgc" />
       <concept id="7363578995839261502" name="com.mbeddr.mpsutil.grammarcells.structure.SubstituteActionsGenerator" flags="ig" index="1kHAGF" />
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
@@ -106,6 +107,10 @@
       <concept id="1177337833147" name="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_parameterObject" flags="nn" index="uNquD" />
       <concept id="1177337890340" name="jetbrains.mps.lang.actions.structure.QueryFunction_ParameterizedSubstitute_Query" flags="in" index="uNCsQ" />
       <concept id="1177339225103" name="jetbrains.mps.lang.actions.structure.QueryFunction_ParameterizedSubstitute_Handler" flags="in" index="uSIkt" />
+      <concept id="1177413882405" name="jetbrains.mps.lang.actions.structure.RemoveByConditionPart" flags="ng" index="zlxcR">
+        <child id="1177414109676" name="condition" index="zmozY" />
+      </concept>
+      <concept id="1177413954598" name="jetbrains.mps.lang.actions.structure.QueryFunction_RemoveBy_Condition" flags="in" index="zlMOO" />
       <concept id="1177497140107" name="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" flags="nn" index="Cj7Ep" />
       <concept id="1177498013932" name="jetbrains.mps.lang.actions.structure.SimpleSideTransformMenuPart" flags="ng" index="Cmt7Y">
         <child id="1177498166690" name="matchingText" index="Cn2iK" />
@@ -336,6 +341,15 @@
     <property role="TrG5h" value="GeneratedNodeSubstituteActions" />
     <node concept="1kHAGF" id="6oKG1kMybJ7" role="3FOPby">
       <ref role="3FOWKa" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <node concept="157xgc" id="4i6g$2CvM1T" role="tZc4B">
+        <node concept="zlMOO" id="4i6g$2CvM1U" role="zmozY">
+          <node concept="3clFbS" id="4i6g$2CvM1V" role="2VODD2">
+            <node concept="3cpWs6" id="4i6g$2CvM1W" role="3cqZAp">
+              <node concept="3clFbT" id="4i6g$2CvM1X" role="3cqZAk" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="3UOs0u" id="6oKG1kMxrFD">

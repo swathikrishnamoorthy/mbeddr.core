@@ -8,10 +8,10 @@
   <imports>
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="878o" ref="r:46fddec3-0db9-4b86-8274-957463dd4499(com.mbeddr.mpsutil.grammarcells.runtimelang.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpdg" ref="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="tpdg" ref="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -572,11 +572,19 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6jH9yJK5usy" resolve="NodeSubstituteCell_Factory" />
     </node>
+    <node concept="1TJgyj" id="16iTrc3bbXy" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="removeCondition" />
+      <ref role="20lvS9" node="4B$Xb8d3_aj" resolve="NodeSubstituteCell_RemoveCondition" />
+    </node>
     <node concept="PrWs8" id="4MmBx0apo_E" role="PzmwI">
       <ref role="PrY4T" node="3O7ZvCZLPYU" resolve="ICellWrapper" />
     </node>
     <node concept="PrWs8" id="6rhOS_xv6AX" role="PzmwI">
       <ref role="PrY4T" node="6rhOS_xv5cy" resolve="IGeneratorOnly" />
+    </node>
+    <node concept="PrWs8" id="4B$Xb8cUdVL" role="PzmwI">
+      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
     </node>
   </node>
   <node concept="1TIwiD" id="6jH9yJK5usy">
@@ -864,6 +872,36 @@
     <property role="1pbfSe" value="865250330" />
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="IRequiresRules" />
+  </node>
+  <node concept="1TIwiD" id="4B$Xb8cYI2Y">
+    <property role="1pbfSe" value="1457509744" />
+    <property role="3GE5qa" value="actionsAspect" />
+    <property role="TrG5h" value="GeneratedSubstituteRemovals" />
+    <property role="34LRSv" value="removals" />
+    <ref role="1TJDcQ" to="tpdg:h8zlx8_" resolve="RemoveByConditionPart" />
+    <node concept="PrWs8" id="4B$Xb8cYI2Z" role="PzmwI">
+      <ref role="PrY4T" node="6B579NFvMS6" resolve="IActionGenerationProxy" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="16iTrc3aEZI">
+    <property role="1pbfSe" value="347968929" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="NodeSubstituteCell_RemoveCondition_action" />
+    <property role="34LRSv" value="action" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="4B$Xb8d3_aj">
+    <property role="1pbfSe" value="1458784069" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="NodeSubstituteCell_RemoveCondition" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="16iTrc3aFzx">
+    <property role="1pbfSe" value="347971220" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="NodeSubstituteCell_RemoveCondition_allActions" />
+    <property role="34LRSv" value="allActions" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 
