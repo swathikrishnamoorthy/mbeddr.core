@@ -95,27 +95,24 @@
       </layout>
   </appender>
 
-  <category name="jetbrains.mps.vcs" additivity="false">
-      <priority value="INFO"/>
-      <appender-ref ref="FILE-VCS"/>
-      <appender-ref ref="CONSOLE-WARN"/>
-  </category>
+  <!--<category name="jetbrains.mps.vcs" additivity="false">-->
+      <!--<priority value="INFO"/>-->
+      <!--<appender-ref ref="FILE-VCS"/>-->
+      <!--<appender-ref ref="CONSOLE-WARN"/>-->
+  <!--</category>-->
 
-  <category name="com.intellij.openapi.vcs" additivity="false">
-      <priority value="INFO"/>
-      <appender-ref ref="FILE-VCS"/>
-      <appender-ref ref="CONSOLE-WARN"/>
-  </category>
+  <!--<category name="com.intellij.openapi.vcs" additivity="false">-->
+      <!--<priority value="INFO"/>-->
+      <!--<appender-ref ref="FILE-VCS"/>-->
+      <!--<appender-ref ref="CONSOLE-WARN"/>-->
+  <!--</category>-->
 
-  <category name="com.intellij" additivity="false">
-      <priority value="WARN"/>
-      <appender-ref ref="CONSOLE-WARN"/>
-      <appender-ref ref="FILE"/>
+  <category name="com.intellij" additivity="true">
+      <priority value="INFO"/>
   </category>
 
   <category name="jetbrains.mps" additivity="true">
     <priority value="INFO"/>
-    <appender-ref ref="CONSOLE-INFO"/>
   </category>
   
   <!--<category name="jetbrains.mps.library" additivity="true">
@@ -128,16 +125,13 @@
 	<appender-ref ref="CONSOLE-TRACE"/>
 	<appender-ref ref="CONSOLE-DEBUG"/>
   </category>-->
-  <category name="#com.intellij" additivity="false">
-      <priority value="WARN"/>
-      <appender-ref ref="CONSOLE-WARN"/>
-      <appender-ref ref="FILE"/>
+  <category name="#com.intellij" additivity="true">
+      <priority value="INFO"/>
   </category>
 
   <root>
     <priority value="INFO"/>
-    <appender-ref ref="CONSOLE-WARN"/>
+    <appender-ref ref="CONSOLE-ALL"/>
     <appender-ref ref="DIALOG"/>
-    <appender-ref ref="FILE"/>
   </root>
 </log4j:configuration>
