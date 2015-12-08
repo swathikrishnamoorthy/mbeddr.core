@@ -2,6 +2,9 @@
 	<!-- import properties -->
 	<property file="build.properties"/>  
 
+  <property environment="env"/>
+  <property name="jdk.home" value="${java.home}/.."/>
+  <echo message="jdk.home: ${jdk.home}"/>
 	<!-- validations -->
 	<property name="plugins.folder.name" value="plugins"/>
 	<fail unless="mps.home">mps.home must be set in your build.properties</fail>
