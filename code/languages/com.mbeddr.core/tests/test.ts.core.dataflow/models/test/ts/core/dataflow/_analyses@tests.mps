@@ -19,6 +19,10 @@
         <child id="1925259677761394831" name="element" index="3zVzRQ" />
       </concept>
       <concept id="6509498303003038373" name="org.eclipse.incquery.mps.sq.structure.SPathElement" flags="ng" index="2qPR2i" />
+      <concept id="835345694288619037" name="org.eclipse.incquery.mps.sq.structure.NotInstanceOf" flags="ng" index="2BbxxA">
+        <reference id="835345694288619062" name="type" index="2Bbxxd" />
+        <child id="835345694288619055" name="expression" index="2Bbxxk" />
+      </concept>
       <concept id="1036696987214522885" name="org.eclipse.incquery.mps.sq.structure.STemporaryVariable" flags="ng" index="30KbLJ" />
       <concept id="1036696987215326970" name="org.eclipse.incquery.mps.sq.structure.ReturnStatement" flags="ng" index="30Nfyg">
         <child id="1036696987215326979" name="expression" index="30Nf_D" />
@@ -91,7 +95,77 @@
   </registry>
   <node concept="3TKv5i" id="4LKTeOwwWVc">
     <property role="TrG5h" value="SimpleControlFlowAnalysis" />
-    <node concept="1XdyHe" id="4LKTeOwxbvU" role="1dubk0" />
+    <node concept="3zyOaA" id="3c0cNMg2vMX" role="1dubk0">
+      <property role="1aKoCf" value="false" />
+      <property role="TrG5h" value="cFlow" />
+      <node concept="3TL$xT" id="3c0cNMg2vQN" role="3TLBbI">
+        <node concept="2kdjtB" id="3c0cNMg2vQZ" role="1dukDx">
+          <ref role="2UGuZ7" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+        </node>
+      </node>
+      <node concept="1VLyuc" id="3c0cNMg2vQp" role="1dv5OJ">
+        <property role="TrG5h" value="trg" />
+        <node concept="2kdjtB" id="3c0cNMg2vQG" role="1dukDx">
+          <ref role="2UGuZ7" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="3c0cNMg2vMY" role="3zVECR">
+        <node concept="30Nfyg" id="3c0cNMg2vRh" role="1dgzf0">
+          <node concept="2k1GkI" id="3c0cNMg2vRy" role="30Nf_D">
+            <node concept="2k1_uq" id="3c0cNMg2vRz" role="2nKVj6">
+              <ref role="2nKBpL" node="3c0cNMg2spl" resolve="cSimple" />
+              <node concept="30NkWi" id="3c0cNMg2vRN" role="2nKBpO">
+                <ref role="XkjO9" node="3c0cNMg2vQp" resolve="trg" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1XdyHe" id="3c0cNMg2vJK" role="1dubk0" />
+    <node concept="3zyOaA" id="3c0cNMg2spl" role="1dubk0">
+      <property role="1aKoCf" value="false" />
+      <property role="TrG5h" value="cSimple" />
+      <node concept="3TL$xT" id="3c0cNMg2ssP" role="3TLBbI">
+        <node concept="2kdjtB" id="3c0cNMg2st1" role="1dukDx">
+          <ref role="2UGuZ7" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+        </node>
+      </node>
+      <node concept="1VLyuc" id="3c0cNMg2ssr" role="1dv5OJ">
+        <property role="TrG5h" value="trg" />
+        <node concept="2kdjtB" id="3c0cNMg2ssI" role="1dukDx">
+          <ref role="2UGuZ7" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="3c0cNMg2spm" role="3zVECR">
+        <node concept="34odk1" id="3c0cNMg2su0" role="1dgzf0">
+          <node concept="30KbLJ" id="3c0cNMg2stj" role="34ocZn">
+            <property role="TrG5h" value="src" />
+          </node>
+          <node concept="2k1GkI" id="3c0cNMg2suk" role="34ocZk">
+            <node concept="2k1_uq" id="3c0cNMg2sul" role="2nKVj6">
+              <ref role="2nKBpL" node="2tV8qO6T5hl" resolve="precedingStatement" />
+              <node concept="30NkWi" id="3c0cNMg2suF" role="2nKBpO">
+                <ref role="XkjO9" node="3c0cNMg2ssr" resolve="trg" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="34ocy7" id="3c0cNMg2sRq" role="1dgzf0">
+          <node concept="2BbxxA" id="3c0cNMg2uEr" role="34ocs8">
+            <ref role="2Bbxxd" to="c4fa:5so5TTr6Vvn" resolve="IfStatement" />
+            <node concept="30NkWi" id="3c0cNMg2ut7" role="2Bbxxk">
+              <ref role="XkjO9" node="3c0cNMg2stj" resolve="src" />
+            </node>
+          </node>
+        </node>
+        <node concept="30Nfyg" id="3c0cNMg2viy" role="1dgzf0">
+          <node concept="30NkWi" id="3c0cNMg2vvT" role="30Nf_D">
+            <ref role="XkjO9" node="3c0cNMg2stj" resolve="src" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1XdyHe" id="4LKTeOwxbkR" role="1dubk0" />
     <node concept="3zyOaA" id="4LKTeOwwWVl" role="1dubk0">
       <property role="1aKoCf" value="false" />
