@@ -113,11 +113,11 @@
       <concept id="6275792049641587287" name="com.mbeddr.core.unittest.structure.AssertStatement" flags="ng" index="c0Tn9">
         <child id="6275792049641587288" name="expr" index="c0Tn6" />
       </concept>
+      <concept id="7955188678846741606" name="com.mbeddr.core.unittest.structure.TestCollection" flags="ng" index="lIfQi">
+        <child id="7955188678846741609" name="tests" index="lIfQt" />
+      </concept>
       <concept id="5686538669182340985" name="com.mbeddr.core.unittest.structure.TestCaseRef" flags="ng" index="3cM6IN">
         <reference id="5686538669182340986" name="testcase" index="3cM6IK" />
-      </concept>
-      <concept id="186853311768094629" name="com.mbeddr.core.unittest.structure.ExecuteTestExpression" flags="ng" index="3rBj6X">
-        <child id="5686538669182341016" name="tests" index="3cM6Hi" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -450,39 +450,10 @@
     <node concept="2NXPZ9" id="6uZAbUKfmok" role="N3F5h">
       <property role="TrG5h" value="empty_1364222192050_4" />
     </node>
-    <node concept="N3Fnx" id="6uZAbUKfmon" role="N3F5h">
+    <node concept="lIfQi" id="6TAwvhVWkii" role="N3F5h">
       <property role="TrG5h" value="main" />
-      <property role="2OOxQR" value="true" />
-      <node concept="3XIRFW" id="6uZAbUKfmoo" role="3XIRFX">
-        <node concept="2BFjQ_" id="6uZAbUKfmoq" role="3XIRFZ">
-          <node concept="3rBj6X" id="6uZAbUKfmoy" role="2BFjQA">
-            <node concept="3cM6IN" id="6uZAbUKfo48" role="3cM6Hi">
-              <ref role="3cM6IK" node="6uZAbUKfmnY" resolve="reexportedValues" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="26Vqph" id="6uZAbUKfmos" role="2C2TGm">
-        <property role="2caQfQ" value="false" />
-        <property role="2c7vTL" value="false" />
-      </node>
-      <node concept="19RgSI" id="6uZAbUKfmot" role="1UOdpc">
-        <property role="TrG5h" value="argc" />
-        <node concept="26Vqph" id="6uZAbUKfmou" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-      </node>
-      <node concept="19RgSI" id="6uZAbUKfmov" role="1UOdpc">
-        <property role="TrG5h" value="argv" />
-        <node concept="3J0A42" id="6uZAbUKfmow" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-          <node concept="Pu267" id="6uZAbUKfmox" role="2umbIo">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
+      <node concept="3cM6IN" id="6TAwvhVWkij" role="lIfQt">
+        <ref role="3cM6IK" node="6uZAbUKfmnY" resolve="reexportedValues" />
       </node>
     </node>
     <node concept="2NXPZ9" id="6uZAbUKfmom" role="N3F5h">
@@ -520,6 +491,19 @@
       </node>
     </node>
   </node>
+  <node concept="rcWEw" id="1woEIvcNlpi">
+    <property role="TrG5h" value="external2" />
+    <node concept="fMItD" id="1woEIvcNrCk" role="N3F5h">
+      <property role="TrG5h" value="sec2" />
+      <node concept="rcJHK" id="1woEIvcNrCl" role="fMItF">
+        <property role="TrG5h" value="DWORD" />
+        <node concept="1X9cn3" id="1woEIvcNrC_" role="rcJHR">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="rcWEw" id="1woEIvcNfax">
     <property role="TrG5h" value="external1" />
     <node concept="fMItD" id="1woEIvcNloo" role="N3F5h">
@@ -535,19 +519,6 @@
     <node concept="3GEVxB" id="1woEIvcNrCT" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="1woEIvcNlpi" resolve="external2" />
-    </node>
-  </node>
-  <node concept="rcWEw" id="1woEIvcNlpi">
-    <property role="TrG5h" value="external2" />
-    <node concept="fMItD" id="1woEIvcNrCk" role="N3F5h">
-      <property role="TrG5h" value="sec2" />
-      <node concept="rcJHK" id="1woEIvcNrCl" role="fMItF">
-        <property role="TrG5h" value="DWORD" />
-        <node concept="1X9cn3" id="1woEIvcNrC_" role="rcJHR">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-      </node>
     </node>
   </node>
 </model>

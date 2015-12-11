@@ -4,12 +4,12 @@
   <languages>
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="3" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -23205,26 +23205,6 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="20mebiUT75W" role="3clF47">
-        <node concept="3cpWs8" id="20mebiUT75X" role="3cqZAp">
-          <node concept="3cpWsn" id="20mebiUT75Y" role="3cpWs9">
-            <property role="TrG5h" value="conceptDescriptor" />
-            <node concept="3uibUv" id="20mebiUT75Z" role="1tU5fm">
-              <ref role="3uigEE" to="ze1i:~ConceptDescriptor" resolve="ConceptDescriptor" />
-            </node>
-            <node concept="2OqwBi" id="20mebiUT760" role="33vP2m">
-              <node concept="2YIFZM" id="20mebiUT761" role="2Oq$k0">
-                <ref role="1Pybhc" to="vndm:~ConceptRegistry" resolve="ConceptRegistry" />
-                <ref role="37wK5l" to="vndm:~ConceptRegistry.getInstance():jetbrains.mps.smodel.language.ConceptRegistry" resolve="getInstance" />
-              </node>
-              <node concept="liA8E" id="20mebiUT762" role="2OqNvi">
-                <ref role="37wK5l" to="vndm:~ConceptRegistry.getConceptDescriptor(org.jetbrains.mps.openapi.language.SAbstractConcept):jetbrains.mps.smodel.runtime.ConceptDescriptor" resolve="getConceptDescriptor" />
-                <node concept="37vLTw" id="20mebiUT763" role="37wK5m">
-                  <ref role="3cqZAo" node="20mebiUT76a" resolve="concept" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs6" id="20mebiUT764" role="3cqZAp">
           <node concept="2OqwBi" id="20mebiUT765" role="3cqZAk">
             <node concept="2ShNRf" id="20mebiUT766" role="2Oq$k0">
@@ -23233,9 +23213,9 @@
               </node>
             </node>
             <node concept="liA8E" id="20mebiUT768" role="2OqNvi">
-              <ref role="37wK5l" to="gkj1:20mebiU_fU5" resolve="getEditor" />
-              <node concept="37vLTw" id="20mebiUT769" role="37wK5m">
-                <ref role="3cqZAo" node="20mebiUT75Y" resolve="conceptDescriptor" />
+              <ref role="37wK5l" to="gkj1:5094wKnoHAQ" resolve="getEditor" />
+              <node concept="37vLTw" id="5094wKnpHcW" role="37wK5m">
+                <ref role="3cqZAo" node="20mebiUT76a" resolve="concept" />
               </node>
             </node>
           </node>
@@ -23267,6 +23247,21 @@
               <node concept="37vLTw" id="20mebiUT13g" role="37wK5m">
                 <ref role="3cqZAo" node="20mebiUT13r" resolve="concept" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="75yNFwrTFmt" role="3cqZAp">
+          <node concept="3clFbS" id="75yNFwrTFmv" role="3clFbx">
+            <node concept="3cpWs6" id="75yNFwrTFwE" role="3cqZAp">
+              <node concept="3clFbT" id="75yNFwrTFAG" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="75yNFwrTFtx" role="3clFbw">
+            <node concept="10Nm6u" id="75yNFwrTFvw" role="3uHU7w" />
+            <node concept="37vLTw" id="75yNFwrTFqP" role="3uHU7B">
+              <ref role="3cqZAo" node="20mebiUT13d" resolve="activeEditor" />
             </node>
           </node>
         </node>

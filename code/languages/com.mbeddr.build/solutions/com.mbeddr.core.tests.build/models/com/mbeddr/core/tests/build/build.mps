@@ -597,6 +597,18 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="68Xto9WXCO2" role="3bR37C">
+          <node concept="3bR9La" id="68Xto9WXCO3" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="p6ld:7uZw0yZ43JM" resolve="com.mbeddr.core.statements" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="68Xto9WXCO4" role="3bR37C">
+          <node concept="3bR9La" id="68Xto9WXCO5" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="7eF9rfAuutL" resolve="com.mbeddr.core.__spreferences.PlatformTemplates" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="1SicdSZhLAK" role="2G$12L">
         <property role="BnDLt" value="true" />

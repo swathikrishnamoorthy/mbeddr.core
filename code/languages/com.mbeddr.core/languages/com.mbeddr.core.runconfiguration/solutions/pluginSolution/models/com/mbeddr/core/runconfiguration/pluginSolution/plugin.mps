@@ -19,6 +19,7 @@
     <use id="aa6a62c5-a61c-4ec5-94a7-61bc8b137d79" name="com.mbeddr.mpsutil.runconfiguration" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
   </languages>
   <imports>
     <import index="x30c" ref="r:04a32be8-7074-4c9c-b2f8-77d4a01a19dc(com.mbeddr.core.debug.debugger)" />
@@ -825,8 +826,8 @@
   <node concept="312cEu" id="1ptFCtLqsnU">
     <property role="TrG5h" value="PlatformUtil" />
     <property role="3GE5qa" value="util" />
-    <node concept="2tJIrI" id="4a0ow32hsXR" role="jymVt" />
     <node concept="3Tm1VV" id="1ptFCtLqsoX" role="1B3o_S" />
+    <node concept="2tJIrI" id="4a0ow32hsXR" role="jymVt" />
     <node concept="2YIFZL" id="4k8klQz_g46" role="jymVt">
       <property role="TrG5h" value="deleteGeneratedFiles" />
       <node concept="37vLTG" id="4k8klQz_g47" role="3clF46">
@@ -1410,14 +1411,14 @@
         <node concept="3cpWs8" id="CJowczrdBP" role="3cqZAp">
           <node concept="3cpWsn" id="CJowczrdBQ" role="3cpWs9">
             <property role="TrG5h" value="makeFolder" />
+            <node concept="3uibUv" id="CJowczrdBR" role="1tU5fm">
+              <ref role="3uigEE" to="guwi:~File" resolve="File" />
+            </node>
             <node concept="1rXfSq" id="5KCfyDAgPut" role="33vP2m">
               <ref role="37wK5l" node="CJowczpW7q" resolve="getFolderFQ" />
               <node concept="37vLTw" id="5KCfyDAgPAh" role="37wK5m">
                 <ref role="3cqZAo" node="2s7Bv57QLd1" resolve="binary" />
               </node>
-            </node>
-            <node concept="3uibUv" id="CJowczrdBR" role="1tU5fm">
-              <ref role="3uigEE" to="guwi:~File" resolve="File" />
             </node>
           </node>
         </node>
@@ -1561,14 +1562,14 @@
         <node concept="3cpWs8" id="VxJcPvFvcK" role="3cqZAp">
           <node concept="3cpWsn" id="VxJcPvFvcL" role="3cpWs9">
             <property role="TrG5h" value="makeFolder" />
+            <node concept="3uibUv" id="VxJcPvFvcM" role="1tU5fm">
+              <ref role="3uigEE" to="guwi:~File" resolve="File" />
+            </node>
             <node concept="1rXfSq" id="5KCfyDAgOL7" role="33vP2m">
               <ref role="37wK5l" node="CJowczpW7q" resolve="getFolderFQ" />
               <node concept="37vLTw" id="5KCfyDAgOSK" role="37wK5m">
                 <ref role="3cqZAo" node="VxJcPvFvcB" resolve="binary" />
               </node>
-            </node>
-            <node concept="3uibUv" id="VxJcPvFvcM" role="1tU5fm">
-              <ref role="3uigEE" to="guwi:~File" resolve="File" />
             </node>
           </node>
         </node>
@@ -1716,9 +1717,6 @@
           </node>
         </node>
         <node concept="3clFbJ" id="2s7Bv57QLei" role="3cqZAp">
-          <node concept="1rXfSq" id="5KCfyDAgPb5" role="3clFbw">
-            <ref role="37wK5l" node="2s7Bv57QLc9" resolve="runningOnWindows" />
-          </node>
           <node concept="3clFbS" id="2s7Bv57QLej" role="3clFbx">
             <node concept="3clFbF" id="2s7Bv57QNK3" role="3cqZAp">
               <node concept="37vLTI" id="2s7Bv57QNKp" role="3clFbG">
@@ -1730,6 +1728,9 @@
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="1rXfSq" id="5KCfyDAgPb5" role="3clFbw">
+            <ref role="37wK5l" node="2s7Bv57QLc9" resolve="runningOnWindows" />
           </node>
           <node concept="9aQIb" id="2s7Bv57QNJ6" role="9aQIa">
             <node concept="3clFbS" id="2s7Bv57QNJ7" role="9aQI4">
@@ -7819,7 +7820,6 @@
       <property role="TrG5h" value="demandClean" />
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
-      <node concept="3cqZAl" id="9W0WYlD4_R" role="3clF45" />
       <node concept="3clFbS" id="4eMm4N7Jwz0" role="3clF47">
         <node concept="3clFbJ" id="9W0WYlEpip" role="3cqZAp">
           <node concept="3clFbS" id="9W0WYlEpir" role="3clFbx">
@@ -7955,6 +7955,7 @@
         </node>
       </node>
       <node concept="3Tm6S6" id="4eMm4N7JvNK" role="1B3o_S" />
+      <node concept="3cqZAl" id="9W0WYlD4_R" role="3clF45" />
       <node concept="37vLTG" id="AzX4JmFokT" role="3clF46">
         <property role="TrG5h" value="group" />
         <node concept="17QB3L" id="AzX4JmFokS" role="1tU5fm" />
@@ -8137,12 +8138,12 @@
                   <node concept="liA8E" id="AzX4JmIkzX" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.substring(int):java.lang.String" resolve="substring" />
                     <node concept="2OqwBi" id="AzX4JmIl9v" role="37wK5m">
+                      <node concept="liA8E" id="AzX4JmInm6" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                      </node>
                       <node concept="10M0yZ" id="4a0ow32sPDK" role="2Oq$k0">
                         <ref role="1PxDUh" node="4a0ow32tChr" resolve="TestResultUtil" />
                         <ref role="3cqZAo" node="4a0ow32tCkq" resolve="STRING_START" />
-                      </node>
-                      <node concept="liA8E" id="AzX4JmInm6" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
                       </node>
                     </node>
                   </node>
@@ -8182,12 +8183,12 @@
                         <ref role="37wK5l" to="wyt6:~String.substring(int):java.lang.String" resolve="substring" />
                         <node concept="3cpWs3" id="AzX4JmIrIL" role="37wK5m">
                           <node concept="2OqwBi" id="AzX4JmIs4G" role="3uHU7w">
+                            <node concept="liA8E" id="AzX4JmIugT" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                            </node>
                             <node concept="10M0yZ" id="4a0ow32sQeY" role="2Oq$k0">
                               <ref role="1PxDUh" node="4a0ow32tChr" resolve="TestResultUtil" />
                               <ref role="3cqZAo" node="4a0ow32tCkm" resolve="MODULE_ID_START" />
-                            </node>
-                            <node concept="liA8E" id="AzX4JmIugT" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
                             </node>
                           </node>
                           <node concept="37vLTw" id="AzX4JmIqUL" role="3uHU7B">
