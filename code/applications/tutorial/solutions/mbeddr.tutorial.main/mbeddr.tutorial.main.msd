@@ -8,6 +8,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">0a02a8f9-14d0-4970-9bd2-ca35a097c80d(com.mbeddr.analyses.cbmc.core)</dependency>
+    <dependency reexport="false">~_PreferencesModule#tutorial.__spreferences.PlatformTemplates(tutorial.__spreferences.PlatformTemplates)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>315c0ec2-38ff-4e9c-9d15-fd0848b5f062(com.mbeddr.analyses.components)</usedDevKit>
@@ -176,6 +177,7 @@
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" version="0" />
     <module reference="b87ff58e-456e-4d51-9ed6-4090f4e7b51c(mbeddr.tutorial.main)" version="0" />
+    <module reference="~_PreferencesModule#tutorial.__spreferences.PlatformTemplates(tutorial.__spreferences.PlatformTemplates)" version="0" />
   </dependencyVersions>
 </solution>
 

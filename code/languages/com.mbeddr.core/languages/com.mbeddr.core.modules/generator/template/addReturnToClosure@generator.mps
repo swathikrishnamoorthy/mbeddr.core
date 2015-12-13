@@ -40,7 +40,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
@@ -66,9 +66,6 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
-      <concept id="5177498440693101100" name="com.mbeddr.core.statements.structure.IWithParentPointer" flags="ng" index="Lv9_a">
-        <reference id="5177498440693075890" name="parent_wb" index="Lv6jk" />
-      </concept>
       <concept id="4185783222026475861" name="com.mbeddr.core.statements.structure.StatementList" flags="ng" index="3XIRFW">
         <child id="4185783222026475862" name="statements" index="3XIRFZ" />
       </concept>
@@ -171,7 +168,6 @@
           </node>
           <node concept="3XIRFW" id="7ISt5c3ykqE" role="3XIRFX">
             <node concept="2BFjQ_" id="7ISt5c3yjHM" role="3XIRFZ">
-              <ref role="Lv6jk" node="7ISt5c3ykqE" />
               <node concept="3TlMh9" id="7ISt5c3yjHX" role="2BFjQA">
                 <property role="2hmy$m" value="10" />
                 <node concept="29HgVG" id="7ISt5c3yjLY" role="lGtFl">
