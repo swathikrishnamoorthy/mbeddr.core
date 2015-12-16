@@ -105,6 +105,15 @@
 	<property name="com.mbeddr.allScripts.build-file.name" value="build.xml" /> 
 	<property name="com.mbeddr.allScripts.working-dir" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.allScripts" />      
 	
+	<!-- inca -->
+	<property name="inca.build-file.name" value="build.xml" />
+	<property name="inca.build-file.location" value="${sl-all.scripts.base-path}/inca/code" />
+		
+	<target name="build-inca">
+		<ant antfile="${inca.build-file.name}" dir="${inca.build-file.location}" target="${generate-code.task}" />
+		<ant antfile="${inca.build-file.name}" dir="${inca.build-file.location}" target="${build-plugin.task}" />
+	</target>   
+		
 	<!-- targets --> 
 	<target name="clean-and-build" >
 		<antcall target="build-allScripts" />
@@ -233,6 +242,7 @@
 
 	<target name="build-platform-and-mbeddr" >
 		<antcall target="build-platform" />
+	    	<antcall target="build-inca" />
 		<antcall target="build-mbeddr" />
 	</target>
 
