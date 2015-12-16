@@ -23,7 +23,7 @@
 
 	<!-- misc properties -->
 	<property name="mbeddr.scripts.base-path" value="${mbeddr.github.core.home}/build" />
-	<property name="plugins.scripts.base-path" value="${mbeddr.github.core.home}/code/plugins" />
+	<property name="sl-all.scripts.base-path" value="${mbeddr.github.core.home}/code/plugins" />
 	<property name="build.dir" value="${mbeddr.github.core.home}" />
 	<property name="artifacts.root" value="${build.dir}/artifacts" />
 	<property name="clean-generated-code.task" value="cleanSources" /> 
@@ -33,7 +33,7 @@
 	<property name="run-tests.task" value="check" />
 	
 	<!-- de.slisson.mps.all -->
-	<property name="de.slisson.mps.all.build-file.location" value="${plugins.scripts.base-path}/sl-all" />
+	<property name="de.slisson.mps.all.build-file.location" value="${sl-all.scripts.base-path}/sl-all" />
 	<property name="de.slisson.mps.all.build-file.name" value="build.xml" />
 	<property name="mps-sl-all.zip-file.name" value="mps-sl-all.zip" />
 	<property name="mps-sl-all.expanded-folder.name" value="mps-sl-all" />
@@ -99,10 +99,6 @@
 	<property name="com.mbeddr.platform.build-file.name" value="build.xml" /> 
 	<property name="com.mbeddr.platform.test-build-file.name" value="build-ts-tests.xml" /> 
 	<property name="com.mbeddr.platform.working-dir" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.platform" />  
-	
-	<!-- inca -->
-	<property name="inca.build-file.name" value="build.xml" />
-	<property name="inca.build-file.location" value="${plugins.scripts.base-path}/inca/code" />
 
 	<!-- mbeddr.allScripts -->
 	<property name="com.mbeddr.allScripts.build-file.location" value="${mbeddr.scripts.base-path}/com.mbeddr.allScripts" />    
@@ -237,7 +233,6 @@
 
 	<target name="build-platform-and-mbeddr" >
 		<antcall target="build-platform" />
-    	<antcall target="build-inca" />
 		<antcall target="build-mbeddr" />
 	</target>
 
@@ -453,15 +448,11 @@
 	<target name="test-tutorial"  >	  
 		<ant antfile="${com.mbeddr.tutorial.tests-build-file.name}" dir="${com.mbeddr.tutorial.build-file.location}" target="${generate-code.task}" />
 		<ant antfile="${com.mbeddr.tutorial.tests-build-file.name}" dir="${com.mbeddr.tutorial.build-file.location}" target="${build-plugin.task}" />
-	</target>
-
-  <target name="build-inca">
-    <ant antfile="${inca.build-file.name}" dir="${inca.build-file.location}" target="${generate-code.task}" />
-    <ant antfile="${inca.build-file.name}" dir="${inca.build-file.location}" target="${build-plugin.task}" />
-  </target>     
+	</target>     
 
 	<target name="make-tests" description="Run 'make test' for child Makefiles">
 		<echo message="path=${make-tests.dir}"/>
 		<make-tests workingDirectory="${make-tests.dir}"/>
 	</target>
+
 </project>
