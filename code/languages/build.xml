@@ -107,7 +107,7 @@
 	
 	<!-- inca -->
 	<property name="inca.build-file.name" value="build.xml" />
-	<property name="inca.build-file.location" value="${mbeddr.scripts.base-path}/inca/code" />
+	<property name="inca.build-file.location" value="${sl-all.scripts.base-path}/inca/code" />
 		
 	<target name="build-inca">
 		<ant antfile="${inca.build-file.name}" dir="${inca.build-file.location}" target="${generate-code.task}" />
