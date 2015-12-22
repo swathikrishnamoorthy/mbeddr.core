@@ -911,18 +911,6 @@
       <ref role="20lvS9" node="3CmSUB7Fp_l" resolve="StatementList" />
     </node>
   </node>
-  <node concept="1TIwiD" id="58TcxRGrgC2">
-    <property role="3GE5qa" value="loopsNStuff" />
-    <property role="TrG5h" value="AdditionalForVarDecl" />
-    <property role="1pbfSe" value="1051081759" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="58TcxRGrgC3" role="PzmwI">
-      <ref role="PrY4T" node="3hOuikE$B96" resolve="Iterator" />
-    </node>
-    <node concept="PrWs8" id="58TcxRGrgCb" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="cwSfPzy1fj">
     <property role="3GE5qa" value="if" />
     <property role="TrG5h" value="CommentedElseIfPart" />
@@ -977,6 +965,16 @@
       <ref role="PrY4T" node="5aZFu$853$j" resolve="IIndependentIinitExpression" />
     </node>
   </node>
+  <node concept="PlHQZ" id="4vqaQpQDzGE">
+    <property role="TrG5h" value="IWithNextPointer" />
+    <property role="1pbfSe" value="1098881392" />
+    <property role="3GE5qa" value="cfg" />
+    <node concept="1TJgyj" id="4vqaQpQD$YL" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="next_wb" />
+      <ref role="20lvS9" node="2tV8qO6QC_3" resolve="INextPointerTarget" />
+    </node>
+  </node>
   <node concept="PlHQZ" id="4vqaQpQDF8G">
     <property role="TrG5h" value="IWithParentPointer" />
     <property role="1pbfSe" value="1098850926" />
@@ -988,30 +986,20 @@
       <ref role="20lvS9" node="2hKTcZ5NukP" resolve="IParentPointerTarget" />
     </node>
   </node>
-  <node concept="PlHQZ" id="4vqaQpQDzGE">
-    <property role="TrG5h" value="IWithNextPointer" />
-    <property role="1pbfSe" value="1098881392" />
-    <property role="3GE5qa" value="cfg" />
-    <node concept="1TJgyj" id="4vqaQpQD$YL" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="next_wb" />
-      <ref role="20lvS9" node="2tV8qO6QC_3" resolve="INextPointerTarget" />
-    </node>
-  </node>
   <node concept="PlHQZ" id="2hKTcZ5NukP">
     <property role="TrG5h" value="IParentPointerTarget" />
     <property role="1pbfSe" value="364983804" />
-    <property role="3GE5qa" value="cfg" />
-  </node>
-  <node concept="PlHQZ" id="2tV8qO6QC_3">
-    <property role="1pbfSe" value="777366256" />
-    <property role="TrG5h" value="INextPointerTarget" />
     <property role="3GE5qa" value="cfg" />
   </node>
   <node concept="PlHQZ" id="2tV8qO6QC_4">
     <property role="1pbfSe" value="777366257" />
     <property role="3GE5qa" value="cfg" />
     <property role="TrG5h" value="ICFGNode" />
+  </node>
+  <node concept="PlHQZ" id="2tV8qO6QC_3">
+    <property role="1pbfSe" value="777366256" />
+    <property role="TrG5h" value="INextPointerTarget" />
+    <property role="3GE5qa" value="cfg" />
   </node>
 </model>
 

@@ -748,33 +748,6 @@
       <property role="pLAjf" value="VK_A" />
     </node>
   </node>
-  <node concept="1lpA8v" id="6xlxoSXdgd1">
-    <property role="TrG5h" value="Comment In" />
-    <property role="3GE5qa" value="documentationStuff" />
-    <ref role="1lpA8s" to="fgky:65XyadYNwBF" resolve="commentBackInCode" />
-    <node concept="pLAjd" id="6xlxoSXdgd2" role="1lpA8t">
-      <property role="pLAjf" value="VK_C" />
-      <property role="pLAjc" value="ctrl+alt" />
-    </node>
-  </node>
-  <node concept="1lpA8v" id="6xlxoSXdgd3">
-    <property role="TrG5h" value="Comment In" />
-    <property role="3GE5qa" value="documentationStuff" />
-    <ref role="1lpA8s" to="fgky:MGIVVaAnY" resolve="commentBackInCodeOnOriginal" />
-    <node concept="pLAjd" id="6xlxoSXdgd4" role="1lpA8t">
-      <property role="pLAjf" value="VK_C" />
-      <property role="pLAjc" value="ctrl+alt" />
-    </node>
-  </node>
-  <node concept="1lpA8v" id="6xlxoSXdgd7">
-    <property role="TrG5h" value="Comment Out" />
-    <property role="3GE5qa" value="documentationStuff" />
-    <ref role="1lpA8s" to="fgky:65XyadYMNlZ" resolve="commentedOutCode" />
-    <node concept="pLAjd" id="6xlxoSXdgd8" role="1lpA8t">
-      <property role="pLAjf" value="VK_C" />
-      <property role="pLAjc" value="ctrl+alt" />
-    </node>
-  </node>
   <node concept="312cEu" id="58syclRv9F3">
     <property role="TrG5h" value="MbeddrTodoFinder" />
     <property role="3GE5qa" value="todoAndLOC" />
@@ -6719,25 +6692,25 @@
         <node concept="3cpWs6" id="1PMOMKdisKN" role="3cqZAp">
           <node concept="22lmx$" id="1PMOMKdiAeZ" role="3cqZAk">
             <node concept="2OqwBi" id="1PMOMKdiAf2" role="3uHU7B">
+              <node concept="37vLTw" id="1PMOMKdjZWy" role="2Oq$k0">
+                <ref role="3cqZAo" node="1PMOMKdjZL5" resolve="MPS_IDE_PRODUCT_NAME" />
+              </node>
               <node concept="liA8E" id="1PMOMKdiAf4" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="37vLTw" id="1PMOMKdiAf5" role="37wK5m">
                   <ref role="3cqZAo" node="1PMOMKdirMx" resolve="name" />
                 </node>
               </node>
-              <node concept="37vLTw" id="1PMOMKdjZWy" role="2Oq$k0">
-                <ref role="3cqZAo" node="1PMOMKdjZL5" resolve="MPS_IDE_PRODUCT_NAME" />
-              </node>
             </node>
             <node concept="2OqwBi" id="1PMOMKdiBxX" role="3uHU7w">
+              <node concept="37vLTw" id="1PMOMKdjZ44" role="2Oq$k0">
+                <ref role="3cqZAo" node="1PMOMKdjYUW" resolve="MBEDDR_IDE_PRODUCT_NAME" />
+              </node>
               <node concept="liA8E" id="1PMOMKdiFZa" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="37vLTw" id="1PMOMKdiG4x" role="37wK5m">
                   <ref role="3cqZAo" node="1PMOMKdirMx" resolve="name" />
                 </node>
-              </node>
-              <node concept="37vLTw" id="1PMOMKdjZ44" role="2Oq$k0">
-                <ref role="3cqZAo" node="1PMOMKdjYUW" resolve="MBEDDR_IDE_PRODUCT_NAME" />
               </node>
             </node>
           </node>
