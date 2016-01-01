@@ -186,7 +186,7 @@
           <lesser-priority-mapping>
             <generator generatorUID="1584b8e5-f354-4c2e-8130-92bbe4a1192b(com.mbeddr.core.unittest#6275792049641599010)" />
             <external-mapping>
-              <all-local-mappings />
+              <mapping-node modelUID="r:33527e56-fea6-47d6-9105-ca1061f3d17e(com.mbeddr.core.unittest.generator.template.main@generator)" nodeID="6275792049641599011" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
