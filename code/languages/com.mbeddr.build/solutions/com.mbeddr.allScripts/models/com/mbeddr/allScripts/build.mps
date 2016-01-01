@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="-1" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="1" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="-1" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -167,6 +167,9 @@
       </node>
       <node concept="m$f5U" id="2coa6XmWpWi" role="m$_yh">
         <ref role="m$f5T" node="2coa6XmWkq8" resolve="com.mbeddr.tests" />
+      </node>
+      <node concept="m$f5U" id="7XWYXGzp1$8" role="m$_yh">
+        <ref role="m$f5T" node="3AVJcIMl$pT" resolve="mbeddr" />
       </node>
       <node concept="m$f5U" id="6ucYLjoxZTQ" role="m$_yh">
         <ref role="m$f5T" node="6ucYLjoxZtg" resolve="mbeddr-platform" />
@@ -758,7 +761,7 @@
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="5kaST7qEF18" role="2Ry0An">
                     <property role="2Ry0Am" value="com.mbeddr.rcp" />
-                    <node concept="2Ry0Ak" id="5kaST7qEF1g" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="2$f$kYNqE3b" role="2Ry0An">
                       <property role="2Ry0Am" value="com.mbeddr.rcp.msd" />
                     </node>
                   </node>

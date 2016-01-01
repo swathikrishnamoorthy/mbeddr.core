@@ -2,12 +2,12 @@
 <model ref="r:d4d16117-20fb-4ba8-a1b2-1598e121e1d0(com.mbeddr.core.stdlib)">
   <persistence version="9" />
   <languages>
-    <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
-    <use id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules" version="-1" />
-    <use id="ad5e9db1-9600-47c7-86ef-614165b281b8" name="com.mbeddr.core.legacy" version="-1" />
+    <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="0" />
+    <use id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules" version="0" />
+    <use id="ad5e9db1-9600-47c7-86ef-614165b281b8" name="com.mbeddr.core.legacy" version="0" />
     <use id="efda956e-491e-4f00-ba14-36af2f213ecf" name="com.mbeddr.core.udt" version="1" />
-    <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="-1" />
-    <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
+    <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
+    <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="0" />
     <use id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions" version="1" />
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="2" />
   </languages>
@@ -24,6 +24,7 @@
       </concept>
       <concept id="3830958861296871078" name="com.mbeddr.core.statements.structure.ArbitraryTextExpression" flags="ng" index="19_ADJ">
         <child id="3830958861296879115" name="items" index="19_wF2" />
+        <child id="6275956088646286745" name="type" index="3YFD5m" />
       </concept>
     </language>
     <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
@@ -315,6 +316,14 @@
         <node concept="19_wF0" id="137zkozycEw" role="19_wF2">
           <property role="19_wF3" value="&lt;pointer to FILE rvalue&gt;" />
         </node>
+        <node concept="3wxxNl" id="wqhs8mVh6N" role="3YFD5m">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+          <node concept="26Vqph" id="wqhs8mVh6A" role="2umbIo">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2DPCBB" id="6Iiej_Uhrd2" role="N3F5h">
@@ -325,6 +334,14 @@
         <node concept="19_wF0" id="137zkozycE$" role="19_wF2">
           <property role="19_wF3" value="&lt;pointer to FILE rvalue&gt;" />
         </node>
+        <node concept="3wxxNl" id="wqhs8mV8eX" role="3YFD5m">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+          <node concept="26Vqph" id="wqhs8mV8eK" role="2umbIo">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2DPCBB" id="6Iiej_Uhsyk" role="N3F5h">
@@ -334,6 +351,14 @@
       <node concept="19_ADJ" id="137zkozycEB" role="2DQcEM">
         <node concept="19_wF0" id="137zkozycEC" role="19_wF2">
           <property role="19_wF3" value="&lt;pointer to FILE rvalue&gt;" />
+        </node>
+        <node concept="3wxxNl" id="wqhs8mVeac" role="3YFD5m">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+          <node concept="26Vqph" id="wqhs8mVe9Z" role="2umbIo">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
         </node>
       </node>
     </node>
@@ -897,6 +922,9 @@
       <property role="3owap8" value="false" />
       <node concept="19RgSI" id="137zkozycHk" role="1UOdpc">
         <property role="TrG5h" value="s" />
+        <node concept="3U$IGs" id="69m9gcnwrsh" role="3U$Ho4">
+          <property role="3U$IFK" value="1" />
+        </node>
         <node concept="3wxxNl" id="137zkozycHm" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
@@ -904,9 +932,6 @@
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
           </node>
-        </node>
-        <node concept="3U$IGs" id="69m9gcnwrsh" role="3U$Ho4">
-          <property role="3U$IFK" value="1" />
         </node>
       </node>
       <node concept="19RgSI" id="137zkozycHn" role="1UOdpc">
@@ -943,6 +968,9 @@
       <property role="3owap8" value="false" />
       <node concept="19RgSI" id="137zkozycHv" role="1UOdpc">
         <property role="TrG5h" value="ptr" />
+        <node concept="3U$IGs" id="69m9gcnwrsC" role="3U$Ho4">
+          <property role="3U$IFK" value="1" />
+        </node>
         <node concept="3wxxNl" id="137zkozycHx" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
@@ -950,9 +978,6 @@
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
           </node>
-        </node>
-        <node concept="3U$IGs" id="69m9gcnwrsC" role="3U$Ho4">
-          <property role="3U$IFK" value="1" />
         </node>
       </node>
       <node concept="19RgSI" id="137zkozycHy" role="1UOdpc">
@@ -1596,6 +1621,9 @@
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
           </node>
+        </node>
+        <node concept="3U$IGs" id="4DjlAm4MuMg" role="3U$Ho4">
+          <property role="3U$IFK" value="1" />
         </node>
       </node>
       <node concept="19RgSI" id="137zkozycKg" role="1UOdpc">

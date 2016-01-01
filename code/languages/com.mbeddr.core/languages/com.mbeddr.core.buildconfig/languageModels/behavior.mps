@@ -2400,6 +2400,18 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="bwlJLAh1je" role="13h7CS">
+      <property role="TrG5h" value="requiresPlatformConfig" />
+      <node concept="3Tm1VV" id="bwlJLAh1jf" role="1B3o_S" />
+      <node concept="3clFbS" id="bwlJLAh1jg" role="3clF47">
+        <node concept="3clFbF" id="bwlJLAh4hQ" role="3cqZAp">
+          <node concept="3clFbT" id="bwlJLAh4hP" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="bwlJLAh4hL" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="5KH1ziO6otd">
     <ref role="13h7C2" to="51wr:6GqYvBOf2Xb" resolve="ModuleRef" />
@@ -2875,6 +2887,11 @@
       <node concept="3cqZAl" id="65XyadYP5_q" role="3clF45" />
       <node concept="3Tm1VV" id="65XyadYP5_r" role="1B3o_S" />
     </node>
+    <node concept="13hLZK" id="65XyadYP4Ce" role="13h7CW">
+      <node concept="3clFbS" id="65XyadYP4Cf" role="2VODD2">
+        <node concept="3clFbH" id="65XyadYP4XM" role="3cqZAp" />
+      </node>
+    </node>
     <node concept="13i0hz" id="57qKfjsitGZ" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
@@ -2927,11 +2944,6 @@
         </node>
       </node>
       <node concept="3cqZAl" id="57qKfjsitH4" role="3clF45" />
-    </node>
-    <node concept="13hLZK" id="65XyadYP4Ce" role="13h7CW">
-      <node concept="3clFbS" id="65XyadYP4Cf" role="2VODD2">
-        <node concept="3clFbH" id="65XyadYP4XM" role="3cqZAp" />
-      </node>
     </node>
   </node>
   <node concept="13h7C7" id="2kkumeGQ_wg">
@@ -3315,6 +3327,19 @@
         <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
       </node>
     </node>
+    <node concept="13i0hz" id="3D9$r$Xa4L" role="13h7CS">
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="canHandlePostprocessors" />
+      <node concept="3Tm1VV" id="3D9$r$Xa4M" role="1B3o_S" />
+      <node concept="3clFbS" id="3D9$r$Xa4N" role="3clF47">
+        <node concept="3clFbF" id="3D9$r$XcnR" role="3cqZAp">
+          <node concept="3clFbT" id="3D9$r$XcnQ" role="3clFbG">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="3D9$r$Xcjd" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="34x64NyRAM2">
     <property role="3GE5qa" value="platform" />
@@ -3667,6 +3692,21 @@
         </node>
       </node>
       <node concept="17QB3L" id="7c6uq_OhAnk" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="3D9$r$XcRK" role="13h7CS">
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="canHandlePostprocessors" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" node="3D9$r$Xa4L" resolve="canHandlePostprocessors" />
+      <node concept="3Tm1VV" id="3D9$r$XcRL" role="1B3o_S" />
+      <node concept="3clFbS" id="3D9$r$XcRQ" role="3clF47">
+        <node concept="3clFbF" id="3D9$r$Xdqa" role="3cqZAp">
+          <node concept="3clFbT" id="3D9$r$Xdq9" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="3D9$r$XcRR" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="1mfTBng0dAQ">
@@ -5503,6 +5543,20 @@
         </node>
       </node>
       <node concept="17QB3L" id="3s1LyzG8hVZ" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="3D9$r$Xdq_" role="13h7CS">
+      <property role="TrG5h" value="canHandlePostprocessors" />
+      <property role="2Ki8OM" value="false" />
+      <ref role="13i0hy" node="3D9$r$Xa4L" resolve="canHandlePostprocessors" />
+      <node concept="3clFbS" id="3D9$r$XdqB" role="3clF47">
+        <node concept="3clFbF" id="3D9$r$Xds_" role="3cqZAp">
+          <node concept="3clFbT" id="3D9$r$Xds$" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="3D9$r$XdrW" role="3clF45" />
+      <node concept="3Tm1VV" id="3D9$r$XdrX" role="1B3o_S" />
     </node>
   </node>
   <node concept="3HP615" id="7c6uq_ObFri">

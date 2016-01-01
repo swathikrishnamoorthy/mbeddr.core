@@ -13,6 +13,7 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv" />
       <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
         <reference id="6054523464627965081" name="concept" index="trN6q" />
@@ -432,20 +433,6 @@
       <property role="20kJfa" value="targetType" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7FQByU3CrCQ" resolve="Type" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5K77MGvFACU">
-    <property role="3GE5qa" value="types.cast" />
-    <property role="TrG5h" value="Int2Boolean" />
-    <property role="34LRSv" value="int2bool" />
-    <property role="R4oN_" value="cast an int to boolean" />
-    <property role="1pbfSe" value="2075494757" />
-    <ref role="1TJDcQ" node="7FQByU3CrCM" resolve="Expression" />
-    <node concept="1TJgyj" id="5K77MGvFD7B" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="expr" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7FQByU3CrCM" resolve="Expression" />
     </node>
   </node>
   <node concept="1TIwiD" id="2APHWiztz8M">
@@ -1225,20 +1212,6 @@
       <ref role="PrY4T" node="3up5rlxN5AE" resolve="INumeric" />
     </node>
   </node>
-  <node concept="1TIwiD" id="5aaBiRoxDVn">
-    <property role="3GE5qa" value="types.cast" />
-    <property role="TrG5h" value="Boolean2Int" />
-    <property role="R4oN_" value="cast a boolean to an int8_t" />
-    <property role="34LRSv" value="bool2int" />
-    <property role="1pbfSe" value="722549764" />
-    <ref role="1TJDcQ" node="7FQByU3CrCM" resolve="Expression" />
-    <node concept="1TJgyj" id="5aaBiRoxDVo" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="expr" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7FQByU3CrCM" resolve="Expression" />
-    </node>
-  </node>
   <node concept="PlHQZ" id="6mfXVgRsmwb">
     <property role="3GE5qa" value="types" />
     <property role="TrG5h" value="IVoidTypeContainer" />
@@ -1510,6 +1483,7 @@
       </node>
       <node concept="tn0Fv" id="31sj9RQ_DGY" role="HhnKV" />
     </node>
+    <node concept="asaX9" id="5WBKiSs7L4F" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="314RTCzrdIv">
     <property role="TrG5h" value="IncompleteRightParethesis" />
@@ -1525,6 +1499,7 @@
       </node>
       <node concept="tn0Fv" id="31sj9RQ_DL$" role="HhnKV" />
     </node>
+    <node concept="asaX9" id="5WBKiSs7L4S" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="1LDGRqyQFAa">
     <property role="3GE5qa" value="localvar" />

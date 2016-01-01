@@ -11,7 +11,7 @@
     <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="0" />
     <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="3" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
@@ -1135,13 +1135,16 @@
         </node>
       </node>
     </node>
-    <node concept="3O_Fa1" id="6GqYvBOfomM" role="12RR68">
-      <property role="3O_Fa2" value="$(ODIR)/%.o" />
-      <node concept="3O_FaX" id="5IYyAOzC6ZV" role="3O_FaS">
-        <node concept="3G69iQ" id="5IYyAOzC6ZX" role="3G69ia">
-          <property role="3G69iL" value="&#9;mkdir -p $(ODIR)" />
+    <node concept="3O_Fa1" id="7x67PKvS1CN" role="12RR68">
+      <property role="3O_Fa2" value="$(ODIR)" />
+      <node concept="3O_FaX" id="7x67PKvS8aP" role="3O_FaS">
+        <node concept="3G69iQ" id="7x67PKvS8aV" role="3G69ia">
+          <property role="3G69iL" value="mkdir -p $(ODIR)" />
         </node>
       </node>
+    </node>
+    <node concept="3O_Fa1" id="6GqYvBOfomM" role="12RR68">
+      <property role="3O_Fa2" value="$(ODIR)/%.o" />
       <node concept="3O_FaX" id="6GqYvBOfomN" role="3O_FaS">
         <node concept="3G69iQ" id="4oh1JoZ_v52" role="3G69ia">
           <property role="3G69iL" value="$(CC) $(CFLAGS)" />
@@ -1302,14 +1305,12 @@
       <node concept="3O_EAZ" id="6GqYvBOfqY8" role="3O_FaZ">
         <property role="3O_EAS" value="%.c" />
       </node>
+      <node concept="2sLwDE" id="7x67PKvV4J7" role="3O_FaZ">
+        <ref role="2sLwDD" node="7x67PKvS1CN" />
+      </node>
     </node>
     <node concept="3O_Fa1" id="30nrkhNTMuJ" role="12RR68">
       <property role="3O_Fa2" value="$(ODIR)/%.o" />
-      <node concept="3O_FaX" id="30nrkhNTMuK" role="3O_FaS">
-        <node concept="3G69iQ" id="30nrkhNTMuL" role="3G69ia">
-          <property role="3G69iL" value="&#9;mkdir -p $(ODIR)" />
-        </node>
-      </node>
       <node concept="3O_FaX" id="30nrkhNTMuM" role="3O_FaS">
         <node concept="3G69iQ" id="30nrkhNTMuN" role="3G69ia">
           <property role="3G69iL" value="$(CC) $(CFLAGS)" />
@@ -1469,6 +1470,9 @@
       </node>
       <node concept="3O_EAZ" id="30nrkhNTMvN" role="3O_FaZ">
         <property role="3O_EAS" value="%.cpp" />
+      </node>
+      <node concept="2sLwDE" id="7x67PKvV53W" role="3O_FaZ">
+        <ref role="2sLwDD" node="7x67PKvS1CN" />
       </node>
     </node>
     <node concept="3O_Fa1" id="2nSRgleEQqp" role="12RR68">

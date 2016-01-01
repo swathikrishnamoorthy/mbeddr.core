@@ -3,9 +3,9 @@
   <persistence version="9" />
   <languages>
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
-    <use id="f39336d3-1288-47ee-bbfe-ad2ea7e4504e" name="com.mbeddr.mpsutil.extensionclass" version="-1" />
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="3" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="f39336d3-1288-47ee-bbfe-ad2ea7e4504e" name="com.mbeddr.mpsutil.extensionclass" version="1" />
   </languages>
   <imports>
     <import index="btm1" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.lang3(org.apache.commons/)" />
@@ -134,9 +134,7 @@
         <reference id="5712676642257699067" name="method" index="3ldC7o" />
         <child id="5712676642257699728" name="parameters" index="3ldCaN" />
       </concept>
-      <concept id="5712676642257699341" name="com.mbeddr.mpsutil.extensionclass.structure.ExtensionClassMethodParameterAnnotation" flags="ng" index="3ldCcI">
-        <reference id="5712676642257699515" name="parameter" index="3ldCeo" />
-      </concept>
+      <concept id="5712676642257699341" name="com.mbeddr.mpsutil.extensionclass.structure.ExtensionClassMethodParameterAnnotation" flags="ng" index="3ldCcI" />
       <concept id="5712676642252629140" name="com.mbeddr.mpsutil.extensionclass.structure.ExtensionClassMethodCall" flags="ng" index="3lp2mR" />
       <concept id="5712676642252469509" name="com.mbeddr.mpsutil.extensionclass.structure.ExtensionClass" flags="ng" index="3lpFgA">
         <reference id="5712676642252469510" name="class" index="3lpFg_" />
@@ -379,11 +377,9 @@
       <ref role="3ldC7o" to="btm1:~StringUtils.mid(java.lang.String,int,int):java.lang.String" resolve="mid" />
       <node concept="3ldCcI" id="4X7wieqvjGf" role="3ldCaN">
         <property role="TrG5h" value="pos" />
-        <ref role="3ldCeo" to="btm1:4X7wiepUq5I" resolve="p1" />
       </node>
       <node concept="3ldCcI" id="4X7wieqvjGk" role="3ldCaN">
         <property role="TrG5h" value="len" />
-        <ref role="3ldCeo" to="btm1:4X7wiepUq5K" resolve="p2" />
       </node>
     </node>
   </node>
