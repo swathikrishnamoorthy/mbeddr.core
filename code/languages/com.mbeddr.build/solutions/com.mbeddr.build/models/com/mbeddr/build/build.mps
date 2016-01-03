@@ -5561,6 +5561,18 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
+        <node concept="1SiIV0" id="7ILxbOzUS4C" role="3bR37C">
+          <node concept="3bR9La" id="7ILxbOzUS4D" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L6o" resolve="jetbrains.mps.lang.generator.generationContext" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7ILxbOzUS4E" role="3bR37C">
+          <node concept="3bR9La" id="7ILxbOzUS4F" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="WadEn6CWbr" resolve="com.mbeddr.core.buildconfig" />
+          </node>
+        </node>
       </node>
       <node concept="3LEwk6" id="2Y27DzrKXcR" role="2G$12L">
         <property role="BnDLt" value="true" />
