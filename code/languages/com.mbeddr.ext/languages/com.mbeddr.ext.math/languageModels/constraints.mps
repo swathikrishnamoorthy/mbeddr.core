@@ -8,8 +8,8 @@
   </languages>
   <imports>
     <import index="cetu" ref="r:fc1ad1dc-45eb-4f99-8b2c-fbe60e6e91b1(com.mbeddr.ext.math.structure)" />
-    <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
+    <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -452,15 +452,35 @@
     <ref role="1M2myG" to="cetu:3yoEvFpCNm0" resolve="MatrixAccessExpression" />
     <node concept="osYL8" id="4NQT62oMpJa" role="1MLXOK">
       <node concept="3clFbS" id="4NQT62oMpJb" role="2VODD2">
-        <node concept="3cpWs6" id="4NQT62oM_ea" role="3cqZAp">
-          <node concept="2OqwBi" id="4NQT62oMBzb" role="3cqZAk">
-            <node concept="2OqwBi" id="4NQT62oMAuD" role="2Oq$k0">
-              <node concept="2H4GUG" id="4NQT62oM_lJ" role="2Oq$k0" />
-              <node concept="3JvlWi" id="4NQT62oMBnL" role="2OqNvi" />
+        <node concept="3clFbJ" id="6TzoP2$COiY" role="3cqZAp">
+          <node concept="3clFbS" id="6TzoP2$COj0" role="3clFbx">
+            <node concept="3cpWs6" id="4NQT62oM_ea" role="3cqZAp">
+              <node concept="2OqwBi" id="4NQT62oMBzb" role="3cqZAk">
+                <node concept="2OqwBi" id="4NQT62oMAuD" role="2Oq$k0">
+                  <node concept="2H4GUG" id="4NQT62oM_lJ" role="2Oq$k0" />
+                  <node concept="3JvlWi" id="4NQT62oMBnL" role="2OqNvi" />
+                </node>
+                <node concept="1mIQ4w" id="4NQT62oMBNP" role="2OqNvi">
+                  <node concept="chp4Y" id="4NQT62oMBTw" role="cj9EA">
+                    <ref role="cht4Q" to="cetu:4LP87XufLdW" resolve="MatrixType" />
+                  </node>
+                </node>
+              </node>
             </node>
-            <node concept="1mIQ4w" id="4NQT62oMBNP" role="2OqNvi">
-              <node concept="chp4Y" id="4NQT62oMBTw" role="cj9EA">
-                <ref role="cht4Q" to="cetu:4LP87XufLdW" resolve="MatrixType" />
+          </node>
+          <node concept="3clFbC" id="6TzoP2$COqY" role="3clFbw">
+            <node concept="28GBK8" id="6TzoP2$COvU" role="3uHU7w">
+              <ref role="28GBKb" to="cetu:3yoEvFpCNm0" resolve="MatrixAccessExpression" />
+              <ref role="28H3Ia" to="mj1l:6iIoqg1yDLg" />
+            </node>
+            <node concept="oXsJc" id="6TzoP2$COlF" role="3uHU7B" />
+          </node>
+          <node concept="9aQIb" id="6TzoP2$COKi" role="9aQIa">
+            <node concept="3clFbS" id="6TzoP2$COKj" role="9aQI4">
+              <node concept="3cpWs6" id="6TzoP2$COMK" role="3cqZAp">
+                <node concept="3clFbT" id="6TzoP2$COMY" role="3cqZAk">
+                  <property role="3clFbU" value="true" />
+                </node>
               </node>
             </node>
           </node>

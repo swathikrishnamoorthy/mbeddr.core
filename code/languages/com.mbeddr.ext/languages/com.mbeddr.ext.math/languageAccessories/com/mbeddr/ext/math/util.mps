@@ -472,7 +472,40 @@
         <node concept="3Tqbb2" id="5mCyJjfu5yt" role="1tU5fm" />
       </node>
     </node>
-    <node concept="2tJIrI" id="5mCyJjfu5f6" role="jymVt" />
+    <node concept="2tJIrI" id="6TzoP2$AINp" role="jymVt" />
+    <node concept="2YIFZL" id="6TzoP2$AJt0" role="jymVt">
+      <property role="TrG5h" value="isComplexVectorType" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="6TzoP2$AJt3" role="3clF47">
+        <node concept="3cpWs6" id="6TzoP2$AJI_" role="3cqZAp">
+          <node concept="3JuTUA" id="6TzoP2$AJIL" role="3cqZAk">
+            <node concept="2pJPEk" id="6TzoP2$AJIM" role="3JuZjQ">
+              <node concept="2pJPED" id="6TzoP2$AJIN" role="2pJPEn">
+                <ref role="2pJxaS" to="clbe:5yYXyc4Z0CS" resolve="StructType" />
+                <node concept="2pIpSj" id="6TzoP2$AJIO" role="2pJxcM">
+                  <ref role="2pIpSl" to="clbe:5yYXyc4Z0CT" />
+                  <node concept="36bGnv" id="6TzoP2$AJN9" role="2pJxcZ">
+                    <ref role="36bGnp" to="9au3:7ILxbOzKBj4" resolve="complex_vector" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="6TzoP2$AJIQ" role="3JuY14">
+              <ref role="3cqZAo" node="6TzoP2$AJGC" resolve="type" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6TzoP2$AJf$" role="1B3o_S" />
+      <node concept="10P_77" id="6TzoP2$AJsX" role="3clF45" />
+      <node concept="37vLTG" id="6TzoP2$AJGC" role="3clF46">
+        <property role="TrG5h" value="type" />
+        <node concept="3Tqbb2" id="6TzoP2$AJGB" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7ILxbOzUVro" role="jymVt" />
     <node concept="2YIFZL" id="9TuAn4ndXe" role="jymVt">
       <property role="TrG5h" value="genName" />
       <property role="od$2w" value="false" />
