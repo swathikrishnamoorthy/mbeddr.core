@@ -450,8 +450,8 @@
     <ref role="1TJDcQ" node="3yoEvFpEd7m" resolve="ComplexTypeAccess" />
   </node>
   <node concept="1TIwiD" id="7oMSlewwVWj">
-    <property role="3GE5qa" value="complex" />
-    <property role="TrG5h" value="GeneratedLocalVariable" />
+    <property role="3GE5qa" value="complex.gen" />
+    <property role="TrG5h" value="GeneratedVariable" />
     <property role="1pbfSe" value="381067366" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="7oMSlewwWnx" role="lGtFl">
@@ -493,61 +493,38 @@
       <property role="1uS6qv" value="1" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7ILxbOzNG0h">
-    <property role="1pbfSe" value="1618983730" />
-    <property role="3GE5qa" value="complex.statements" />
-    <property role="TrG5h" value="CMulStatement" />
-    <property role="34LRSv" value="cmul" />
-    <property role="R4oN_" value="complex vector multiplication" />
-    <ref role="1TJDcQ" node="7ILxbOzNKSE" resolve="CStatement" />
-  </node>
-  <node concept="1TIwiD" id="7ILxbOzNG7u">
-    <property role="1pbfSe" value="1618983269" />
-    <property role="3GE5qa" value="complex.statements" />
-    <property role="TrG5h" value="CAddStatement" />
-    <property role="34LRSv" value="cadd" />
-    <property role="R4oN_" value="complex vector addition" />
-    <ref role="1TJDcQ" node="7ILxbOzNKSE" resolve="CStatement" />
-  </node>
-  <node concept="1TIwiD" id="7ILxbOzNKSE">
-    <property role="1pbfSe" value="1618963737" />
-    <property role="3GE5qa" value="complex.statements" />
-    <property role="R5$K7" value="true" />
-    <property role="R5$K2" value="false" />
-    <property role="TrG5h" value="CStatement" />
-    <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
-    <node concept="1TJgyj" id="7ILxbOzSCcy" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="size" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="7ILxbOzNG7v" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="result" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="7ILxbOzNG7w" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="left" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="7ILxbOzNG7x" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="right" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+  <node concept="1TIwiD" id="1Cg4RpW2t8I">
+    <property role="1pbfSe" value="1776687708" />
+    <property role="3GE5qa" value="complex.dot" />
+    <property role="TrG5h" value="ComplexVectorLength" />
+    <property role="34LRSv" value="length" />
+    <property role="R4oN_" value="length" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1Cg4RpW2t8J" role="PzmwI">
+      <ref role="PrY4T" to="mj1l:40tXLnqhXcx" resolve="IGenericDotTarget" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7ILxbOzNKUP">
-    <property role="1pbfSe" value="1618963598" />
-    <property role="3GE5qa" value="complex.statements" />
-    <property role="TrG5h" value="CSubStatement" />
-    <property role="34LRSv" value="csub" />
-    <property role="R4oN_" value="complex vector addition" />
-    <ref role="1TJDcQ" node="7ILxbOzNKSE" resolve="CStatement" />
+  <node concept="1TIwiD" id="2W_ymnYuj8M">
+    <property role="1pbfSe" value="765377431" />
+    <property role="3GE5qa" value="complex.dot" />
+    <property role="TrG5h" value="ComplexVectorInit" />
+    <property role="34LRSv" value="init" />
+    <property role="R4oN_" value="init" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2W_ymnYuj8N" role="PzmwI">
+      <ref role="PrY4T" to="mj1l:40tXLnqhXcx" resolve="IGenericDotTarget" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2W_ymnYujn7">
+    <property role="1pbfSe" value="765378348" />
+    <property role="3GE5qa" value="complex.dot" />
+    <property role="TrG5h" value="ComplexVectorDelete" />
+    <property role="34LRSv" value="delete" />
+    <property role="R4oN_" value="delete" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2W_ymnYujn8" role="PzmwI">
+      <ref role="PrY4T" to="mj1l:40tXLnqhXcx" resolve="IGenericDotTarget" />
+    </node>
   </node>
 </model>
 

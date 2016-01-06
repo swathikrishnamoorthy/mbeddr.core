@@ -55,6 +55,7 @@
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
+      <concept id="1149850725784" name="jetbrains.mps.lang.editor.structure.CellModel_AttributedNodeCell" flags="ng" index="2SsqMj" />
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
       </concept>
@@ -1141,60 +1142,36 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="7ILxbOzNKTt">
-    <property role="3GE5qa" value="complex.statements" />
-    <ref role="1XX52x" to="cetu:7ILxbOzNKSE" resolve="CStatement" />
-    <node concept="3EZMnI" id="7ILxbOzNKTv" role="2wV5jI">
-      <node concept="PMmxH" id="7ILxbOzOklG" role="3EZMnx">
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <node concept="Vb9p2" id="7ILxbOzOGg3" role="3F10Kt" />
+  <node concept="24kQdi" id="1Cg4RpW2t8R">
+    <property role="3GE5qa" value="complex.dot" />
+    <ref role="1XX52x" to="cetu:1Cg4RpW2t8I" resolve="ComplexVectorLength" />
+    <node concept="3F0ifn" id="1Cg4RpW2t8T" role="2wV5jI">
+      <property role="3F0ifm" value="length" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2W_ymnYuj8V">
+    <property role="3GE5qa" value="complex.dot" />
+    <ref role="1XX52x" to="cetu:2W_ymnYuj8M" resolve="ComplexVectorInit" />
+    <node concept="3F0ifn" id="2W_ymnYuj8X" role="2wV5jI">
+      <property role="3F0ifm" value="init" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2W_ymnYujng">
+    <property role="3GE5qa" value="complex.dot" />
+    <ref role="1XX52x" to="cetu:2W_ymnYujn7" resolve="ComplexVectorDelete" />
+    <node concept="3F0ifn" id="2W_ymnYujni" role="2wV5jI">
+      <property role="3F0ifm" value="delete" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="365vTS8u7lq">
+    <property role="3GE5qa" value="complex.gen" />
+    <ref role="1XX52x" to="cetu:7oMSlewwVWj" resolve="GeneratedVariable" />
+    <node concept="3EZMnI" id="365vTS8u7lw" role="2wV5jI">
+      <node concept="l2Vlx" id="365vTS8u7lx" role="2iSdaV" />
+      <node concept="3F0ifn" id="365vTS8u7ls" role="3EZMnx">
+        <property role="3F0ifm" value="@generated" />
       </node>
-      <node concept="3F0ifn" id="7ILxbOzNKTx" role="3EZMnx">
-        <property role="3F0ifm" value="(" />
-        <node concept="11L4FC" id="7ILxbOzNKTy" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="11LMrY" id="7ILxbOzNKTz" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F1sOY" id="7ILxbOzSCei" role="3EZMnx">
-        <ref role="1NtTu8" to="cetu:7ILxbOzSCcy" />
-      </node>
-      <node concept="3F0ifn" id="7ILxbOzNKT_" role="3EZMnx">
-        <property role="3F0ifm" value="," />
-        <node concept="11L4FC" id="7ILxbOzOvux" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F1sOY" id="7ILxbOzNKTA" role="3EZMnx">
-        <ref role="1NtTu8" to="cetu:7ILxbOzNG7v" />
-      </node>
-      <node concept="2iRfu4" id="7ILxbOzNKTB" role="2iSdaV" />
-      <node concept="3F0ifn" id="7ILxbOzNKTC" role="3EZMnx">
-        <property role="3F0ifm" value="," />
-        <node concept="11L4FC" id="7ILxbOzNKTD" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F1sOY" id="7ILxbOzNKTE" role="3EZMnx">
-        <ref role="1NtTu8" to="cetu:7ILxbOzNG7w" />
-      </node>
-      <node concept="3F0ifn" id="7ILxbOzNKTF" role="3EZMnx">
-        <property role="3F0ifm" value="," />
-        <node concept="11L4FC" id="7ILxbOzOvwd" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F1sOY" id="7ILxbOzNKTG" role="3EZMnx">
-        <ref role="1NtTu8" to="cetu:7ILxbOzNG7x" />
-      </node>
-      <node concept="3F0ifn" id="7ILxbOzNKTH" role="3EZMnx">
-        <property role="3F0ifm" value=");" />
-        <node concept="11L4FC" id="7ILxbOzNKTI" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
+      <node concept="2SsqMj" id="365vTS8u7lJ" role="3EZMnx" />
     </node>
   </node>
 </model>

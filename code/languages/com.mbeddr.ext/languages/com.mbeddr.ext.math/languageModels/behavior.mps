@@ -11,10 +11,10 @@
     <import index="cetu" ref="r:fc1ad1dc-45eb-4f99-8b2c-fbe60e6e91b1(com.mbeddr.ext.math.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -79,7 +79,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
@@ -912,6 +912,66 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="3yoEvFpEdd8" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="1Cg4RpW2xCD">
+    <property role="3GE5qa" value="complex.dot" />
+    <ref role="13h7C2" to="cetu:1Cg4RpW2t8I" resolve="ComplexVectorLength" />
+    <node concept="13hLZK" id="1Cg4RpW2xCE" role="13h7CW">
+      <node concept="3clFbS" id="1Cg4RpW2xCF" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1Cg4RpW2xCG" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getTarget" />
+      <ref role="13i0hy" to="ywuz:66uzewbZgGM" resolve="getTarget" />
+      <node concept="3Tm1VV" id="1Cg4RpW2xCH" role="1B3o_S" />
+      <node concept="3clFbS" id="1Cg4RpW2xCK" role="3clF47">
+        <node concept="3cpWs6" id="1Cg4RpW2xCU" role="3cqZAp">
+          <node concept="10Nm6u" id="1Cg4RpW2xD9" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="1Cg4RpW2xCL" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="2W_ymnYujgO">
+    <property role="3GE5qa" value="complex.dot" />
+    <ref role="13h7C2" to="cetu:2W_ymnYuj8M" resolve="ComplexVectorInit" />
+    <node concept="13hLZK" id="2W_ymnYujgP" role="13h7CW">
+      <node concept="3clFbS" id="2W_ymnYujgQ" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2W_ymnYujgR" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getTarget" />
+      <ref role="13i0hy" to="ywuz:66uzewbZgGM" resolve="getTarget" />
+      <node concept="3Tm1VV" id="2W_ymnYujgS" role="1B3o_S" />
+      <node concept="3clFbS" id="2W_ymnYujgV" role="3clF47">
+        <node concept="3cpWs6" id="2W_ymnYujh5" role="3cqZAp">
+          <node concept="10Nm6u" id="2W_ymnYujhk" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="2W_ymnYujgW" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="2W_ymnYujrg">
+    <property role="3GE5qa" value="complex.dot" />
+    <ref role="13h7C2" to="cetu:2W_ymnYujn7" resolve="ComplexVectorDelete" />
+    <node concept="13hLZK" id="2W_ymnYujrh" role="13h7CW">
+      <node concept="3clFbS" id="2W_ymnYujri" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2W_ymnYujrj" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getTarget" />
+      <ref role="13i0hy" to="ywuz:66uzewbZgGM" resolve="getTarget" />
+      <node concept="3Tm1VV" id="2W_ymnYujrk" role="1B3o_S" />
+      <node concept="3clFbS" id="2W_ymnYujrn" role="3clF47">
+        <node concept="3cpWs6" id="2W_ymnYujrx" role="3cqZAp">
+          <node concept="10Nm6u" id="2W_ymnYujrK" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="2W_ymnYujro" role="3clF45" />
     </node>
   </node>
 </model>

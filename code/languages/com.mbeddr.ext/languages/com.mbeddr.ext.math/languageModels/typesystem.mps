@@ -2706,118 +2706,6 @@
       <ref role="1YaFvo" to="cetu:5TPCPz$cOwb" resolve="TransposeExpression" />
     </node>
   </node>
-  <node concept="1YbPZF" id="7ILxbOzSCeW">
-    <property role="TrG5h" value="typeof_CStatement" />
-    <property role="3GE5qa" value="complex.statements" />
-    <node concept="3clFbS" id="7ILxbOzSCeX" role="18ibNy">
-      <node concept="1ZobV4" id="7ILxbOzSCff" role="3cqZAp">
-        <node concept="mw_s8" id="7ILxbOzSCwT" role="1ZfhKB">
-          <node concept="2pJPEk" id="7ILxbOzSCwP" role="mwGJk">
-            <node concept="2pJPED" id="7ILxbOzSDOc" role="2pJPEn">
-              <ref role="2pJxaS" to="mj1l:7lNBHBNBzyi" resolve="UnsignedInt32tType" />
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="7ILxbOzSCfs" role="1ZfhK$">
-          <node concept="1Z2H0r" id="7ILxbOzSCfo" role="mwGJk">
-            <node concept="2OqwBi" id="7ILxbOzSCkf" role="1Z2MuG">
-              <node concept="1YBJjd" id="7ILxbOzSCfK" role="2Oq$k0">
-                <ref role="1YBMHb" node="7ILxbOzSCeZ" resolve="statement" />
-              </node>
-              <node concept="3TrEf2" id="7ILxbOzSCuW" role="2OqNvi">
-                <ref role="3Tt5mk" to="cetu:7ILxbOzSCcy" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1ZobV4" id="7ILxbOzSCy1" role="3cqZAp">
-        <node concept="mw_s8" id="7ILxbOzSCy2" role="1ZfhKB">
-          <node concept="2pJPEk" id="7ILxbOzSCy3" role="mwGJk">
-            <node concept="2pJPED" id="7ILxbOzSCL0" role="2pJPEn">
-              <ref role="2pJxaS" to="yq40:4VhroexOKM1" resolve="ArrayType" />
-              <node concept="2pIpSj" id="7ILxbOzSCLR" role="2pJxcM">
-                <ref role="2pIpSl" to="c4fa:6IWRcVPT6tm" />
-                <node concept="2pJPED" id="7ILxbOzSCMN" role="2pJxcZ">
-                  <ref role="2pJxaS" to="cetu:7wlBVIeFwW3" resolve="ComplexType" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="7ILxbOzSCy5" role="1ZfhK$">
-          <node concept="1Z2H0r" id="7ILxbOzSCy6" role="mwGJk">
-            <node concept="2OqwBi" id="7ILxbOzSCy7" role="1Z2MuG">
-              <node concept="1YBJjd" id="7ILxbOzSCy8" role="2Oq$k0">
-                <ref role="1YBMHb" node="7ILxbOzSCeZ" resolve="statement" />
-              </node>
-              <node concept="3TrEf2" id="7ILxbOzSCJc" role="2OqNvi">
-                <ref role="3Tt5mk" to="cetu:7ILxbOzNG7v" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1ZobV4" id="7ILxbOzSCMU" role="3cqZAp">
-        <node concept="mw_s8" id="7ILxbOzSCMV" role="1ZfhKB">
-          <node concept="2pJPEk" id="7ILxbOzSCMW" role="mwGJk">
-            <node concept="2pJPED" id="7ILxbOzSCMX" role="2pJPEn">
-              <ref role="2pJxaS" to="yq40:4VhroexOKM1" resolve="ArrayType" />
-              <node concept="2pIpSj" id="7ILxbOzSCMY" role="2pJxcM">
-                <ref role="2pIpSl" to="c4fa:6IWRcVPT6tm" />
-                <node concept="2pJPED" id="7ILxbOzSCMZ" role="2pJxcZ">
-                  <ref role="2pJxaS" to="cetu:7wlBVIeFwW3" resolve="ComplexType" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="7ILxbOzSCN0" role="1ZfhK$">
-          <node concept="1Z2H0r" id="7ILxbOzSCN1" role="mwGJk">
-            <node concept="2OqwBi" id="7ILxbOzSCN2" role="1Z2MuG">
-              <node concept="1YBJjd" id="7ILxbOzSCN3" role="2Oq$k0">
-                <ref role="1YBMHb" node="7ILxbOzSCeZ" resolve="statement" />
-              </node>
-              <node concept="3TrEf2" id="7ILxbOzSDh9" role="2OqNvi">
-                <ref role="3Tt5mk" to="cetu:7ILxbOzNG7w" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1ZobV4" id="7ILxbOzSCP$" role="3cqZAp">
-        <node concept="mw_s8" id="7ILxbOzSCP_" role="1ZfhKB">
-          <node concept="2pJPEk" id="7ILxbOzSCPA" role="mwGJk">
-            <node concept="2pJPED" id="7ILxbOzSCPB" role="2pJPEn">
-              <ref role="2pJxaS" to="yq40:4VhroexOKM1" resolve="ArrayType" />
-              <node concept="2pIpSj" id="7ILxbOzSCPC" role="2pJxcM">
-                <ref role="2pIpSl" to="c4fa:6IWRcVPT6tm" />
-                <node concept="2pJPED" id="7ILxbOzSCPD" role="2pJxcZ">
-                  <ref role="2pJxaS" to="cetu:7wlBVIeFwW3" resolve="ComplexType" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="7ILxbOzSCPE" role="1ZfhK$">
-          <node concept="1Z2H0r" id="7ILxbOzSCPF" role="mwGJk">
-            <node concept="2OqwBi" id="7ILxbOzSCPG" role="1Z2MuG">
-              <node concept="1YBJjd" id="7ILxbOzSCPH" role="2Oq$k0">
-                <ref role="1YBMHb" node="7ILxbOzSCeZ" resolve="statement" />
-              </node>
-              <node concept="3TrEf2" id="7ILxbOzSDt6" role="2OqNvi">
-                <ref role="3Tt5mk" to="cetu:7ILxbOzNG7x" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="7ILxbOzSCeZ" role="1YuTPh">
-      <property role="TrG5h" value="statement" />
-      <ref role="1YaFvo" to="cetu:7ILxbOzNKSE" resolve="CStatement" />
-    </node>
-  </node>
   <node concept="18kY7G" id="7ILxbOzUWuM">
     <property role="TrG5h" value="check_ComplexVectorRepresentation" />
     <property role="3GE5qa" value="complex" />
@@ -3058,41 +2946,82 @@
       <ref role="1YaFvo" to="cetu:5o1erBOmAsn" resolve="ComplexVectorRepresentation" />
     </node>
   </node>
-  <node concept="18kY7G" id="6gAG8s7XvR$">
-    <property role="3GE5qa" value="complex" />
-    <property role="TrG5h" value="check_PointerType" />
-    <node concept="3clFbS" id="6gAG8s7XvR_" role="18ibNy">
-      <node concept="3clFbJ" id="6gAG8s7XvRR" role="3cqZAp">
-        <node concept="3clFbS" id="6gAG8s7XvRS" role="3clFbx">
-          <node concept="2MkqsV" id="6gAG8s7Xwz5" role="3cqZAp">
-            <node concept="Xl_RD" id="6gAG8s7Xwzk" role="2MkJ7o">
-              <property role="Xl_RC" value="Cannot be used for complex type!" />
-            </node>
-            <node concept="1YBJjd" id="6gAG8s7Xw_U" role="2OEOjV">
-              <ref role="1YBMHb" node="6gAG8s7XvRB" resolve="type" />
+  <node concept="1YbPZF" id="1Cg4RpW2x$J">
+    <property role="TrG5h" value="typeof_ComplexVectorLength" />
+    <property role="3GE5qa" value="complex.dot" />
+    <node concept="3clFbS" id="1Cg4RpW2x$K" role="18ibNy">
+      <node concept="1Z5TYs" id="1Cg4RpW2xBl" role="3cqZAp">
+        <node concept="mw_s8" id="1Cg4RpW2xBL" role="1ZfhKB">
+          <node concept="2pJPEk" id="1Cg4RpW2xBH" role="mwGJk">
+            <node concept="2pJPED" id="1Cg4RpW2xBZ" role="2pJPEn">
+              <ref role="2pJxaS" to="mj1l:7lNBHBNBzyi" resolve="UnsignedInt32tType" />
             </node>
           </node>
         </node>
-        <node concept="2OqwBi" id="6gAG8s7Xwr1" role="3clFbw">
-          <node concept="2OqwBi" id="6gAG8s7XvYw" role="2Oq$k0">
-            <node concept="1YBJjd" id="6gAG8s7XvS6" role="2Oq$k0">
-              <ref role="1YBMHb" node="6gAG8s7XvRB" resolve="type" />
-            </node>
-            <node concept="3TrEf2" id="6gAG8s7Xwcg" role="2OqNvi">
-              <ref role="3Tt5mk" to="c4fa:6IWRcVPT6tm" />
-            </node>
-          </node>
-          <node concept="1mIQ4w" id="6gAG8s7Xwwk" role="2OqNvi">
-            <node concept="chp4Y" id="6gAG8s7Xwyf" role="cj9EA">
-              <ref role="cht4Q" to="cetu:7wlBVIeFwW3" resolve="ComplexType" />
+        <node concept="mw_s8" id="1Cg4RpW2xBo" role="1ZfhK$">
+          <node concept="1Z2H0r" id="1Cg4RpW2x_2" role="mwGJk">
+            <node concept="1YBJjd" id="1Cg4RpW2x_x" role="1Z2MuG">
+              <ref role="1YBMHb" node="1Cg4RpW2x$M" resolve="target" />
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node concept="1YaCAy" id="6gAG8s7XvRB" role="1YuTPh">
-      <property role="TrG5h" value="type" />
-      <ref role="1YaFvo" to="yq40:fwMInzpHoK" resolve="PointerType" />
+    <node concept="1YaCAy" id="1Cg4RpW2x$M" role="1YuTPh">
+      <property role="TrG5h" value="target" />
+      <ref role="1YaFvo" to="cetu:1Cg4RpW2t8I" resolve="ComplexVectorLength" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="2W_ymnYujhB">
+    <property role="TrG5h" value="typeof_ComplexVectorInit" />
+    <property role="3GE5qa" value="complex.dot" />
+    <node concept="3clFbS" id="2W_ymnYujhC" role="18ibNy">
+      <node concept="1Z5TYs" id="2W_ymnYujme" role="3cqZAp">
+        <node concept="mw_s8" id="2W_ymnYujmE" role="1ZfhKB">
+          <node concept="2pJPEk" id="2W_ymnYujmA" role="mwGJk">
+            <node concept="2pJPED" id="2W_ymnYujmS" role="2pJPEn">
+              <ref role="2pJxaS" to="mj1l:6Q7bJ$$mwOp" resolve="VoidType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="2W_ymnYujmh" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2W_ymnYujjV" role="mwGJk">
+            <node concept="1YBJjd" id="2W_ymnYujkq" role="1Z2MuG">
+              <ref role="1YBMHb" node="2W_ymnYujhE" resolve="target" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2W_ymnYujhE" role="1YuTPh">
+      <property role="TrG5h" value="target" />
+      <ref role="1YaFvo" to="cetu:2W_ymnYuj8M" resolve="ComplexVectorInit" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="2W_ymnYujs3">
+    <property role="TrG5h" value="typeof_ComplexVectorDelete" />
+    <property role="3GE5qa" value="complex.dot" />
+    <node concept="3clFbS" id="2W_ymnYujs4" role="18ibNy">
+      <node concept="1Z5TYs" id="2W_ymnYujsg" role="3cqZAp">
+        <node concept="mw_s8" id="2W_ymnYujsh" role="1ZfhKB">
+          <node concept="2pJPEk" id="2W_ymnYujsi" role="mwGJk">
+            <node concept="2pJPED" id="2W_ymnYujt4" role="2pJPEn">
+              <ref role="2pJxaS" to="mj1l:6Q7bJ$$mwOp" resolve="VoidType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="2W_ymnYujsk" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2W_ymnYujsl" role="mwGJk">
+            <node concept="1YBJjd" id="2W_ymnYujsm" role="1Z2MuG">
+              <ref role="1YBMHb" node="2W_ymnYujs6" resolve="target" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2W_ymnYujs6" role="1YuTPh">
+      <property role="TrG5h" value="target" />
+      <ref role="1YaFvo" to="cetu:2W_ymnYujn7" resolve="ComplexVectorDelete" />
     </node>
   </node>
 </model>
