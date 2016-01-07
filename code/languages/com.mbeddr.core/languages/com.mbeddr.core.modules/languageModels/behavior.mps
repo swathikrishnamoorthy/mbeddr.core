@@ -2159,6 +2159,9 @@
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getTreeNode" />
       <ref role="13i0hy" to="hwgx:7NyyyjNtbn2" resolve="getTreeNode" />
+      <node concept="3uibUv" id="3RyTuhdwS$N" role="3clF45">
+        <ref role="3uigEE" to="hwgx:2bPPn51Sxsu" resolve="AbstractTreeViewNode" />
+      </node>
       <node concept="3Tm1VV" id="bhVSeElkc6" role="1B3o_S" />
       <node concept="3clFbS" id="bhVSeElkcb" role="3clF47">
         <node concept="3clFbJ" id="33WP3AMWr2N" role="3cqZAp">
@@ -2386,9 +2389,6 @@
         <property role="TrG5h" value="cat" />
         <property role="3TUv4t" value="true" />
         <node concept="17QB3L" id="bhVSeElkcd" role="1tU5fm" />
-      </node>
-      <node concept="3uibUv" id="bhVSeElkce" role="3clF45">
-        <ref role="3uigEE" to="hwgx:7NyyyjNtce8" resolve="NodeTreeViewNode" />
       </node>
     </node>
     <node concept="13hLZK" id="19a6$uAAazq" role="13h7CW">

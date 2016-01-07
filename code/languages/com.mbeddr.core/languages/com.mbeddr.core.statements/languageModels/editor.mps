@@ -274,7 +274,6 @@
         <child id="8207263695490893799" name="symbols" index="2ElW$Z" />
       </concept>
       <concept id="7617962380316326184" name="com.mbeddr.mpsutil.grammarcells.structure.IncludeParentSideTransformations" flags="ng" index="YGO_4">
-        <property id="7617962380316662743" name="forceLeft" index="YE2IV" />
         <child id="7617962380316326278" name="wrapped" index="YGOBE" />
       </concept>
       <concept id="8945098465480383073" name="com.mbeddr.mpsutil.grammarcells.structure.OptionalCell_TransformationText" flags="ig" index="ZYGn8" />
@@ -421,24 +420,21 @@
       <node concept="l2Vlx" id="3CmSUB7FprI" role="2iSdaV" />
       <node concept="1kIj98" id="6ASs6Ln7be9" role="3EZMnx">
         <property role="3g2DhO" value="true" />
-        <node concept="YGO_4" id="6ASs6Ln45rL" role="1kIj9b">
-          <property role="YE2IV" value="true" />
-          <node concept="3F1sOY" id="3CmSUB7FprJ" role="YGOBE">
-            <property role="1cu_pB" value="2" />
-            <ref role="1NtTu8" to="mj1l:hEaDaGor64" />
-            <ref role="1ERwB7" node="2VzPqUCsXOi" resolve="makeAssignmentFromLVD" />
-            <node concept="pkWqt" id="3CmSUB7Fp$1" role="cStSX">
-              <node concept="3clFbS" id="3CmSUB7Fp$2" role="2VODD2">
-                <node concept="3clFbF" id="3CmSUB7Fp$3" role="3cqZAp">
-                  <node concept="2OqwBi" id="6iIoqg1yAe$" role="3clFbG">
-                    <node concept="2OqwBi" id="6iIoqg1yAev" role="2Oq$k0">
-                      <node concept="pncrf" id="6iIoqg1yAeu" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="4qazcyJOVAT" role="2OqNvi">
-                        <ref role="3Tt5mk" to="mj1l:hEaDaGor64" />
-                      </node>
+        <node concept="3F1sOY" id="3CmSUB7FprJ" role="1kIj9b">
+          <property role="1cu_pB" value="2" />
+          <ref role="1NtTu8" to="mj1l:hEaDaGor64" />
+          <ref role="1ERwB7" node="2VzPqUCsXOi" resolve="makeAssignmentFromLVD" />
+          <node concept="pkWqt" id="3CmSUB7Fp$1" role="cStSX">
+            <node concept="3clFbS" id="3CmSUB7Fp$2" role="2VODD2">
+              <node concept="3clFbF" id="3CmSUB7Fp$3" role="3cqZAp">
+                <node concept="2OqwBi" id="6iIoqg1yAe$" role="3clFbG">
+                  <node concept="2OqwBi" id="6iIoqg1yAev" role="2Oq$k0">
+                    <node concept="pncrf" id="6iIoqg1yAeu" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="4qazcyJOVAT" role="2OqNvi">
+                      <ref role="3Tt5mk" to="mj1l:hEaDaGor64" />
                     </node>
-                    <node concept="3w_OXm" id="6iIoqg1yAeC" role="2OqNvi" />
                   </node>
+                  <node concept="3w_OXm" id="6iIoqg1yAeC" role="2OqNvi" />
                 </node>
               </node>
             </node>
