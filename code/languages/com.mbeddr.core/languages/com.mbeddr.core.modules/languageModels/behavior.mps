@@ -195,7 +195,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -431,7 +431,7 @@
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
-      <concept id="6677504323281689838" name="jetbrains.mps.lang.smodel.structure.SConceptTypeSConcept" flags="in" index="3bZ5Sz" />
+      <concept id="6677504323281689838" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3bZ5Sz" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -6940,6 +6940,21 @@
       <node concept="3Tqbb2" id="74lwjTQj3sm" role="3clF45">
         <ref role="ehGHo" to="x27k:71UKpntnl7M" resolve="IFunctionLike" />
       </node>
+    </node>
+    <node concept="13i0hz" id="57S_UBgFK_Q" role="13h7CS">
+      <property role="TrG5h" value="isLValue" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="ywuz:6iIoqg1yDKH" resolve="isLValue" />
+      <node concept="3Tm1VV" id="57S_UBgFK_R" role="1B3o_S" />
+      <node concept="3clFbS" id="57S_UBgFKAu" role="3clF47">
+        <node concept="3cpWs6" id="57S_UBgFLWJ" role="3cqZAp">
+          <node concept="3clFbT" id="57S_UBgFLWS" role="3cqZAk">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="57S_UBgFKAv" role="3clF45" />
     </node>
     <node concept="13hLZK" id="35NyAcPBUm" role="13h7CW">
       <node concept="3clFbS" id="35NyAcPBUn" role="2VODD2" />
