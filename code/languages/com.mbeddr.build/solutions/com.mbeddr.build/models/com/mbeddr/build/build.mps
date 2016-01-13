@@ -2399,6 +2399,12 @@
             <ref role="3bR37D" to="al5i:7rbvAnyGPae" resolve="com.mbeddr.mpsutil.grammarcells.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4OmSVnTpRwN" role="3bR37C">
+          <node concept="3bR9La" id="4OmSVnTpRwO" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="7uZw0yZ43LU" resolve="com.mbeddr.core.expressions" />
+          </node>
+        </node>
         <node concept="1E0d5M" id="2W1GNPBwWUp" role="1E1XAP">
           <ref role="1E0d5P" node="2W1GNPBwUiB" resolve="com.mbeddr.core.expressions.runtime" />
         </node>
@@ -5426,6 +5432,9 @@
         <property role="3LESm3" value="b574d547-b77e-4fed-9f60-c349c4410765" />
         <property role="TrG5h" value="com.mbeddr.ext.math" />
         <property role="2GAjPV" value="false" />
+        <node concept="1E0d5M" id="35eY$089CMT" role="1E1XAP">
+          <ref role="1E0d5P" node="35eY$089_nV" resolve="com.mbeddr.ext.math.runtime" />
+        </node>
         <node concept="398BVA" id="4i9pOwKZnab" role="3LF7KH">
           <ref role="398BVh" node="7eF9rfAuAMr" resolve="mbeddr.ext" />
           <node concept="2Ry0Ak" id="4i9pOwKZnac" role="iGT6I">
@@ -5596,9 +5605,6 @@
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="35eY$089_nV" resolve="com.mbeddr.ext.math.runtime" />
           </node>
-        </node>
-        <node concept="1E0d5M" id="35eY$089CMT" role="1E1XAP">
-          <ref role="1E0d5P" node="35eY$089_nV" resolve="com.mbeddr.ext.math.runtime" />
         </node>
       </node>
       <node concept="1E1JtA" id="35eY$089_nV" role="2G$12L">
@@ -10096,6 +10102,35 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtD" id="4Q07H0PRtb8" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.mbeddr.analyses.fm.base" />
+        <property role="3LESm3" value="ab679a62-68ab-4874-8f77-b33548ab054f" />
+        <property role="2GAjPV" value="false" />
+        <node concept="398BVA" id="4Q07H0PRtK5" role="3LF7KH">
+          <ref role="398BVh" node="7eF9rfAuDUw" resolve="mbeddr.analyses" />
+          <node concept="2Ry0Ak" id="4Q07H0PR$Wq" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="4Q07H0PRAZZ" role="2Ry0An">
+              <property role="2Ry0Am" value="com.mbeddr.analyses.fm.base" />
+              <node concept="2Ry0Ak" id="4Q07H0PRC1Q" role="2Ry0An">
+                <property role="2Ry0Am" value="com.mbeddr.analyses.fm.base.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4Q07H0PRCyL" role="3bR37C">
+          <node concept="3bR9La" id="4Q07H0PRCyM" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="7eF9rfAuSQh" resolve="com.mbeddr.analyses.sat4j.fm" />
+          </node>
+        </node>
+        <node concept="1yeLz9" id="4Q07H0PRCyN" role="1TViLv">
+          <property role="TrG5h" value="com.mbeddr.analyses.fm.base#8298408464965150532" />
+          <property role="3LESm3" value="2c85f881-411e-4e8a-ac33-228b751102bb" />
+          <property role="2GAjPV" value="false" />
+        </node>
+      </node>
       <node concept="1E1JtA" id="7eF9rfAuSQh" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="3LESm3" value="c34744c1-dc64-4da4-9850-885dee7d4a0c" />
@@ -10177,6 +10212,12 @@
           <node concept="3bR9La" id="3h3WLdW5Fub" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4Q07H0PRD4$" role="3bR37C">
+          <node concept="3bR9La" id="4Q07H0PRD4_" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="4Q07H0PRtb8" resolve="com.mbeddr.analyses.fm.base" />
           </node>
         </node>
       </node>
