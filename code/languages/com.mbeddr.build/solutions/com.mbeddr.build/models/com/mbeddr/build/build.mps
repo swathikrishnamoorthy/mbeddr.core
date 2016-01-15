@@ -2399,14 +2399,14 @@
             <ref role="3bR37D" to="al5i:7rbvAnyGPae" resolve="com.mbeddr.mpsutil.grammarcells.runtime" />
           </node>
         </node>
+        <node concept="1E0d5M" id="2W1GNPBwWUp" role="1E1XAP">
+          <ref role="1E0d5P" node="2W1GNPBwUiB" resolve="com.mbeddr.core.expressions.runtime" />
+        </node>
         <node concept="1SiIV0" id="4OmSVnTpRwN" role="3bR37C">
           <node concept="3bR9La" id="4OmSVnTpRwO" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="7uZw0yZ43LU" resolve="com.mbeddr.core.expressions" />
           </node>
-        </node>
-        <node concept="1E0d5M" id="2W1GNPBwWUp" role="1E1XAP">
-          <ref role="1E0d5P" node="2W1GNPBwUiB" resolve="com.mbeddr.core.expressions.runtime" />
         </node>
       </node>
       <node concept="1E1JtA" id="2W1GNPBwUiB" role="2G$12L">
@@ -10311,6 +10311,9 @@
         </node>
         <node concept="3LEDTM" id="3Z5D5F3sNZs" role="3LEDUa">
           <ref role="3LEDTN" node="7eF9rfAuSQI" resolve="com.mbeddr.analyses.sat4j.fm.pluginSolution" />
+        </node>
+        <node concept="3LEDTy" id="2x4tvDgdPAL" role="3LEDUa">
+          <ref role="3LEDTV" node="4Q07H0PRtb8" resolve="com.mbeddr.analyses.fm.base" />
         </node>
       </node>
     </node>
