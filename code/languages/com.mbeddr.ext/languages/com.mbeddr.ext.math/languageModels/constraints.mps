@@ -3,13 +3,12 @@
   <persistence version="9" />
   <languages>
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="-1" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="cetu" ref="r:fc1ad1dc-45eb-4f99-8b2c-fbe60e6e91b1(com.mbeddr.ext.math.structure)" />
-    <import index="5qan" ref="r:7231e277-fe6f-45e4-a953-880ffe74a8c3(com.mbeddr.ext.math.runtime.plugin)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
+    <import index="5qan" ref="r:7231e277-fe6f-45e4-a953-880ffe74a8c3(com.mbeddr.ext.math.runtime.plugin)" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
   </imports>
   <registry>
@@ -56,7 +55,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -289,6 +288,96 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="1Cg4RpW2wFc">
+    <property role="3GE5qa" value="complex.dot" />
+    <ref role="1M2myG" to="cetu:1Cg4RpW2t8I" resolve="ComplexVectorLength" />
+    <node concept="nKS2y" id="1Cg4RpW2wFd" role="1MLUbF">
+      <node concept="3clFbS" id="1Cg4RpW2wFe" role="2VODD2">
+        <node concept="3cpWs6" id="1Cg4RpW2wJ1" role="3cqZAp">
+          <node concept="1Wc70l" id="2W_ymnYs1Pn" role="3cqZAk">
+            <node concept="2YIFZM" id="2W_ymnYs26x" role="3uHU7w">
+              <ref role="37wK5l" to="5qan:6TzoP2$AJt0" resolve="isComplexVectorType" />
+              <ref role="1Pybhc" to="5qan:9TuAn4mZQJ" resolve="MathUtil" />
+              <node concept="2OqwBi" id="2W_ymnYs2Z8" role="37wK5m">
+                <node concept="2OqwBi" id="2W_ymnYs2nM" role="2Oq$k0">
+                  <node concept="1PxgMI" id="2W_ymnYs2dV" role="2Oq$k0">
+                    <ref role="1PxNhF" to="mj1l:40tXLnqhyKc" resolve="GenericDotExpression" />
+                    <node concept="nLn13" id="2W_ymnYs29v" role="1PxMeX" />
+                  </node>
+                  <node concept="3TrEf2" id="2W_ymnYs2JD" role="2OqNvi">
+                    <ref role="3Tt5mk" to="mj1l:6iIoqg1yDLg" />
+                  </node>
+                </node>
+                <node concept="3JvlWi" id="2W_ymnYs39f" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1Cg4RpW2wJ2" role="3uHU7B">
+              <node concept="nLn13" id="1Cg4RpW2wJ3" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="1Cg4RpW2wJ4" role="2OqNvi">
+                <node concept="chp4Y" id="1Cg4RpW2wJ5" role="cj9EA">
+                  <ref role="cht4Q" to="mj1l:40tXLnqhyKc" resolve="GenericDotExpression" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="2W_ymnYujcU">
+    <property role="3GE5qa" value="complex.dot" />
+    <ref role="1M2myG" to="cetu:2W_ymnYuj8M" resolve="ComplexVectorInit" />
+    <node concept="nKS2y" id="2W_ymnYujcV" role="1MLUbF">
+      <node concept="3clFbS" id="2W_ymnYujcW" role="2VODD2">
+        <node concept="3cpWs8" id="EOiYrdnQlM" role="3cqZAp">
+          <node concept="3cpWsn" id="EOiYrdnQlN" role="3cpWs9">
+            <property role="TrG5h" value="c1" />
+            <node concept="10P_77" id="EOiYrdnQlL" role="1tU5fm" />
+            <node concept="2OqwBi" id="EOiYrdnQlO" role="33vP2m">
+              <node concept="nLn13" id="EOiYrdnQlP" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="EOiYrdnQlQ" role="2OqNvi">
+                <node concept="chp4Y" id="EOiYrdnQlR" role="cj9EA">
+                  <ref role="cht4Q" to="mj1l:40tXLnqhyKc" resolve="GenericDotExpression" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="EOiYrdnQtS" role="3cqZAp">
+          <node concept="3cpWsn" id="EOiYrdnQtT" role="3cpWs9">
+            <property role="TrG5h" value="c2" />
+            <node concept="10P_77" id="EOiYrdnQtM" role="1tU5fm" />
+            <node concept="2YIFZM" id="EOiYrdnQtU" role="33vP2m">
+              <ref role="37wK5l" to="5qan:6TzoP2$AJt0" resolve="isComplexVectorType" />
+              <ref role="1Pybhc" to="5qan:9TuAn4mZQJ" resolve="MathUtil" />
+              <node concept="2OqwBi" id="EOiYrdnQtV" role="37wK5m">
+                <node concept="2OqwBi" id="EOiYrdnQtW" role="2Oq$k0">
+                  <node concept="1PxgMI" id="EOiYrdnQtX" role="2Oq$k0">
+                    <ref role="1PxNhF" to="mj1l:40tXLnqhyKc" resolve="GenericDotExpression" />
+                    <node concept="nLn13" id="EOiYrdnQtY" role="1PxMeX" />
+                  </node>
+                  <node concept="3TrEf2" id="EOiYrdnQtZ" role="2OqNvi">
+                    <ref role="3Tt5mk" to="mj1l:6iIoqg1yDLg" />
+                  </node>
+                </node>
+                <node concept="3JvlWi" id="EOiYrdnQu0" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="2W_ymnYujd$" role="3cqZAp">
+          <node concept="1Wc70l" id="2W_ymnYujd_" role="3cqZAk">
+            <node concept="37vLTw" id="EOiYrdnQu1" role="3uHU7w">
+              <ref role="3cqZAo" node="EOiYrdnQtT" resolve="c2" />
+            </node>
+            <node concept="37vLTw" id="EOiYrdnQlS" role="3uHU7B">
+              <ref role="3cqZAo" node="EOiYrdnQlN" resolve="c1" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="1M2fIO" id="WxZteubgho">
     <property role="3GE5qa" value="matrix" />
     <ref role="1M2myG" to="cetu:4LP87XufLdW" resolve="MatrixType" />
@@ -338,6 +427,47 @@
             <node concept="3clFbS" id="WxZteubgjv" role="9aQI4">
               <node concept="3cpWs6" id="WxZteubgjw" role="3cqZAp">
                 <node concept="3clFbT" id="WxZteubgjy" role="3cqZAk">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4NQT62oMpIm">
+    <property role="3GE5qa" value="matrix.expressions" />
+    <ref role="1M2myG" to="cetu:3yoEvFpCNm0" resolve="MatrixAccessExpression" />
+    <node concept="osYL8" id="4NQT62oMpJa" role="1MLXOK">
+      <node concept="3clFbS" id="4NQT62oMpJb" role="2VODD2">
+        <node concept="3clFbJ" id="6TzoP2$COiY" role="3cqZAp">
+          <node concept="3clFbS" id="6TzoP2$COj0" role="3clFbx">
+            <node concept="3cpWs6" id="4NQT62oM_ea" role="3cqZAp">
+              <node concept="2OqwBi" id="4NQT62oMBzb" role="3cqZAk">
+                <node concept="2OqwBi" id="4NQT62oMAuD" role="2Oq$k0">
+                  <node concept="2H4GUG" id="4NQT62oM_lJ" role="2Oq$k0" />
+                  <node concept="3JvlWi" id="4NQT62oMBnL" role="2OqNvi" />
+                </node>
+                <node concept="1mIQ4w" id="4NQT62oMBNP" role="2OqNvi">
+                  <node concept="chp4Y" id="4NQT62oMBTw" role="cj9EA">
+                    <ref role="cht4Q" to="cetu:4LP87XufLdW" resolve="MatrixType" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="6TzoP2$COqY" role="3clFbw">
+            <node concept="28GBK8" id="6TzoP2$COvU" role="3uHU7w">
+              <ref role="28GBKb" to="cetu:3yoEvFpCNm0" resolve="MatrixAccessExpression" />
+              <ref role="28H3Ia" to="mj1l:6iIoqg1yDLg" />
+            </node>
+            <node concept="oXsJc" id="6TzoP2$COlF" role="3uHU7B" />
+          </node>
+          <node concept="9aQIb" id="6TzoP2$COKi" role="9aQIa">
+            <node concept="3clFbS" id="6TzoP2$COKj" role="9aQI4">
+              <node concept="3cpWs6" id="6TzoP2$COMK" role="3cqZAp">
+                <node concept="3clFbT" id="6TzoP2$COMY" role="3cqZAk">
                   <property role="3clFbU" value="true" />
                 </node>
               </node>
@@ -457,47 +587,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="4NQT62oMpIm">
-    <property role="3GE5qa" value="matrix.expressions" />
-    <ref role="1M2myG" to="cetu:3yoEvFpCNm0" resolve="MatrixAccessExpression" />
-    <node concept="osYL8" id="4NQT62oMpJa" role="1MLXOK">
-      <node concept="3clFbS" id="4NQT62oMpJb" role="2VODD2">
-        <node concept="3clFbJ" id="6TzoP2$COiY" role="3cqZAp">
-          <node concept="3clFbS" id="6TzoP2$COj0" role="3clFbx">
-            <node concept="3cpWs6" id="4NQT62oM_ea" role="3cqZAp">
-              <node concept="2OqwBi" id="4NQT62oMBzb" role="3cqZAk">
-                <node concept="2OqwBi" id="4NQT62oMAuD" role="2Oq$k0">
-                  <node concept="2H4GUG" id="4NQT62oM_lJ" role="2Oq$k0" />
-                  <node concept="3JvlWi" id="4NQT62oMBnL" role="2OqNvi" />
-                </node>
-                <node concept="1mIQ4w" id="4NQT62oMBNP" role="2OqNvi">
-                  <node concept="chp4Y" id="4NQT62oMBTw" role="cj9EA">
-                    <ref role="cht4Q" to="cetu:4LP87XufLdW" resolve="MatrixType" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbC" id="6TzoP2$COqY" role="3clFbw">
-            <node concept="28GBK8" id="6TzoP2$COvU" role="3uHU7w">
-              <ref role="28GBKb" to="cetu:3yoEvFpCNm0" resolve="MatrixAccessExpression" />
-              <ref role="28H3Ia" to="mj1l:6iIoqg1yDLg" />
-            </node>
-            <node concept="oXsJc" id="6TzoP2$COlF" role="3uHU7B" />
-          </node>
-          <node concept="9aQIb" id="6TzoP2$COKi" role="9aQIa">
-            <node concept="3clFbS" id="6TzoP2$COKj" role="9aQI4">
-              <node concept="3cpWs6" id="6TzoP2$COMK" role="3cqZAp">
-                <node concept="3clFbT" id="6TzoP2$COMY" role="3cqZAk">
-                  <property role="3clFbU" value="true" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="3yoEvFpEwcQ">
     <property role="3GE5qa" value="complex" />
     <ref role="1M2myG" to="cetu:3yoEvFpEd7m" resolve="ComplexTypeAccess" />
@@ -521,96 +610,6 @@
               <node concept="chp4Y" id="74cGlvMaUlM" role="cj9EA">
                 <ref role="cht4Q" to="cetu:7wlBVIeFwW3" resolve="ComplexType" />
               </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="1Cg4RpW2wFc">
-    <property role="3GE5qa" value="complex.dot" />
-    <ref role="1M2myG" to="cetu:1Cg4RpW2t8I" resolve="ComplexVectorLength" />
-    <node concept="nKS2y" id="1Cg4RpW2wFd" role="1MLUbF">
-      <node concept="3clFbS" id="1Cg4RpW2wFe" role="2VODD2">
-        <node concept="3cpWs6" id="1Cg4RpW2wJ1" role="3cqZAp">
-          <node concept="1Wc70l" id="2W_ymnYs1Pn" role="3cqZAk">
-            <node concept="2YIFZM" id="2W_ymnYs26x" role="3uHU7w">
-              <ref role="37wK5l" to="5qan:6TzoP2$AJt0" resolve="isComplexVectorType" />
-              <ref role="1Pybhc" to="5qan:9TuAn4mZQJ" resolve="MathUtil" />
-              <node concept="2OqwBi" id="2W_ymnYs2Z8" role="37wK5m">
-                <node concept="2OqwBi" id="2W_ymnYs2nM" role="2Oq$k0">
-                  <node concept="1PxgMI" id="2W_ymnYs2dV" role="2Oq$k0">
-                    <ref role="1PxNhF" to="mj1l:40tXLnqhyKc" resolve="GenericDotExpression" />
-                    <node concept="nLn13" id="2W_ymnYs29v" role="1PxMeX" />
-                  </node>
-                  <node concept="3TrEf2" id="2W_ymnYs2JD" role="2OqNvi">
-                    <ref role="3Tt5mk" to="mj1l:6iIoqg1yDLg" />
-                  </node>
-                </node>
-                <node concept="3JvlWi" id="2W_ymnYs39f" role="2OqNvi" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="1Cg4RpW2wJ2" role="3uHU7B">
-              <node concept="nLn13" id="1Cg4RpW2wJ3" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="1Cg4RpW2wJ4" role="2OqNvi">
-                <node concept="chp4Y" id="1Cg4RpW2wJ5" role="cj9EA">
-                  <ref role="cht4Q" to="mj1l:40tXLnqhyKc" resolve="GenericDotExpression" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="2W_ymnYujcU">
-    <property role="3GE5qa" value="complex.dot" />
-    <ref role="1M2myG" to="cetu:2W_ymnYuj8M" resolve="ComplexVectorInit" />
-    <node concept="nKS2y" id="2W_ymnYujcV" role="1MLUbF">
-      <node concept="3clFbS" id="2W_ymnYujcW" role="2VODD2">
-        <node concept="3cpWs8" id="EOiYrdnQlM" role="3cqZAp">
-          <node concept="3cpWsn" id="EOiYrdnQlN" role="3cpWs9">
-            <property role="TrG5h" value="c1" />
-            <node concept="10P_77" id="EOiYrdnQlL" role="1tU5fm" />
-            <node concept="2OqwBi" id="EOiYrdnQlO" role="33vP2m">
-              <node concept="nLn13" id="EOiYrdnQlP" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="EOiYrdnQlQ" role="2OqNvi">
-                <node concept="chp4Y" id="EOiYrdnQlR" role="cj9EA">
-                  <ref role="cht4Q" to="mj1l:40tXLnqhyKc" resolve="GenericDotExpression" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="EOiYrdnQtS" role="3cqZAp">
-          <node concept="3cpWsn" id="EOiYrdnQtT" role="3cpWs9">
-            <property role="TrG5h" value="c2" />
-            <node concept="10P_77" id="EOiYrdnQtM" role="1tU5fm" />
-            <node concept="2YIFZM" id="EOiYrdnQtU" role="33vP2m">
-              <ref role="37wK5l" to="5qan:6TzoP2$AJt0" resolve="isComplexVectorType" />
-              <ref role="1Pybhc" to="5qan:9TuAn4mZQJ" resolve="MathUtil" />
-              <node concept="2OqwBi" id="EOiYrdnQtV" role="37wK5m">
-                <node concept="2OqwBi" id="EOiYrdnQtW" role="2Oq$k0">
-                  <node concept="1PxgMI" id="EOiYrdnQtX" role="2Oq$k0">
-                    <ref role="1PxNhF" to="mj1l:40tXLnqhyKc" resolve="GenericDotExpression" />
-                    <node concept="nLn13" id="EOiYrdnQtY" role="1PxMeX" />
-                  </node>
-                  <node concept="3TrEf2" id="EOiYrdnQtZ" role="2OqNvi">
-                    <ref role="3Tt5mk" to="mj1l:6iIoqg1yDLg" />
-                  </node>
-                </node>
-                <node concept="3JvlWi" id="EOiYrdnQu0" role="2OqNvi" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs6" id="2W_ymnYujd$" role="3cqZAp">
-          <node concept="1Wc70l" id="2W_ymnYujd_" role="3cqZAk">
-            <node concept="37vLTw" id="EOiYrdnQu1" role="3uHU7w">
-              <ref role="3cqZAo" node="EOiYrdnQtT" resolve="c2" />
-            </node>
-            <node concept="37vLTw" id="EOiYrdnQlS" role="3uHU7B">
-              <ref role="3cqZAo" node="EOiYrdnQlN" resolve="c1" />
             </node>
           </node>
         </node>

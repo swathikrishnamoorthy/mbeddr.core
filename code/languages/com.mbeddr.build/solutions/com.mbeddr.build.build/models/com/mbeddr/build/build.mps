@@ -1091,16 +1091,16 @@
     </node>
     <node concept="1l3spV" id="1cfjnjdI1iQ" role="1l3spN">
       <node concept="3981dG" id="2lpUxXNvcU4" role="39821P">
+        <node concept="3_J27D" id="2lpUxXNvcU6" role="Nbhlr">
+          <node concept="3Mxwew" id="2lpUxXNvcUR" role="3MwsjC">
+            <property role="3MwjfP" value="com.mbeddr.tutorial.solutions.zip" />
+          </node>
+        </node>
         <node concept="L2wRC" id="360sibZutoa" role="39821P">
           <ref role="L2wRA" node="360sibZug2r" resolve="mbeddr.tutorial.main" />
         </node>
         <node concept="L2wRC" id="360sibZutqm" role="39821P">
           <ref role="L2wRA" node="1cfjnjdI1lJ" resolve="demo.expr.sandbox" />
-        </node>
-        <node concept="3_J27D" id="2lpUxXNvcU6" role="Nbhlr">
-          <node concept="3Mxwew" id="2lpUxXNvcUR" role="3MwsjC">
-            <property role="3MwjfP" value="com.mbeddr.tutorial.solutions.zip" />
-          </node>
         </node>
       </node>
     </node>

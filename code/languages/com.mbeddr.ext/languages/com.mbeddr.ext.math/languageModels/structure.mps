@@ -450,7 +450,7 @@
     <ref role="1TJDcQ" node="3yoEvFpEd7m" resolve="ComplexTypeAccess" />
   </node>
   <node concept="1TIwiD" id="7oMSlewwVWj">
-    <property role="3GE5qa" value="complex.gen" />
+    <property role="3GE5qa" value="common" />
     <property role="TrG5h" value="GeneratedVariable" />
     <property role="1pbfSe" value="381067366" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
@@ -524,6 +524,37 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2W_ymnYujn8" role="PzmwI">
       <ref role="PrY4T" to="mj1l:40tXLnqhXcx" resolve="IGenericDotTarget" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46CZjbPOGbI">
+    <property role="1pbfSe" value="930856992" />
+    <property role="TrG5h" value="ShiftExpression" />
+    <property role="34LRSv" value="S" />
+    <property role="R4oN_" value="shift expression" />
+    <property role="3GE5qa" value="stencil" />
+    <ref role="1TJDcQ" to="mj1l:2APHWiztz8M" resolve="UnaryExpression" />
+    <node concept="1TJgyj" id="46CZjbPOGdK" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46CZjbPQAtc">
+    <property role="1pbfSe" value="931357822" />
+    <property role="3GE5qa" value="stencil" />
+    <property role="TrG5h" value="ShiftAttribute" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="1TJgyi" id="46CZjbPQAtp" role="1TKVEl">
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="M6xJ_" id="46CZjbPQAtd" role="lGtFl">
+      <property role="Hh88m" value="shift" />
+      <node concept="trNpa" id="46CZjbPQAth" role="EQaZv">
+        <ref role="trN6q" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+      </node>
+      <node concept="tn0Fv" id="46CZjbPQAtl" role="HhnKV" />
     </node>
   </node>
 </model>
