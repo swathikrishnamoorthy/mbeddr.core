@@ -10,7 +10,7 @@
     <import index="cetu" ref="r:fc1ad1dc-45eb-4f99-8b2c-fbe60e6e91b1(com.mbeddr.ext.math.structure)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
-    <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -511,9 +511,9 @@
     </node>
   </node>
   <node concept="2S6QgY" id="365vTS8uA_I">
-    <property role="TrG5h" value="GeneratedVariable_ToogleAnnotation" />
+    <property role="TrG5h" value="GeneratedElement_ToogleAnnotation" />
     <property role="3GE5qa" value="common" />
-    <ref role="2ZfgGC" to="c4fa:3CmSUB7FprA" resolve="LocalVariableDeclaration" />
+    <ref role="2ZfgGC" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="2S6ZIM" id="365vTS8uA_J" role="2ZfVej">
       <node concept="3clFbS" id="365vTS8uA_K" role="2VODD2">
         <node concept="3clFbF" id="365vTS8uABd" role="3cqZAp">
@@ -532,7 +532,7 @@
                 <node concept="2ShNRf" id="365vTS8uBYA" role="37vLTx">
                   <node concept="3zrR0B" id="365vTS8uBVu" role="2ShVmc">
                     <node concept="3Tqbb2" id="365vTS8uBVv" role="3zrR0E">
-                      <ref role="ehGHo" to="cetu:7oMSlewwVWj" resolve="GeneratedVariable" />
+                      <ref role="ehGHo" to="cetu:7oMSlewwVWj" resolve="GeneratedElement" />
                     </node>
                   </node>
                 </node>
@@ -540,7 +540,7 @@
                   <node concept="2Sf5sV" id="365vTS8uBkR" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="365vTS8uBMJ" role="2OqNvi">
                     <node concept="3CFYIy" id="365vTS8uBPY" role="3CFYIz">
-                      <ref role="3CFYIx" to="cetu:7oMSlewwVWj" resolve="GeneratedVariable" />
+                      <ref role="3CFYIx" to="cetu:7oMSlewwVWj" resolve="GeneratedElement" />
                     </node>
                   </node>
                 </node>
@@ -553,7 +553,7 @@
               <node concept="2Sf5sV" id="365vTS8uAFL" role="2Oq$k0" />
               <node concept="3CFZ6_" id="365vTS8uBbj" role="2OqNvi">
                 <node concept="3CFYIy" id="365vTS8uBe$" role="3CFYIz">
-                  <ref role="3CFYIx" to="cetu:7oMSlewwVWj" resolve="GeneratedVariable" />
+                  <ref role="3CFYIx" to="cetu:7oMSlewwVWj" resolve="GeneratedElement" />
                 </node>
               </node>
             </node>
@@ -566,7 +566,7 @@
                     <node concept="2Sf5sV" id="365vTS8uC5a" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="365vTS8uCyX" role="2OqNvi">
                       <node concept="3CFYIy" id="365vTS8uCzy" role="3CFYIz">
-                        <ref role="3CFYIx" to="cetu:7oMSlewwVWj" resolve="GeneratedVariable" />
+                        <ref role="3CFYIx" to="cetu:7oMSlewwVWj" resolve="GeneratedElement" />
                       </node>
                     </node>
                   </node>

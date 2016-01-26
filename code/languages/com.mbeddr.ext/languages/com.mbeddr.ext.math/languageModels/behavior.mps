@@ -11,8 +11,9 @@
     <import index="cetu" ref="r:fc1ad1dc-45eb-4f99-8b2c-fbe60e6e91b1(com.mbeddr.ext.math.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="rj8d" ref="r:da9fd96f-5c71-45ab-b2da-1aa6232ec67f(com.mbeddr.core.statements.behavior)" />
+    <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
-    <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
   </imports>
@@ -79,7 +80,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
@@ -171,6 +172,9 @@
       </concept>
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
+      </concept>
+      <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
+        <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
       <concept id="1235566831861" name="jetbrains.mps.baseLanguage.collections.structure.AllOperation" flags="nn" index="2HxqBE" />
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
@@ -972,6 +976,60 @@
         </node>
       </node>
       <node concept="10Oyi0" id="UYJLA$AVtu" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="yso5_bttMd">
+    <property role="3GE5qa" value="stencil" />
+    <ref role="13h7C2" to="cetu:yso5_brSDa" resolve="StencilComputation" />
+    <node concept="13hLZK" id="yso5_bttMe" role="13h7CW">
+      <node concept="3clFbS" id="yso5_bttMf" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="yso5_bttMs" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getContributedLocalVariables" />
+      <ref role="13i0hy" to="rj8d:1OcdQnyTC1X" resolve="getContributedLocalVariables" />
+      <node concept="3Tm1VV" id="yso5_bttMt" role="1B3o_S" />
+      <node concept="3clFbS" id="yso5_bttMz" role="3clF47">
+        <node concept="3cpWs6" id="yso5_bttOd" role="3cqZAp">
+          <node concept="2OqwBi" id="yso5_bttUa" role="3cqZAk">
+            <node concept="13iPFW" id="yso5_bttOv" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="yso5_btu5H" role="2OqNvi">
+              <ref role="3TtcxE" to="cetu:yso5_bs199" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="yso5_bttM$" role="3clF45">
+        <node concept="3Tqbb2" id="yso5_bttM_" role="A3Ik2">
+          <ref role="ehGHo" to="c4fa:3CmSUB7FprA" resolve="LocalVariableDeclaration" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="yso5_bwokG">
+    <property role="3GE5qa" value="stencil" />
+    <ref role="13h7C2" to="cetu:yso5_bvi9M" resolve="StencilComputationElementReference" />
+    <node concept="13hLZK" id="yso5_bwokH" role="13h7CW">
+      <node concept="3clFbS" id="yso5_bwokI" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="yso5_bwokJ" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="target" />
+      <ref role="13i0hy" to="hwgx:70kXLV4LLzy" resolve="target" />
+      <node concept="3Tm1VV" id="yso5_bwokK" role="1B3o_S" />
+      <node concept="3clFbS" id="yso5_bwokN" role="3clF47">
+        <node concept="3cpWs6" id="yso5_bwokX" role="3cqZAp">
+          <node concept="2OqwBi" id="yso5_bwooO" role="3cqZAk">
+            <node concept="13iPFW" id="yso5_bwolc" role="2Oq$k0" />
+            <node concept="3TrEf2" id="yso5_bwoxt" role="2OqNvi">
+              <ref role="3Tt5mk" to="cetu:yso5_bvi9N" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="yso5_bwokO" role="3clF45" />
     </node>
   </node>
 </model>

@@ -451,13 +451,13 @@
   </node>
   <node concept="1TIwiD" id="7oMSlewwVWj">
     <property role="3GE5qa" value="common" />
-    <property role="TrG5h" value="GeneratedVariable" />
+    <property role="TrG5h" value="GeneratedElement" />
     <property role="1pbfSe" value="381067366" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="7oMSlewwWnx" role="lGtFl">
       <property role="Hh88m" value="generated" />
-      <node concept="trNpa" id="7oMSlewwWn$" role="EQaZv">
-        <ref role="trN6q" to="c4fa:3CmSUB7FprA" resolve="LocalVariableDeclaration" />
+      <node concept="trNpa" id="2ZnB01TSI45" role="EQaZv">
+        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
       </node>
       <node concept="tn0Fv" id="7oMSlewwWAF" role="HhnKV">
         <property role="tnX3d" value="false" />
@@ -555,6 +555,69 @@
         <ref role="trN6q" to="mj1l:7FQByU3CrCM" resolve="Expression" />
       </node>
       <node concept="tn0Fv" id="46CZjbPQAtl" role="HhnKV" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="yso5_brSDa">
+    <property role="1pbfSe" value="1410067107" />
+    <property role="3GE5qa" value="stencil" />
+    <property role="TrG5h" value="StencilComputation" />
+    <property role="34LRSv" value="stencil" />
+    <property role="R4oN_" value="stencil computation" />
+    <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+    <node concept="1TJgyj" id="yso5_bs199" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="elements" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="yso5_brWTy" resolve="StencilComputationElement" />
+    </node>
+    <node concept="1TJgyj" id="yso5_buMiN" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="outputVariable" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="c4fa:1OcdQnyStpU" resolve="LocalVarRef" />
+    </node>
+    <node concept="1TJgyj" id="yso5_buMiU" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="outputExpression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="yso5_bs196" role="PzmwI">
+      <ref role="PrY4T" to="c4fa:1OcdQnySJNS" resolve="ILocalVarScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="yso5_brWTy">
+    <property role="1pbfSe" value="1410084539" />
+    <property role="3GE5qa" value="stencil" />
+    <property role="TrG5h" value="StencilComputationElement" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="yso5_bvi9B" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="yso5_bvhFk" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="yso5_bvhFs" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="yso5_bvi9M">
+    <property role="1pbfSe" value="1410958027" />
+    <property role="3GE5qa" value="stencil" />
+    <property role="TrG5h" value="StencilComputationElementReference" />
+    <property role="34LRSv" value="&lt;{element}&gt;" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyj" id="yso5_bvi9N" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="element" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="yso5_brWTy" resolve="StencilComputationElement" />
+    </node>
+    <node concept="PrWs8" id="yso5_bwokD" role="PzmwI">
+      <ref role="PrY4T" to="vs0r:70kXLV4LLzw" resolve="IReference" />
     </node>
   </node>
 </model>
