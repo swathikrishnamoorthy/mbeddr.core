@@ -620,5 +620,64 @@
       <ref role="PrY4T" to="vs0r:70kXLV4LLzw" resolve="IReference" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5Cq06Aj2dPm">
+    <property role="1pbfSe" value="316482113" />
+    <property role="3GE5qa" value="stencil" />
+    <property role="TrG5h" value="IntermediateStencilElement" />
+    <property role="34LRSv" value="intermediate stencil element" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyj" id="5Cq06Aj9IU1" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+    </node>
+    <node concept="1TJgyj" id="6MpvgXUWeft" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="context" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    </node>
+    <node concept="1TJgyi" id="5Cq06Aj2dPn" role="1TKVEl">
+      <property role="TrG5h" value="offset" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="6MpvgXUU_jG" role="1TKVEl">
+      <property role="TrG5h" value="size" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="5Cq06Aj2dQr" role="1TKVEl">
+      <property role="TrG5h" value="kind" />
+      <ref role="AX2Wp" node="5Cq06Aj2dPt" resolve="IntermediateStencilElementKind" />
+    </node>
+    <node concept="PrWs8" id="5Cq06Aj2dPq" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="5Cq06Aj2dPt">
+    <property role="3GE5qa" value="stencil" />
+    <property role="TrG5h" value="IntermediateStencilElementKind" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="5Cq06Aj2dPu" role="M5hS2">
+      <property role="1uS6qo" value="INPUT" />
+      <property role="1uS6qv" value="0" />
+    </node>
+    <node concept="M4N5e" id="5Cq06Aj2dQf" role="M5hS2">
+      <property role="1uS6qo" value="OUTPUT" />
+      <property role="1uS6qv" value="1" />
+    </node>
+    <node concept="M4N5e" id="5Cq06Aj2dQk" role="M5hS2">
+      <property role="1uS6qo" value="INTERMEDIATE" />
+      <property role="1uS6qv" value="2" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5Cq06Aj4EjS">
+    <property role="1pbfSe" value="315841183" />
+    <property role="3GE5qa" value="stencil" />
+    <property role="TrG5h" value="IntermediateStencilComputation" />
+    <property role="34LRSv" value="intermediate stencil" />
+    <ref role="1TJDcQ" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
+  </node>
 </model>
 
