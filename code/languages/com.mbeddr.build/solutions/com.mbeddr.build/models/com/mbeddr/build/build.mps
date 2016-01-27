@@ -5521,6 +5521,12 @@
               <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
             </node>
           </node>
+          <node concept="1SiIV0" id="642LqPQ8GOK" role="3bR37C">
+            <node concept="3bR9La" id="642LqPQ8GOL" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="al5i:5GUwywcVeK8" resolve="com.mbeddr.mpsutil.common" />
+            </node>
+          </node>
         </node>
         <node concept="1SiIV0" id="4hvHh3QYjVZ" role="3bR37C">
           <node concept="3bR9La" id="4hvHh3QYjW0" role="1SiIV1">
@@ -5650,7 +5656,7 @@
         </node>
         <node concept="1SiIV0" id="35eY$089BJO" role="3bR37C">
           <node concept="3bR9La" id="35eY$089BJP" role="1SiIV1">
-            <property role="3bR36h" value="false" />
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
@@ -5700,6 +5706,12 @@
           <node concept="3bR9La" id="5zpc63Iwior" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="6y2eE4zZsnH" resolve="com.mbeddr.core.stdlib" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="642LqPQ8HnK" role="3bR37C">
+          <node concept="3bR9La" id="642LqPQ8HnL" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="al5i:5GUwywcVeK8" resolve="com.mbeddr.mpsutil.common" />
           </node>
         </node>
       </node>
