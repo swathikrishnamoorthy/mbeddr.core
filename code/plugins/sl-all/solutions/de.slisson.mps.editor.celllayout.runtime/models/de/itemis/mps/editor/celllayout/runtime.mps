@@ -425,53 +425,6 @@
             <ref role="1Pybhc" to="rtot:JPngvNsVIO" resolve="BoxModels" />
           </node>
         </node>
-        <node concept="3clFbH" id="40e1npHmttQ" role="3cqZAp" />
-        <node concept="3cpWs8" id="40e1npHmtnE" role="3cqZAp">
-          <node concept="3cpWsn" id="40e1npHmtnF" role="3cpWs9">
-            <property role="TrG5h" value="margin" />
-            <node concept="3uibUv" id="40e1npHmtnB" role="1tU5fm">
-              <ref role="3uigEE" to="rtot:1p6ZfyCPv66" resolve="LayoutBoxFrame" />
-            </node>
-            <node concept="2OqwBi" id="40e1npHmtnG" role="33vP2m">
-              <node concept="2YIFZM" id="40e1npHmtnH" role="2Oq$k0">
-                <ref role="37wK5l" to="rtot:JPngvNtXqk" resolve="getBoxModel" />
-                <ref role="1Pybhc" to="rtot:JPngvNsVIO" resolve="BoxModels" />
-                <node concept="37vLTw" id="40e1npHmtnI" role="37wK5m">
-                  <ref role="3cqZAo" node="JPngvNsQtA" resolve="rootCell" />
-                </node>
-              </node>
-              <node concept="liA8E" id="40e1npHmtnJ" role="2OqNvi">
-                <ref role="37wK5l" to="rtot:1p6ZfyCPv3Z" resolve="getMarginBox" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="40e1npHmsPi" role="3cqZAp">
-          <node concept="2OqwBi" id="40e1npHmteN" role="3clFbG">
-            <node concept="37vLTw" id="40e1npHmtnK" role="2Oq$k0">
-              <ref role="3cqZAo" node="40e1npHmtnF" resolve="margin" />
-            </node>
-            <node concept="liA8E" id="40e1npHmtlg" role="2OqNvi">
-              <ref role="37wK5l" to="rtot:1p6ZfyCPv6q" resolve="setLeftSize" />
-              <node concept="3cmrfG" id="40e1npHmtma" role="37wK5m">
-                <property role="3cmrfH" value="15" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="40e1npHmtP9" role="3cqZAp">
-          <node concept="2OqwBi" id="40e1npHmtPa" role="3clFbG">
-            <node concept="37vLTw" id="40e1npHmtPb" role="2Oq$k0">
-              <ref role="3cqZAo" node="40e1npHmtnF" resolve="margin" />
-            </node>
-            <node concept="liA8E" id="40e1npHmtPc" role="2OqNvi">
-              <ref role="37wK5l" to="rtot:1p6ZfyCPv6A" resolve="setTopSize" />
-              <node concept="3cmrfG" id="40e1npHmtPd" role="37wK5m">
-                <property role="3cmrfH" value="10" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbH" id="40e1npHmtyl" role="3cqZAp" />
         <node concept="3cpWs8" id="40e1npHlFnA" role="3cqZAp">
           <node concept="3cpWsn" id="40e1npHlFnB" role="3cpWs9">
@@ -552,10 +505,10 @@
             <node concept="liA8E" id="40e1npHm308" role="2OqNvi">
               <ref role="37wK5l" to="xggr:JPngvNrVgf" resolve="setBounds" />
               <node concept="3cmrfG" id="40e1npHm32H" role="37wK5m">
-                <property role="3cmrfH" value="0" />
+                <property role="3cmrfH" value="15" />
               </node>
               <node concept="3cmrfG" id="40e1npHm38K" role="37wK5m">
-                <property role="3cmrfH" value="0" />
+                <property role="3cmrfH" value="10" />
               </node>
               <node concept="2OqwBi" id="40e1npHm3b9" role="37wK5m">
                 <node concept="37vLTw" id="40e1npHm39Q" role="2Oq$k0">
