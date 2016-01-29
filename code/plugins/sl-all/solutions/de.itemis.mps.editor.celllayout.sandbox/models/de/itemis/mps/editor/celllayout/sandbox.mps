@@ -7,9 +7,13 @@
   <imports />
   <registry>
     <language id="a49c7665-6e20-479f-8483-903f65b74ed2" name="de.itemis.mps.editor.celllayout.sandboxlang">
-      <concept id="861697192441878792" name="de.itemis.mps.editor.celllayout.sandboxlang.structure.RootConcept" flags="ng" index="3Sx$gf" />
+      <concept id="861697192441878792" name="de.itemis.mps.editor.celllayout.sandboxlang.structure.RootConcept" flags="ng" index="3Sx$gf">
+        <property id="4615632674301225209" name="property1" index="HpMQf" />
+      </concept>
     </language>
   </registry>
-  <node concept="3Sx$gf" id="40e1npHlDVf" />
+  <node concept="3Sx$gf" id="40e1npHlDVf">
+    <property role="HpMQf" value="dfdfgdfgdfddsfsffdgdgdfdgdfgddf" />
+  </node>
 </model>
 

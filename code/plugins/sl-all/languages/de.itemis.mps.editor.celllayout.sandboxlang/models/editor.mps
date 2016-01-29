@@ -28,6 +28,9 @@
       <concept id="1186415722038" name="jetbrains.mps.lang.editor.structure.FontSizeStyleClassItem" flags="ln" index="VSNWy">
         <property id="1221209241505" name="value" index="1lJzqX" />
       </concept>
+      <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
+      </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
         <child id="1142887637401" name="renderingCondition" index="pqm2j" />
       </concept>
@@ -38,6 +41,7 @@
       <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
+      <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
@@ -146,6 +150,7 @@
           </node>
           <node concept="2iRfu4" id="40e1npHpj9j" role="2iSdaV" />
         </node>
+        <node concept="3F0ifn" id="40e1npHqhps" role="3EZMnx" />
         <node concept="3EZMnI" id="40e1npHpj9C" role="3EZMnx">
           <node concept="VPM3Z" id="40e1npHpj9D" role="3F10Kt">
             <property role="VOm3f" value="false" />
@@ -156,9 +161,9 @@
               <property role="VOm3f" value="true" />
             </node>
           </node>
-          <node concept="3F0ifn" id="40e1npHpj9F" role="3EZMnx">
-            <property role="3F0ifm" value="b2" />
-            <node concept="VPXOz" id="40e1npHpjPm" role="3F10Kt">
+          <node concept="3F0A7n" id="40e1npHqi_6" role="3EZMnx">
+            <ref role="1NtTu8" to="uvw8:40e1npHqizT" resolve="property1" />
+            <node concept="VPXOz" id="40e1npHqiAQ" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
           </node>
@@ -200,7 +205,7 @@
           </node>
           <node concept="2iRfu4" id="40e1npHpj9Z" role="2iSdaV" />
         </node>
-        <node concept="2EHx9g" id="40e1npHpjuV" role="2iSdaV" />
+        <node concept="2EHx9g" id="40e1npHqQuk" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="40e1npHpj6P" role="2iSdaV" />
     </node>
