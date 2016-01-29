@@ -1123,6 +1123,24 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="40e1npHmv2S" role="3cqZAp">
+          <node concept="2OqwBi" id="40e1npHmv6b" role="3clFbG">
+            <node concept="1rXfSq" id="40e1npHmv2Q" role="2Oq$k0">
+              <ref role="37wK5l" node="1p6ZfyCPv8r" resolve="getMarginBox" />
+            </node>
+            <node concept="liA8E" id="40e1npHmvbP" role="2OqNvi">
+              <ref role="37wK5l" node="1p6ZfyCPv50" resolve="setAscent" />
+              <node concept="2OqwBi" id="40e1npHmveq" role="37wK5m">
+                <node concept="37vLTw" id="40e1npHmvd0" role="2Oq$k0">
+                  <ref role="3cqZAo" node="40e1npHm4Aa" resolve="myEditorCell" />
+                </node>
+                <node concept="liA8E" id="40e1npHmvht" role="2OqNvi">
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getAscent():int" resolve="getAscent" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3clFb_" id="40e1npHm47W" role="jymVt">
