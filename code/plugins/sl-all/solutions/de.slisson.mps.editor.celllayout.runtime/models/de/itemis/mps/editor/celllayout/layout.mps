@@ -1437,8 +1437,8 @@
                     <node concept="2GrUjf" id="40e1npHnxqK" role="1BdPVh">
                       <ref role="2Gs0qQ" node="40e1npHnv_E" resolve="child" />
                     </node>
-                    <node concept="37vLTw" id="40e1npHnxBe" role="1BdPVh">
-                      <ref role="3cqZAo" node="40e1npHnvbX" resolve="sizeConstraint" />
+                    <node concept="37vLTw" id="40e1npHplAj" role="1BdPVh">
+                      <ref role="3cqZAo" node="40e1npHnv_e" resolve="childSizeConstraint" />
                     </node>
                   </node>
                 </node>
@@ -2321,7 +2321,7 @@
                           <ref role="3cqZAo" node="40e1npHo2gt" resolve="container" />
                         </node>
                         <node concept="liA8E" id="40e1npHoAtj" role="2OqNvi">
-                          <ref role="37wK5l" node="1p6ZfyCPv4o" resolve="getWidth" />
+                          <ref role="37wK5l" node="JPngvNuXpj" resolve="getInnerWidth" />
                         </node>
                       </node>
                       <node concept="37vLTw" id="40e1npHo2iQ" role="37wK5m">
@@ -2866,8 +2866,8 @@
                     <node concept="2GrUjf" id="40e1npHo2nr" role="1BdPVh">
                       <ref role="2Gs0qQ" node="40e1npHo2nj" resolve="child" />
                     </node>
-                    <node concept="37vLTw" id="40e1npHo2ns" role="1BdPVh">
-                      <ref role="3cqZAo" node="40e1npHo2m$" resolve="sizeConstraint" />
+                    <node concept="37vLTw" id="40e1npHpkyY" role="1BdPVh">
+                      <ref role="3cqZAo" node="40e1npHo2mR" resolve="childSizeConstraint" />
                     </node>
                   </node>
                 </node>
