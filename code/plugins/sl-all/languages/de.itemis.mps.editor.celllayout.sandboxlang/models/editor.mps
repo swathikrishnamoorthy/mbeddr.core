@@ -14,6 +14,7 @@
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
+      <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
@@ -139,11 +140,119 @@
               <property role="VOm3f" value="true" />
             </node>
           </node>
-          <node concept="3F0ifn" id="40e1npHpj9r" role="3EZMnx">
-            <property role="3F0ifm" value="a2" />
-            <node concept="VPXOz" id="40e1npHpjPd" role="3F10Kt">
+          <node concept="3EZMnI" id="40e1npHzvJV" role="3EZMnx">
+            <node concept="VPM3Z" id="40e1npHzvJY" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="VPXOz" id="40e1npH_yoE" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
+            <node concept="3F0ifn" id="40e1npHzvK0" role="3EZMnx">
+              <property role="3F0ifm" value="11111" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvKx" role="3EZMnx">
+              <property role="3F0ifm" value="222" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvKH" role="3EZMnx">
+              <property role="3F0ifm" value="33333333333333" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvKV" role="3EZMnx">
+              <property role="3F0ifm" value="444444" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvLb" role="3EZMnx">
+              <property role="3F0ifm" value="5555555" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvLt" role="3EZMnx">
+              <property role="3F0ifm" value="66666" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvLL" role="3EZMnx">
+              <property role="3F0ifm" value="7777777777777777" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvM7" role="3EZMnx">
+              <property role="3F0ifm" value="88888" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvMv" role="3EZMnx">
+              <property role="3F0ifm" value="99999" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvMT" role="3EZMnx">
+              <property role="3F0ifm" value="aaaaaaaaaaaaa" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvNl" role="3EZMnx">
+              <property role="3F0ifm" value="bbbbbb" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvNN" role="3EZMnx">
+              <property role="3F0ifm" value="ccc" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvOj" role="3EZMnx">
+              <property role="3F0ifm" value="dddddddddd" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvOP" role="3EZMnx">
+              <property role="3F0ifm" value="eeee" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvPp" role="3EZMnx">
+              <property role="3F0ifm" value="ffff" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvPZ" role="3EZMnx">
+              <property role="3F0ifm" value="gg" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvQB" role="3EZMnx">
+              <property role="3F0ifm" value="hhhhhhhhh" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvRh" role="3EZMnx">
+              <property role="3F0ifm" value="iiiiiiiii" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvRX" role="3EZMnx">
+              <property role="3F0ifm" value="jjjjjjj" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvSF" role="3EZMnx">
+              <property role="3F0ifm" value="kkkkkk" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvTr" role="3EZMnx">
+              <property role="3F0ifm" value="llllllllll" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvUd" role="3EZMnx">
+              <property role="3F0ifm" value="mmmm" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvV1" role="3EZMnx">
+              <property role="3F0ifm" value="nnn" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvVR" role="3EZMnx">
+              <property role="3F0ifm" value="o" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvWJ" role="3EZMnx">
+              <property role="3F0ifm" value="pppp" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvXD" role="3EZMnx">
+              <property role="3F0ifm" value="qqqqqqqqqq" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvY_" role="3EZMnx">
+              <property role="3F0ifm" value="rrr" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzvZz" role="3EZMnx">
+              <property role="3F0ifm" value="sssssssssss" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzw0z" role="3EZMnx">
+              <property role="3F0ifm" value="ttttt" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzw1_" role="3EZMnx">
+              <property role="3F0ifm" value="uuuuuuuuuuuuuuu" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzw2D" role="3EZMnx">
+              <property role="3F0ifm" value="vvvvvvv" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzw3J" role="3EZMnx">
+              <property role="3F0ifm" value="wwwwwwwwww" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzw4R" role="3EZMnx">
+              <property role="3F0ifm" value="xxx" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzw61" role="3EZMnx">
+              <property role="3F0ifm" value="yyy" />
+            </node>
+            <node concept="3F0ifn" id="40e1npHzw7d" role="3EZMnx">
+              <property role="3F0ifm" value="zzzzzzz" />
+            </node>
+            <node concept="l2Vlx" id="40e1npHzvK2" role="2iSdaV" />
           </node>
           <node concept="3F0ifn" id="40e1npHpj9z" role="3EZMnx">
             <property role="3F0ifm" value="a3-----" />
