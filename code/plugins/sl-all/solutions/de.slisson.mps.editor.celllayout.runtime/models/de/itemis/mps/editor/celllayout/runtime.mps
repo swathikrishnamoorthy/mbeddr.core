@@ -24,6 +24,7 @@
       <concept id="8473566765275063380" name="de.slisson.mps.reflection.structure.ReflectionFieldAccess" flags="ng" index="1PnCL0">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
+      <concept id="8473566765277240526" name="de.slisson.mps.reflection.structure.ReflectionMethodCall" flags="ng" index="1PvZjq" />
     </language>
     <language id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods">
       <concept id="1550313277221324859" name="jetbrains.mps.baseLanguage.extensionMethods.structure.ExtensionMethodCall" flags="nn" index="AQDAd" />
@@ -1758,10 +1759,40 @@
         </node>
         <node concept="3clFbJ" id="40e1npHouCz" role="3cqZAp">
           <node concept="3clFbS" id="40e1npHouC$" role="3clFbx">
-            <node concept="3cpWs6" id="40e1npHouC_" role="3cqZAp">
-              <node concept="2ShNRf" id="40e1npHouCA" role="3cqZAk">
-                <node concept="HV5vD" id="40e1npHov78" role="2ShVmc">
-                  <ref role="HV5vE" to="xggr:40e1npHo2go" resolve="VerticalLayout" />
+            <node concept="3clFbJ" id="40e1npHuRnD" role="3cqZAp">
+              <node concept="3clFbS" id="40e1npHuRnF" role="3clFbx">
+                <node concept="3cpWs6" id="40e1npHuRW6" role="3cqZAp">
+                  <node concept="2ShNRf" id="40e1npHuSOM" role="3cqZAk">
+                    <node concept="HV5vD" id="40e1npHuTtM" role="2ShVmc">
+                      <ref role="HV5vE" to="xggr:40e1npHrxV9" resolve="GridLayout" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="40e1npHuRPs" role="3clFbw">
+                <node concept="1eOMI4" id="40e1npHuRNT" role="2Oq$k0">
+                  <node concept="10QFUN" id="40e1npHuRNQ" role="1eOMHV">
+                    <node concept="3uibUv" id="40e1npHuRNV" role="10QFUM">
+                      <ref role="3uigEE" to="kcid:~CellLayout_Vertical" resolve="CellLayout_Vertical" />
+                    </node>
+                    <node concept="37vLTw" id="40e1npHuRNW" role="10QFUP">
+                      <ref role="3cqZAo" node="JPngvNuEED" resolve="cellLayout" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="1PvZjq" id="40e1npHuRVd" role="2OqNvi">
+                  <ref role="37wK5l" to="kcid:~CellLayout_Vertical.isGridLayout():boolean" resolve="isGridLayout" />
+                </node>
+              </node>
+              <node concept="9aQIb" id="40e1npHuTTE" role="9aQIa">
+                <node concept="3clFbS" id="40e1npHuTTF" role="9aQI4">
+                  <node concept="3cpWs6" id="40e1npHouC_" role="3cqZAp">
+                    <node concept="2ShNRf" id="40e1npHouCA" role="3cqZAk">
+                      <node concept="HV5vD" id="40e1npHov78" role="2ShVmc">
+                        <ref role="HV5vE" to="xggr:40e1npHo2go" resolve="VerticalLayout" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>

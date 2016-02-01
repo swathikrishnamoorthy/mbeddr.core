@@ -3790,6 +3790,60 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="40e1npHtJcD" role="jymVt" />
+    <node concept="3clFb_" id="40e1npHtK5h" role="jymVt">
+      <property role="TrG5h" value="deriveWidth" />
+      <node concept="3uibUv" id="40e1npHtKC6" role="3clF45">
+        <ref role="3uigEE" node="ZjQ6tpoDFn" resolve="Size" />
+      </node>
+      <node concept="3Tm1VV" id="40e1npHtK5k" role="1B3o_S" />
+      <node concept="3clFbS" id="40e1npHtK5l" role="3clF47">
+        <node concept="3clFbF" id="40e1npHtKQe" role="3cqZAp">
+          <node concept="2ShNRf" id="40e1npHtKQc" role="3clFbG">
+            <node concept="1pGfFk" id="40e1npHtKZ1" role="2ShVmc">
+              <ref role="37wK5l" node="ZjQ6tpoDHS" resolve="Size" />
+              <node concept="37vLTw" id="40e1npHtKZ$" role="37wK5m">
+                <ref role="3cqZAo" node="40e1npHtKIY" resolve="width" />
+              </node>
+              <node concept="37vLTw" id="40e1npHtL0L" role="37wK5m">
+                <ref role="3cqZAo" node="ZjQ6tpoDGs" resolve="myHeight" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="40e1npHtKIY" role="3clF46">
+        <property role="TrG5h" value="width" />
+        <node concept="10Oyi0" id="40e1npHtKIX" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="40e1npHtLbR" role="jymVt" />
+    <node concept="3clFb_" id="40e1npHtL1M" role="jymVt">
+      <property role="TrG5h" value="deriveHeight" />
+      <node concept="3uibUv" id="40e1npHtL1N" role="3clF45">
+        <ref role="3uigEE" node="ZjQ6tpoDFn" resolve="Size" />
+      </node>
+      <node concept="3Tm1VV" id="40e1npHtL1O" role="1B3o_S" />
+      <node concept="3clFbS" id="40e1npHtL1P" role="3clF47">
+        <node concept="3clFbF" id="40e1npHtL1Q" role="3cqZAp">
+          <node concept="2ShNRf" id="40e1npHtL1R" role="3clFbG">
+            <node concept="1pGfFk" id="40e1npHtL1S" role="2ShVmc">
+              <ref role="37wK5l" node="ZjQ6tpoDHS" resolve="Size" />
+              <node concept="37vLTw" id="40e1npHtL1T" role="37wK5m">
+                <ref role="3cqZAo" node="40e1npHtL1V" resolve="height" />
+              </node>
+              <node concept="37vLTw" id="40e1npHtL1U" role="37wK5m">
+                <ref role="3cqZAo" node="ZjQ6tpoDGs" resolve="myHeight" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="40e1npHtL1V" role="3clF46">
+        <property role="TrG5h" value="height" />
+        <node concept="10Oyi0" id="40e1npHtL1W" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="2AHcQZ" id="ZjQ6tpoDS5" role="2AJF6D">
       <ref role="2AI5Lk" to="lhc4:~Immutable" resolve="Immutable" />
     </node>
