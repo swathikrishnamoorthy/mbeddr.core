@@ -6275,17 +6275,27 @@
                   <ref role="3cqZAo" node="40e1npHzAaZ" resolve="width" />
                 </node>
                 <node concept="3cpWs3" id="40e1npH$qe6" role="3uHU7B">
-                  <node concept="2OqwBi" id="40e1npH$q9b" role="3uHU7B">
-                    <node concept="2OqwBi" id="40e1npH$pRH" role="2Oq$k0">
-                      <node concept="37vLTw" id="40e1npH$pQ_" role="2Oq$k0">
+                  <node concept="3cpWs3" id="40e1npHDDjH" role="3uHU7B">
+                    <node concept="2OqwBi" id="40e1npHDDpm" role="3uHU7w">
+                      <node concept="37vLTw" id="40e1npHDDlk" role="2Oq$k0">
                         <ref role="3cqZAo" node="40e1npHzzed" resolve="text" />
                       </node>
-                      <node concept="liA8E" id="40e1npH$pV1" role="2OqNvi">
-                        <ref role="37wK5l" node="40e1npH$orm" resolve="getCurrentLine" />
+                      <node concept="2OwXpG" id="40e1npHDDsR" role="2OqNvi">
+                        <ref role="2Oxat5" node="40e1npH_CAa" resolve="myWordGap" />
                       </node>
                     </node>
-                    <node concept="liA8E" id="40e1npH$qcL" role="2OqNvi">
-                      <ref role="37wK5l" node="40e1npH$3Xx" resolve="getWidth" />
+                    <node concept="2OqwBi" id="40e1npH$q9b" role="3uHU7B">
+                      <node concept="2OqwBi" id="40e1npH$pRH" role="2Oq$k0">
+                        <node concept="37vLTw" id="40e1npH$pQ_" role="2Oq$k0">
+                          <ref role="3cqZAo" node="40e1npHzzed" resolve="text" />
+                        </node>
+                        <node concept="liA8E" id="40e1npH$pV1" role="2OqNvi">
+                          <ref role="37wK5l" node="40e1npH$orm" resolve="getCurrentLine" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="40e1npH$qcL" role="2OqNvi">
+                        <ref role="37wK5l" node="40e1npH$3Xx" resolve="getWidth" />
+                      </node>
                     </node>
                   </node>
                   <node concept="2OqwBi" id="40e1npH$qim" role="3uHU7w">
