@@ -3619,8 +3619,6 @@
         <node concept="10Oyi0" id="ZjQ6tpoDI8" role="1tU5fm" />
       </node>
     </node>
-    <node concept="2tJIrI" id="ZjQ6tpoDX$" role="jymVt" />
-    <node concept="2tJIrI" id="40e1npHBguo" role="jymVt" />
     <node concept="2tJIrI" id="40e1npHBgwJ" role="jymVt" />
     <node concept="3clFb_" id="ZjQ6tpoDOy" role="jymVt">
       <property role="TrG5h" value="getWidth" />
@@ -3858,6 +3856,59 @@
       </node>
     </node>
     <node concept="2tJIrI" id="40e1npHBuvv" role="jymVt" />
+    <node concept="3clFb_" id="17yTjuFMZj" role="jymVt">
+      <property role="TrG5h" value="limit" />
+      <node concept="3uibUv" id="17yTjuFRIi" role="3clF45">
+        <ref role="3uigEE" node="ZjQ6tpoDFn" resolve="Size" />
+      </node>
+      <node concept="3Tm1VV" id="17yTjuFMZm" role="1B3o_S" />
+      <node concept="3clFbS" id="17yTjuFMZn" role="3clF47">
+        <node concept="3clFbF" id="17yTjuFRxY" role="3cqZAp">
+          <node concept="2ShNRf" id="17yTjuFRxU" role="3clFbG">
+            <node concept="1pGfFk" id="17yTjuFRH6" role="2ShVmc">
+              <ref role="37wK5l" node="ZjQ6tpoDHS" resolve="Size" />
+              <node concept="2YIFZM" id="17yTjuFS0a" role="37wK5m">
+                <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+                <node concept="37vLTw" id="17yTjuFS0b" role="37wK5m">
+                  <ref role="3cqZAo" node="ZjQ6tpoDFL" resolve="myWidth" />
+                </node>
+                <node concept="2OqwBi" id="17yTjuFS0c" role="37wK5m">
+                  <node concept="37vLTw" id="17yTjuFS0d" role="2Oq$k0">
+                    <ref role="3cqZAo" node="17yTjuFNXo" resolve="limit" />
+                  </node>
+                  <node concept="liA8E" id="17yTjuFS0e" role="2OqNvi">
+                    <ref role="37wK5l" node="ZjQ6tpoDOy" resolve="getWidth" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="17yTjuFS9o" role="37wK5m">
+                <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+                <node concept="37vLTw" id="17yTjuFS9p" role="37wK5m">
+                  <ref role="3cqZAo" node="ZjQ6tpoDGs" resolve="myHeight" />
+                </node>
+                <node concept="2OqwBi" id="17yTjuFS9q" role="37wK5m">
+                  <node concept="37vLTw" id="17yTjuFS9r" role="2Oq$k0">
+                    <ref role="3cqZAo" node="17yTjuFNXo" resolve="limit" />
+                  </node>
+                  <node concept="liA8E" id="17yTjuFS9s" role="2OqNvi">
+                    <ref role="37wK5l" node="ZjQ6tpoDOC" resolve="getHeight" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="17yTjuFNXo" role="3clF46">
+        <property role="TrG5h" value="limit" />
+        <node concept="3uibUv" id="17yTjuFNXn" role="1tU5fm">
+          <ref role="3uigEE" node="ZjQ6tpoDFn" resolve="Size" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="17yTjuFMFT" role="jymVt" />
     <node concept="2AHcQZ" id="ZjQ6tpoDS5" role="2AJF6D">
       <ref role="2AI5Lk" to="lhc4:~Immutable" resolve="Immutable" />
     </node>
