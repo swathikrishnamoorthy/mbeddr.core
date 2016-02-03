@@ -7,6 +7,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="uvw8" ref="r:8779fe48-e315-4d07-bdd5-8767e3f955d0(de.itemis.mps.editor.celllayout.sandboxlang.structure)" implicit="true" />
   </imports>
   <registry>
@@ -19,6 +20,10 @@
       </concept>
       <concept id="1239814640496" name="jetbrains.mps.lang.editor.structure.CellLayout_VerticalGrid" flags="nn" index="2EHx9g" />
       <concept id="1235728439575" name="jetbrains.mps.lang.editor.structure.BaseLineCell" flags="ln" index="2R9Tw8" />
+      <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
+        <child id="1186403803051" name="query" index="VblUZ" />
+      </concept>
+      <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -44,6 +49,29 @@
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
+      <concept id="1176809959526" name="jetbrains.mps.lang.editor.structure.QueryFunction_Color" flags="in" index="3ZlJ5R" />
+    </language>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
+        <child id="1145553007750" name="creator" index="2ShVmc" />
+      </concept>
+      <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
+        <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
+        <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+        <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
     </language>
   </registry>
   <node concept="24kQdi" id="JPngvNsL$e">
@@ -52,12 +80,62 @@
       <node concept="VPM3Z" id="40e1npHpj8O" role="3F10Kt">
         <property role="VOm3f" value="false" />
       </node>
+      <node concept="Veino" id="17yTjuEtOt" role="3F10Kt">
+        <node concept="3ZlJ5R" id="17yTjuEtOu" role="VblUZ">
+          <node concept="3clFbS" id="17yTjuEtOv" role="2VODD2">
+            <node concept="3clFbF" id="17yTjuEtOw" role="3cqZAp">
+              <node concept="2ShNRf" id="17yTjuEtOx" role="3clFbG">
+                <node concept="1pGfFk" id="17yTjuEtOy" role="2ShVmc">
+                  <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int,int)" resolve="Color" />
+                  <node concept="3cmrfG" id="17yTjuEtOz" role="37wK5m">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="3cmrfG" id="17yTjuEtO$" role="37wK5m">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="3cmrfG" id="17yTjuEtO_" role="37wK5m">
+                    <property role="3cmrfH" value="255" />
+                  </node>
+                  <node concept="3cmrfG" id="17yTjuEtOA" role="37wK5m">
+                    <property role="3cmrfH" value="20" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3EZMnI" id="40e1npHpj9e" role="3EZMnx">
         <node concept="VPM3Z" id="40e1npHpj9g" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
         <node concept="VPXOz" id="40e1npHzfSc" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Veino" id="17yTjuEq9f" role="3F10Kt">
+          <node concept="3ZlJ5R" id="17yTjuEq9K" role="VblUZ">
+            <node concept="3clFbS" id="17yTjuEq9L" role="2VODD2">
+              <node concept="3clFbF" id="17yTjuEt2$" role="3cqZAp">
+                <node concept="2ShNRf" id="17yTjuEt2y" role="3clFbG">
+                  <node concept="1pGfFk" id="17yTjuEtls" role="2ShVmc">
+                    <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int,int)" resolve="Color" />
+                    <node concept="3cmrfG" id="17yTjuEtmb" role="37wK5m">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="3cmrfG" id="17yTjuEtut" role="37wK5m">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="3cmrfG" id="17yTjuEt$D" role="37wK5m">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="3cmrfG" id="17yTjuEtHa" role="37wK5m">
+                      <property role="3cmrfH" value="20" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="3F0ifn" id="40e1npHpj9i" role="3EZMnx">
           <property role="3F0ifm" value="a1--" />
@@ -193,6 +271,31 @@
         </node>
         <node concept="VPXOz" id="40e1npHzfSg" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Veino" id="17yTjuEtKf" role="3F10Kt">
+          <node concept="3ZlJ5R" id="17yTjuEtKg" role="VblUZ">
+            <node concept="3clFbS" id="17yTjuEtKh" role="2VODD2">
+              <node concept="3clFbF" id="17yTjuEtKi" role="3cqZAp">
+                <node concept="2ShNRf" id="17yTjuEtKj" role="3clFbG">
+                  <node concept="1pGfFk" id="17yTjuEtKk" role="2ShVmc">
+                    <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int,int)" resolve="Color" />
+                    <node concept="3cmrfG" id="17yTjuEtKl" role="37wK5m">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="3cmrfG" id="17yTjuEtKm" role="37wK5m">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="3cmrfG" id="17yTjuEtKn" role="37wK5m">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="3cmrfG" id="17yTjuEtKo" role="37wK5m">
+                      <property role="3cmrfH" value="20" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="3EZMnI" id="40e1npHrvtl" role="3EZMnx">
           <node concept="VPM3Z" id="40e1npHrvtm" role="3F10Kt">
@@ -355,6 +458,31 @@
         </node>
         <node concept="VPXOz" id="40e1npHzfSj" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Veino" id="17yTjuEtMm" role="3F10Kt">
+          <node concept="3ZlJ5R" id="17yTjuEtMn" role="VblUZ">
+            <node concept="3clFbS" id="17yTjuEtMo" role="2VODD2">
+              <node concept="3clFbF" id="17yTjuEtMp" role="3cqZAp">
+                <node concept="2ShNRf" id="17yTjuEtMq" role="3clFbG">
+                  <node concept="1pGfFk" id="17yTjuEtMr" role="2ShVmc">
+                    <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int,int)" resolve="Color" />
+                    <node concept="3cmrfG" id="17yTjuEtMs" role="37wK5m">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="3cmrfG" id="17yTjuEtMt" role="37wK5m">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="3cmrfG" id="17yTjuEtMu" role="37wK5m">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="3cmrfG" id="17yTjuEtMv" role="37wK5m">
+                      <property role="3cmrfH" value="20" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="3F0ifn" id="40e1npHpj9W" role="3EZMnx">
           <property role="3F0ifm" value="c1" />
