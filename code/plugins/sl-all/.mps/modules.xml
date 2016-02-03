@@ -24,7 +24,7 @@
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.layout.sandbox/de.itemis.mps.editor.layout.sandbox.msd" folder="layout.mig" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.mouselistener.runtime/de.itemis.mps.mouselistener.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/test.de.itemis.mps.editor.diagram.solution/test.de.itemis.mps.editor.diagram.solution.msd" folder="diagram" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.mpl" folder="layout.htmlcsslike" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.celllayout.sandboxlang/de.itemis.mps.editor.celllayout.sandboxlang.mpl" folder="layout.htmlcsslike" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.dropdown.demolang/de.itemis.mps.editor.dropdown.demolang.mpl" folder="dropdown" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.dropdown/de.itemis.mps.editor.dropdown.mpl" folder="dropdown" />
@@ -80,6 +80,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/de.slisson.mps.editor.tabs.runtime/de.slisson.mps.editor.tabs.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.slisson.mps.structurecheck.runtime/de.slisson.mps.structurecheck.runtime.msd" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/solutions/de.slisson.mps.structurecheck.sandbox/de.slisson.mps.structurecheck.sandbox.msd" folder="structurecheck" />
+      <modulePath path="$PROJECT_DIR$/solutions/test.de.itemis.mps.editor.celllayout.runtime/test.de.itemis.mps.editor.celllayout.runtime.msd" folder="layout.htmlcsslike" />
     </projectModules>
   </component>
 </project>
