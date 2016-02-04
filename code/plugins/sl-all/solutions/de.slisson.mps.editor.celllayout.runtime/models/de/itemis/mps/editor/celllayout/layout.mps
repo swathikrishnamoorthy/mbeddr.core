@@ -51,6 +51,7 @@
       </concept>
       <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
       <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
+      <concept id="1215695201514" name="jetbrains.mps.baseLanguage.structure.MinusAssignmentExpression" flags="nn" index="d5anL" />
       <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
@@ -3616,6 +3617,11 @@
         </node>
         <node concept="3clFbJ" id="3Osd_ywZPRG" role="3cqZAp">
           <node concept="3clFbS" id="3Osd_ywZPRI" role="3clFbx">
+            <node concept="3SKdUt" id="3Osd_yx3pYV" role="3cqZAp">
+              <node concept="3SKdUq" id="3Osd_yx3pYX" role="3SKWNk">
+                <property role="3SKdUp" value="prefer wrap at the beginning/end of indent collections" />
+              </node>
+            </node>
             <node concept="3clFbF" id="3Osd_ywZQkY" role="3cqZAp">
               <node concept="d57v9" id="3Osd_ywZQrX" role="3clFbG">
                 <node concept="37vLTw" id="3Osd_ywZQkW" role="37vLTJ">
@@ -3650,6 +3656,50 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="3Osd_yx3pN3" role="3cqZAp" />
+            <node concept="3SKdUt" id="3Osd_yx3qaT" role="3cqZAp">
+              <node concept="3SKdUq" id="3Osd_yx3qaV" role="3SKWNk">
+                <property role="3SKdUp" value="no wrap between cells without space" />
+              </node>
+            </node>
+            <node concept="3clFbJ" id="3Osd_yx3kVn" role="3cqZAp">
+              <node concept="3clFbS" id="3Osd_yx3kVp" role="3clFbx">
+                <node concept="3clFbF" id="3Osd_yx3qk4" role="3cqZAp">
+                  <node concept="d5anL" id="3Osd_yx3qsi" role="3clFbG">
+                    <node concept="3cmrfG" id="3Osd_yx3qum" role="37vLTx">
+                      <property role="3cmrfH" value="15" />
+                    </node>
+                    <node concept="37vLTw" id="3Osd_yx3qk2" role="37vLTJ">
+                      <ref role="3cqZAo" node="3Osd_ywZPNc" resolve="rating" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbC" id="3Osd_yx3mOQ" role="3clFbw">
+                <node concept="3cmrfG" id="3Osd_yx3mUT" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="1rXfSq" id="3Osd_yx3mru" role="3uHU7B">
+                  <ref role="37wK5l" node="3Osd_yx29tR" resolve="getGapBetweenCells" />
+                  <node concept="2OqwBi" id="3Osd_yx3n0y" role="37wK5m">
+                    <node concept="37vLTw" id="3Osd_yx3mAE" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3Osd_ywZP4K" resolve="leftWord" />
+                    </node>
+                    <node concept="liA8E" id="3Osd_yx3n4A" role="2OqNvi">
+                      <ref role="37wK5l" node="3Osd_yx2ThC" resolve="getLayoutable" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="3Osd_yx3n7D" role="37wK5m">
+                    <node concept="37vLTw" id="3Osd_yx3mHD" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3Osd_ywZPv5" resolve="rightWord" />
+                    </node>
+                    <node concept="liA8E" id="3Osd_yx3nbW" role="2OqNvi">
+                      <ref role="37wK5l" node="3Osd_yx2ThC" resolve="getLayoutable" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="3y3z36" id="3Osd_yx0b$k" role="3clFbw">
             <node concept="10Nm6u" id="3Osd_yx0bDz" role="3uHU7w" />
@@ -3659,6 +3709,7 @@
           </node>
         </node>
         <node concept="3clFbH" id="3Osd_ywZPKX" role="3cqZAp" />
+        <node concept="3clFbH" id="3Osd_yx3jzB" role="3cqZAp" />
         <node concept="3cpWs6" id="3Osd_ywZRzQ" role="3cqZAp">
           <node concept="37vLTw" id="3Osd_ywZSGu" role="3cqZAk">
             <ref role="3cqZAo" node="3Osd_ywZPNc" resolve="rating" />
