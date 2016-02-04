@@ -4527,8 +4527,8 @@
               </node>
             </node>
             <node concept="2YIFZM" id="MXUZiAYMGE" role="33vP2m">
-              <ref role="37wK5l" to="gtp9:4D_91tBL_7M" resolve="computeTopologicalSorting" />
               <ref role="1Pybhc" to="gtp9:59VTJR_XXJb" resolve="GraphUtil" />
+              <ref role="37wK5l" to="gtp9:3FYfbA7e8OO" resolve="computeTopologicalSorting" />
               <node concept="37vLTw" id="MXUZiAYMGF" role="37wK5m">
                 <ref role="3cqZAo" node="4D_91tBGIBl" resolve="graph" />
               </node>
