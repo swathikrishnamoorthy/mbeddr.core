@@ -1055,6 +1055,52 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="3Osd_yx5yOO" role="3cqZAp">
+          <property role="TyiWK" value="true" />
+          <property role="TyiWL" value="false" />
+          <node concept="3clFbS" id="3Osd_yx5yOQ" role="3clFbx">
+            <node concept="3cpWs6" id="3Osd_yx5$Ei" role="3cqZAp">
+              <node concept="3clFbT" id="3Osd_yx5$Nu" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="3Osd_yx5zqM" role="3clFbw">
+            <node concept="2OqwBi" id="3Osd_yx5$pZ" role="3uHU7w">
+              <node concept="2OqwBi" id="3Osd_yx5$ck" role="2Oq$k0">
+                <node concept="2OqwBi" id="3Osd_yx5$5_" role="2Oq$k0">
+                  <node concept="37vLTw" id="3Osd_yx5$2P" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3Osd_yx4OVk" resolve="cell" />
+                  </node>
+                  <node concept="liA8E" id="3Osd_yx5$91" role="2OqNvi">
+                    <ref role="37wK5l" to="f4zo:~EditorCell.getParent():jetbrains.mps.openapi.editor.cells.EditorCell_Collection" resolve="getParent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="3Osd_yx5$oe" role="2OqNvi">
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3Osd_yx5$uL" role="2OqNvi">
+                <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+                <node concept="10M0yZ" id="3Osd_yx5$zw" role="37wK5m">
+                  <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
+                  <ref role="3cqZAo" to="5ueo:~StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE" resolve="INDENT_LAYOUT_CHILDREN_NEWLINE" />
+                </node>
+              </node>
+            </node>
+            <node concept="3y3z36" id="3Osd_yx5zgz" role="3uHU7B">
+              <node concept="2OqwBi" id="3Osd_yx5z54" role="3uHU7B">
+                <node concept="37vLTw" id="3Osd_yx5yXc" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3Osd_yx4OVk" resolve="cell" />
+                </node>
+                <node concept="liA8E" id="3Osd_yx5zdJ" role="2OqNvi">
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getParent():jetbrains.mps.openapi.editor.cells.EditorCell_Collection" resolve="getParent" />
+                </node>
+              </node>
+              <node concept="10Nm6u" id="3Osd_yx5zop" role="3uHU7w" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="3Osd_yx4OXU" role="3cqZAp">
           <property role="TyiWK" value="true" />
           <property role="TyiWL" value="false" />
