@@ -546,7 +546,7 @@
             <property role="3F0ifm" value="aaaaaaaaa" />
           </node>
           <node concept="3F0ifn" id="3Osd_ywXdkC" role="3EZMnx">
-            <property role="3F0ifm" value="..." />
+            <property role="3F0ifm" value="." />
             <node concept="11L4FC" id="3Osd_ywXdmG" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
