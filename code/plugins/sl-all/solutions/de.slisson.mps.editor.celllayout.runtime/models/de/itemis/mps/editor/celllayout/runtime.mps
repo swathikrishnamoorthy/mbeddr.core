@@ -2325,6 +2325,16 @@
         <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
       </node>
     </node>
+    <node concept="312cEg" id="3Osd_yx6Isd" role="jymVt">
+      <property role="TrG5h" value="myChildren" />
+      <node concept="3Tm6S6" id="3Osd_yx6Ise" role="1B3o_S" />
+      <node concept="_YKpA" id="3Osd_yx6J2X" role="1tU5fm">
+        <node concept="3uibUv" id="3Osd_yx6Ja$" role="_ZDj9">
+          <ref role="3uigEE" to="xggr:ZjQ6tpoGLj" resolve="ILayoutable" />
+        </node>
+      </node>
+      <node concept="10Nm6u" id="3Osd_yx6Jp6" role="33vP2m" />
+    </node>
     <node concept="2tJIrI" id="JPngvNubC4" role="jymVt" />
     <node concept="3clFbW" id="JPngvNubws" role="jymVt">
       <node concept="3cqZAl" id="JPngvNubwt" role="3clF45" />
@@ -2400,47 +2410,77 @@
                 <ref role="3uigEE" to="xggr:ZjQ6tpoGLj" resolve="ILayoutable" />
               </node>
             </node>
-            <node concept="2ShNRf" id="JPngvNuced" role="33vP2m">
-              <node concept="Tc6Ow" id="JPngvNuce7" role="2ShVmc">
-                <node concept="3uibUv" id="JPngvNuce8" role="HW$YZ">
-                  <ref role="3uigEE" to="xggr:ZjQ6tpoGLj" resolve="ILayoutable" />
-                </node>
-                <node concept="2OqwBi" id="JPngvNucp5" role="3lWHg$">
-                  <node concept="37vLTw" id="JPngvNucjX" role="2Oq$k0">
-                    <ref role="3cqZAo" node="JPngvNubE4" resolve="myCollectionCell" />
-                  </node>
-                  <node concept="liA8E" id="JPngvNucD9" role="2OqNvi">
-                    <ref role="37wK5l" to="f4zo:~EditorCell_Collection.getCellsCount():int" resolve="getCellsCount" />
-                  </node>
-                </node>
-              </node>
+            <node concept="37vLTw" id="3Osd_yx6P2s" role="33vP2m">
+              <ref role="3cqZAo" node="3Osd_yx6Isd" resolve="myChildren" />
             </node>
           </node>
         </node>
-        <node concept="2Gpval" id="JPngvNudkG" role="3cqZAp">
-          <node concept="2GrKxI" id="JPngvNudkI" role="2Gsz3X">
-            <property role="TrG5h" value="child" />
-          </node>
-          <node concept="3clFbS" id="JPngvNudkK" role="2LFqv$">
-            <node concept="3clFbF" id="JPngvNudBr" role="3cqZAp">
-              <node concept="2OqwBi" id="JPngvNudJG" role="3clFbG">
-                <node concept="37vLTw" id="JPngvNudBq" role="2Oq$k0">
+        <node concept="3clFbJ" id="3Osd_yx6K1S" role="3cqZAp">
+          <node concept="3clFbS" id="3Osd_yx6K1U" role="3clFbx">
+            <node concept="3clFbF" id="3Osd_yx6NTi" role="3cqZAp">
+              <node concept="37vLTI" id="3Osd_yx6NTk" role="3clFbG">
+                <node concept="2ShNRf" id="JPngvNuced" role="37vLTx">
+                  <node concept="Tc6Ow" id="JPngvNuce7" role="2ShVmc">
+                    <node concept="3uibUv" id="JPngvNuce8" role="HW$YZ">
+                      <ref role="3uigEE" to="xggr:ZjQ6tpoGLj" resolve="ILayoutable" />
+                    </node>
+                    <node concept="2OqwBi" id="JPngvNucp5" role="3lWHg$">
+                      <node concept="37vLTw" id="JPngvNucjX" role="2Oq$k0">
+                        <ref role="3cqZAo" node="JPngvNubE4" resolve="myCollectionCell" />
+                      </node>
+                      <node concept="liA8E" id="JPngvNucD9" role="2OqNvi">
+                        <ref role="37wK5l" to="f4zo:~EditorCell_Collection.getCellsCount():int" resolve="getCellsCount" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="3Osd_yx6NTo" role="37vLTJ">
                   <ref role="3cqZAo" node="JPngvNucbB" resolve="result" />
                 </node>
-                <node concept="TSZUe" id="JPngvNuek7" role="2OqNvi">
-                  <node concept="2YIFZM" id="40e1npHqYCx" role="25WWJ7">
-                    <ref role="37wK5l" node="40e1npHqXb7" resolve="getAdapter" />
-                    <ref role="1Pybhc" node="JPngvNub0g" resolve="LayoutableAdapters" />
-                    <node concept="2GrUjf" id="40e1npHqYCy" role="37wK5m">
-                      <ref role="2Gs0qQ" node="JPngvNudkI" resolve="child" />
+              </node>
+            </node>
+            <node concept="2Gpval" id="JPngvNudkG" role="3cqZAp">
+              <node concept="2GrKxI" id="JPngvNudkI" role="2Gsz3X">
+                <property role="TrG5h" value="child" />
+              </node>
+              <node concept="3clFbS" id="JPngvNudkK" role="2LFqv$">
+                <node concept="3clFbF" id="JPngvNudBr" role="3cqZAp">
+                  <node concept="2OqwBi" id="JPngvNudJG" role="3clFbG">
+                    <node concept="37vLTw" id="JPngvNudBq" role="2Oq$k0">
+                      <ref role="3cqZAo" node="JPngvNucbB" resolve="result" />
+                    </node>
+                    <node concept="TSZUe" id="JPngvNuek7" role="2OqNvi">
+                      <node concept="2YIFZM" id="40e1npHqYCx" role="25WWJ7">
+                        <ref role="37wK5l" node="40e1npHqXb7" resolve="getAdapter" />
+                        <ref role="1Pybhc" node="JPngvNub0g" resolve="LayoutableAdapters" />
+                        <node concept="2GrUjf" id="40e1npHqYCy" role="37wK5m">
+                          <ref role="2Gs0qQ" node="JPngvNudkI" resolve="child" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
               </node>
+              <node concept="37vLTw" id="JPngvNudzq" role="2GsD0m">
+                <ref role="3cqZAo" node="JPngvNubE4" resolve="myCollectionCell" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="3Osd_yx6SoO" role="3cqZAp">
+              <node concept="37vLTI" id="3Osd_yx6T55" role="3clFbG">
+                <node concept="37vLTw" id="3Osd_yx6T9o" role="37vLTx">
+                  <ref role="3cqZAo" node="JPngvNucbB" resolve="result" />
+                </node>
+                <node concept="37vLTw" id="3Osd_yx6SoM" role="37vLTJ">
+                  <ref role="3cqZAo" node="3Osd_yx6Isd" resolve="myChildren" />
+                </node>
+              </node>
             </node>
           </node>
-          <node concept="37vLTw" id="JPngvNudzq" role="2GsD0m">
-            <ref role="3cqZAo" node="JPngvNubE4" resolve="myCollectionCell" />
+          <node concept="3clFbC" id="3Osd_yx6Ljf" role="3clFbw">
+            <node concept="10Nm6u" id="3Osd_yx6LIo" role="3uHU7w" />
+            <node concept="37vLTw" id="3Osd_yx6PAE" role="3uHU7B">
+              <ref role="3cqZAo" node="JPngvNucbB" resolve="result" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs6" id="JPngvNucOW" role="3cqZAp">
