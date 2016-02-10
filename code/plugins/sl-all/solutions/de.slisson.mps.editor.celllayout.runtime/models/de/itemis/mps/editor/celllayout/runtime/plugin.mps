@@ -210,9 +210,7 @@
       <property role="TrG5h" value="DISABLED" />
       <node concept="3Tm6S6" id="2AjT0YRy0L6" role="1B3o_S" />
       <node concept="10P_77" id="2AjT0YRy1dz" role="1tU5fm" />
-      <node concept="3clFbT" id="2AjT0YRy1dT" role="33vP2m">
-        <property role="3clFbU" value="true" />
-      </node>
+      <node concept="3clFbT" id="2AjT0YRy1dT" role="33vP2m" />
     </node>
     <node concept="2uRRBT" id="3Osd_yxgjRm" role="2uRRB$">
       <node concept="3clFbS" id="3Osd_yxgjRn" role="2VODD2">
