@@ -1682,13 +1682,6 @@
           <ref role="3uigEE" node="1p6ZfyCPv4d" resolve="LayoutBox" />
         </node>
       </node>
-      <node concept="37vLTG" id="1p6ZfyCPvoX" role="3clF46">
-        <property role="TrG5h" value="editorCell" />
-        <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="1p6ZfyCPvoY" role="1tU5fm">
-          <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
-        </node>
-      </node>
       <node concept="3clFbS" id="1p6ZfyCPvoZ" role="3clF47">
         <node concept="3clFbF" id="1p6ZfyCPvp0" role="3cqZAp">
           <node concept="37vLTI" id="1p6ZfyCPvp1" role="3clFbG">
@@ -1697,16 +1690,6 @@
             </node>
             <node concept="37vLTw" id="1p6ZfyCPvp3" role="37vLTx">
               <ref role="3cqZAo" node="1p6ZfyCPvoV" resolve="box" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1p6ZfyCPvp4" role="3cqZAp">
-          <node concept="37vLTI" id="1p6ZfyCPvp5" role="3clFbG">
-            <node concept="37vLTw" id="1p6ZfyCPvp6" role="37vLTJ">
-              <ref role="3cqZAo" node="1p6ZfyCPvoL" resolve="myEditorCell" />
-            </node>
-            <node concept="37vLTw" id="1p6ZfyCPvp7" role="37vLTx">
-              <ref role="3cqZAo" node="1p6ZfyCPvoX" resolve="editorCell" />
             </node>
           </node>
         </node>
@@ -1939,38 +1922,34 @@
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="1p6ZfyCPvqv" role="3clF47">
         <node concept="3cpWs6" id="1p6ZfyCPvqw" role="3cqZAp">
-          <node concept="3K4zz7" id="1p6ZfyCPvqF" role="3cqZAk">
-            <node concept="2ZW3vV" id="1p6ZfyCPvqz" role="3K4Cdx">
-              <node concept="37vLTw" id="1p6ZfyCPvqx" role="2ZW6bz">
-                <ref role="3cqZAo" node="1p6ZfyCPvoL" resolve="myEditorCell" />
-              </node>
-              <node concept="3uibUv" id="1p6ZfyCPvqy" role="2ZW6by">
-                <ref role="3uigEE" to="g51k:~EditorCell_Basic" resolve="EditorCell_Basic" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="1p6ZfyCPvq$" role="3K4E3e">
-              <node concept="1eOMI4" id="1p6ZfyCPvqC" role="2Oq$k0">
-                <node concept="10QFUN" id="1p6ZfyCPvq_" role="1eOMHV">
-                  <node concept="37vLTw" id="1p6ZfyCPvqA" role="10QFUP">
-                    <ref role="3cqZAo" node="1p6ZfyCPvoL" resolve="myEditorCell" />
-                  </node>
-                  <node concept="3uibUv" id="1p6ZfyCPvqB" role="10QFUM">
-                    <ref role="3uigEE" to="g51k:~EditorCell_Basic" resolve="EditorCell_Basic" />
-                  </node>
-                </node>
-              </node>
-              <node concept="liA8E" id="1p6ZfyCPvqD" role="2OqNvi">
-                <ref role="37wK5l" to="g51k:~EditorCell_Basic.isDrawBrackets():boolean" resolve="isDrawBrackets" />
-              </node>
-            </node>
-            <node concept="3clFbT" id="1p6ZfyCPvqE" role="3K4GZi">
-              <property role="3clFbU" value="false" />
-            </node>
+          <node concept="37vLTw" id="6SVXTgI97I6" role="3cqZAk">
+            <ref role="3cqZAo" node="1p6ZfyCPvoP" resolve="myEnabled" />
           </node>
         </node>
       </node>
       <node concept="3Tm1VV" id="1p6ZfyCPvqG" role="1B3o_S" />
       <node concept="10P_77" id="1p6ZfyCPvqH" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="6SVXTgI979L" role="jymVt">
+      <property role="TrG5h" value="setEnabled" />
+      <node concept="37vLTG" id="6SVXTgI97on" role="3clF46">
+        <property role="TrG5h" value="enabled" />
+        <node concept="10P_77" id="6SVXTgI97pL" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="6SVXTgI979N" role="3clF45" />
+      <node concept="3Tm1VV" id="6SVXTgI979O" role="1B3o_S" />
+      <node concept="3clFbS" id="6SVXTgI979P" role="3clF47">
+        <node concept="3clFbF" id="6SVXTgI97Su" role="3cqZAp">
+          <node concept="37vLTI" id="6SVXTgI97ZK" role="3clFbG">
+            <node concept="37vLTw" id="6SVXTgI986d" role="37vLTx">
+              <ref role="3cqZAo" node="6SVXTgI97on" resolve="enabled" />
+            </node>
+            <node concept="37vLTw" id="6SVXTgI97St" role="37vLTJ">
+              <ref role="3cqZAo" node="1p6ZfyCPvoP" resolve="myEnabled" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="1p6ZfyCPvyH">
@@ -4206,8 +4185,8 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="myBracketsBox" />
       <property role="3TUv4t" value="false" />
-      <node concept="3uibUv" id="3Osd_yxeiPa" role="1tU5fm">
-        <ref role="3uigEE" node="1p6ZfyCPv66" resolve="LayoutBoxFrame" />
+      <node concept="3uibUv" id="6SVXTgI98FI" role="1tU5fm">
+        <ref role="3uigEE" node="1p6ZfyCPvo_" resolve="BracketsFrame" />
       </node>
       <node concept="3Tmbuc" id="3Osd_yxeiPb" role="1B3o_S" />
     </node>
@@ -4279,9 +4258,6 @@
                 <node concept="37vLTw" id="3Osd_yxeiPK" role="37wK5m">
                   <ref role="3cqZAo" node="1p6ZfyCPv7c" resolve="myPaddingBox" />
                 </node>
-                <node concept="37vLTw" id="3Osd_yxeiPL" role="37wK5m">
-                  <ref role="3cqZAo" node="3Osd_yxeiPp" resolve="editorCell" />
-                </node>
               </node>
             </node>
           </node>
@@ -4343,6 +4319,44 @@
       <node concept="3cqZAl" id="3Osd_yxeiQ$" role="3clF45" />
       <node concept="3Tm1VV" id="3Osd_yxeiQ_" role="1B3o_S" />
       <node concept="3clFbS" id="3Osd_yxeiQA" role="3clF47">
+        <node concept="3clFbF" id="6SVXTgI98_c" role="3cqZAp">
+          <node concept="2OqwBi" id="6SVXTgI98JX" role="3clFbG">
+            <node concept="37vLTw" id="6SVXTgI98_a" role="2Oq$k0">
+              <ref role="3cqZAo" node="3Osd_yxeiP9" resolve="myBracketsBox" />
+            </node>
+            <node concept="liA8E" id="6SVXTgI98U9" role="2OqNvi">
+              <ref role="37wK5l" node="6SVXTgI979L" resolve="setEnabled" />
+              <node concept="3K4zz7" id="1p6ZfyCPvqF" role="37wK5m">
+                <node concept="2ZW3vV" id="1p6ZfyCPvqz" role="3K4Cdx">
+                  <node concept="37vLTw" id="1p6ZfyCPvqx" role="2ZW6bz">
+                    <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
+                  </node>
+                  <node concept="3uibUv" id="1p6ZfyCPvqy" role="2ZW6by">
+                    <ref role="3uigEE" to="g51k:~EditorCell_Basic" resolve="EditorCell_Basic" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="1p6ZfyCPvq$" role="3K4E3e">
+                  <node concept="1eOMI4" id="1p6ZfyCPvqC" role="2Oq$k0">
+                    <node concept="10QFUN" id="1p6ZfyCPvq_" role="1eOMHV">
+                      <node concept="37vLTw" id="1p6ZfyCPvqA" role="10QFUP">
+                        <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
+                      </node>
+                      <node concept="3uibUv" id="1p6ZfyCPvqB" role="10QFUM">
+                        <ref role="3uigEE" to="g51k:~EditorCell_Basic" resolve="EditorCell_Basic" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="1p6ZfyCPvqD" role="2OqNvi">
+                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.isDrawBrackets():boolean" resolve="isDrawBrackets" />
+                  </node>
+                </node>
+                <node concept="3clFbT" id="1p6ZfyCPvqE" role="3K4GZi">
+                  <property role="3clFbU" value="false" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="3Osd_yxeiQB" role="3cqZAp">
           <node concept="2OqwBi" id="3Osd_yxeiQC" role="3clFbG">
             <node concept="1rXfSq" id="3Osd_yxeiQD" role="2Oq$k0">
