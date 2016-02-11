@@ -7906,13 +7906,66 @@
           </node>
         </node>
         <node concept="3clFbH" id="7ndnMNt9jae" role="3cqZAp" />
-        <node concept="3cpWs8" id="7ndnMNt9iv0" role="3cqZAp">
-          <node concept="3cpWsn" id="7ndnMNt9iv3" role="3cpWs9">
-            <property role="TrG5h" value="weightedTotalWidth" />
-            <node concept="10OMs4" id="7ndnMNt9iEb" role="1tU5fm" />
-            <node concept="2$xPTn" id="7ndnMNt9iI9" role="33vP2m">
-              <property role="2$xPTl" value="0.0f" />
+        <node concept="1Dw8fO" id="40e1npHvA7M" role="3cqZAp">
+          <node concept="3clFbS" id="40e1npHvA7O" role="2LFqv$">
+            <node concept="3clFbF" id="40e1npHvAFi" role="3cqZAp">
+              <node concept="d57v9" id="7ndnMNt9kc3" role="3clFbG">
+                <node concept="AH0OO" id="7ndnMNt9kcb" role="37vLTJ">
+                  <node concept="37vLTw" id="7ndnMNt9kcc" role="AHEQo">
+                    <ref role="3cqZAo" node="40e1npHvA7P" resolve="i" />
+                  </node>
+                  <node concept="37vLTw" id="7ndnMNt9kcd" role="AHHXb">
+                    <ref role="3cqZAo" node="40e1npHthtU" resolve="myColumnWidths" />
+                  </node>
+                </node>
+                <node concept="2YIFZM" id="7ndnMNt9kc5" role="37vLTx">
+                  <ref role="37wK5l" to="wyt6:~Math.round(float):int" resolve="round" />
+                  <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                  <node concept="17qRlL" id="7ndnMNt9kc6" role="37wK5m">
+                    <node concept="37vLTw" id="6SVXTgI4$Ml" role="3uHU7B">
+                      <ref role="3cqZAo" node="7ndnMNt9jmO" resolve="targetChange" />
+                    </node>
+                    <node concept="AH0OO" id="7ndnMNt9kuo" role="3uHU7w">
+                      <node concept="37vLTw" id="7ndnMNt9kzI" role="AHEQo">
+                        <ref role="3cqZAo" node="40e1npHvA7P" resolve="i" />
+                      </node>
+                      <node concept="37vLTw" id="7ndnMNt9koT" role="AHHXb">
+                        <ref role="3cqZAo" node="7ndnMNt8VVw" resolve="weights" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
+          </node>
+          <node concept="3cpWsn" id="40e1npHvA7P" role="1Duv9x">
+            <property role="TrG5h" value="i" />
+            <node concept="10Oyi0" id="40e1npHvA9W" role="1tU5fm" />
+            <node concept="3cmrfG" id="40e1npHvAay" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+          <node concept="3eOVzh" id="40e1npHvAiW" role="1Dwp0S">
+            <node concept="2OqwBi" id="40e1npHvA_W" role="3uHU7w">
+              <node concept="37vLTw" id="40e1npHvAlk" role="2Oq$k0">
+                <ref role="3cqZAo" node="40e1npHthtU" resolve="myColumnWidths" />
+              </node>
+              <node concept="1Rwk04" id="40e1npHvADi" role="2OqNvi" />
+            </node>
+            <node concept="37vLTw" id="40e1npHvAb0" role="3uHU7B">
+              <ref role="3cqZAo" node="40e1npHvA7P" resolve="i" />
+            </node>
+          </node>
+          <node concept="3uNrnE" id="40e1npHvAxs" role="1Dwrff">
+            <node concept="37vLTw" id="40e1npHvAxu" role="2$L3a6">
+              <ref role="3cqZAo" node="40e1npHvA7P" resolve="i" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ndnMNt9kBy" role="3cqZAp" />
+        <node concept="3SKdUt" id="40e1npHvCDv" role="3cqZAp">
+          <node concept="3SKdUq" id="40e1npHvCDx" role="3SKWNk">
+            <property role="3SKdUp" value="possible rounding error" />
           </node>
         </node>
         <node concept="3cpWs8" id="7ndnMNt9l1H" role="3cqZAp">
@@ -7926,31 +7979,6 @@
         </node>
         <node concept="1Dw8fO" id="7ndnMNt947u" role="3cqZAp">
           <node concept="3clFbS" id="7ndnMNt947w" role="2LFqv$">
-            <node concept="3clFbF" id="7ndnMNt9iF$" role="3cqZAp">
-              <node concept="d57v9" id="7ndnMNt9iLr" role="3clFbG">
-                <node concept="17qRlL" id="7ndnMNt9iY3" role="37vLTx">
-                  <node concept="AH0OO" id="7ndnMNt9j17" role="3uHU7w">
-                    <node concept="37vLTw" id="7ndnMNt9j51" role="AHEQo">
-                      <ref role="3cqZAo" node="7ndnMNt947x" resolve="i" />
-                    </node>
-                    <node concept="37vLTw" id="7ndnMNt9iYY" role="AHHXb">
-                      <ref role="3cqZAo" node="40e1npHthtU" resolve="myColumnWidths" />
-                    </node>
-                  </node>
-                  <node concept="AH0OO" id="7ndnMNt9iOb" role="3uHU7B">
-                    <node concept="37vLTw" id="7ndnMNt9iRu" role="AHEQo">
-                      <ref role="3cqZAo" node="7ndnMNt947x" resolve="i" />
-                    </node>
-                    <node concept="37vLTw" id="7ndnMNt9iLZ" role="AHHXb">
-                      <ref role="3cqZAo" node="7ndnMNt8VVw" resolve="weights" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="37vLTw" id="7ndnMNt9iFz" role="37vLTJ">
-                  <ref role="3cqZAo" node="7ndnMNt9iv3" resolve="weightedTotalWidth" />
-                </node>
-              </node>
-            </node>
             <node concept="3clFbJ" id="7ndnMNt9lwv" role="3cqZAp">
               <node concept="3clFbS" id="7ndnMNt9lwx" role="3clFbx">
                 <node concept="3clFbF" id="7ndnMNt9lIf" role="3cqZAp">
@@ -7998,84 +8026,6 @@
             <node concept="37vLTw" id="7ndnMNt9iaV" role="2$L3a6">
               <ref role="3cqZAo" node="7ndnMNt947x" resolve="i" />
             </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7ndnMNt93YH" role="3cqZAp" />
-        <node concept="3cpWs8" id="40e1npHvv2l" role="3cqZAp">
-          <node concept="3cpWsn" id="40e1npHvv2o" role="3cpWs9">
-            <property role="TrG5h" value="scale" />
-            <node concept="10OMs4" id="40e1npHvv2k" role="1tU5fm" />
-            <node concept="FJ1c_" id="40e1npHv_QQ" role="33vP2m">
-              <node concept="37vLTw" id="7ndnMNt9jVJ" role="3uHU7B">
-                <ref role="3cqZAo" node="7ndnMNt9jmO" resolve="targetChange" />
-              </node>
-              <node concept="37vLTw" id="7ndnMNt9k5q" role="3uHU7w">
-                <ref role="3cqZAo" node="7ndnMNt9iv3" resolve="weightedTotalWidth" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7ndnMNt9jFC" role="3cqZAp" />
-        <node concept="1Dw8fO" id="40e1npHvA7M" role="3cqZAp">
-          <node concept="3clFbS" id="40e1npHvA7O" role="2LFqv$">
-            <node concept="3clFbF" id="40e1npHvAFi" role="3cqZAp">
-              <node concept="d57v9" id="7ndnMNt9kc3" role="3clFbG">
-                <node concept="AH0OO" id="7ndnMNt9kcb" role="37vLTJ">
-                  <node concept="37vLTw" id="7ndnMNt9kcc" role="AHEQo">
-                    <ref role="3cqZAo" node="40e1npHvA7P" resolve="i" />
-                  </node>
-                  <node concept="37vLTw" id="7ndnMNt9kcd" role="AHHXb">
-                    <ref role="3cqZAo" node="40e1npHthtU" resolve="myColumnWidths" />
-                  </node>
-                </node>
-                <node concept="2YIFZM" id="7ndnMNt9kc5" role="37vLTx">
-                  <ref role="37wK5l" to="wyt6:~Math.round(float):int" resolve="round" />
-                  <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                  <node concept="17qRlL" id="7ndnMNt9kc6" role="37wK5m">
-                    <node concept="37vLTw" id="7ndnMNt9kc7" role="3uHU7B">
-                      <ref role="3cqZAo" node="40e1npHvv2o" resolve="scale" />
-                    </node>
-                    <node concept="AH0OO" id="7ndnMNt9kuo" role="3uHU7w">
-                      <node concept="37vLTw" id="7ndnMNt9kzI" role="AHEQo">
-                        <ref role="3cqZAo" node="40e1npHvA7P" resolve="i" />
-                      </node>
-                      <node concept="37vLTw" id="7ndnMNt9koT" role="AHHXb">
-                        <ref role="3cqZAo" node="7ndnMNt8VVw" resolve="weights" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3cpWsn" id="40e1npHvA7P" role="1Duv9x">
-            <property role="TrG5h" value="i" />
-            <node concept="10Oyi0" id="40e1npHvA9W" role="1tU5fm" />
-            <node concept="3cmrfG" id="40e1npHvAay" role="33vP2m">
-              <property role="3cmrfH" value="0" />
-            </node>
-          </node>
-          <node concept="3eOVzh" id="40e1npHvAiW" role="1Dwp0S">
-            <node concept="2OqwBi" id="40e1npHvA_W" role="3uHU7w">
-              <node concept="37vLTw" id="40e1npHvAlk" role="2Oq$k0">
-                <ref role="3cqZAo" node="40e1npHthtU" resolve="myColumnWidths" />
-              </node>
-              <node concept="1Rwk04" id="40e1npHvADi" role="2OqNvi" />
-            </node>
-            <node concept="37vLTw" id="40e1npHvAb0" role="3uHU7B">
-              <ref role="3cqZAo" node="40e1npHvA7P" resolve="i" />
-            </node>
-          </node>
-          <node concept="3uNrnE" id="40e1npHvAxs" role="1Dwrff">
-            <node concept="37vLTw" id="40e1npHvAxu" role="2$L3a6">
-              <ref role="3cqZAo" node="40e1npHvA7P" resolve="i" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7ndnMNt9kBy" role="3cqZAp" />
-        <node concept="3SKdUt" id="40e1npHvCDv" role="3cqZAp">
-          <node concept="3SKdUq" id="40e1npHvCDx" role="3SKWNk">
-            <property role="3SKdUp" value="possible rounding error" />
           </node>
         </node>
         <node concept="3clFbF" id="40e1npHvBz$" role="3cqZAp">
