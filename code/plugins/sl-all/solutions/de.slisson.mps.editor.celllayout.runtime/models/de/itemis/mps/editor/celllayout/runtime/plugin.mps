@@ -312,6 +312,18 @@
         </node>
       </node>
     </node>
+    <node concept="2BZ0e9" id="6SVXTgIauvW" role="2uRRBA">
+      <property role="TrG5h" value="myBorderPainter" />
+      <node concept="3Tm6S6" id="6SVXTgIauvX" role="1B3o_S" />
+      <node concept="3uibUv" id="6SVXTgIauIz" role="1tU5fm">
+        <ref role="3uigEE" to="qxi4:6SVXTgIad1z" resolve="BorderPainter" />
+      </node>
+      <node concept="2ShNRf" id="6SVXTgIauJ4" role="33vP2m">
+        <node concept="HV5vD" id="6SVXTgIaykw" role="2ShVmc">
+          <ref role="HV5vE" to="qxi4:6SVXTgIad1z" resolve="BorderPainter" />
+        </node>
+      </node>
+    </node>
     <node concept="2BZ0e9" id="2AjT0YRy0L5" role="2uRRBA">
       <property role="TrG5h" value="DISABLED" />
       <node concept="3Tm6S6" id="2AjT0YRy0L6" role="1B3o_S" />
@@ -393,6 +405,24 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="3clFbF" id="6SVXTgIaykH" role="3cqZAp">
+                        <node concept="2OqwBi" id="6SVXTgIaykI" role="3clFbG">
+                          <node concept="37vLTw" id="6SVXTgIaykJ" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3Osd_yxgp5H" resolve="editorComponent" />
+                          </node>
+                          <node concept="liA8E" id="6SVXTgIaykK" role="2OqNvi">
+                            <ref role="37wK5l" to="exr9:~EditorComponent.addAdditionalPainter(jetbrains.mps.nodeEditor.AdditionalPainter):void" resolve="addAdditionalPainter" />
+                            <node concept="2OqwBi" id="6SVXTgIaykL" role="37wK5m">
+                              <node concept="2WthIp" id="6SVXTgIaykM" role="2Oq$k0">
+                                <ref role="32nkFo" node="3Osd_yxgjRl" resolve="ProjectPlugin" />
+                              </node>
+                              <node concept="2BZ7hE" id="6SVXTgIayq8" role="2OqNvi">
+                                <ref role="2WH_rO" node="6SVXTgIauvW" resolve="myBorderPainter" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                       <node concept="3clFbF" id="3oUU9KDF2YX" role="3cqZAp">
                         <node concept="2YIFZM" id="3oUU9KDF30A" role="3clFbG">
                           <ref role="37wK5l" to="qxi4:3oUU9KDF0DX" resolve="install" />
@@ -416,6 +446,24 @@
                     <node concept="3cqZAl" id="3Osd_yxgp5R" role="3clF45" />
                     <node concept="3Tm1VV" id="3Osd_yxgp5S" role="1B3o_S" />
                     <node concept="3clFbS" id="3Osd_yxgp5U" role="3clF47">
+                      <node concept="3clFbF" id="6SVXTgIayr8" role="3cqZAp">
+                        <node concept="2OqwBi" id="6SVXTgIayr9" role="3clFbG">
+                          <node concept="37vLTw" id="6SVXTgIayra" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3Osd_yxgp5P" resolve="editorComponent" />
+                          </node>
+                          <node concept="liA8E" id="6SVXTgIayrb" role="2OqNvi">
+                            <ref role="37wK5l" to="exr9:~EditorComponent.removeAdditionalPainter(jetbrains.mps.nodeEditor.AdditionalPainter):void" resolve="removeAdditionalPainter" />
+                            <node concept="2OqwBi" id="6SVXTgIayrc" role="37wK5m">
+                              <node concept="2WthIp" id="6SVXTgIayrd" role="2Oq$k0">
+                                <ref role="32nkFo" node="3Osd_yxgjRl" resolve="ProjectPlugin" />
+                              </node>
+                              <node concept="2BZ7hE" id="6SVXTgIay$f" role="2OqNvi">
+                                <ref role="2WH_rO" node="6SVXTgIauvW" resolve="myBorderPainter" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                       <node concept="3clFbF" id="6IJAP0oQk0j" role="3cqZAp">
                         <node concept="2OqwBi" id="6IJAP0oQk8d" role="3clFbG">
                           <node concept="37vLTw" id="6IJAP0oQk0h" role="2Oq$k0">
