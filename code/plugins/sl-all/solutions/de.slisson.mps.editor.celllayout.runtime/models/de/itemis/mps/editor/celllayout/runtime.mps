@@ -2199,18 +2199,19 @@
       <node concept="3Tm1VV" id="JPngvNsQOC" role="1B3o_S" />
       <node concept="10Oyi0" id="JPngvNsQOE" role="3clF45" />
       <node concept="3clFbS" id="JPngvNsQOF" role="3clF47">
-        <node concept="3clFbF" id="JPngvNu2iP" role="3cqZAp">
-          <node concept="2OqwBi" id="JPngvNu2ps" role="3clFbG">
-            <node concept="2OqwBi" id="JPngvNu2iR" role="2Oq$k0">
-              <node concept="37vLTw" id="JPngvNu2iS" role="2Oq$k0">
-                <ref role="3cqZAo" node="JPngvNtYp0" resolve="myBoxModel" />
+        <node concept="3clFbF" id="6SVXTgI2XTB" role="3cqZAp">
+          <node concept="1rXfSq" id="6SVXTgI2XTA" role="3clFbG">
+            <ref role="37wK5l" node="40e1npHnypd" resolve="getAscent" />
+            <node concept="2ShNRf" id="6SVXTgI2Yan" role="37wK5m">
+              <node concept="1pGfFk" id="6SVXTgI3cK0" role="2ShVmc">
+                <ref role="37wK5l" to="rtot:ZjQ6tpoDHS" resolve="Size" />
+                <node concept="1rXfSq" id="6SVXTgI3cPE" role="37wK5m">
+                  <ref role="37wK5l" node="JPngvNsQNO" resolve="getWidth" />
+                </node>
+                <node concept="1rXfSq" id="6SVXTgI3d5x" role="37wK5m">
+                  <ref role="37wK5l" node="JPngvNsQNT" resolve="getHeight" />
+                </node>
               </node>
-              <node concept="liA8E" id="JPngvNu2iT" role="2OqNvi">
-                <ref role="37wK5l" to="rtot:1p6ZfyCPv8r" resolve="getMarginBox" />
-              </node>
-            </node>
-            <node concept="liA8E" id="JPngvNu4zz" role="2OqNvi">
-              <ref role="37wK5l" to="rtot:1p6ZfyCPv4S" resolve="getAscent" />
             </node>
           </node>
         </node>
@@ -2424,14 +2425,19 @@
         </node>
       </node>
       <node concept="3clFbS" id="40e1npHnypn" role="3clF47">
-        <node concept="3SKdUt" id="40e1npHnyV8" role="3cqZAp">
-          <node concept="3SKdUq" id="40e1npHnyVa" role="3SKWNk">
-            <property role="3SKdUp" value="The size of the cell cannot be changed -&gt; the ascent will always be the same" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="40e1npHnyMv" role="3cqZAp">
-          <node concept="1rXfSq" id="40e1npHnyMu" role="3clFbG">
-            <ref role="37wK5l" node="JPngvNsQOB" resolve="getAscent" />
+        <node concept="3clFbF" id="6SVXTgI2Xv2" role="3cqZAp">
+          <node concept="2OqwBi" id="6SVXTgI2Xv3" role="3clFbG">
+            <node concept="2OqwBi" id="6SVXTgI2Xv4" role="2Oq$k0">
+              <node concept="37vLTw" id="6SVXTgI2Xv5" role="2Oq$k0">
+                <ref role="3cqZAo" node="JPngvNtYp0" resolve="myBoxModel" />
+              </node>
+              <node concept="liA8E" id="6SVXTgI2Xv6" role="2OqNvi">
+                <ref role="37wK5l" to="rtot:1p6ZfyCPv8r" resolve="getMarginBox" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6SVXTgI2Xv7" role="2OqNvi">
+              <ref role="37wK5l" to="rtot:1p6ZfyCPv4S" resolve="getAscent" />
+            </node>
           </node>
         </node>
       </node>
@@ -3385,8 +3391,42 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="40e1npHptv0" role="jymVt" />
     <node concept="2tJIrI" id="6IJAP0oNFX1" role="jymVt" />
+    <node concept="3clFb_" id="6SVXTgI3hQa" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getAscent" />
+      <node concept="10Oyi0" id="6SVXTgI3hQb" role="3clF45" />
+      <node concept="3Tm1VV" id="6SVXTgI3hQc" role="1B3o_S" />
+      <node concept="37vLTG" id="6SVXTgI3hQd" role="3clF46">
+        <property role="TrG5h" value="size" />
+        <node concept="3uibUv" id="6SVXTgI3hQe" role="1tU5fm">
+          <ref role="3uigEE" to="rtot:ZjQ6tpoDFn" resolve="Size" />
+        </node>
+        <node concept="2AHcQZ" id="6SVXTgI3hQf" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="6SVXTgI3hQn" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="6SVXTgI3hQo" role="3clF47">
+        <node concept="3clFbF" id="6SVXTgI3ji2" role="3cqZAp">
+          <node concept="2OqwBi" id="6SVXTgI3jqp" role="3clFbG">
+            <node concept="1rXfSq" id="6SVXTgI3ji1" role="2Oq$k0">
+              <ref role="37wK5l" node="40e1npHmA1J" resolve="getLayouter" />
+            </node>
+            <node concept="liA8E" id="6SVXTgI3j_n" role="2OqNvi">
+              <ref role="37wK5l" to="xggr:40e1npHnbNc" resolve="getAscent" />
+              <node concept="Xjq3P" id="6SVXTgI3kVf" role="37wK5m" />
+              <node concept="37vLTw" id="6SVXTgI3jBZ" role="37wK5m">
+                <ref role="3cqZAo" node="6SVXTgI3hQd" resolve="size" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6SVXTgI3jLx" role="jymVt" />
     <node concept="3clFb_" id="40e1npHmeKq" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getPreferredSize" />
