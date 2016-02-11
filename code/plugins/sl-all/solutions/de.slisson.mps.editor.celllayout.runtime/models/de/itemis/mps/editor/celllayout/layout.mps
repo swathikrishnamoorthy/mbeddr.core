@@ -249,6 +249,9 @@
       <concept id="1178893518978" name="jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" flags="nn" index="1VxSAg" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
+    <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
+      <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
+    </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
         <child id="1199542457201" name="resultType" index="1ajl9A" />
@@ -3716,7 +3719,7 @@
           </node>
         </node>
         <node concept="3clFbF" id="6SVXTgI3G_q" role="3cqZAp">
-          <node concept="2OqwBi" id="6SVXTgI3GWN" role="3clFbG">
+          <node concept="2EnYce" id="6SVXTgI3Vnq" role="3clFbG">
             <node concept="2OqwBi" id="6SVXTgI3GJZ" role="2Oq$k0">
               <node concept="2OqwBi" id="6SVXTgI3GCJ" role="2Oq$k0">
                 <node concept="37vLTw" id="6SVXTgI3G_o" role="2Oq$k0">
@@ -9027,6 +9030,29 @@
               <node concept="liA8E" id="6IJAP0oQSBM" role="2OqNvi">
                 <ref role="37wK5l" node="5AiOsAUY0HW" resolve="getSize" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6SVXTgI4l8I" role="3cqZAp">
+          <node concept="37vLTI" id="6SVXTgI4m8b" role="3clFbG">
+            <node concept="2OqwBi" id="6SVXTgI4meC" role="37vLTx">
+              <node concept="2OqwBi" id="6SVXTgI4maL" role="2Oq$k0">
+                <node concept="37vLTw" id="6SVXTgI4m9W" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6IJAP0oQNLe" resolve="element" />
+                </node>
+                <node concept="liA8E" id="6SVXTgI4mdK" role="2OqNvi">
+                  <ref role="37wK5l" node="40e1npHtFkJ" resolve="getLayoutable" />
+                </node>
+              </node>
+              <node concept="liA8E" id="6SVXTgI4mi4" role="2OqNvi">
+                <ref role="37wK5l" node="ZjQ6tpoId6" resolve="getPreferredSize" />
+                <node concept="37vLTw" id="6SVXTgI4miT" role="37wK5m">
+                  <ref role="3cqZAo" node="6IJAP0oQSBI" resolve="size" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="6SVXTgI4l8G" role="37vLTJ">
+              <ref role="3cqZAo" node="6IJAP0oQSBI" resolve="size" />
             </node>
           </node>
         </node>
