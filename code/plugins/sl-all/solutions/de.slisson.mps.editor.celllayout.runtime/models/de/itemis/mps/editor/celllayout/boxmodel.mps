@@ -4523,24 +4523,19 @@
           <node concept="3cpWsn" id="6SVXTgIa2ZC" role="3cpWs9">
             <property role="TrG5h" value="borderSize" />
             <node concept="10Oyi0" id="6SVXTgIa2Zt" role="1tU5fm" />
-            <node concept="3cpWsd" id="6SVXTgIa2ZD" role="33vP2m">
-              <node concept="3cmrfG" id="6SVXTgIa2ZE" role="3uHU7w">
-                <property role="3cmrfH" value="1" />
-              </node>
-              <node concept="2OqwBi" id="6SVXTgIa2ZF" role="3uHU7B">
-                <node concept="2OqwBi" id="6SVXTgIa2ZG" role="2Oq$k0">
-                  <node concept="37vLTw" id="6SVXTgIa2ZH" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
-                  </node>
-                  <node concept="liA8E" id="6SVXTgIa2ZI" role="2OqNvi">
-                    <ref role="37wK5l" to="f4zo:~EditorCell.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
-                  </node>
+            <node concept="2OqwBi" id="6SVXTgIa2ZF" role="33vP2m">
+              <node concept="2OqwBi" id="6SVXTgIa2ZG" role="2Oq$k0">
+                <node concept="37vLTw" id="6SVXTgIa2ZH" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
                 </node>
-                <node concept="liA8E" id="6SVXTgIa2ZJ" role="2OqNvi">
-                  <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
-                  <node concept="1Z6Ecs" id="6SVXTgIa2ZK" role="37wK5m">
-                    <ref role="1Z6EpT" to="z0fb:6SVXTgI9G1E" resolve="_border-size" />
-                  </node>
+                <node concept="liA8E" id="6SVXTgIa2ZI" role="2OqNvi">
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
+                </node>
+              </node>
+              <node concept="liA8E" id="6SVXTgIa2ZJ" role="2OqNvi">
+                <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+                <node concept="1Z6Ecs" id="6SVXTgIa2ZK" role="37wK5m">
+                  <ref role="1Z6EpT" to="z0fb:6SVXTgI9G1E" resolve="_border-size" />
                 </node>
               </node>
             </node>
@@ -4559,8 +4554,13 @@
                 <node concept="3cmrfG" id="6SVXTgI9MNV" role="37wK5m">
                   <property role="3cmrfH" value="0" />
                 </node>
-                <node concept="37vLTw" id="6SVXTgIa2ZL" role="37wK5m">
-                  <ref role="3cqZAo" node="6SVXTgIa2ZC" resolve="borderSize" />
+                <node concept="3cpWsd" id="6SVXTgIbfhw" role="37wK5m">
+                  <node concept="3cmrfG" id="6SVXTgIbfhS" role="3uHU7w">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="37vLTw" id="6SVXTgIa2ZL" role="3uHU7B">
+                    <ref role="3cqZAo" node="6SVXTgIa2ZC" resolve="borderSize" />
+                  </node>
                 </node>
               </node>
             </node>
