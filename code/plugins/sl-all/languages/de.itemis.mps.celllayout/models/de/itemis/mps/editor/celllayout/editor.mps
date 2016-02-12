@@ -36,6 +36,7 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -69,6 +70,11 @@
       <node concept="3cmrfG" id="6SVXTgI9G1R" role="3t49C2">
         <property role="3cmrfH" value="0" />
       </node>
+    </node>
+    <node concept="3t5Usi" id="6SVXTgIpgkb" role="V601i">
+      <property role="iBDjm" value="true" />
+      <property role="TrG5h" value="_font-family" />
+      <node concept="17QB3L" id="6SVXTgIpgkS" role="3t5Oan" />
     </node>
   </node>
   <node concept="PKFIW" id="6SVXTgI9Y1W">
