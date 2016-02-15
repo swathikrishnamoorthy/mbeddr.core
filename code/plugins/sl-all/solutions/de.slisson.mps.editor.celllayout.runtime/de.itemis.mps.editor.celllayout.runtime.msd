@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.itemis.mps.editor.celllayout.runtime" uuid="848ef45d-e560-4e35-853c-f35a64cc135c" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="de.itemis.mps.editor.celllayout.runtime" uuid="848ef45d-e560-4e35-853c-f35a64cc135c" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

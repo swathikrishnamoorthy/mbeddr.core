@@ -227,7 +227,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -9224,11 +9224,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="3NocqOaC4lU" role="3cqZAp">
-          <node concept="1rXfSq" id="3NocqOaC4lT" role="3clFbG">
-            <ref role="37wK5l" node="3NocqOay9_W" resolve="updateAlignment" />
-          </node>
-        </node>
       </node>
       <node concept="2AHcQZ" id="3NocqOaC0Vx" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
@@ -9252,11 +9247,6 @@
             <node concept="37vLTw" id="3NocqOaC0VL" role="37wK5m">
               <ref role="3cqZAo" node="3NocqOaC0VD" resolve="i" />
             </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3NocqOaC4_N" role="3cqZAp">
-          <node concept="1rXfSq" id="3NocqOaC4_M" role="3clFbG">
-            <ref role="37wK5l" node="3NocqOay9_W" resolve="updateAlignment" />
           </node>
         </node>
       </node>
