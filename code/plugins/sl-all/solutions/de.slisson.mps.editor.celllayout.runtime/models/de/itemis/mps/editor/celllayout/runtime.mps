@@ -26,6 +26,9 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="z0fb" ref="r:0b928dd6-dd7e-45a8-b309-a2e315b7877a(de.itemis.mps.editor.celllayout.editor)" />
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" />
+    <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
+    <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -86,8 +89,16 @@
         <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
         <reference id="1144432896254" name="enumClass" index="1Px2BO" />
       </concept>
+      <concept id="1164879751025" name="jetbrains.mps.baseLanguage.structure.TryCatchStatement" flags="nn" index="SfApY">
+        <child id="1164879758292" name="body" index="SfCbr" />
+        <child id="1164903496223" name="catchClause" index="TEbGg" />
+      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
+      </concept>
+      <concept id="1164903280175" name="jetbrains.mps.baseLanguage.structure.CatchClause" flags="nn" index="TDmWw">
+        <child id="1164903359218" name="catchBody" index="TDEfX" />
+        <child id="1164903359217" name="throwable" index="TDEfY" />
       </concept>
       <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
@@ -3573,7 +3584,22 @@
     <node concept="3uibUv" id="JPngvNuaur" role="EKbjA">
       <ref role="3uigEE" to="xggr:ZjQ6tpoyPn" resolve="ILayoutableContainer" />
     </node>
-    <node concept="2tJIrI" id="JPngvNuaXC" role="jymVt" />
+    <node concept="Wx3nA" id="J7o7d6CwIC" role="jymVt">
+      <property role="TrG5h" value="LOG" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3uibUv" id="J7o7d6CuTg" role="1tU5fm">
+        <ref role="3uigEE" to="q7tw:~Logger" resolve="Logger" />
+      </node>
+      <node concept="3Tm6S6" id="J7o7d6Ctdp" role="1B3o_S" />
+      <node concept="2YIFZM" id="J7o7d6CvXm" role="33vP2m">
+        <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.Class):org.apache.log4j.Logger" resolve="getLogger" />
+        <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
+        <node concept="3VsKOn" id="J7o7d6CwsN" role="37wK5m">
+          <ref role="3VsUkX" node="JPngvNuatB" resolve="LayoutableCollectionAdapter" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="J7o7d6CrzF" role="jymVt" />
     <node concept="312cEg" id="JPngvNubE4" role="jymVt">
       <property role="TrG5h" value="myCollectionCell" />
       <node concept="3Tm6S6" id="JPngvNubE5" role="1B3o_S" />
@@ -3955,6 +3981,48 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="JPngvNuDxt" role="3clF47">
+        <node concept="3clFbJ" id="J7o7d6DkQw" role="3cqZAp">
+          <node concept="3clFbS" id="J7o7d6DkQy" role="3clFbx">
+            <node concept="3clFbF" id="J7o7d6Dtr1" role="3cqZAp">
+              <node concept="2OqwBi" id="J7o7d6Dtr2" role="3clFbG">
+                <node concept="37vLTw" id="J7o7d6Dtrd" role="2Oq$k0">
+                  <ref role="3cqZAo" node="J7o7d6CwIC" resolve="LOG" />
+                </node>
+                <node concept="liA8E" id="J7o7d6Dtr3" role="2OqNvi">
+                  <ref role="37wK5l" to="q7tw:~Category.debug(java.lang.Object):void" resolve="debug" />
+                  <node concept="3cpWs3" id="J7o7d6Dtr4" role="37wK5m">
+                    <node concept="2OqwBi" id="J7o7d6Dtr5" role="3uHU7w">
+                      <node concept="2OqwBi" id="J7o7d6Dtr6" role="2Oq$k0">
+                        <node concept="37vLTw" id="J7o7d6DuP6" role="2Oq$k0">
+                          <ref role="3cqZAo" node="JPngvNubE4" resolve="myCollectionCell" />
+                        </node>
+                        <node concept="liA8E" id="J7o7d6Dtr8" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="J7o7d6Dtr9" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="J7o7d6Dtra" role="3uHU7B">
+                      <property role="Xl_RC" value="Overrides relayoutImpl: " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="J7o7d6Dnyw" role="3cqZAp">
+              <node concept="10Nm6u" id="J7o7d6DpCh" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="1rXfSq" id="J7o7d6Dm6q" role="3clFbw">
+            <ref role="37wK5l" node="J7o7d6CNhT" resolve="overridesLayoutMethod" />
+            <node concept="37vLTw" id="J7o7d6DniM" role="37wK5m">
+              <ref role="3cqZAo" node="JPngvNubE4" resolve="myCollectionCell" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="J7o7d6Dnza" role="3cqZAp" />
         <node concept="3cpWs8" id="JPngvNuEEC" role="3cqZAp">
           <node concept="3cpWsn" id="JPngvNuEED" role="3cpWs9">
             <property role="TrG5h" value="cellLayout" />
@@ -4074,6 +4142,8 @@
           </node>
         </node>
         <node concept="3clFbJ" id="40e1npHzqED" role="3cqZAp">
+          <property role="TyiWK" value="true" />
+          <property role="TyiWL" value="false" />
           <node concept="3clFbS" id="40e1npHzqEF" role="3clFbx">
             <node concept="3cpWs6" id="40e1npHztAy" role="3cqZAp">
               <node concept="2ShNRf" id="40e1npHztXK" role="3cqZAk">
@@ -4115,6 +4185,34 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="J7o7d6CyCH" role="3cqZAp">
+          <node concept="2OqwBi" id="J7o7d6CzOi" role="3clFbG">
+            <node concept="37vLTw" id="J7o7d6CyCF" role="2Oq$k0">
+              <ref role="3cqZAo" node="J7o7d6CwIC" resolve="LOG" />
+            </node>
+            <node concept="liA8E" id="J7o7d6C_2Z" role="2OqNvi">
+              <ref role="37wK5l" to="q7tw:~Category.debug(java.lang.Object):void" resolve="debug" />
+              <node concept="3cpWs3" id="J7o7d6C_kJ" role="37wK5m">
+                <node concept="2OqwBi" id="J7o7d6C_Lc" role="3uHU7w">
+                  <node concept="2OqwBi" id="J7o7d6C_ux" role="2Oq$k0">
+                    <node concept="37vLTw" id="J7o7d6C_qh" role="2Oq$k0">
+                      <ref role="3cqZAo" node="JPngvNuEED" resolve="cellLayout" />
+                    </node>
+                    <node concept="liA8E" id="J7o7d6C_yQ" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="J7o7d6CAcI" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="J7o7d6C_62" role="3uHU7B">
+                  <property role="Xl_RC" value="Unsupported layout: " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="JPngvNuG0D" role="3cqZAp">
           <node concept="10Nm6u" id="JPngvNuGdS" role="3cqZAk" />
         </node>
@@ -4125,6 +4223,78 @@
       <node concept="3Tm1VV" id="40e1npHmDnf" role="1B3o_S" />
       <node concept="2AHcQZ" id="40e1npHzFtw" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="J7o7d6CKpG" role="jymVt" />
+    <node concept="3clFb_" id="J7o7d6CNhT" role="jymVt">
+      <property role="TrG5h" value="overridesLayoutMethod" />
+      <node concept="37vLTG" id="J7o7d6CX9P" role="3clF46">
+        <property role="TrG5h" value="cell" />
+        <node concept="3uibUv" id="J7o7d6CYms" role="1tU5fm">
+          <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
+        </node>
+      </node>
+      <node concept="10P_77" id="J7o7d6CQ9R" role="3clF45" />
+      <node concept="3Tmbuc" id="J7o7d6CP1z" role="1B3o_S" />
+      <node concept="3clFbS" id="J7o7d6CNhX" role="3clF47">
+        <node concept="SfApY" id="J7o7d6D8Xo" role="3cqZAp">
+          <node concept="3clFbS" id="J7o7d6D8Xp" role="SfCbr">
+            <node concept="3cpWs8" id="J7o7d6D9uF" role="3cqZAp">
+              <node concept="3cpWsn" id="J7o7d6D9uG" role="3cpWs9">
+                <property role="TrG5h" value="relayoutMethod" />
+                <node concept="3uibUv" id="J7o7d6D9u_" role="1tU5fm">
+                  <ref role="3uigEE" to="t6h5:~Method" resolve="Method" />
+                </node>
+                <node concept="2OqwBi" id="J7o7d6D9uH" role="33vP2m">
+                  <node concept="2OqwBi" id="J7o7d6D9uI" role="2Oq$k0">
+                    <node concept="37vLTw" id="J7o7d6D9uJ" role="2Oq$k0">
+                      <ref role="3cqZAo" node="J7o7d6CX9P" resolve="cell" />
+                    </node>
+                    <node concept="liA8E" id="J7o7d6D9uK" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="J7o7d6D9uL" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Class.getMethod(java.lang.String,java.lang.Class...):java.lang.reflect.Method" resolve="getMethod" />
+                    <node concept="Xl_RD" id="J7o7d6Daj8" role="37wK5m">
+                      <property role="Xl_RC" value="relayoutImpl" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="J7o7d6Dbnm" role="3cqZAp">
+              <node concept="3y3z36" id="J7o7d6DdcE" role="3cqZAk">
+                <node concept="3VsKOn" id="J7o7d6Dg$U" role="3uHU7w">
+                  <ref role="3VsUkX" to="g51k:~EditorCell_Collection" resolve="EditorCell_Collection" />
+                </node>
+                <node concept="2OqwBi" id="J7o7d6Dax$" role="3uHU7B">
+                  <node concept="37vLTw" id="J7o7d6D9uP" role="2Oq$k0">
+                    <ref role="3cqZAo" node="J7o7d6D9uG" resolve="relayoutMethod" />
+                  </node>
+                  <node concept="liA8E" id="J7o7d6DaUw" role="2OqNvi">
+                    <ref role="37wK5l" to="t6h5:~Method.getDeclaringClass():java.lang.Class" resolve="getDeclaringClass" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="J7o7d6D8Xk" role="TEbGg">
+            <node concept="3clFbS" id="J7o7d6D8Xl" role="TDEfX">
+              <node concept="3cpWs6" id="J7o7d6DhMM" role="3cqZAp">
+                <node concept="3clFbT" id="J7o7d6DiI3" role="3cqZAk">
+                  <property role="3clFbU" value="false" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWsn" id="J7o7d6D8Xm" role="TDEfY">
+              <property role="TrG5h" value="e" />
+              <node concept="3uibUv" id="J7o7d6D8Xn" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~NoSuchMethodException" resolve="NoSuchMethodException" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="JPngvNuXRr" role="jymVt" />
