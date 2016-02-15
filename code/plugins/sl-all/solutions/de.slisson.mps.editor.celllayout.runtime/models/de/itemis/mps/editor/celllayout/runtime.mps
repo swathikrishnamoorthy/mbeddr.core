@@ -2511,8 +2511,8 @@
         <node concept="3clFbF" id="JPngvNtZpu" role="3cqZAp">
           <node concept="37vLTI" id="JPngvNtZw$" role="3clFbG">
             <node concept="2YIFZM" id="JPngvNtZBH" role="37vLTx">
-              <ref role="37wK5l" to="rtot:JPngvNtXqk" resolve="getBoxModel" />
-              <ref role="1Pybhc" to="rtot:JPngvNsVIO" resolve="BoxModels" />
+              <ref role="37wK5l" to="rtot:JPngvNtXqk" resolve="getInstance" />
+              <ref role="1Pybhc" to="rtot:3Osd_yxeiP0" resolve="EditorCellBoxModel" />
               <node concept="37vLTw" id="JPngvNtZCA" role="37wK5m">
                 <ref role="3cqZAo" node="JPngvNsRXb" resolve="cell" />
               </node>
@@ -6766,8 +6766,8 @@
               <ref role="3uigEE" to="rtot:3Osd_yxeiP0" resolve="EditorCellBoxModel" />
             </node>
             <node concept="2YIFZM" id="6SVXTgIaeWz" role="33vP2m">
-              <ref role="37wK5l" to="rtot:JPngvNtXqk" resolve="getBoxModel" />
-              <ref role="1Pybhc" to="rtot:JPngvNsVIO" resolve="BoxModels" />
+              <ref role="37wK5l" to="rtot:JPngvNtXqk" resolve="getInstance" />
+              <ref role="1Pybhc" to="rtot:3Osd_yxeiP0" resolve="EditorCellBoxModel" />
               <node concept="37vLTw" id="6SVXTgIaeW$" role="37wK5m">
                 <ref role="3cqZAo" node="6SVXTgIae0B" resolve="cell" />
               </node>
