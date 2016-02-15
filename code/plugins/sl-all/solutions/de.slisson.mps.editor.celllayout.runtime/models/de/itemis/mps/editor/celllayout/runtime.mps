@@ -581,15 +581,8 @@
                 <node concept="3clFbF" id="J7o7d6ADS$" role="3cqZAp">
                   <node concept="1rXfSq" id="J7o7d6ADSy" role="3clFbG">
                     <ref role="37wK5l" node="3GjSU3_XkXT" resolve="moveTreeBy" />
-                    <node concept="1eOMI4" id="J7o7d6AExx" role="37wK5m">
-                      <node concept="10QFUN" id="J7o7d6AExu" role="1eOMHV">
-                        <node concept="3uibUv" id="J7o7d6AExz" role="10QFUM">
-                          <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
-                        </node>
-                        <node concept="2GrUjf" id="J7o7d6AEx$" role="10QFUP">
-                          <ref role="2Gs0qQ" node="J7o7d6AAOC" resolve="child" />
-                        </node>
-                      </node>
+                    <node concept="2GrUjf" id="5fv6XwgHBWS" role="37wK5m">
+                      <ref role="2Gs0qQ" node="J7o7d6AAOC" resolve="child" />
                     </node>
                     <node concept="37vLTw" id="J7o7d6AEDt" role="37wK5m">
                       <ref role="3cqZAo" node="J7o7d6AB3j" resolve="deltaX" />
@@ -4123,7 +4116,7 @@
                   <ref role="3cqZAo" node="J7o7d6CwIC" resolve="LOG" />
                 </node>
                 <node concept="liA8E" id="J7o7d6Dtr3" role="2OqNvi">
-                  <ref role="37wK5l" to="q7tw:~Category.debug(java.lang.Object):void" resolve="debug" />
+                  <ref role="37wK5l" to="q7tw:~Category.error(java.lang.Object):void" resolve="error" />
                   <node concept="3cpWs3" id="J7o7d6Dtr4" role="37wK5m">
                     <node concept="2OqwBi" id="J7o7d6Dtr5" role="3uHU7w">
                       <node concept="2OqwBi" id="J7o7d6Dtr6" role="2Oq$k0">
@@ -4324,7 +4317,7 @@
               <ref role="3cqZAo" node="J7o7d6CwIC" resolve="LOG" />
             </node>
             <node concept="liA8E" id="J7o7d6C_2Z" role="2OqNvi">
-              <ref role="37wK5l" to="q7tw:~Category.debug(java.lang.Object):void" resolve="debug" />
+              <ref role="37wK5l" to="q7tw:~Category.error(java.lang.Object):void" resolve="error" />
               <node concept="3cpWs3" id="J7o7d6C_kJ" role="37wK5m">
                 <node concept="2OqwBi" id="J7o7d6C_Lc" role="3uHU7w">
                   <node concept="2OqwBi" id="J7o7d6C_ux" role="2Oq$k0">
