@@ -280,7 +280,7 @@
       <node concept="m$_yC" id="2coa6XmfV9r" role="m$_yJ">
         <ref role="m$_y1" node="2coa6Xmdl5V" resolve="com.mbeddr.spawner" />
       </node>
-      <node concept="m$_yC" id="6ucYLjokOfw" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hIp" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
       <node concept="m$_yC" id="1o_$mJEhPHg" role="m$_yJ">
@@ -319,7 +319,7 @@
       <node concept="m$_yC" id="ox0Ney8TJg" role="m$_yJ">
         <ref role="m$_y1" to="90a9:7klUZA6XM5S" resolve="de.slisson.mps.conditionalEditor" />
       </node>
-      <node concept="m$_yC" id="6ucYLjokQJG" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hIz" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
       <node concept="m$_yC" id="pVqCrkbd0M" role="m$_yJ">
@@ -328,7 +328,7 @@
       <node concept="m$_yC" id="6ZKdgWAdCxz" role="m$_yJ">
         <ref role="m$_y1" node="5qO$P$Prhta" resolve="com.mbeddr.debugger" />
       </node>
-      <node concept="m$_yC" id="$bJ0jgvJ9s" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hJH" role="m$_yJ">
         <ref role="m$_y1" to="al5i:$bJ0jguQdg" resolve="com.mbeddr.platform" />
       </node>
       <node concept="m$_yC" id="jJ9_zvTyxD" role="m$_yJ">
@@ -352,7 +352,7 @@
       <node concept="m$_yC" id="7eF9rfAuANb" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="7eF9rfAuANc" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hMj" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
       <node concept="m$_yC" id="7eF9rfAuANd" role="m$_yJ">
@@ -364,7 +364,7 @@
       <node concept="m$_yC" id="7eF9rfAuANf" role="m$_yJ">
         <ref role="m$_y1" node="5qO$P$Prhta" resolve="com.mbeddr.debugger" />
       </node>
-      <node concept="m$_yC" id="$bJ0jgxKku" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hIR" role="m$_yJ">
         <ref role="m$_y1" to="al5i:$bJ0jguQdg" resolve="com.mbeddr.platform" />
       </node>
       <node concept="m$_yC" id="3nAucCgFgjQ" role="m$_yJ">
@@ -446,7 +446,7 @@
       <node concept="m$_yC" id="7eF9rfAu$o$" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="7eF9rfAu$o_" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hF7" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
       <node concept="m$_yC" id="7eF9rfAu$oA" role="m$_yJ">
@@ -458,7 +458,7 @@
       <node concept="m$_yC" id="7eF9rfAu$oC" role="m$_yJ">
         <ref role="m$_y1" node="5qO$P$Prhta" resolve="com.mbeddr.debugger" />
       </node>
-      <node concept="m$_yC" id="$bJ0jgDl0V" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hI9" role="m$_yJ">
         <ref role="m$_y1" to="al5i:$bJ0jguQdg" resolve="com.mbeddr.platform" />
       </node>
       <node concept="m$_yC" id="7$cwLzjgYEV" role="m$_yJ">
@@ -488,7 +488,7 @@
       <node concept="m$_yC" id="vg5qBC2gGh" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="vg5qBC2gGi" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hEv" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
       <node concept="m$_yC" id="vg5qBC2gGj" role="m$_yJ">
@@ -500,7 +500,7 @@
       <node concept="m$_yC" id="vg5qBC2gGl" role="m$_yJ">
         <ref role="m$_y1" node="5qO$P$Prhta" resolve="com.mbeddr.debugger" />
       </node>
-      <node concept="m$_yC" id="vg5qBC2gGm" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hFn" role="m$_yJ">
         <ref role="m$_y1" to="al5i:$bJ0jguQdg" resolve="com.mbeddr.platform" />
       </node>
       <node concept="m$_yC" id="vg5qBC2gGn" role="m$_yJ">
@@ -530,7 +530,7 @@
       <node concept="m$_yC" id="7eF9rfAuyUx" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="7eF9rfAuyUy" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hFB" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
       <node concept="m$_yC" id="7eF9rfAuyUz" role="m$_yJ">
@@ -548,7 +548,7 @@
       <node concept="m$_yC" id="7eF9rfAuyUB" role="m$_yJ">
         <ref role="m$_y1" node="5qO$P$Prhta" resolve="com.mbeddr.debugger" />
       </node>
-      <node concept="m$_yC" id="$bJ0jgDt3G" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hML" role="m$_yJ">
         <ref role="m$_y1" to="al5i:$bJ0jguQdg" resolve="com.mbeddr.platform" />
       </node>
       <node concept="3_J27D" id="7eF9rfAuyUD" role="m_cZH">
@@ -575,7 +575,7 @@
       <node concept="m$_yC" id="7eF9rfAuv_1" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="7eF9rfAuv_2" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hHR" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
       <node concept="m$_yC" id="7eF9rfAuv_3" role="m$_yJ">
@@ -590,7 +590,7 @@
       <node concept="m$_yC" id="4q9_DTOCEsg" role="m$_yJ">
         <ref role="m$_y1" to="90a9:7szUFELHeHf" resolve="de.itemis.mps.editor.widgets" />
       </node>
-      <node concept="m$_yC" id="$bJ0jgF_4y" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hH_" role="m$_yJ">
         <ref role="m$_y1" to="al5i:$bJ0jguQdg" resolve="com.mbeddr.platform" />
       </node>
       <node concept="m$_yC" id="5BPceOK3jjB" role="m$_yJ">
@@ -620,7 +620,7 @@
       <node concept="m$_yC" id="3p0OY6VwW6d" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="3p0OY6VwW6e" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hH7" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
       <node concept="m$_yC" id="3p0OY6VwW6f" role="m$_yJ">
@@ -632,7 +632,7 @@
       <node concept="m$_yC" id="3p0OY6VwW6h" role="m$_yJ">
         <ref role="m$_y1" node="5qO$P$Prhta" resolve="com.mbeddr.debugger" />
       </node>
-      <node concept="m$_yC" id="3p0OY6VwW6j" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hFT" role="m$_yJ">
         <ref role="m$_y1" to="al5i:$bJ0jguQdg" resolve="com.mbeddr.platform" />
       </node>
       <node concept="3_J27D" id="3p0OY6VwW6l" role="m_cZH">
@@ -662,7 +662,7 @@
       <node concept="m$_yC" id="7eF9rfAnuiH" role="m$_yJ">
         <ref role="m$_y1" node="7uZw0yZ43Jz" resolve="com.mbeddr.core" />
       </node>
-      <node concept="m$_yC" id="7eF9rfAnuiI" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hHl" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
       <node concept="m$_yC" id="7eF9rfAnuiJ" role="m$_yJ">
@@ -674,7 +674,7 @@
       <node concept="m$_yC" id="7eF9rfAnuiL" role="m$_yJ">
         <ref role="m$_y1" node="7eF9rfAuANa" resolve="com.mbeddr.ext.components" />
       </node>
-      <node concept="m$_yC" id="$bJ0jg_nVT" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hGv" role="m$_yJ">
         <ref role="m$_y1" to="al5i:$bJ0jguQdg" resolve="com.mbeddr.platform" />
       </node>
       <node concept="3_J27D" id="7eF9rfAnuiN" role="m_cZH">
@@ -705,13 +705,13 @@
       <node concept="m$_yC" id="5qO$P$PrHal" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="SH6Kd4mE1B" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hEX" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7tNo_gxoK8h" resolve="com.mbeddr.doc" />
       </node>
-      <node concept="m$_yC" id="5qO$P$PrHan" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hMB" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
-      <node concept="m$_yC" id="$bJ0jg_Ety" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hJz" role="m$_yJ">
         <ref role="m$_y1" to="al5i:$bJ0jguQdg" resolve="com.mbeddr.platform" />
       </node>
       <node concept="3_J27D" id="5qO$P$PrHao" role="m_cZH">
@@ -742,16 +742,16 @@
       <node concept="m$_yC" id="2$$_2GRaiCd" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="2$$_2GRaiCe" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hB1" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7tNo_gxoK8h" resolve="com.mbeddr.doc" />
       </node>
       <node concept="m$_yC" id="2$$_2GRanjx" role="m$_yJ">
         <ref role="m$_y1" node="7uZw0yZ43Jz" resolve="com.mbeddr.core" />
       </node>
-      <node concept="m$_yC" id="2$$_2GRaiCf" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hLH" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
-      <node concept="m$_yC" id="2$$_2GRaiCg" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hEJ" role="m$_yJ">
         <ref role="m$_y1" to="al5i:$bJ0jguQdg" resolve="com.mbeddr.platform" />
       </node>
       <node concept="m$_yC" id="2$$_2GRapph" role="m$_yJ">
@@ -788,13 +788,13 @@
       <node concept="m$_yC" id="7eF9rfAuDVo" role="m$_yJ">
         <ref role="m$_y1" node="7uZw0yZ43Jz" resolve="com.mbeddr.core" />
       </node>
-      <node concept="m$_yC" id="$bJ0jgy4Tu" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hJb" role="m$_yJ">
         <ref role="m$_y1" to="al5i:$bJ0jguQdg" resolve="com.mbeddr.platform" />
       </node>
       <node concept="m$_yC" id="7eF9rfAuDVp" role="m$_yJ">
         <ref role="m$_y1" node="7eF9rfAnuiA" resolve="com.mbeddr.cc.ple" />
       </node>
-      <node concept="m$_yC" id="7eF9rfB0SLO" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hLV" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7tNo_gxoK8h" resolve="com.mbeddr.doc" />
       </node>
       <node concept="m$_yC" id="7eF9rfAuDVq" role="m$_yJ">
@@ -843,7 +843,7 @@
       <node concept="m$_yC" id="7eF9rfAuFwd" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="7eF9rfAuFwe" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hGJ" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
       <node concept="m$_yC" id="7eF9rfAuFwf" role="m$_yJ">
@@ -852,7 +852,7 @@
       <node concept="m$_yC" id="7eF9rfAuFwg" role="m$_yJ">
         <ref role="m$_y1" node="5qO$P$PrHaf" resolve="com.mbeddr.cc.req" />
       </node>
-      <node concept="m$_yC" id="7eF9rfBa7Ja" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hK1" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7tNo_gxoK8h" resolve="com.mbeddr.doc" />
       </node>
       <node concept="m$_yC" id="7eF9rfBa7Tk" role="m$_yJ">
@@ -867,7 +867,7 @@
       <node concept="m$_yC" id="7eF9rfAuFwj" role="m$_yJ">
         <ref role="m$_y1" node="7eF9rfAuyUr" resolve="com.mbeddr.ext.statemachineInComponents" />
       </node>
-      <node concept="m$_yC" id="$bJ0jgyeZz" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hG7" role="m$_yJ">
         <ref role="m$_y1" to="al5i:$bJ0jguQdg" resolve="com.mbeddr.platform" />
       </node>
       <node concept="m$_yC" id="41Qa4AJmFdJ" role="m$_yJ">
@@ -901,7 +901,7 @@
       <node concept="m$_yC" id="7eF9rfAuSOd" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="7eF9rfBb6rJ" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hKP" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7tNo_gxoK8h" resolve="com.mbeddr.doc" />
       </node>
       <node concept="m$_yC" id="7eF9rfBb6ET" role="m$_yJ">
@@ -925,7 +925,7 @@
       <node concept="m$_yC" id="7eF9rfAuSOi" role="m$_yJ">
         <ref role="m$_y1" node="5qO$P$PrHaf" resolve="com.mbeddr.cc.req" />
       </node>
-      <node concept="m$_yC" id="7eF9rfAuSOj" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hLh" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
       <node concept="m$_yC" id="7eF9rfAuSOk" role="m$_yJ">
@@ -934,7 +934,7 @@
       <node concept="m$_yC" id="4q9_DTOCFMI" role="m$_yJ">
         <ref role="m$_y1" to="90a9:7szUFELHeHf" resolve="de.itemis.mps.editor.widgets" />
       </node>
-      <node concept="m$_yC" id="$bJ0jgzU5s" role="m$_yJ">
+      <node concept="m$_yC" id="AlyaSa1hKp" role="m$_yJ">
         <ref role="m$_y1" to="al5i:$bJ0jguQdg" resolve="com.mbeddr.platform" />
       </node>
       <node concept="3_J27D" id="7eF9rfAuSOl" role="m_cZH">
@@ -4123,42 +4123,6 @@
           <node concept="3bR9La" id="4jiR73v5jP7" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="7uZw0yZ43LU" resolve="com.mbeddr.core.expressions" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="52dnnqbJhzO" role="3bR37C">
-          <node concept="3bR9La" id="52dnnqbJhzP" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="7uZw0yZ43L9" resolve="com.mbeddr.core.modules" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="52dnnqbJhzQ" role="3bR37C">
-          <node concept="3bR9La" id="52dnnqbJhzR" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="al5i:7vUP_qcXuSh" resolve="com.mbeddr.mpsutil.contextactions.runtime" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="52dnnqbJhzS" role="3bR37C">
-          <node concept="3bR9La" id="52dnnqbJhzT" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbJt" resolve="jetbrains.mps.ide.platform" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="52dnnqbJhzU" role="3bR37C">
-          <node concept="3bR9La" id="52dnnqbJhzV" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="7uZw0yZ43JM" resolve="com.mbeddr.core.statements" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="52dnnqbJhzW" role="3bR37C">
-          <node concept="3bR9La" id="52dnnqbJhzX" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="52dnnqbJhzY" role="3bR37C">
-          <node concept="3bR9La" id="52dnnqbJhzZ" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
           </node>
         </node>
       </node>
