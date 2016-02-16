@@ -15323,6 +15323,70 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5yrLEGnVcTM" role="jymVt" />
+    <node concept="3clFb_" id="6SW4un74yJK" role="jymVt">
+      <property role="TrG5h" value="rateWrapPoint" />
+      <property role="1EzhhJ" value="false" />
+      <node concept="3Tmbuc" id="6SW4un74yJL" role="1B3o_S" />
+      <node concept="10Oyi0" id="6SW4un74yJM" role="3clF45" />
+      <node concept="37vLTG" id="6SW4un74yJN" role="3clF46">
+        <property role="TrG5h" value="leftWord" />
+        <node concept="3uibUv" id="6SW4un74yJO" role="1tU5fm">
+          <ref role="3uigEE" to="xggr:40e1npHz$yZ" resolve="IndentLayout.Word" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6SW4un74yJP" role="3clF46">
+        <property role="TrG5h" value="rightWord" />
+        <node concept="3uibUv" id="6SW4un74yJQ" role="1tU5fm">
+          <ref role="3uigEE" to="xggr:40e1npHz$yZ" resolve="IndentLayout.Word" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6SW4un74yJR" role="3clF46">
+        <property role="TrG5h" value="prevWord" />
+        <node concept="3uibUv" id="6SW4un74yJS" role="1tU5fm">
+          <ref role="3uigEE" to="xggr:40e1npHz$yZ" resolve="IndentLayout.Word" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="6SW4un74yLt" role="3clF47">
+        <node concept="3clFbF" id="6SW4un74zRW" role="3cqZAp">
+          <node concept="3K4zz7" id="6SW4un74AZS" role="3clFbG">
+            <node concept="3cmrfG" id="6SW4un74BmP" role="3K4E3e">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="3cmrfG" id="6SW4un74BwK" role="3K4GZi">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="3clFbC" id="6SW4un74Apc" role="3K4Cdx">
+              <node concept="3cmrfG" id="6SW4un74AKD" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="1rXfSq" id="6SW4un74zRV" role="3uHU7B">
+                <ref role="37wK5l" node="5fv6XwgL73B" resolve="getGapBetweenCells" />
+                <node concept="2OqwBi" id="6SW4un74$Cn" role="37wK5m">
+                  <node concept="37vLTw" id="6SW4un74$jv" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6SW4un74yJN" resolve="leftWord" />
+                  </node>
+                  <node concept="liA8E" id="6SW4un74$FN" role="2OqNvi">
+                    <ref role="37wK5l" to="xggr:3Osd_yx2ThC" resolve="getLayoutable" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="6SW4un74_wK" role="37wK5m">
+                  <node concept="37vLTw" id="6SW4un74_br" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6SW4un74yJP" resolve="rightWord" />
+                  </node>
+                  <node concept="liA8E" id="6SW4un74_$A" role="2OqNvi">
+                    <ref role="37wK5l" to="xggr:3Osd_yx2ThC" resolve="getLayoutable" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="6SW4un74yLu" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6SW4un73xRp" role="jymVt" />
     <node concept="3clFb_" id="5yrLEGnVd8k" role="jymVt">
       <property role="TrG5h" value="isIndentLayout" />
       <property role="1EzhhJ" value="false" />
