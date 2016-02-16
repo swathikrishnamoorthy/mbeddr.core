@@ -55,6 +55,7 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="kz9k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.navigation(MPS.Editor/)" />
+    <import index="z1c5" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="31cb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.module(MPS.Core/)" implicit="true" />
   </imports>
   <registry>
@@ -3307,8 +3308,8 @@
     <node concept="312cEg" id="4RbRvogcSVg" role="jymVt">
       <property role="TrG5h" value="myProject" />
       <node concept="3Tm6S6" id="4RbRvogcSVh" role="1B3o_S" />
-      <node concept="3uibUv" id="4RbRvogcVYB" role="1tU5fm">
-        <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+      <node concept="3uibUv" id="1n7YT7NSmt9" role="1tU5fm">
+        <ref role="3uigEE" to="z1c5:~MPSProject" resolve="MPSProject" />
       </node>
     </node>
     <node concept="312cEg" id="5aAhNV4cgl" role="jymVt">
@@ -3411,8 +3412,8 @@
       </node>
       <node concept="37vLTG" id="4RbRvogcPyn" role="3clF46">
         <property role="TrG5h" value="project" />
-        <node concept="3uibUv" id="4RbRvogcPHJ" role="1tU5fm">
-          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+        <node concept="3uibUv" id="1n7YT7NSm7R" role="1tU5fm">
+          <ref role="3uigEE" to="z1c5:~MPSProject" resolve="MPSProject" />
         </node>
       </node>
     </node>
@@ -3851,7 +3852,7 @@
                 </node>
                 <node concept="2ShNRf" id="4RbRvogeB3U" role="33vP2m">
                   <node concept="1pGfFk" id="4RbRvogeB3V" role="2ShVmc">
-                    <ref role="37wK5l" to="gsnq:~ModulePropertiesConfigurable.&lt;init&gt;(org.jetbrains.mps.openapi.module.SModule,jetbrains.mps.project.Project)" resolve="ModulePropertiesConfigurable" />
+                    <ref role="37wK5l" to="gsnq:~ModulePropertiesConfigurable.&lt;init&gt;(org.jetbrains.mps.openapi.module.SModule,jetbrains.mps.project.MPSProject)" resolve="ModulePropertiesConfigurable" />
                     <node concept="37vLTw" id="4RbRvogeHjy" role="37wK5m">
                       <ref role="3cqZAo" node="4RbRvogeyFk" resolve="module" />
                     </node>
@@ -4308,13 +4309,13 @@
         <node concept="3cpWs8" id="7ukD$ccWFR2" role="3cqZAp">
           <node concept="3cpWsn" id="7ukD$ccWFR3" role="3cpWs9">
             <property role="TrG5h" value="mpsProject" />
-            <node concept="3uibUv" id="7ukD$ccWFR4" role="1tU5fm">
-              <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+            <node concept="3uibUv" id="1n7YT7NSllb" role="1tU5fm">
+              <ref role="3uigEE" to="z1c5:~MPSProject" resolve="MPSProject" />
             </node>
-            <node concept="2YIFZM" id="7ukD$ccWGD1" role="33vP2m">
+            <node concept="2YIFZM" id="1n7YT7NSdHj" role="33vP2m">
+              <ref role="37wK5l" to="alof:~ProjectHelper.fromIdeaProject(com.intellij.openapi.project.Project):jetbrains.mps.project.MPSProject" resolve="fromIdeaProject" />
               <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-              <ref role="37wK5l" to="alof:~ProjectHelper.toMPSProject(com.intellij.openapi.project.Project):jetbrains.mps.project.Project" resolve="toMPSProject" />
-              <node concept="1rXfSq" id="7ukD$ccWGD2" role="37wK5m">
+              <node concept="1rXfSq" id="1n7YT7NSdHk" role="37wK5m">
                 <ref role="37wK5l" to="sclo:~BasePrefsPage.getProject():com.intellij.openapi.project.Project" resolve="getProject" />
               </node>
             </node>
