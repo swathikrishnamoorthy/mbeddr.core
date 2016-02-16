@@ -423,6 +423,9 @@
       <node concept="m$_yC" id="3UK0RR4mewi" role="m$_yJ">
         <ref role="m$_y1" node="6Y0V2RJk3uw" resolve="de.itemis.mps.selection" />
       </node>
+      <node concept="m$_yC" id="7mDAtWA2dyF" role="m$_yJ">
+        <ref role="m$_y1" node="6SVXTgIe8wD" resolve="de.itemis.mps.celllayout" />
+      </node>
       <node concept="3_J27D" id="31bAEZ0srEi" role="m_cZH">
         <node concept="3Mxwew" id="31bAEZ0srEj" role="3MwsjC">
           <property role="3MwjfP" value="mps-multiline" />
@@ -481,6 +484,9 @@
       </node>
       <node concept="m$_yC" id="6Y0V2RJx6rY" role="m$_yJ">
         <ref role="m$_y1" node="6Y0V2RJk3uw" resolve="de.itemis.mps.selection" />
+      </node>
+      <node concept="m$_yC" id="7mDAtWA2d7X" role="m$_yJ">
+        <ref role="m$_y1" node="6SVXTgIe8wD" resolve="de.itemis.mps.celllayout" />
       </node>
       <node concept="3_J27D" id="1sO539bGQv$" role="m_cZH">
         <node concept="3Mxwew" id="1sO539bGQv_" role="3MwsjC">
@@ -1460,6 +1466,12 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="7mDAtWA2c3w" role="3bR37C">
+          <node concept="3bR9La" id="7mDAtWA2c3x" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" node="6SVXTgIejl1" resolve="de.itemis.mps.editor.celllayout.runtime" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="1sO539bGQvA" role="3989C9">
@@ -1574,6 +1586,12 @@
           <node concept="3bR9La" id="5LEeV$4du4_" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="1sO539bGQvB" resolve="de.slisson.mps.richtext" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7mDAtWA2bOs" role="3bR37C">
+          <node concept="3bR9La" id="7mDAtWA2bOt" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="6SVXTgIejl1" resolve="de.itemis.mps.editor.celllayout.runtime" />
           </node>
         </node>
       </node>
