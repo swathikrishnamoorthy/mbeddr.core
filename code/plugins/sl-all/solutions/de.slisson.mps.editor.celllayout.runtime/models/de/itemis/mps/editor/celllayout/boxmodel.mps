@@ -30,6 +30,7 @@
       <concept id="1894531970723270160" name="jetbrains.mps.baseLanguage.extensionMethods.structure.TypeExtension" flags="ng" index="KRBjq">
         <child id="1894531970723323134" name="type" index="KRMoO" />
       </concept>
+      <concept id="7685333756920172912" name="jetbrains.mps.baseLanguage.extensionMethods.structure.LocalExtendedMethodCall" flags="nn" index="Vb5G_" />
       <concept id="3316739663067157299" name="jetbrains.mps.baseLanguage.extensionMethods.structure.ThisExtensionExpression" flags="nn" index="2V_BSl" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -3965,6 +3966,156 @@
       <node concept="3uibUv" id="40e1npHmpkn" role="3clF45">
         <ref role="3uigEE" node="ZjQ6tpoDFn" resolve="Size" />
       </node>
+    </node>
+    <node concept="ATzpf" id="4BfDHEsI2v" role="a7sos">
+      <property role="TrG5h" value="setRight" />
+      <node concept="37vLTG" id="4BfDHEsI4b" role="3clF46">
+        <property role="TrG5h" value="right" />
+        <node concept="10Oyi0" id="4BfDHEsI4l" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="4BfDHEsI2w" role="1B3o_S" />
+      <node concept="3clFbS" id="4BfDHEsI2x" role="3clF47">
+        <node concept="3clFbF" id="4BfDHEsI4x" role="3cqZAp">
+          <node concept="Vb5G_" id="4BfDHEsI4w" role="3clFbG">
+            <ref role="37wK5l" node="1p6ZfyCPv4w" resolve="setX" />
+            <node concept="3cpWsd" id="4BfDHEsIat" role="37wK5m">
+              <node concept="Vb5G_" id="4BfDHEsIb7" role="3uHU7w">
+                <ref role="37wK5l" node="1p6ZfyCPv4o" resolve="getWidth" />
+              </node>
+              <node concept="37vLTw" id="4BfDHEsI4Q" role="3uHU7B">
+                <ref role="3cqZAo" node="4BfDHEsI4b" resolve="right" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="4BfDHEsI46" role="3clF45" />
+    </node>
+    <node concept="ATzpf" id="4BfDHEsIc$" role="a7sos">
+      <property role="TrG5h" value="setBottom" />
+      <node concept="37vLTG" id="4BfDHEsIc_" role="3clF46">
+        <property role="TrG5h" value="bottom" />
+        <node concept="10Oyi0" id="4BfDHEsIcA" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="4BfDHEsIcB" role="1B3o_S" />
+      <node concept="3clFbS" id="4BfDHEsIcC" role="3clF47">
+        <node concept="3clFbF" id="4BfDHEsIcD" role="3cqZAp">
+          <node concept="Vb5G_" id="4BfDHEsIcE" role="3clFbG">
+            <ref role="37wK5l" node="1p6ZfyCPv4A" resolve="setY" />
+            <node concept="3cpWsd" id="4BfDHEsIcF" role="37wK5m">
+              <node concept="Vb5G_" id="4BfDHEsIrO" role="3uHU7w">
+                <ref role="37wK5l" node="1p6ZfyCPv4s" resolve="getHeight" />
+              </node>
+              <node concept="37vLTw" id="4BfDHEsIcH" role="3uHU7B">
+                <ref role="3cqZAo" node="4BfDHEsIc_" resolve="bottom" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="4BfDHEsIcI" role="3clF45" />
+    </node>
+    <node concept="ATzpf" id="4BfDHEsKx4" role="a7sos">
+      <property role="TrG5h" value="setHorizontalCenter" />
+      <node concept="37vLTG" id="4BfDHEsKx5" role="3clF46">
+        <property role="TrG5h" value="center" />
+        <node concept="10Oyi0" id="4BfDHEsKx6" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="4BfDHEsKx7" role="1B3o_S" />
+      <node concept="3clFbS" id="4BfDHEsKx8" role="3clF47">
+        <node concept="3clFbF" id="4BfDHEsKx9" role="3cqZAp">
+          <node concept="Vb5G_" id="4BfDHEsKxa" role="3clFbG">
+            <ref role="37wK5l" node="1p6ZfyCPv4w" resolve="setX" />
+            <node concept="3cpWsd" id="4BfDHEsKxb" role="37wK5m">
+              <node concept="FJ1c_" id="4BfDHEsKXB" role="3uHU7w">
+                <node concept="3cmrfG" id="4BfDHEsKXG" role="3uHU7w">
+                  <property role="3cmrfH" value="2" />
+                </node>
+                <node concept="Vb5G_" id="4BfDHEsKxc" role="3uHU7B">
+                  <ref role="37wK5l" node="1p6ZfyCPv4o" resolve="getWidth" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="4BfDHEsKxd" role="3uHU7B">
+                <ref role="3cqZAo" node="4BfDHEsKx5" resolve="center" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="4BfDHEsKxe" role="3clF45" />
+    </node>
+    <node concept="ATzpf" id="4BfDHEsKe5" role="a7sos">
+      <property role="TrG5h" value="setVerticalCenter" />
+      <node concept="37vLTG" id="4BfDHEsKe6" role="3clF46">
+        <property role="TrG5h" value="center" />
+        <node concept="10Oyi0" id="4BfDHEsKe7" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="4BfDHEsKe8" role="1B3o_S" />
+      <node concept="3clFbS" id="4BfDHEsKe9" role="3clF47">
+        <node concept="3clFbF" id="4BfDHEsKea" role="3cqZAp">
+          <node concept="Vb5G_" id="4BfDHEsKeb" role="3clFbG">
+            <ref role="37wK5l" node="1p6ZfyCPv4A" resolve="setY" />
+            <node concept="3cpWsd" id="4BfDHEsKec" role="37wK5m">
+              <node concept="FJ1c_" id="4BfDHEsKva" role="3uHU7w">
+                <node concept="3cmrfG" id="4BfDHEsKvf" role="3uHU7w">
+                  <property role="3cmrfH" value="2" />
+                </node>
+                <node concept="Vb5G_" id="4BfDHEsKed" role="3uHU7B">
+                  <ref role="37wK5l" node="1p6ZfyCPv4s" resolve="getHeight" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="4BfDHEsKee" role="3uHU7B">
+                <ref role="3cqZAo" node="4BfDHEsKe6" resolve="center" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="4BfDHEsKef" role="3clF45" />
+    </node>
+    <node concept="ATzpf" id="4BfDHEsKZx" role="a7sos">
+      <property role="TrG5h" value="getHorizontalCenter" />
+      <node concept="3Tm1VV" id="4BfDHEsKZy" role="1B3o_S" />
+      <node concept="3clFbS" id="4BfDHEsKZz" role="3clF47">
+        <node concept="3clFbF" id="4BfDHEsL6h" role="3cqZAp">
+          <node concept="3cpWs3" id="4BfDHEsLbG" role="3clFbG">
+            <node concept="FJ1c_" id="4BfDHEsLjR" role="3uHU7w">
+              <node concept="3cmrfG" id="4BfDHEsLjW" role="3uHU7w">
+                <property role="3cmrfH" value="2" />
+              </node>
+              <node concept="Vb5G_" id="4BfDHEsLcd" role="3uHU7B">
+                <ref role="37wK5l" node="1p6ZfyCPv4o" resolve="getWidth" />
+              </node>
+            </node>
+            <node concept="Vb5G_" id="4BfDHEsL6g" role="3uHU7B">
+              <ref role="37wK5l" node="1p6ZfyCPv4g" resolve="getX" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="4BfDHEsL69" role="3clF45" />
+    </node>
+    <node concept="ATzpf" id="4BfDHEsLmP" role="a7sos">
+      <property role="TrG5h" value="getVerticalCenter" />
+      <node concept="3Tm1VV" id="4BfDHEsLmQ" role="1B3o_S" />
+      <node concept="3clFbS" id="4BfDHEsLmR" role="3clF47">
+        <node concept="3clFbF" id="4BfDHEsLvI" role="3cqZAp">
+          <node concept="3cpWs3" id="4BfDHEsL_8" role="3clFbG">
+            <node concept="FJ1c_" id="4BfDHEsLHi" role="3uHU7w">
+              <node concept="3cmrfG" id="4BfDHEsLHn" role="3uHU7w">
+                <property role="3cmrfH" value="2" />
+              </node>
+              <node concept="Vb5G_" id="4BfDHEsL_D" role="3uHU7B">
+                <ref role="37wK5l" node="1p6ZfyCPv4s" resolve="getHeight" />
+              </node>
+            </node>
+            <node concept="Vb5G_" id="4BfDHEsLvH" role="3uHU7B">
+              <ref role="37wK5l" node="1p6ZfyCPv4k" resolve="getY" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="4BfDHEsLvA" role="3clF45" />
     </node>
     <node concept="3uibUv" id="40e1npHmper" role="KRMoO">
       <ref role="3uigEE" node="1p6ZfyCPv4d" resolve="LayoutBox" />
