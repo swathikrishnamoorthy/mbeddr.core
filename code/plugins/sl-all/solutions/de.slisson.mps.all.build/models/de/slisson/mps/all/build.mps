@@ -638,6 +638,9 @@
       <node concept="m$_yC" id="6Y0V2RJk5$$" role="m$_yJ">
         <ref role="m$_y1" node="6Y0V2RJk3uw" resolve="de.itemis.mps.selection" />
       </node>
+      <node concept="m$_yC" id="5QhEsDNAXgZ" role="m$_yJ">
+        <ref role="m$_y1" node="6SVXTgIe8wD" resolve="de.itemis.mps.celllayout" />
+      </node>
       <node concept="3_J27D" id="29so9Vb$6Tq" role="m_cZH">
         <node concept="3Mxwew" id="29so9Vb$6Tr" role="3MwsjC">
           <property role="3MwjfP" value="mps-tables" />
@@ -4348,6 +4351,9 @@
         </node>
         <node concept="m$_wl" id="3LDN1_TaUpT" role="39821P">
           <ref role="m_rDy" node="4WMOKPC53wV" resolve="de.slisson.mps.pluginrepo" />
+        </node>
+        <node concept="m$_wl" id="5QhEsDNBgC7" role="39821P">
+          <ref role="m_rDy" node="6SVXTgIe8wD" resolve="de.itemis.mps.celllayout" />
         </node>
         <node concept="3_J27D" id="2Xjt3l59CSo" role="Nbhlr">
           <node concept="3Mxwew" id="2Xjt3l59CYJ" role="3MwsjC">
