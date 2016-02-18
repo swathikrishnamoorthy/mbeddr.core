@@ -30833,7 +30833,7 @@
                     <node concept="1uHKPH" id="7HQUZCSKWr4" role="2OqNvi" />
                   </node>
                   <node concept="liA8E" id="7HQUZCSKWr5" role="2OqNvi">
-                    <ref role="37wK5l" to="xggr:ZjQ6tpoIpX" resolve="getMaxSize" />
+                    <ref role="37wK5l" to="xggr:ZjQ6tpoId6" resolve="getPreferredSize" />
                     <node concept="37vLTw" id="7HQUZCSKWr6" role="37wK5m">
                       <ref role="3cqZAo" node="7HQUZCSIP0g" resolve="sizeConstraint" />
                     </node>
