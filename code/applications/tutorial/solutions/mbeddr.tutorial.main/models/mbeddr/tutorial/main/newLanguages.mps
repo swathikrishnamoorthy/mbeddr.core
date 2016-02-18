@@ -8,7 +8,6 @@
     <use id="a577a05d-67ad-41db-9547-6e5f0730b85d" name="mbeddr.tutorial.osconfig" version="-1" />
     <use id="ce2335b7-fcfd-403e-8ace-08dd457fd818" name="mbeddr.tutorial.osconfig.cimpl" version="-1" />
     <use id="973c8be0-8526-4588-aca6-92bcbb701b50" name="mbeddr.tutotial.osconfig.memory" version="-1" />
-    <use id="3d0be1cf-4156-4c3c-ac37-fef83237d8e2" name="mbeddr.tutorial.vectors" version="-1" />
     <use id="8f78d0b6-57c9-4fa8-86fe-8c30d0d5b15c" name="mbeddr.tutorial.smtrigger" version="-1" />
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="783af01f-87a7-412c-be99-293a162652b5" name="com.mbeddr.core.embedded" version="-1" />
