@@ -6615,6 +6615,20 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="6NCJuja2rn9" role="3cqZAp">
+          <node concept="3clFbS" id="6NCJuja2rnb" role="3clFbx">
+            <node concept="3cpWs6" id="6NCJuja2rJk" role="3cqZAp" />
+          </node>
+          <node concept="3fqX7Q" id="6NCJuja2rDi" role="3clFbw">
+            <node concept="2YIFZM" id="6NCJuja2rDk" role="3fr31v">
+              <ref role="37wK5l" node="40e1npHrmRR" resolve="isSupportedCollection" />
+              <ref role="1Pybhc" node="JPngvNub0g" resolve="LayoutableAdapters" />
+              <node concept="37vLTw" id="6NCJuja2rDl" role="37wK5m">
+                <ref role="3cqZAo" node="3Osd_yxgvgd" resolve="rootCollection" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="3Osd_yxgvC4" role="3cqZAp" />
         <node concept="3cpWs8" id="3Osd_yxgxEq" role="3cqZAp">
           <node concept="3cpWsn" id="3Osd_yxgxEr" role="3cpWs9">
