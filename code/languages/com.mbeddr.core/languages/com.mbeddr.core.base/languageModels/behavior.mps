@@ -252,7 +252,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -13092,14 +13092,9 @@
                   <ref role="37wK5l" to="kz9k:~NavigationSupport.getInstance():jetbrains.mps.openapi.navigation.NavigationSupport" resolve="getInstance" />
                 </node>
                 <node concept="liA8E" id="7NyyyjNuC1y" role="2OqNvi">
-                  <ref role="37wK5l" to="kz9k:~NavigationSupport.openNode(jetbrains.mps.smodel.IOperationContext,org.jetbrains.mps.openapi.model.SNode,boolean,boolean):jetbrains.mps.openapi.editor.Editor" resolve="openNode" />
-                  <node concept="2ShNRf" id="7NyyyjNuC1z" role="37wK5m">
-                    <node concept="1pGfFk" id="7NyyyjNuC1$" role="2ShVmc">
-                      <ref role="37wK5l" to="z1c3:~ProjectOperationContext.&lt;init&gt;(jetbrains.mps.project.Project)" resolve="ProjectOperationContext" />
-                      <node concept="37vLTw" id="7NyyyjNKwL4" role="37wK5m">
-                        <ref role="3cqZAo" node="7NyyyjNKwAa" resolve="project" />
-                      </node>
-                    </node>
+                  <ref role="37wK5l" to="kz9k:~NavigationSupport.openNode(jetbrains.mps.project.Project,org.jetbrains.mps.openapi.model.SNode,boolean,boolean):jetbrains.mps.openapi.editor.Editor" resolve="openNode" />
+                  <node concept="37vLTw" id="1T2KDlwQTRx" role="37wK5m">
+                    <ref role="3cqZAo" node="7NyyyjNKwAa" resolve="project" />
                   </node>
                   <node concept="37vLTw" id="7NyyyjNKwQT" role="37wK5m">
                     <ref role="3cqZAo" node="7NyyyjNKwv9" resolve="n" />
