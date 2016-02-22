@@ -33,10 +33,14 @@
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -75,6 +79,38 @@
       <property role="iBDjm" value="true" />
       <property role="TrG5h" value="_font-family" />
       <node concept="17QB3L" id="6SVXTgIpgkS" role="3t5Oan" />
+    </node>
+    <node concept="3t5Usi" id="7lS0O5066sF" role="V601i">
+      <property role="TrG5h" value="_grow-x" />
+      <property role="iBDjm" value="false" />
+      <node concept="10P_77" id="7lS0O5066t3" role="3t5Oan" />
+      <node concept="3clFbT" id="7lS0O5066t7" role="3t49C2">
+        <property role="3clFbU" value="false" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="7lS0O5066tg" role="V601i">
+      <property role="TrG5h" value="_grow-y" />
+      <property role="iBDjm" value="false" />
+      <node concept="10P_77" id="7lS0O5066th" role="3t5Oan" />
+      <node concept="3clFbT" id="7lS0O5066ti" role="3t49C2">
+        <property role="3clFbU" value="false" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="7lS0O5066tP" role="V601i">
+      <property role="TrG5h" value="_push-x" />
+      <property role="iBDjm" value="false" />
+      <node concept="10P_77" id="7lS0O5066tQ" role="3t5Oan" />
+      <node concept="3clFbT" id="7lS0O5066tR" role="3t49C2">
+        <property role="3clFbU" value="false" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="7lS0O5066uD" role="V601i">
+      <property role="TrG5h" value="_push-y" />
+      <property role="iBDjm" value="false" />
+      <node concept="10P_77" id="7lS0O5066uE" role="3t5Oan" />
+      <node concept="3clFbT" id="7lS0O5066uF" role="3t49C2">
+        <property role="3clFbU" value="false" />
+      </node>
     </node>
   </node>
   <node concept="PKFIW" id="6SVXTgI9Y1W">
