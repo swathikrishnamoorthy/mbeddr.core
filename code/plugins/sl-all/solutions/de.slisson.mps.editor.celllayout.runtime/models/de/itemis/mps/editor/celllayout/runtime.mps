@@ -7665,7 +7665,7 @@
       <node concept="10Oyi0" id="4_lXtZPi$9m" role="1tU5fm" />
       <node concept="3Tm1VV" id="4_lXtZPi$ua" role="1B3o_S" />
       <node concept="3cmrfG" id="4_lXtZPi$bt" role="33vP2m">
-        <property role="3cmrfH" value="100000" />
+        <property role="3cmrfH" value="1000000" />
       </node>
     </node>
     <node concept="2tJIrI" id="4_lXtZPizZk" role="jymVt" />
