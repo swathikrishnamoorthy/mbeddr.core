@@ -3642,12 +3642,13 @@
         <property role="TrG5h" value="de.itemis.mps.editor.celllayout.runtime" />
         <property role="3LESm3" value="848ef45d-e560-4e35-853c-f35a64cc135c" />
         <property role="2GAjPV" value="false" />
-        <node concept="55IIr" id="6SVXTgIejl2" role="3LF7KH">
-          <node concept="2Ry0Ak" id="6SVXTgIejI$" role="iGT6I">
+        <node concept="398BVA" id="4U82Y3yWXls" role="3LF7KH">
+          <ref role="398BVh" node="3vzyAKEJSiZ" resolve="sl-all.home" />
+          <node concept="2Ry0Ak" id="4U82Y3yWXlx" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="6SVXTgIek85" role="2Ry0An">
+            <node concept="2Ry0Ak" id="4U82Y3yWXly" role="2Ry0An">
               <property role="2Ry0Am" value="de.slisson.mps.editor.celllayout.runtime" />
-              <node concept="2Ry0Ak" id="6SVXTgIekxA" role="2Ry0An">
+              <node concept="2Ry0Ak" id="4U82Y3yWXlz" role="2Ry0An">
                 <property role="2Ry0Am" value="de.itemis.mps.editor.celllayout.runtime.msd" />
               </node>
             </node>
@@ -3689,12 +3690,13 @@
         <property role="TrG5h" value="de.itemis.mps.editor.celllayout" />
         <property role="3LESm3" value="24c96a96-b7a1-4f30-82da-0f8e279a2661" />
         <property role="2GAjPV" value="false" />
-        <node concept="55IIr" id="6SVXTgIel8A" role="3LF7KH">
-          <node concept="2Ry0Ak" id="6SVXTgIely_" role="iGT6I">
+        <node concept="398BVA" id="4U82Y3yWYlH" role="3LF7KH">
+          <ref role="398BVh" node="3vzyAKEJSiZ" resolve="sl-all.home" />
+          <node concept="2Ry0Ak" id="4U82Y3yWYlM" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
-            <node concept="2Ry0Ak" id="6SVXTgIelWm" role="2Ry0An">
+            <node concept="2Ry0Ak" id="4U82Y3yWYlN" role="2Ry0An">
               <property role="2Ry0Am" value="de.itemis.mps.celllayout" />
-              <node concept="2Ry0Ak" id="6SVXTgIemm7" role="2Ry0An">
+              <node concept="2Ry0Ak" id="4U82Y3yWYlO" role="2Ry0An">
                 <property role="2Ry0Am" value="de.itemis.mps.editor.celllayout.mpl" />
               </node>
             </node>
