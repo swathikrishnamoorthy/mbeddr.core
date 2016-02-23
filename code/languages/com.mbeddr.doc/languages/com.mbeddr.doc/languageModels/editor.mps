@@ -56,6 +56,7 @@
     <import index="eh3q" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.text(MPS.Editor/)" />
     <import index="ni5j" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.regex(JDK/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
+    <import index="z0fb" ref="r:0b928dd6-dd7e-45a8-b309-a2e315b7877a(de.itemis.mps.editor.celllayout.editor)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -6866,6 +6867,18 @@
                           </node>
                         </node>
                       </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3tD6jV" id="6aN_eBJ2gva" role="3F10Kt">
+              <ref role="3tD7wE" to="z0fb:6aN_eBJ0Dst" resolve="_overflow-x" />
+              <node concept="3sjG9q" id="6aN_eBJ2gvb" role="3tD6jU">
+                <node concept="3clFbS" id="6aN_eBJ2gvc" role="2VODD2">
+                  <node concept="3clFbF" id="6aN_eBJ2g_n" role="3cqZAp">
+                    <node concept="3clFbT" id="6aN_eBJ2g_m" role="3clFbG">
+                      <property role="3clFbU" value="true" />
                     </node>
                   </node>
                 </node>

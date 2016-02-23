@@ -152,6 +152,22 @@
         <property role="3cmrfH" value="0" />
       </node>
     </node>
+    <node concept="3t5Usi" id="6aN_eBJ0Dst" role="V601i">
+      <property role="iBDjm" value="false" />
+      <property role="TrG5h" value="_overflow-x" />
+      <node concept="10P_77" id="6aN_eBJ0DtF" role="3t5Oan" />
+      <node concept="3clFbT" id="6aN_eBJ0DtJ" role="3t49C2">
+        <property role="3clFbU" value="false" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="6aN_eBJ0LqJ" role="V601i">
+      <property role="iBDjm" value="false" />
+      <property role="TrG5h" value="_overflow-y" />
+      <node concept="10P_77" id="6aN_eBJ0LqK" role="3t5Oan" />
+      <node concept="3clFbT" id="6aN_eBJ0LqL" role="3t49C2">
+        <property role="3clFbU" value="false" />
+      </node>
+    </node>
   </node>
   <node concept="PKFIW" id="6SVXTgI9Y1W">
     <property role="TrG5h" value="Dummy" />
