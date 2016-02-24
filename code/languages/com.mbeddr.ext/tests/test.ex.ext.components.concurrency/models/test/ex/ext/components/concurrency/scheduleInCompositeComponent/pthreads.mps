@@ -2,7 +2,7 @@
 <model ref="r:a42d7124-6eb0-42d6-b52d-c0a24dd09cf1(test.ex.ext.components.concurrency.scheduleInCompositeComponent.pthreads)">
   <persistence version="9" />
   <languages>
-    <use id="3f445ef3-54ad-4ae5-a22d-91c3ce06375e" name="com.mbeddr.ext.components.concurrency" version="-1" />
+    <use id="3f445ef3-54ad-4ae5-a22d-91c3ce06375e" name="com.mbeddr.ext.components.concurrency" version="0" />
     <devkit ref="aa72fbcf-7e79-465b-a4d9-4517ef4624ee(com.mbeddr.concurrency)" />
     <devkit ref="24565007-e59f-42fc-ac10-da3836deec1c(com.mbeddr.components)" />
   </languages>
@@ -56,7 +56,10 @@
       </concept>
     </language>
     <language id="06d68b77-b699-4918-83b8-857e63787800" name="com.mbeddr.core.unittest">
-      <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.TestCaseConfigItem" flags="ng" index="12mU2y" />
+      <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.TestCaseConfigItem" flags="ng" index="12mU2y">
+        <child id="842732463503928104" name="testStrategy" index="3GpDut" />
+      </concept>
+      <concept id="842732463503928109" name="com.mbeddr.core.unittest.structure.TestIsolationStrategy" flags="ng" index="3GpDuo" />
     </language>
     <language id="54f2a59b-97bb-4c09-af92-928ebf9c5966" name="com.mbeddr.ext.compositecomponents">
       <concept id="7540109328385923714" name="com.mbeddr.ext.compositecomponents.structure.CompositeComponentsConfigItem" flags="ng" index="1eFCfY" />
@@ -127,7 +130,9 @@
     </node>
     <node concept="1GGfVi" id="5NTfFgKiv2F" role="2Q9xDr" />
     <node concept="1eFCfY" id="2kF1PD7b5Y1" role="2Q9xDr" />
-    <node concept="12mU2y" id="5NTfFgKjzhI" role="2Q9xDr" />
+    <node concept="12mU2y" id="5NTfFgKjzhI" role="2Q9xDr">
+      <node concept="3GpDuo" id="1U5CTQBnUYu" role="3GpDut" />
+    </node>
   </node>
 </model>
 

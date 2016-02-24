@@ -2,8 +2,8 @@
 <model ref="r:d438826f-ca9d-4f37-96ba-64e84536b6a7(test.analyses.cbmc.analysis_config@tests)">
   <persistence version="9" />
   <languages>
-    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="-1" />
+    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="0" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="1" />
     <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
@@ -480,7 +480,7 @@
                 <ref role="3cqZAo" node="3f3CxMdvKM9" resolve="res" />
               </node>
               <node concept="Xl_RD" id="1kjPA_y9_ID" role="37wK5m">
-                <property role="Xl_RC" value="DecTab (id: 1) - (0,1) - (1,0)" />
+                <property role="Xl_RC" value="DecTab (id: 1) - (1,0) - (0,1)" />
               </node>
             </node>
             <node concept="liA8E" id="1kjPA_y9_IE" role="2OqNvi">

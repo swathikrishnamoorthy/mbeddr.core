@@ -227,6 +227,12 @@
         <child id="559958203687603517" name="imports" index="3W6d8T" />
       </concept>
     </language>
+    <language id="06d68b77-b699-4918-83b8-857e63787800" name="com.mbeddr.core.unittest">
+      <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.TestCaseConfigItem" flags="ng" index="12mU2y">
+        <child id="842732463503928104" name="testStrategy" index="3GpDut" />
+      </concept>
+      <concept id="842732463503928109" name="com.mbeddr.core.unittest.structure.TestIsolationStrategy" flags="ng" index="3GpDuo" />
+    </language>
     <language id="564e97d6-8fb7-41f5-bfc1-c7ed376efd62" name="com.mbeddr.ext.statemachines">
       <concept id="6118219496725500902" name="com.mbeddr.ext.statemachines.structure.SmTriggerTarget" flags="ng" index="$QhJh">
         <reference id="6118219496725502924" name="event" index="$QhfV" />
@@ -341,6 +347,9 @@
     <node concept="3C_SZV" id="7uQ0U6v9zoz" role="2Q9xDr" />
     <node concept="2eh4Hv" id="7FOMyx2$6Ep" role="2Q9xDr" />
     <node concept="22RD12" id="13bv9czoHlZ" role="2Q9xDr" />
+    <node concept="12mU2y" id="1U5CTQBq1hn" role="2Q9xDr">
+      <node concept="3GpDuo" id="1U5CTQBq1ho" role="3GpDut" />
+    </node>
   </node>
   <node concept="N3F5e" id="3iuCLRa88fo">
     <property role="TrG5h" value="FlightAnalyzerVerification" />

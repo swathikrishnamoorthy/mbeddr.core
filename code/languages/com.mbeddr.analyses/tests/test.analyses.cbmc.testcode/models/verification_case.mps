@@ -2,7 +2,7 @@
 <model ref="r:412b8cbb-d078-4ab7-84eb-4d56ecf62b70(verification_case)">
   <persistence version="9" />
   <languages>
-    <use id="dce6c938-92a0-4619-a1d8-62fdb4b872e8" name="com.mbeddr.analyses.cbmc.verification_case" version="-1" />
+    <use id="dce6c938-92a0-4619-a1d8-62fdb4b872e8" name="com.mbeddr.analyses.cbmc.verification_case" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
     <devkit ref="0ca77142-1eea-4b14-b369-69bdaa1c44fb(com.mbeddr.analyses.core)" />
   </languages>
@@ -164,6 +164,10 @@
       <concept id="6275792049641586523" name="com.mbeddr.core.unittest.structure.TestCase" flags="ng" index="c0Qz5">
         <child id="6275792049641586525" name="body" index="c0Qz3" />
       </concept>
+      <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.TestCaseConfigItem" flags="ng" index="12mU2y">
+        <child id="842732463503928104" name="testStrategy" index="3GpDut" />
+      </concept>
+      <concept id="842732463503928109" name="com.mbeddr.core.unittest.structure.TestIsolationStrategy" flags="ng" index="3GpDuo" />
     </language>
     <language id="dce6c938-92a0-4619-a1d8-62fdb4b872e8" name="com.mbeddr.analyses.cbmc.verification_case">
       <concept id="3188676733150532929" name="com.mbeddr.analyses.cbmc.verification_case.structure.DataEnvironment" flags="ng" index="2Ju7p">
@@ -260,6 +264,9 @@
       <node concept="2v9HqM" id="4QGaVz5aUFs" role="2eOfOg">
         <ref role="2v9HqP" to="3y0n:137zkozycPF" resolve="stdarg" />
       </node>
+    </node>
+    <node concept="12mU2y" id="3mKW6ZYf9xh" role="2Q9xDr">
+      <node concept="3GpDuo" id="3mKW6ZYf9xi" role="3GpDut" />
     </node>
   </node>
   <node concept="N3F5e" id="7DvJ5MZ5CJM">

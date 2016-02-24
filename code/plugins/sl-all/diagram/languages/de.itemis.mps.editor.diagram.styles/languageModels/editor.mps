@@ -2,7 +2,7 @@
 <model ref="r:5eabed4f-92f5-4459-b9b3-e2faa24f3467(de.itemis.mps.editor.diagram.styles.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -446,7 +446,7 @@
             <node concept="3clFbS" id="4opyGmeg9OX" role="3Kbo56">
               <node concept="3cpWs6" id="4opyGmegbb6" role="3cqZAp">
                 <node concept="2ShNRf" id="4opyGmeg9P2" role="3cqZAk">
-                  <node concept="1pGfFk" id="4opyGmeg9P3" role="2ShVmc">
+                  <node concept="1pGfFk" id="2cyQj2NJ3fK" role="2ShVmc">
                     <ref role="37wK5l" to="z60i:~BasicStroke.&lt;init&gt;(float,int,int,float,float[],float)" resolve="BasicStroke" />
                     <node concept="37vLTw" id="4opyGmeg9P4" role="37wK5m">
                       <ref role="3cqZAo" node="4opyGmeg9K1" resolve="lineWidth" />

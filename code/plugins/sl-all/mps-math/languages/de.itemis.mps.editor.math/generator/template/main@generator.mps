@@ -2,12 +2,12 @@
 <model ref="r:a88916a3-aa8e-4642-b9da-42219b3ec68e(de.itemis.mps.editor.math.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
-    <use id="766348f7-6a67-4b85-9323-384840132299" name="de.itemis.mps.editor.math" version="-1" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
-    <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="-1" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="766348f7-6a67-4b85-9323-384840132299" name="de.itemis.mps.editor.math" version="0" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -84,6 +84,9 @@
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
@@ -1339,6 +1342,60 @@
                                   <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color):void" resolve="setColor" />
                                   <node concept="37vLTw" id="jgTeXhHVp3" role="37wK5m">
                                     <ref role="3cqZAo" node="3p9Oys9W59I" resolve="symbolColor" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbF" id="3fnMrcB_PO" role="3cqZAp">
+                              <node concept="2OqwBi" id="3fnMrcBC9j" role="3clFbG">
+                                <node concept="37vLTw" id="3fnMrcBTVH" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="2d15myJhwsD" resolve="g2" />
+                                </node>
+                                <node concept="liA8E" id="3fnMrcBC9k" role="2OqNvi">
+                                  <ref role="37wK5l" to="z60i:~Graphics2D.setRenderingHint(java.awt.RenderingHints$Key,java.lang.Object):void" resolve="setRenderingHint" />
+                                  <node concept="10M0yZ" id="3fnMrcB_WE" role="37wK5m">
+                                    <ref role="1PxDUh" to="z60i:~RenderingHints" resolve="RenderingHints" />
+                                    <ref role="3cqZAo" to="z60i:~RenderingHints.KEY_TEXT_ANTIALIASING" resolve="KEY_TEXT_ANTIALIASING" />
+                                  </node>
+                                  <node concept="10M0yZ" id="3fnMrcB_WF" role="37wK5m">
+                                    <ref role="3cqZAo" to="z60i:~RenderingHints.VALUE_TEXT_ANTIALIAS_ON" resolve="VALUE_TEXT_ANTIALIAS_ON" />
+                                    <ref role="1PxDUh" to="z60i:~RenderingHints" resolve="RenderingHints" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbF" id="3fnMrcB_PS" role="3cqZAp">
+                              <node concept="2OqwBi" id="3fnMrcBBPq" role="3clFbG">
+                                <node concept="37vLTw" id="3fnMrcBUbb" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="2d15myJhwsD" resolve="g2" />
+                                </node>
+                                <node concept="liA8E" id="3fnMrcBBPr" role="2OqNvi">
+                                  <ref role="37wK5l" to="z60i:~Graphics2D.setRenderingHint(java.awt.RenderingHints$Key,java.lang.Object):void" resolve="setRenderingHint" />
+                                  <node concept="10M0yZ" id="3fnMrcB_WG" role="37wK5m">
+                                    <ref role="1PxDUh" to="z60i:~RenderingHints" resolve="RenderingHints" />
+                                    <ref role="3cqZAo" to="z60i:~RenderingHints.KEY_ANTIALIASING" resolve="KEY_ANTIALIASING" />
+                                  </node>
+                                  <node concept="10M0yZ" id="3fnMrcB_WH" role="37wK5m">
+                                    <ref role="3cqZAo" to="z60i:~RenderingHints.VALUE_ANTIALIAS_ON" resolve="VALUE_ANTIALIAS_ON" />
+                                    <ref role="1PxDUh" to="z60i:~RenderingHints" resolve="RenderingHints" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbF" id="3fnMrcB_PW" role="3cqZAp">
+                              <node concept="2OqwBi" id="3fnMrcBBwu" role="3clFbG">
+                                <node concept="37vLTw" id="3fnMrcBUqI" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="2d15myJhwsD" resolve="g2" />
+                                </node>
+                                <node concept="liA8E" id="3fnMrcBBwv" role="2OqNvi">
+                                  <ref role="37wK5l" to="z60i:~Graphics2D.setRenderingHint(java.awt.RenderingHints$Key,java.lang.Object):void" resolve="setRenderingHint" />
+                                  <node concept="10M0yZ" id="3fnMrcB_WI" role="37wK5m">
+                                    <ref role="1PxDUh" to="z60i:~RenderingHints" resolve="RenderingHints" />
+                                    <ref role="3cqZAo" to="z60i:~RenderingHints.KEY_RENDERING" resolve="KEY_RENDERING" />
+                                  </node>
+                                  <node concept="10M0yZ" id="3fnMrcB_WJ" role="37wK5m">
+                                    <ref role="1PxDUh" to="z60i:~RenderingHints" resolve="RenderingHints" />
+                                    <ref role="3cqZAo" to="z60i:~RenderingHints.VALUE_RENDER_QUALITY" resolve="VALUE_RENDER_QUALITY" />
                                   </node>
                                 </node>
                               </node>

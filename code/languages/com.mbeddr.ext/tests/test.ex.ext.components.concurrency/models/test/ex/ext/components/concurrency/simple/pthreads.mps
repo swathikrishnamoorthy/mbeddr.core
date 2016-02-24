@@ -2,7 +2,7 @@
 <model ref="r:2d84c5db-6271-46dc-a34f-885f55c8e4af(test.ex.ext.components.concurrency.simple.pthreads)">
   <persistence version="9" />
   <languages>
-    <use id="3f445ef3-54ad-4ae5-a22d-91c3ce06375e" name="com.mbeddr.ext.components.concurrency" version="-1" />
+    <use id="3f445ef3-54ad-4ae5-a22d-91c3ce06375e" name="com.mbeddr.ext.components.concurrency" version="0" />
     <generationPart ref="efda956e-491e-4f00-ba14-36af2f213ecf(com.mbeddr.core.udt)" />
     <generationPart ref="3bf5377a-e904-4ded-9754-5a516023bfaa(com.mbeddr.core.pointers)" />
     <generationPart ref="d4280a54-f6df-4383-aa41-d1b2bffa7eb1(com.mbeddr.core.base)" />
@@ -60,7 +60,10 @@
       </concept>
     </language>
     <language id="06d68b77-b699-4918-83b8-857e63787800" name="com.mbeddr.core.unittest">
-      <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.TestCaseConfigItem" flags="ng" index="12mU2y" />
+      <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.TestCaseConfigItem" flags="ng" index="12mU2y">
+        <child id="842732463503928104" name="testStrategy" index="3GpDut" />
+      </concept>
+      <concept id="842732463503928109" name="com.mbeddr.core.unittest.structure.TestIsolationStrategy" flags="ng" index="3GpDuo" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -121,7 +124,9 @@
       </node>
     </node>
     <node concept="1GGfVi" id="5NTfFgKiv2F" role="2Q9xDr" />
-    <node concept="12mU2y" id="5NTfFgKjzhI" role="2Q9xDr" />
+    <node concept="12mU2y" id="5NTfFgKjzhI" role="2Q9xDr">
+      <node concept="3GpDuo" id="1U5CTQBo_cX" role="3GpDut" />
+    </node>
   </node>
 </model>
 

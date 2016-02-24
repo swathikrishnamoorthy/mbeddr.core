@@ -2159,6 +2159,87 @@
       <ref role="1YaFvo" to="c4fa:1wca57XTRsm" resolve="DesignatedInitializer" />
     </node>
   </node>
+  <node concept="18kY7G" id="6T3uXzTgIE1">
+    <property role="TrG5h" value="check_LocalVariableDeclarationStorrageClass" />
+    <property role="3GE5qa" value="localvar" />
+    <node concept="3clFbS" id="6T3uXzTgIE2" role="18ibNy">
+      <node concept="3clFbJ" id="6T3uXzTgIE8" role="3cqZAp">
+        <node concept="3clFbS" id="6T3uXzTgIE9" role="3clFbx">
+          <node concept="2MkqsV" id="6T3uXzTgMdV" role="3cqZAp">
+            <node concept="Xl_RD" id="6T3uXzTgMe7" role="2MkJ7o">
+              <property role="Xl_RC" value="cannot be static and register at the same time" />
+            </node>
+            <node concept="1YBJjd" id="6T3uXzTgMfh" role="2OEOjV">
+              <ref role="1YBMHb" node="6T3uXzTgIE4" resolve="localVariableDeclaration" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="6T3uXzTgJSa" role="3clFbw">
+          <node concept="2OqwBi" id="6T3uXzTgIOf" role="3uHU7B">
+            <node concept="1YBJjd" id="6T3uXzTgIEk" role="2Oq$k0">
+              <ref role="1YBMHb" node="6T3uXzTgIE4" resolve="localVariableDeclaration" />
+            </node>
+            <node concept="3TrcHB" id="6T3uXzTgJuG" role="2OqNvi">
+              <ref role="3TsBF5" to="c4fa:3_fgNoLA7XY" resolve="static" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6T3uXzTgK5n" role="3uHU7w">
+            <node concept="1YBJjd" id="6T3uXzTgJVh" role="2Oq$k0">
+              <ref role="1YBMHb" node="6T3uXzTgIE4" resolve="localVariableDeclaration" />
+            </node>
+            <node concept="3TrcHB" id="6T3uXzTgKM$" role="2OqNvi">
+              <ref role="3TsBF5" to="c4fa:52l0VUuN5OB" resolve="storeInRegister" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6T3uXzTgIE4" role="1YuTPh">
+      <property role="TrG5h" value="localVariableDeclaration" />
+      <ref role="1YaFvo" to="c4fa:3CmSUB7FprA" resolve="LocalVariableDeclaration" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="6T3uXzTi8ua">
+    <property role="TrG5h" value="check_StatementList" />
+    <node concept="3clFbS" id="6T3uXzTi8ub" role="18ibNy">
+      <node concept="3clFbJ" id="6T3uXzTi8uz" role="3cqZAp">
+        <node concept="3clFbS" id="6T3uXzTi8u$" role="3clFbx">
+          <node concept="2MkqsV" id="6T3uXzTi9_3" role="3cqZAp">
+            <node concept="Xl_RD" id="6T3uXzTi9_f" role="2MkJ7o">
+              <property role="Xl_RC" value="invisible statement lists are only allowed in the generator" />
+            </node>
+            <node concept="1YBJjd" id="6T3uXzTi9Ai" role="2OEOjV">
+              <ref role="1YBMHb" node="6T3uXzTi8ud" resolve="statementList" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="6T3uXzTi96B" role="3clFbw">
+          <node concept="2OqwBi" id="6T3uXzTi9gQ" role="3uHU7B">
+            <node concept="1YBJjd" id="6T3uXzTi9a5" role="2Oq$k0">
+              <ref role="1YBMHb" node="6T3uXzTi8ud" resolve="statementList" />
+            </node>
+            <node concept="3TrcHB" id="6T3uXzTi9xD" role="2OqNvi">
+              <ref role="3TsBF5" to="c4fa:41KMvfcgiZ1" resolve="isInvisible" />
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="6T3uXzTi93n" role="3uHU7w">
+            <node concept="2OqwBi" id="6T3uXzTi93p" role="3fr31v">
+              <node concept="1YBJjd" id="6T3uXzTi93q" role="2Oq$k0">
+                <ref role="1YBMHb" node="6T3uXzTi8ud" resolve="statementList" />
+              </node>
+              <node concept="2qgKlT" id="6T3uXzTi93r" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMij" resolve="isInTemplates" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6T3uXzTi8ud" role="1YuTPh">
+      <property role="TrG5h" value="statementList" />
+      <ref role="1YaFvo" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
+    </node>
+  </node>
   <node concept="Q5z_Y" id="5sAkJdu_Zt5">
     <property role="TrG5h" value="IWithParentPointer_parent_wb" />
     <property role="3GE5qa" value="wellbehaving" />
@@ -2816,87 +2897,6 @@
           </node>
         </node>
       </node>
-    </node>
-  </node>
-  <node concept="18kY7G" id="6T3uXzTgIE1">
-    <property role="TrG5h" value="check_LocalVariableDeclarationStorrageClass" />
-    <property role="3GE5qa" value="localvar" />
-    <node concept="3clFbS" id="6T3uXzTgIE2" role="18ibNy">
-      <node concept="3clFbJ" id="6T3uXzTgIE8" role="3cqZAp">
-        <node concept="3clFbS" id="6T3uXzTgIE9" role="3clFbx">
-          <node concept="2MkqsV" id="6T3uXzTgMdV" role="3cqZAp">
-            <node concept="Xl_RD" id="6T3uXzTgMe7" role="2MkJ7o">
-              <property role="Xl_RC" value="cannot be static and register at the same time" />
-            </node>
-            <node concept="1YBJjd" id="6T3uXzTgMfh" role="2OEOjV">
-              <ref role="1YBMHb" node="6T3uXzTgIE4" resolve="localVariableDeclaration" />
-            </node>
-          </node>
-        </node>
-        <node concept="1Wc70l" id="6T3uXzTgJSa" role="3clFbw">
-          <node concept="2OqwBi" id="6T3uXzTgIOf" role="3uHU7B">
-            <node concept="1YBJjd" id="6T3uXzTgIEk" role="2Oq$k0">
-              <ref role="1YBMHb" node="6T3uXzTgIE4" resolve="localVariableDeclaration" />
-            </node>
-            <node concept="3TrcHB" id="6T3uXzTgJuG" role="2OqNvi">
-              <ref role="3TsBF5" to="c4fa:3_fgNoLA7XY" resolve="static" />
-            </node>
-          </node>
-          <node concept="2OqwBi" id="6T3uXzTgK5n" role="3uHU7w">
-            <node concept="1YBJjd" id="6T3uXzTgJVh" role="2Oq$k0">
-              <ref role="1YBMHb" node="6T3uXzTgIE4" resolve="localVariableDeclaration" />
-            </node>
-            <node concept="3TrcHB" id="6T3uXzTgKM$" role="2OqNvi">
-              <ref role="3TsBF5" to="c4fa:52l0VUuN5OB" resolve="storeInRegister" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="6T3uXzTgIE4" role="1YuTPh">
-      <property role="TrG5h" value="localVariableDeclaration" />
-      <ref role="1YaFvo" to="c4fa:3CmSUB7FprA" resolve="LocalVariableDeclaration" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="6T3uXzTi8ua">
-    <property role="TrG5h" value="check_StatementList" />
-    <node concept="3clFbS" id="6T3uXzTi8ub" role="18ibNy">
-      <node concept="3clFbJ" id="6T3uXzTi8uz" role="3cqZAp">
-        <node concept="3clFbS" id="6T3uXzTi8u$" role="3clFbx">
-          <node concept="2MkqsV" id="6T3uXzTi9_3" role="3cqZAp">
-            <node concept="Xl_RD" id="6T3uXzTi9_f" role="2MkJ7o">
-              <property role="Xl_RC" value="invisible statement lists are only allowed in the generator" />
-            </node>
-            <node concept="1YBJjd" id="6T3uXzTi9Ai" role="2OEOjV">
-              <ref role="1YBMHb" node="6T3uXzTi8ud" resolve="statementList" />
-            </node>
-          </node>
-        </node>
-        <node concept="1Wc70l" id="6T3uXzTi96B" role="3clFbw">
-          <node concept="2OqwBi" id="6T3uXzTi9gQ" role="3uHU7B">
-            <node concept="1YBJjd" id="6T3uXzTi9a5" role="2Oq$k0">
-              <ref role="1YBMHb" node="6T3uXzTi8ud" resolve="statementList" />
-            </node>
-            <node concept="3TrcHB" id="6T3uXzTi9xD" role="2OqNvi">
-              <ref role="3TsBF5" to="c4fa:41KMvfcgiZ1" resolve="isInvisible" />
-            </node>
-          </node>
-          <node concept="3fqX7Q" id="6T3uXzTi93n" role="3uHU7w">
-            <node concept="2OqwBi" id="6T3uXzTi93p" role="3fr31v">
-              <node concept="1YBJjd" id="6T3uXzTi93q" role="2Oq$k0">
-                <ref role="1YBMHb" node="6T3uXzTi8ud" resolve="statementList" />
-              </node>
-              <node concept="2qgKlT" id="6T3uXzTi93r" role="2OqNvi">
-                <ref role="37wK5l" to="tpcu:hEwIMij" resolve="isInTemplates" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="6T3uXzTi8ud" role="1YuTPh">
-      <property role="TrG5h" value="statementList" />
-      <ref role="1YaFvo" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
     </node>
   </node>
 </model>

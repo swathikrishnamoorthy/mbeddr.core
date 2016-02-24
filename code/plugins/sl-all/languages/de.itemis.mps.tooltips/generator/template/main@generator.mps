@@ -2,21 +2,21 @@
 <model ref="r:b2a269fc-16e8-4926-b622-720f52369a9c(de.itemis.mps.tooltips.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
-    <use id="a0ab8c10-c118-4755-ba27-3853435cf524" name="de.itemis.mps.tooltips" version="-1" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="a0ab8c10-c118-4755-ba27-3853435cf524" name="de.itemis.mps.tooltips" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="tpc3" ref="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
-    <import index="nu8v" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor.cells(MPS.Editor/jetbrains.mps.openapi.editor.cells@java_stub)" />
-    <import index="srng" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(MPS.Editor/jetbrains.mps.openapi.editor@java_stub)" />
+    <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" />
     <import index="5usg" ref="r:3838bb8b-fecd-4f7c-841e-325717a43980(de.itemis.mps.tooltips.runtime)" />
-    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="bhcn" ref="r:b764cfb6-903f-41e9-95dc-ea24a6097dec(de.itemis.mps.tooltips.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -38,6 +38,9 @@
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
@@ -148,6 +151,9 @@
       </concept>
     </language>
     <language id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext">
+      <concept id="1218047638031" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_CreateUniqueName" flags="nn" index="2piZGk">
+        <child id="1218047638032" name="baseName" index="2piZGb" />
+      </concept>
       <concept id="1216860049627" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetOutputByLabelAndInput" flags="nn" index="1iwH70">
         <reference id="1216860049628" name="label" index="1iwH77" />
         <child id="1216860049632" name="inputNode" index="1iwH7V" />
@@ -246,7 +252,7 @@
       <node concept="3clFb_" id="fYh_FPH" role="jymVt">
         <property role="TrG5h" value="_cell_factory_method_" />
         <node concept="3uibUv" id="5Hr2i_R1FKr" role="3clF45">
-          <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+          <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
         </node>
         <node concept="raruj" id="fYh_FQ9" role="lGtFl">
           <ref role="2sdACS" to="tpc3:hG092h3" resolve="cellFactoryMethod" />
@@ -255,7 +261,7 @@
           <property role="TrG5h" value="editorContext" />
           <property role="3TUv4t" value="true" />
           <node concept="3uibUv" id="5Xfm$vWHl6E" role="1tU5fm">
-            <ref role="3uigEE" to="srng:~EditorContext" resolve="EditorContext" />
+            <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
           </node>
         </node>
         <node concept="3clFbS" id="fYh_FPI" role="3clF47">
@@ -277,7 +283,7 @@
                       <property role="TrG5h" value="buildTooltipCell" />
                       <property role="1EzhhJ" value="false" />
                       <node concept="3uibUv" id="2a194$KroVy" role="3clF45">
-                        <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+                        <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
                       </node>
                       <node concept="3Tmbuc" id="2a194$KroVz" role="1B3o_S" />
                       <node concept="3clFbS" id="2a194$KroV_" role="3clF47">
@@ -316,7 +322,7 @@
                         </node>
                       </node>
                       <node concept="2AHcQZ" id="5$X36HXtixT" role="2AJF6D">
-                        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                     </node>
                     <node concept="3clFb_" id="5ziO332GhaQ" role="jymVt">
@@ -365,7 +371,7 @@
                         </node>
                       </node>
                       <node concept="2AHcQZ" id="5ziO332GhaY" role="2AJF6D">
-                        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                       <node concept="1W57fq" id="43wIXRavClX" role="lGtFl">
                         <node concept="3IZrLx" id="43wIXRavClZ" role="3IZSJc">
@@ -396,6 +402,32 @@
                     <node concept="37vLTw" id="4WvEEB$8QYS" role="37wK5m">
                       <ref role="3cqZAo" node="fYh_FQ7" resolve="node" />
                     </node>
+                    <node concept="2ShNRf" id="5P1DsEq0RQv" role="37wK5m">
+                      <node concept="1pGfFk" id="5P1DsEq0RQu" role="2ShVmc">
+                        <ref role="37wK5l" to="5usg:5P1DsEq0_Vx" resolve="TooltipId" />
+                        <node concept="Xl_RD" id="5P1DsEq0S40" role="37wK5m">
+                          <property role="Xl_RC" value="id" />
+                          <node concept="17Uvod" id="5P1DsEq0Su1" role="lGtFl">
+                            <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                            <property role="2qtEX9" value="value" />
+                            <node concept="3zFVjK" id="5P1DsEq0Su2" role="3zH0cK">
+                              <node concept="3clFbS" id="5P1DsEq0Su3" role="2VODD2">
+                                <node concept="3clFbF" id="5P1DsEq0SMP" role="3cqZAp">
+                                  <node concept="2OqwBi" id="5P1DsEq0SPA" role="3clFbG">
+                                    <node concept="1iwH7S" id="5P1DsEq0SMO" role="2Oq$k0" />
+                                    <node concept="2piZGk" id="5P1DsEq0SUi" role="2OqNvi">
+                                      <node concept="Xl_RD" id="5P1DsEq0SYb" role="2piZGb">
+                                        <property role="Xl_RC" value="tooltipId" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -405,7 +437,7 @@
             <node concept="3cpWsn" id="7XU1fOGpryL" role="3cpWs9">
               <property role="TrG5h" value="anchor" />
               <node concept="3uibUv" id="7XU1fOGpryM" role="1tU5fm">
-                <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+                <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
               </node>
               <node concept="1rXfSq" id="7XU1fOGpryN" role="33vP2m">
                 <ref role="37wK5l" node="7XU1fOGpj1R" resolve="cellFactory" />
@@ -510,7 +542,7 @@
         <node concept="37vLTG" id="7XU1fOGplVG" role="3clF46">
           <property role="TrG5h" value="editorContext" />
           <node concept="3uibUv" id="7XU1fOGpmkp" role="1tU5fm">
-            <ref role="3uigEE" to="srng:~EditorContext" resolve="EditorContext" />
+            <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
           </node>
         </node>
         <node concept="37vLTG" id="7XU1fOGpmml" role="3clF46">
@@ -518,7 +550,7 @@
           <node concept="3Tqbb2" id="7XU1fOGpmJ1" role="1tU5fm" />
         </node>
         <node concept="3uibUv" id="7XU1fOGppxQ" role="3clF45">
-          <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+          <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
         </node>
         <node concept="3Tm1VV" id="7XU1fOGpj1U" role="1B3o_S" />
         <node concept="3clFbS" id="7XU1fOGpj1V" role="3clF47">

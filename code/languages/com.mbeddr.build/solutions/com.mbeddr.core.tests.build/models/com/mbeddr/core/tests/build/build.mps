@@ -585,18 +585,6 @@
             <ref role="3bR37D" to="p6ld:6y2eE4zZsnH" resolve="com.mbeddr.core.stdlib" />
           </node>
         </node>
-        <node concept="398BVA" id="7eF9rfAuutX" role="3LF7KH">
-          <ref role="398BVh" node="7eF9rfAuuux" resolve="mbeddr.core" />
-          <node concept="2Ry0Ak" id="7eF9rfAuutY" role="iGT6I">
-            <property role="2Ry0Am" value="tests" />
-            <node concept="2Ry0Ak" id="7eF9rfAuutZ" role="2Ry0An">
-              <property role="2Ry0Am" value="test.ts.core.dataflow" />
-              <node concept="2Ry0Ak" id="7eF9rfAuuu0" role="2Ry0An">
-                <property role="2Ry0Am" value="dataflow.msd" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="68Xto9WXCO2" role="3bR37C">
           <node concept="3bR9La" id="68Xto9WXCO3" role="1SiIV1">
             <property role="3bR36h" value="false" />
@@ -607,6 +595,18 @@
           <node concept="3bR9La" id="68Xto9WXCO5" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="7eF9rfAuutL" resolve="com.mbeddr.core.__spreferences.PlatformTemplates" />
+          </node>
+        </node>
+        <node concept="398BVA" id="7eF9rfAuutX" role="3LF7KH">
+          <ref role="398BVh" node="7eF9rfAuuux" resolve="mbeddr.core" />
+          <node concept="2Ry0Ak" id="7eF9rfAuutY" role="iGT6I">
+            <property role="2Ry0Am" value="tests" />
+            <node concept="2Ry0Ak" id="7eF9rfAuutZ" role="2Ry0An">
+              <property role="2Ry0Am" value="test.ts.core.dataflow" />
+              <node concept="2Ry0Ak" id="7eF9rfAuuu0" role="2Ry0An">
+                <property role="2Ry0Am" value="dataflow.msd" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

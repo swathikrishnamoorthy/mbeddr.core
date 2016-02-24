@@ -2,7 +2,7 @@
 <model ref="r:f22ece60-004e-4af5-aadc-d827cf9a32e8(com.mbeddr.core.pointers.dataFlow)">
   <persistence version="9" />
   <languages>
-    <use id="7fa12e9c-b949-4976-b4fa-19accbc320b4" name="jetbrains.mps.lang.dataFlow" version="-1" />
+    <use id="7fa12e9c-b949-4976-b4fa-19accbc320b4" name="jetbrains.mps.lang.dataFlow" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -68,7 +68,6 @@
     <ref role="3_znuS" to="yq40:5sJgLFR$y$1" resolve="ArrayAccessExpr" />
     <node concept="3__wT9" id="2EIw3H72GYE" role="3_A6iZ">
       <node concept="3clFbS" id="2EIw3H72GYF" role="2VODD2">
-        <node concept="3clFbH" id="1LDGRqySsD9" role="3cqZAp" />
         <node concept="3AgYrR" id="1LDGRqyS_if" role="3cqZAp">
           <node concept="2OqwBi" id="1LDGRqyS_o2" role="3Ah4Yx">
             <node concept="3__QtB" id="1LDGRqyS_iD" role="2Oq$k0" />

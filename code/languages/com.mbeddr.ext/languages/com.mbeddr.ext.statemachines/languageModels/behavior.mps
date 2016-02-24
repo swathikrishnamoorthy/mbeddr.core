@@ -2,9 +2,9 @@
 <model ref="r:7581afdf-2eec-4ad5-b583-8a9ab51847f7(com.mbeddr.ext.statemachines.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
-    <use id="ebb5e132-d298-4649-b320-b3f4d7f3acff" name="com.mbeddr.core.debug.blext" version="-1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
+    <use id="ebb5e132-d298-4649-b320-b3f4d7f3acff" name="com.mbeddr.core.debug.blext" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -3000,6 +3000,54 @@
     </node>
     <node concept="13hLZK" id="6jjPLM8mPVW" role="13h7CW">
       <node concept="3clFbS" id="6jjPLM8mPVX" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="73rNuZmKaGk" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="rebindToProxy" />
+      <ref role="13i0hy" to="hwgx:7jSUHHvkApb" resolve="rebindToProxy" />
+      <node concept="3Tm1VV" id="73rNuZmKaGl" role="1B3o_S" />
+      <node concept="3clFbS" id="73rNuZmKaGq" role="3clF47">
+        <node concept="3clFbF" id="73rNuZmKbd9" role="3cqZAp">
+          <node concept="37vLTI" id="73rNuZmKc7u" role="3clFbG">
+            <node concept="1PxgMI" id="73rNuZmKcfV" role="37vLTx">
+              <ref role="1PxNhF" to="clqz:50Lk78xBr9L" resolve="Statemachine" />
+              <node concept="37vLTw" id="73rNuZmKcbo" role="1PxMeX">
+                <ref role="3cqZAo" node="73rNuZmKaGr" resolve="proxyElement" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="73rNuZmKbmY" role="37vLTJ">
+              <node concept="13iPFW" id="73rNuZmKbd8" role="2Oq$k0" />
+              <node concept="3TrEf2" id="73rNuZmKbHD" role="2OqNvi">
+                <ref role="3Tt5mk" to="clqz:6NQSyUTqXkM" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="73rNuZmKaGr" role="3clF46">
+        <property role="TrG5h" value="proxyElement" />
+        <node concept="3Tqbb2" id="73rNuZmKaGs" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="73rNuZmKaGt" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="73rNuZmKaGu" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="referencedModuleContent" />
+      <ref role="13i0hy" to="hwgx:7jSUHHvkAph" resolve="referencedModuleContent" />
+      <node concept="3Tm1VV" id="73rNuZmKaGv" role="1B3o_S" />
+      <node concept="3clFbS" id="73rNuZmKaGy" role="3clF47">
+        <node concept="3clFbF" id="73rNuZmKaV7" role="3cqZAp">
+          <node concept="2OqwBi" id="73rNuZmKaZQ" role="3clFbG">
+            <node concept="13iPFW" id="73rNuZmKaV6" role="2Oq$k0" />
+            <node concept="3TrEf2" id="73rNuZmKbbq" role="2OqNvi">
+              <ref role="3Tt5mk" to="clqz:6NQSyUTqXkM" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="73rNuZmKaGz" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="1GDnlaUAGrW">

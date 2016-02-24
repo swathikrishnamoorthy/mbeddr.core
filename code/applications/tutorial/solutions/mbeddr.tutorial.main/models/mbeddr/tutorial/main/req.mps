@@ -2,11 +2,11 @@
 <model ref="r:79ed4c17-66fc-4c5a-bff7-46990b4e0c5d(mbeddr.tutorial.main.req)">
   <persistence version="9" />
   <languages>
-    <use id="d6714220-402d-48cb-a4a2-88223c6257f6" name="com.mbeddr.cc.requirements.scenarios" version="-1" />
-    <use id="f3ed62ca-3490-40d0-890b-9b3133cc2ead" name="com.mbeddr.cc.requirements.c" version="-1" />
-    <use id="983e02f8-8062-426e-b60d-bc044a46b93a" name="com.mbeddr.cc.requirements.report" version="-1" />
-    <use id="7a52ca96-9053-41d2-ae13-8cee05f36698" name="com.mbeddr.cc.requirements.c2doc" version="-1" />
-    <use id="b9f5080f-7f6a-4d86-b994-77d4c982153a" name="com.mbeddr.cc.requirements.scenario2doc" version="-1" />
+    <use id="d6714220-402d-48cb-a4a2-88223c6257f6" name="com.mbeddr.cc.requirements.scenarios" version="0" />
+    <use id="f3ed62ca-3490-40d0-890b-9b3133cc2ead" name="com.mbeddr.cc.requirements.c" version="0" />
+    <use id="983e02f8-8062-426e-b60d-bc044a46b93a" name="com.mbeddr.cc.requirements.report" version="0" />
+    <use id="7a52ca96-9053-41d2-ae13-8cee05f36698" name="com.mbeddr.cc.requirements.c2doc" version="0" />
+    <use id="b9f5080f-7f6a-4d86-b994-77d4c982153a" name="com.mbeddr.cc.requirements.scenario2doc" version="0" />
     <use id="ca9e3cd7-a4a7-4d94-943e-79c063754879" name="com.mbeddr.mpsutil.favourites" version="0" />
     <devkit ref="a4dac888-0788-4852-b4c0-f386bf6f2c0b(com.mbeddr.cc.reqtrace)" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
@@ -690,7 +690,7 @@
             <property role="2hmy$m" value="165" />
           </node>
           <node concept="3TlMh9" id="6tDQfttHvFD" role="1d7UbX">
-            <property role="2hmy$m" value="200" />
+            <property role="2hmy$m" value="210" />
           </node>
         </node>
         <node concept="1d7MWx" id="6tDQfttHvFE" role="1d0Bzp">
@@ -701,7 +701,7 @@
             <property role="2hmy$m" value="140" />
           </node>
           <node concept="3TlMh9" id="6tDQfttHvFH" role="1d7UbX">
-            <property role="2hmy$m" value="100" />
+            <property role="2hmy$m" value="100.2" />
           </node>
         </node>
         <node concept="1d7MWx" id="6tDQfttHvFI" role="1d0Bzp">

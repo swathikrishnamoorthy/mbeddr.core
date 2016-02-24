@@ -269,12 +269,12 @@
     <property role="3lZH7k" value="derive_from_internal_value" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="4oNjwzxp3wy" role="M5hS2">
-      <property role="1uS6qo" value="EXACT" />
+      <property role="1uS6qo" value="EXACT_MEMBERS" />
       <property role="1uS6qv" value="0" />
     </node>
     <node concept="M4N5e" id="4oNjwzxp3wz" role="M5hS2">
       <property role="1uS6qv" value="1" />
-      <property role="1uS6qo" value="CONTAINS" />
+      <property role="1uS6qo" value="CONTAINS_MEMBERS" />
     </node>
   </node>
   <node concept="1TIwiD" id="$WtIWn_nVz">
@@ -307,6 +307,17 @@
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="PrWs8" id="4mypyst6kZH" role="PzmwI">
       <ref role="PrY4T" node="53_zXRSI6_" resolve="IPatternContext" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3quoVcnVIhX">
+    <property role="1pbfSe" value="1317881904" />
+    <property role="3GE5qa" value="pattern" />
+    <property role="TrG5h" value="GetConceptOperation" />
+    <property role="R4oN_" value="returns the concept the pattern matches" />
+    <property role="34LRSv" value="getConcept" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3quoVcnVIiD" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
     </node>
   </node>
 </model>
