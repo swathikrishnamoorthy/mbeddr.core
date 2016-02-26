@@ -123,7 +123,6 @@
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
-      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -213,9 +212,6 @@
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
-    </language>
-    <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
-      <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
       <concept id="6832197706140896242" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocComment" flags="ng" index="z59LJ" />
@@ -5698,53 +5694,6 @@
       <node concept="3cqZAl" id="3Osd_yxeiQ$" role="3clF45" />
       <node concept="3Tm1VV" id="3Osd_yxeiQ_" role="1B3o_S" />
       <node concept="3clFbS" id="3Osd_yxeiQA" role="3clF47">
-        <node concept="3clFbJ" id="428yfg3RRcj" role="3cqZAp">
-          <node concept="3clFbS" id="428yfg3RRck" role="3clFbx">
-            <node concept="3clFbF" id="428yfg3RRcl" role="3cqZAp">
-              <node concept="2OqwBi" id="428yfg3RRcm" role="3clFbG">
-                <node concept="10M0yZ" id="428yfg3RRcn" role="2Oq$k0">
-                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                </node>
-                <node concept="liA8E" id="428yfg3RRco" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                  <node concept="3cpWs3" id="428yfg3RRcp" role="37wK5m">
-                    <node concept="2OqwBi" id="428yfg3SaZ0" role="3uHU7w">
-                      <node concept="37vLTw" id="428yfg3SaOg" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
-                      </node>
-                      <node concept="liA8E" id="428yfg3Sb1a" role="2OqNvi">
-                        <ref role="37wK5l" to="f4zo:~EditorCell.getX():int" resolve="getX" />
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="428yfg3RRcr" role="3uHU7B">
-                      <property role="Xl_RC" value="read " />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="17R0WA" id="428yfg3RRcs" role="3clFbw">
-            <node concept="Xl_RD" id="428yfg3RRct" role="3uHU7w">
-              <property role="Xl_RC" value="iiii" />
-            </node>
-            <node concept="2EnYce" id="428yfg3RRcu" role="3uHU7B">
-              <node concept="0kSF2" id="428yfg3RRcv" role="2Oq$k0">
-                <node concept="3uibUv" id="428yfg3RRcw" role="0kSFW">
-                  <ref role="3uigEE" to="f4zo:~EditorCell_Label" resolve="EditorCell_Label" />
-                </node>
-                <node concept="37vLTw" id="428yfg3Sa_b" role="0kSFX">
-                  <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
-                </node>
-              </node>
-              <node concept="liA8E" id="428yfg3RRcy" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell_Label.getText():java.lang.String" resolve="getText" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="428yfg3Sa4O" role="3cqZAp" />
         <node concept="3clFbF" id="6SVXTgI98_c" role="3cqZAp">
           <node concept="2OqwBi" id="6SVXTgI98JX" role="3clFbG">
             <node concept="37vLTw" id="6SVXTgI98_a" role="2Oq$k0">
