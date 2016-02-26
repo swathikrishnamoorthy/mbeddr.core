@@ -6170,6 +6170,12 @@
           <property role="3LESm3" value="d0acfc97-85a2-4fbd-a769-1c74ac50e3fa" />
           <property role="2GAjPV" value="false" />
         </node>
+        <node concept="1SiIV0" id="1bfWZjO_d$5" role="3bR37C">
+          <node concept="3bR9La" id="1bfWZjO_d$6" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="90a9:6SVXTgIejl1" resolve="de.itemis.mps.editor.celllayout.runtime" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="3quoVcnJkAK" role="3989C9">
@@ -9468,6 +9474,12 @@
           <node concept="3bR9La" id="4e_ywBK8_oJ" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="5GUwywcVeK8" resolve="com.mbeddr.mpsutil.common" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1bfWZjO_enG" role="3bR37C">
+          <node concept="3bR9La" id="1bfWZjO_enH" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="90a9:6SVXTgIejl1" resolve="de.itemis.mps.editor.celllayout.runtime" />
           </node>
         </node>
       </node>
