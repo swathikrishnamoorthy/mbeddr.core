@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:3d71b621-0c9e-483f-9f00-cc2683b428c9(de.itemis.mps.editor.layout.generator.template.main@generator)">
+<model ref="r:3d71b621-0c9e-483f-9f00-cc2683b428c9(de.itemis.mps.editor.miglayout.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
     <use id="21063c66-85ba-4e98-839b-036445b17ae2" name="de.itemis.mps.editor.layout" version="0" />
@@ -17,7 +17,7 @@
     <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" />
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
     <import index="p8q8" ref="r:ffb5871b-fd0f-4dc7-8e8e-7593b815bf3f(de.itemis.mps.editor.layout.runtime)" />
-    <import index="fu06" ref="r:3e994e3f-0a98-45e0-a45a-13167140e86f(de.itemis.mps.editor.layout.structure)" implicit="true" />
+    <import index="fu06" ref="r:3e994e3f-0a98-45e0-a45a-13167140e86f(de.itemis.mps.editor.miglayout.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">

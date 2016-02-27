@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:a6908768-b7ab-4235-b868-7d5825aa5fa3(de.itemis.mps.editor.layout.demolang.editor)">
+<model ref="r:a6908768-b7ab-4235-b868-7d5825aa5fa3(de.itemis.mps.editor.miglayout.demolang.editor)">
   <persistence version="9" />
   <languages>
-    <use id="21063c66-85ba-4e98-839b-036445b17ae2" name="de.itemis.mps.editor.layout" version="0" />
+    <use id="21063c66-85ba-4e98-839b-036445b17ae2" name="de.itemis.mps.editor.miglayout" version="0" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="2" />
     <use id="52733268-be24-4f5f-ab84-a73b7c0c03b0" name="de.slisson.mps.richtext.customcell" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -12,7 +12,7 @@
     <import index="kcid" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cellLayout(MPS.Editor/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="6m47" ref="r:f9bae91c-f1f5-4168-a6c5-8b7eb14b317d(de.itemis.mps.editor.layout.demolang.structure)" implicit="true" />
+    <import index="6m47" ref="r:f9bae91c-f1f5-4168-a6c5-8b7eb14b317d(de.itemis.mps.editor.miglayout.demolang.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -155,12 +155,12 @@
         <child id="2490242408670937967" name="factoryMethod" index="3ZZHOD" />
       </concept>
     </language>
-    <language id="21063c66-85ba-4e98-839b-036445b17ae2" name="de.itemis.mps.editor.layout">
-      <concept id="2693937328336480553" name="de.itemis.mps.editor.layout.structure.MigLayoutChild" flags="ng" index="VMY2j">
+    <language id="21063c66-85ba-4e98-839b-036445b17ae2" name="de.itemis.mps.editor.miglayout">
+      <concept id="2693937328336480553" name="de.itemis.mps.editor.miglayout.structure.MigLayoutChild" flags="ng" index="VMY2j">
         <property id="2693937328336480554" name="constraints" index="VMY2g" />
         <child id="2693937328336480561" name="cell" index="VMY2b" />
       </concept>
-      <concept id="2693937328336479929" name="de.itemis.mps.editor.layout.structure.MigLayoutCell" flags="ng" index="VMYW3">
+      <concept id="2693937328336479929" name="de.itemis.mps.editor.miglayout.structure.MigLayoutCell" flags="ng" index="VMYW3">
         <property id="2693937328336481223" name="layoutConstraints" index="VMY9X" />
         <child id="2693937328336479930" name="childCells" index="VMYW0" />
       </concept>

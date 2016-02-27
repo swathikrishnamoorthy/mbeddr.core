@@ -2813,7 +2813,7 @@
         <node concept="1SiIV0" id="tUmIYfjylX" role="3bR37C">
           <node concept="3bR9La" id="tUmIYfjylY" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="rKHxOEjFxv" resolve="de.itemis.mps.editor.layout.runtime" />
+            <ref role="3bR37D" node="rKHxOEjFxv" resolve="de.itemis.mps.editor.miglayout.runtime" />
           </node>
         </node>
         <node concept="1SiIV0" id="tUmIYfjylZ" role="3bR37C">
@@ -3112,7 +3112,7 @@
         </node>
         <node concept="1SiIV0" id="tUmIYfjy8I" role="3bR37C">
           <node concept="1Busua" id="tUmIYfjy8J" role="1SiIV1">
-            <ref role="1Busuk" node="rKHxOEjFyx" resolve="de.itemis.mps.editor.layout" />
+            <ref role="1Busuk" node="rKHxOEjFyx" resolve="de.itemis.mps.editor.miglayout" />
           </node>
         </node>
         <node concept="1SiIV0" id="tUmIYfjy8K" role="3bR37C">
@@ -3332,7 +3332,7 @@
       <property role="TrG5h" value="de.itemis.mps.editor.layout" />
       <node concept="1E1JtA" id="rKHxOEjFxv" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="de.itemis.mps.editor.layout.runtime" />
+        <property role="TrG5h" value="de.itemis.mps.editor.miglayout.runtime" />
         <property role="3LESm3" value="776efd50-4c6d-4d39-90b3-7f994c98f819" />
         <property role="2GAjPV" value="false" />
         <node concept="398BVA" id="rKHxOEjFxw" role="3LF7KH">
@@ -3343,8 +3343,8 @@
               <property role="2Ry0Am" value="solutions" />
               <node concept="2Ry0Ak" id="3vzyAKEJZ1y" role="2Ry0An">
                 <property role="2Ry0Am" value="de.itemis.mps.editor.layout.runtime" />
-                <node concept="2Ry0Ak" id="3vzyAKEJZ1z" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.itemis.mps.editor.layout.runtime.msd" />
+                <node concept="2Ry0Ak" id="2io$TnM6zIe" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.editor.miglayout.runtime.msd" />
                 </node>
               </node>
             </node>
@@ -3381,7 +3381,7 @@
       </node>
       <node concept="1E1JtD" id="rKHxOEjFyx" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="de.itemis.mps.editor.layout" />
+        <property role="TrG5h" value="de.itemis.mps.editor.miglayout" />
         <property role="3LESm3" value="21063c66-85ba-4e98-839b-036445b17ae2" />
         <property role="2GAjPV" value="false" />
         <node concept="398BVA" id="rKHxOEjFyy" role="3LF7KH">
@@ -3392,8 +3392,8 @@
               <property role="2Ry0Am" value="languages" />
               <node concept="2Ry0Ak" id="3vzyAKEJY_R" role="2Ry0An">
                 <property role="2Ry0Am" value="de.itemis.mps.editor.layout" />
-                <node concept="2Ry0Ak" id="3vzyAKEJY_S" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.itemis.mps.editor.layout.mpl" />
+                <node concept="2Ry0Ak" id="2io$TnM6yJ5" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.editor.miglayout.mpl" />
                 </node>
               </node>
             </node>
@@ -3402,11 +3402,11 @@
         <node concept="1SiIV0" id="rKHxOEjFyE" role="3bR37C">
           <node concept="3bR9La" id="rKHxOEjFyF" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="rKHxOEjFxv" resolve="de.itemis.mps.editor.layout.runtime" />
+            <ref role="3bR37D" node="rKHxOEjFxv" resolve="de.itemis.mps.editor.miglayout.runtime" />
           </node>
         </node>
         <node concept="1E0d5M" id="rKHxOEjFyG" role="1E1XAP">
-          <ref role="1E0d5P" node="rKHxOEjFxv" resolve="de.itemis.mps.editor.layout.runtime" />
+          <ref role="1E0d5P" node="rKHxOEjFxv" resolve="de.itemis.mps.editor.miglayout.runtime" />
         </node>
         <node concept="1SiIV0" id="rKHxOEjFyH" role="3bR37C">
           <node concept="1Busua" id="rKHxOEjFyI" role="1SiIV1">
@@ -3414,7 +3414,7 @@
           </node>
         </node>
         <node concept="1yeLz9" id="rKHxOEjFyJ" role="1TViLv">
-          <property role="TrG5h" value="de.itemis.mps.editor.layout#4452438700753615293" />
+          <property role="TrG5h" value="de.itemis.mps.editor.miglayout#4452438700753615293" />
           <property role="3LESm3" value="eccc42e9-8f0c-47c5-99fe-c91a2202fded" />
           <property role="2GAjPV" value="false" />
           <node concept="1SiIV0" id="rKHxOEjFyK" role="3bR37C">

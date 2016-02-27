@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="de.itemis.mps.editor.layout.demolang" uuid="cbb3775d-e4a8-4ef6-ba85-c98b856481d7" languageVersion="0" moduleVersion="0">
+<language namespace="de.itemis.mps.editor.miglayout.demolang" uuid="cbb3775d-e4a8-4ef6-ba85-c98b856481d7" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="de.itemis.mps.editor.layout.demolang#2693937328336418455" uuid="66f7a188-71f7-4c63-b45e-f72a43014ad0">
+    <generator generatorUID="de.itemis.mps.editor.miglayout.demolang#2693937328336418455" uuid="66f7a188-71f7-4c63-b45e-f72a43014ad0">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
@@ -47,8 +47,8 @@
         <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
-        <module reference="cbb3775d-e4a8-4ef6-ba85-c98b856481d7(de.itemis.mps.editor.layout.demolang)" version="0" />
-        <module reference="66f7a188-71f7-4c63-b45e-f72a43014ad0(de.itemis.mps.editor.layout.demolang#2693937328336418455)" version="0" />
+        <module reference="cbb3775d-e4a8-4ef6-ba85-c98b856481d7(de.itemis.mps.editor.miglayout.demolang)" version="0" />
+        <module reference="66f7a188-71f7-4c63-b45e-f72a43014ad0(de.itemis.mps.editor.miglayout.demolang#2693937328336418455)" version="0" />
         <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
         <module reference="985c8c6a-64b4-486d-a91e-7d4112742556(jetbrains.mps.baseLanguage#1129914002933)" version="0" />
         <module reference="ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)" version="0" />
@@ -80,7 +80,7 @@
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
   <languageVersions>
-    <language id="21063c66-85ba-4e98-839b-036445b17ae2" fqName="de.itemis.mps.editor.layout" version="0" />
+    <language id="21063c66-85ba-4e98-839b-036445b17ae2" fqName="de.itemis.mps.editor.miglayout" version="0" />
     <language id="52733268-be24-4f5f-ab84-a73b7c0c03b0" fqName="de.slisson.mps.richtext.customcell" version="0" />
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="4" />
     <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
@@ -110,7 +110,7 @@
     <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
-    <module reference="cbb3775d-e4a8-4ef6-ba85-c98b856481d7(de.itemis.mps.editor.layout.demolang)" version="0" />
+    <module reference="cbb3775d-e4a8-4ef6-ba85-c98b856481d7(de.itemis.mps.editor.miglayout.demolang)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:09679faf-8e3b-4a7b-9651-5459c45fceec(de.itemis.mps.editor.layout.demolang.generator.template.main@generator)">
+<model ref="r:09679faf-8e3b-4a7b-9651-5459c45fceec(de.itemis.mps.editor.miglayout.demolang.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />

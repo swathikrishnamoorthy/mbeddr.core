@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7f3a9fb8-0c98-46df-95ec-5dc88de44705(de.itemis.mps.editor.layout.typesystem)">
+<model ref="r:7f3a9fb8-0c98-46df-95ec-5dc88de44705(de.itemis.mps.editor.miglayout.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
@@ -7,7 +7,7 @@
   </languages>
   <imports>
     <import index="7cyn" ref="776efd50-4c6d-4d39-90b3-7f994c98f819/java:net.miginfocom.layout(de.itemis.mps.editor.layout.runtime/)" />
-    <import index="fu06" ref="r:3e994e3f-0a98-45e0-a45a-13167140e86f(de.itemis.mps.editor.layout.structure)" implicit="true" />
+    <import index="fu06" ref="r:3e994e3f-0a98-45e0-a45a-13167140e86f(de.itemis.mps.editor.miglayout.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>

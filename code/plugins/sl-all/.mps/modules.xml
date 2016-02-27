@@ -12,7 +12,9 @@
       <modulePath path="$PROJECT_DIR$/diagram/languages/de.itemis.mps.editor.diagram.styles/de.itemis.mps.editor.diagram.styles.mpl" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/languages/de.itemis.mps.editor.diagram/de.itemis.mps.editor.diagram.mpl" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/languages/de.itemis.mps.editor.layout.demolang/de.itemis.mps.editor.layout.demolang.mpl" folder="layout.mig" />
+      <modulePath path="$PROJECT_DIR$/diagram/languages/de.itemis.mps.editor.layout.demolang/de.itemis.mps.editor.miglayout.demolang.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/diagram/languages/de.itemis.mps.editor.layout/de.itemis.mps.editor.layout.mpl" folder="layout.mig" />
+      <modulePath path="$PROJECT_DIR$/diagram/languages/de.itemis.mps.editor.layout/de.itemis.mps.editor.miglayout.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/diagram/languages/test.de.itemis.mps.editor.diagram.lang/test.de.itemis.mps.editor.diagram.lang.mpl" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.collapsible.runtime/de.itemis.mps.editor.collapsible.runtime.msd" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.diagram.contextactions/de.itemis.mps.editor.diagram.contextactions.msd" folder="diagram" />
@@ -21,7 +23,9 @@
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.diagram.sandbox/de.itemis.mps.editor.diagram.sandbox.msd" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.diagram.shapes/de.itemis.mps.editor.diagram.shapes.msd" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.layout.runtime/de.itemis.mps.editor.layout.runtime.msd" folder="layout.mig" />
+      <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.layout.runtime/de.itemis.mps.editor.miglayout.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.layout.sandbox/de.itemis.mps.editor.layout.sandbox.msd" folder="layout.mig" />
+      <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.layout.sandbox/de.itemis.mps.editor.miglayout.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.mouselistener.runtime/de.itemis.mps.mouselistener.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/test.de.itemis.mps.editor.diagram.solution/test.de.itemis.mps.editor.diagram.solution.msd" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.mpl" folder="layout.topdown" />
