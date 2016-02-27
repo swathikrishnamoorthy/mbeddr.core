@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.itemis.mps.editor.miglayout.runtime" uuid="776efd50-4c6d-4d39-90b3-7f994c98f819" moduleVersion="0" compileInMPS="true">
+<solution name="de.itemis.mps.editor.layout.runtime" uuid="776efd50-4c6d-4d39-90b3-7f994c98f819" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -41,7 +41,7 @@
     <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
-    <module reference="776efd50-4c6d-4d39-90b3-7f994c98f819(de.itemis.mps.editor.miglayout.runtime)" version="0" />
+    <module reference="776efd50-4c6d-4d39-90b3-7f994c98f819(de.itemis.mps.editor.layout.runtime)" version="0" />
   </dependencyVersions>
 </solution>
 
