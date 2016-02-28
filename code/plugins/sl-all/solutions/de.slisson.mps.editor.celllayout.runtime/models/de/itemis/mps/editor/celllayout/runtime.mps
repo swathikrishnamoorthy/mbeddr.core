@@ -5154,6 +5154,9 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7ND7w4adlVb" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="2tJIrI" id="40e1npH_MLy" role="jymVt" />
     <node concept="3clFb_" id="JPngvNuauB" role="jymVt">
@@ -5274,6 +5277,9 @@
             <ref role="3cqZAo" node="JPngvNucbB" resolve="result" />
           </node>
         </node>
+      </node>
+      <node concept="2AHcQZ" id="7ND7w4adlVc" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="JPngvNuD9E" role="jymVt" />
@@ -5926,7 +5932,11 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7ND7w4adlV9" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
+    <node concept="2tJIrI" id="7ND7w4adnpb" role="jymVt" />
     <node concept="3clFb_" id="JPngvNuXFe" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getInnerY" />
@@ -5951,7 +5961,11 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7ND7w4adlVe" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
+    <node concept="2tJIrI" id="7ND7w4adp_X" role="jymVt" />
     <node concept="3clFb_" id="JPngvNuXFk" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getInnerWidth" />
@@ -5976,7 +5990,11 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7ND7w4adlVf" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
+    <node concept="2tJIrI" id="7ND7w4adrMM" role="jymVt" />
     <node concept="3clFb_" id="JPngvNuXFq" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getInnerHeight" />
@@ -6000,6 +6018,9 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="2AHcQZ" id="7ND7w4adlVd" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="40e1npHpt5n" role="jymVt" />
@@ -6040,6 +6061,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="7ND7w4adAEf" role="jymVt" />
     <node concept="3clFb_" id="40e1npHpxE0" role="jymVt">
       <property role="TrG5h" value="getTotalGapRight" />
       <node concept="10Oyi0" id="40e1npHpxE1" role="3clF45" />
@@ -6077,6 +6099,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="7ND7w4ad$uA" role="jymVt" />
     <node concept="3clFb_" id="40e1npHpzz1" role="jymVt">
       <property role="TrG5h" value="getTotalGapTop" />
       <node concept="10Oyi0" id="40e1npHpzz2" role="3clF45" />
@@ -6114,6 +6137,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="7ND7w4adyhv" role="jymVt" />
     <node concept="3clFb_" id="40e1npHp$Bh" role="jymVt">
       <property role="TrG5h" value="getTotalGapBottom" />
       <node concept="10Oyi0" id="40e1npHp$Bi" role="3clF45" />
@@ -6151,6 +6175,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="7ND7w4adw4x" role="jymVt" />
     <node concept="3clFb_" id="40e1npHpJys" role="jymVt">
       <property role="TrG5h" value="getTotalGapVertical" />
       <node concept="10Oyi0" id="40e1npHpJyt" role="3clF45" />
@@ -6168,6 +6193,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="7ND7w4adtZE" role="jymVt" />
     <node concept="3clFb_" id="40e1npHpGdF" role="jymVt">
       <property role="TrG5h" value="getTotalGapHorizontal" />
       <node concept="10Oyi0" id="40e1npHpGdG" role="3clF45" />
@@ -7291,6 +7317,36 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7ND7w4adjH3" role="jymVt" />
+    <node concept="3clFb_" id="7ND7w4adfFC" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="isFlattenInGrid" />
+      <node concept="10P_77" id="7ND7w4adfFD" role="3clF45" />
+      <node concept="3Tm1VV" id="7ND7w4adfFE" role="1B3o_S" />
+      <node concept="3clFbS" id="7ND7w4adfFJ" role="3clF47">
+        <node concept="3clFbF" id="7ND7w4adi6p" role="3cqZAp">
+          <node concept="2OqwBi" id="7ND7w4adj2w" role="3clFbG">
+            <node concept="2OqwBi" id="7ND7w4adioK" role="2Oq$k0">
+              <node concept="37vLTw" id="7ND7w4adi6o" role="2Oq$k0">
+                <ref role="3cqZAo" node="JPngvNubE4" resolve="myCollectionCell" />
+              </node>
+              <node concept="liA8E" id="7ND7w4adiMH" role="2OqNvi">
+                <ref role="37wK5l" to="f4zo:~EditorCell.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
+              </node>
+            </node>
+            <node concept="liA8E" id="7ND7w4adjlS" role="2OqNvi">
+              <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+              <node concept="1Z6Ecs" id="7ND7w4adjD_" role="37wK5m">
+                <ref role="1Z6EpT" to="z0fb:7ND7w4acsmT" resolve="_grid-layout-flatten" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7ND7w4adlVa" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
   </node>

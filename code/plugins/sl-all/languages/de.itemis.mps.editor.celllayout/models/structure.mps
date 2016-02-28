@@ -165,5 +165,11 @@
     <property role="1pbfSe" value="44617458" />
     <property role="TrG5h" value="IUserDefinedStyle" />
   </node>
+  <node concept="1TIwiD" id="7ND7w4acspQ">
+    <property role="1pbfSe" value="2028280713" />
+    <property role="TrG5h" value="GridLayoutFlattenStyle" />
+    <property role="34LRSv" value="grid-layout-flatten" />
+    <ref role="1TJDcQ" node="2nutuZsKn6Q" resolve="BooleanStyle" />
+  </node>
 </model>
 
