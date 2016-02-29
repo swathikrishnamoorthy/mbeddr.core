@@ -36,6 +36,7 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1186415722038" name="jetbrains.mps.lang.editor.structure.FontSizeStyleClassItem" flags="ln" index="VSNWy">
@@ -108,6 +109,9 @@
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
     </language>
     <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
+      <concept id="4682418030828844315" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineColorStyle" flags="lg" index="2T_bXS" />
+      <concept id="4682418030828844314" name="de.itemis.mps.editor.celllayout.structure.HorzontalLineWidthStyle" flags="lg" index="2T_bXT" />
+      <concept id="4682418030828725523" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineCell" flags="ng" index="2T_mXK" />
       <concept id="9000758320091481718" name="de.itemis.mps.editor.celllayout.structure.GridLayoutFlattenStyle" flags="lg" index="1QQdxR" />
       <concept id="2728748097294736650" name="de.itemis.mps.editor.celllayout.structure.BorderColorStyle" flags="lg" index="3T6ez_" />
       <concept id="2728748097294695721" name="de.itemis.mps.editor.celllayout.structure.BorderSizeStyle" flags="lg" index="3T6Sz6" />
@@ -208,31 +212,20 @@
             <node concept="3T7XtY" id="2nutuZsNnyL" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
+            <node concept="VPM3Z" id="43ViAfTtp0P" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="VPxyj" id="43ViAfTtsZm" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
           </node>
           <node concept="VPM3Z" id="2nutuZsKCrZ" role="3F10Kt">
             <property role="VOm3f" value="false" />
           </node>
           <node concept="3F0ifn" id="2nutuZsKCub" role="3EZMnx">
             <property role="3F0ifm" value="right" />
-            <node concept="37jFXN" id="2nutuZsKVBl" role="3F10Kt" />
           </node>
           <node concept="l2Vlx" id="2nutuZsKNBD" role="2iSdaV" />
-        </node>
-        <node concept="3EZMnI" id="2nutuZsKVGz" role="3EZMnx">
-          <node concept="VPM3Z" id="2nutuZsKVGB" role="3F10Kt">
-            <property role="VOm3f" value="false" />
-          </node>
-          <node concept="37jFXN" id="2nutuZsKVLJ" role="3F10Kt">
-            <property role="37lx6p" value="RIGHT" />
-          </node>
-          <node concept="3T7XtY" id="2nutuZsNn$t" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="3F0ifn" id="2nutuZsKVGC" role="3EZMnx">
-            <property role="3F0ifm" value="right" />
-            <node concept="37jFXN" id="2nutuZsKVGD" role="3F10Kt" />
-          </node>
-          <node concept="2iRfu4" id="2nutuZsKVJC" role="2iSdaV" />
         </node>
         <node concept="3EZMnI" id="2nutuZsLbFx" role="3EZMnx">
           <node concept="VPM3Z" id="2nutuZsLbFy" role="3F10Kt">
@@ -313,6 +306,34 @@
             </node>
           </node>
           <node concept="l2Vlx" id="2nutuZsL7Wh" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="43ViAfTtdkJ" role="3EZMnx">
+          <node concept="2T_mXK" id="43ViAfTtds$" role="3EZMnx">
+            <node concept="2T_bXS" id="43ViAfTteBZ" role="3F10Kt">
+              <property role="Vb096" value="blue" />
+            </node>
+            <node concept="2T_bXT" id="43ViAfTteEp" role="3F10Kt">
+              <property role="1lJzqY" value="1" />
+            </node>
+          </node>
+          <node concept="VPM3Z" id="43ViAfTtdkP" role="3F10Kt">
+            <property role="VOm3f" value="false" />
+          </node>
+          <node concept="3F0ifn" id="43ViAfTtdkQ" role="3EZMnx">
+            <property role="3F0ifm" value="center" />
+            <node concept="37jFXN" id="43ViAfTtdkR" role="3F10Kt">
+              <property role="37lx6p" value="CENTER" />
+            </node>
+          </node>
+          <node concept="2T_mXK" id="43ViAfTtdR2" role="3EZMnx">
+            <node concept="2T_bXS" id="43ViAfTteE_" role="3F10Kt">
+              <property role="Vb096" value="red" />
+            </node>
+            <node concept="2T_bXT" id="43ViAfTteEA" role="3F10Kt">
+              <property role="1lJzqY" value="3" />
+            </node>
+          </node>
+          <node concept="l2Vlx" id="43ViAfTtdl6" role="2iSdaV" />
         </node>
         <node concept="2iRkQZ" id="6SVXTgIpohP" role="2iSdaV" />
       </node>

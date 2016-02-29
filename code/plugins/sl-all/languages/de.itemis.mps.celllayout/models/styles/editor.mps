@@ -176,6 +176,23 @@
         <property role="3clFbU" value="false" />
       </node>
     </node>
+    <node concept="3t5Usi" id="43ViAfTrUia" role="V601i">
+      <property role="TrG5h" value="_horizontal-line-color" />
+      <node concept="3uibUv" id="43ViAfTrUmE" role="3t5Oan">
+        <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
+      </node>
+      <node concept="10M0yZ" id="43ViAfTrUmL" role="3t49C2">
+        <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+        <ref role="3cqZAo" to="z60i:~Color.BLACK" resolve="BLACK" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="43ViAfTrUko" role="V601i">
+      <property role="TrG5h" value="_horizontal-line-width" />
+      <node concept="10Oyi0" id="43ViAfTrUn3" role="3t5Oan" />
+      <node concept="3cmrfG" id="43ViAfTrUn8" role="3t49C2">
+        <property role="3cmrfH" value="1" />
+      </node>
+    </node>
   </node>
   <node concept="PKFIW" id="6SVXTgI9Y1W">
     <property role="TrG5h" value="Dummy" />

@@ -22,10 +22,6 @@
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
-        <child id="1068498886297" name="rValue" index="37vLTx" />
-        <child id="1068498886295" name="lValue" index="37vLTJ" />
-      </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
@@ -43,11 +39,7 @@
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
       <concept id="1070475587102" name="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" flags="nn" index="XkiVB" />
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
-      </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
-      <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <child id="1165602531693" name="superclass" index="1zkMxy" />
       </concept>
@@ -58,7 +50,6 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
-      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -105,7 +96,6 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
-      <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -116,26 +106,6 @@
   </registry>
   <node concept="312cEu" id="4U82Y3yZDCl">
     <property role="TrG5h" value="HorizontalLineCell" />
-    <node concept="2tJIrI" id="4U82Y3yZEZZ" role="jymVt" />
-    <node concept="312cEg" id="4U82Y3yZKYb" role="jymVt">
-      <property role="TrG5h" value="myColor" />
-      <node concept="3Tm6S6" id="4U82Y3yZKYc" role="1B3o_S" />
-      <node concept="3uibUv" id="4U82Y3yZL4E" role="1tU5fm">
-        <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
-      </node>
-      <node concept="10M0yZ" id="4U82Y3yZL94" role="33vP2m">
-        <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
-        <ref role="3cqZAo" to="z60i:~Color.BLACK" resolve="BLACK" />
-      </node>
-    </node>
-    <node concept="312cEg" id="4U82Y3yZLj_" role="jymVt">
-      <property role="TrG5h" value="myLineWidth" />
-      <node concept="3Tm6S6" id="4U82Y3yZLjA" role="1B3o_S" />
-      <node concept="10Oyi0" id="4U82Y3yZLqg" role="1tU5fm" />
-      <node concept="3cmrfG" id="4U82Y3yZLvt" role="33vP2m">
-        <property role="3cmrfH" value="1" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="4U82Y3yZKRS" role="jymVt" />
     <node concept="3Tm1VV" id="4U82Y3yZDCm" role="1B3o_S" />
     <node concept="3uibUv" id="4U82Y3yZDZj" role="1zkMxy">
@@ -223,13 +193,19 @@
       <node concept="3cqZAl" id="4U82Y3yZLMx" role="3clF45" />
       <node concept="3Tm1VV" id="4U82Y3yZLMy" role="1B3o_S" />
       <node concept="3clFbS" id="4U82Y3yZLMz" role="3clF47">
-        <node concept="3clFbF" id="4U82Y3yZMnw" role="3cqZAp">
-          <node concept="37vLTI" id="4U82Y3yZMsu" role="3clFbG">
-            <node concept="37vLTw" id="4U82Y3yZMvA" role="37vLTx">
-              <ref role="3cqZAo" node="4U82Y3yZM6S" resolve="color" />
+        <node concept="3clFbF" id="43ViAfTrXup" role="3cqZAp">
+          <node concept="2OqwBi" id="43ViAfTrXuq" role="3clFbG">
+            <node concept="1rXfSq" id="43ViAfTrXur" role="2Oq$k0">
+              <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
             </node>
-            <node concept="37vLTw" id="4U82Y3yZMnv" role="37vLTJ">
-              <ref role="3cqZAo" node="4U82Y3yZKYb" resolve="myColor" />
+            <node concept="liA8E" id="43ViAfTrXus" role="2OqNvi">
+              <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object):void" resolve="set" />
+              <node concept="1Z6Ecs" id="43ViAfTrXut" role="37wK5m">
+                <ref role="1Z6EpT" to="z0fb:43ViAfTrUia" resolve="_horizontal-line-color" />
+              </node>
+              <node concept="37vLTw" id="43ViAfTrXGZ" role="37wK5m">
+                <ref role="3cqZAo" node="4U82Y3yZM6S" resolve="color" />
+              </node>
             </node>
           </node>
         </node>
@@ -245,13 +221,19 @@
       <node concept="3cqZAl" id="4U82Y3yZMFn" role="3clF45" />
       <node concept="3Tm1VV" id="4U82Y3yZMFo" role="1B3o_S" />
       <node concept="3clFbS" id="4U82Y3yZMFp" role="3clF47">
-        <node concept="3clFbF" id="4U82Y3yZMYX" role="3cqZAp">
-          <node concept="37vLTI" id="4U82Y3yZNaH" role="3clFbG">
-            <node concept="37vLTw" id="4U82Y3yZNiP" role="37vLTx">
-              <ref role="3cqZAo" node="4U82Y3yZMMR" resolve="lineWidth" />
+        <node concept="3clFbF" id="43ViAfTrYi1" role="3cqZAp">
+          <node concept="2OqwBi" id="43ViAfTrYi2" role="3clFbG">
+            <node concept="1rXfSq" id="43ViAfTrYi3" role="2Oq$k0">
+              <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
             </node>
-            <node concept="37vLTw" id="4U82Y3yZMYW" role="37vLTJ">
-              <ref role="3cqZAo" node="4U82Y3yZLj_" resolve="myLineWidth" />
+            <node concept="liA8E" id="43ViAfTrYi4" role="2OqNvi">
+              <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object):void" resolve="set" />
+              <node concept="1Z6Ecs" id="43ViAfTrYi5" role="37wK5m">
+                <ref role="1Z6EpT" to="z0fb:43ViAfTrUko" resolve="_horizontal-line-width" />
+              </node>
+              <node concept="37vLTw" id="43ViAfTrYs2" role="37wK5m">
+                <ref role="3cqZAo" node="4U82Y3yZMMR" resolve="lineWidth" />
+              </node>
             </node>
           </node>
         </node>
@@ -359,8 +341,16 @@
                 </node>
                 <node concept="liA8E" id="4U82Y3yZJmr" role="2OqNvi">
                   <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color):void" resolve="setColor" />
-                  <node concept="37vLTw" id="4U82Y3yZP4V" role="37wK5m">
-                    <ref role="3cqZAo" node="4U82Y3yZKYb" resolve="myColor" />
+                  <node concept="2OqwBi" id="43ViAfTrY9W" role="37wK5m">
+                    <node concept="1rXfSq" id="43ViAfTrY9X" role="2Oq$k0">
+                      <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
+                    </node>
+                    <node concept="liA8E" id="43ViAfTrY9Y" role="2OqNvi">
+                      <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+                      <node concept="1Z6Ecs" id="43ViAfTrY9Z" role="37wK5m">
+                        <ref role="1Z6EpT" to="z0fb:43ViAfTrUia" resolve="_horizontal-line-color" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -423,8 +413,16 @@
         <node concept="3clFbF" id="4U82Y3yZHGA" role="3cqZAp">
           <node concept="1rXfSq" id="4U82Y3yZHG$" role="3clFbG">
             <ref role="37wK5l" to="g51k:~EditorCell_Basic.setHeight(int):void" resolve="setHeight" />
-            <node concept="37vLTw" id="4U82Y3yZNrq" role="37wK5m">
-              <ref role="3cqZAo" node="4U82Y3yZLj_" resolve="myLineWidth" />
+            <node concept="2OqwBi" id="43ViAfTrZdm" role="37wK5m">
+              <node concept="1rXfSq" id="43ViAfTrZdn" role="2Oq$k0">
+                <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
+              </node>
+              <node concept="liA8E" id="43ViAfTrZdo" role="2OqNvi">
+                <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+                <node concept="1Z6Ecs" id="43ViAfTrZdp" role="37wK5m">
+                  <ref role="1Z6EpT" to="z0fb:43ViAfTrUko" resolve="_horizontal-line-width" />
+                </node>
+              </node>
             </node>
           </node>
         </node>

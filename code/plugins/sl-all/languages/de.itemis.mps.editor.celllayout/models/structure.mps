@@ -171,5 +171,23 @@
     <property role="34LRSv" value="grid-layout-flatten" />
     <ref role="1TJDcQ" node="2nutuZsKn6Q" resolve="BooleanStyle" />
   </node>
+  <node concept="1TIwiD" id="43ViAfTrykj">
+    <property role="1pbfSe" value="979988342" />
+    <property role="TrG5h" value="HorizontalLineCell" />
+    <property role="34LRSv" value="horizontal-line" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+  </node>
+  <node concept="1TIwiD" id="43ViAfTrZkq">
+    <property role="1pbfSe" value="980107133" />
+    <property role="TrG5h" value="HorzontalLineWidthStyle" />
+    <property role="34LRSv" value="horizontal-line-width" />
+    <ref role="1TJDcQ" node="2nutuZsJ_4q" resolve="IntegerStyle" />
+  </node>
+  <node concept="1TIwiD" id="43ViAfTrZkr">
+    <property role="1pbfSe" value="980107134" />
+    <property role="TrG5h" value="HorizontalLineColorStyle" />
+    <property role="34LRSv" value="horizontal-line-color" />
+    <ref role="1TJDcQ" node="2nutuZsLvZ1" resolve="ColorStyle" />
+  </node>
 </model>
 
