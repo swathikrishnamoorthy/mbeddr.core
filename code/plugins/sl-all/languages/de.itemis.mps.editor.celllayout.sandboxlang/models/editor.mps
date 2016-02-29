@@ -40,14 +40,12 @@
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1186415722038" name="jetbrains.mps.lang.editor.structure.FontSizeStyleClassItem" flags="ln" index="VSNWy">
         <property id="1221209241505" name="value" index="1lJzqX" />
-        <child id="1221064706952" name="query" index="1d8cEk" />
       </concept>
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1235999440492" name="jetbrains.mps.lang.editor.structure.HorizontalAlign" flags="ln" index="37jFXN">
         <property id="1235999920262" name="align" index="37lx6p" />
       </concept>
-      <concept id="1221057094638" name="jetbrains.mps.lang.editor.structure.QueryFunction_Integer" flags="in" index="1cFabM" />
       <concept id="3982520150125052579" name="jetbrains.mps.lang.editor.structure.QueryFunction_AttributeStyleParameter" flags="ig" index="3sjG9q" />
       <concept id="3982520150122341378" name="jetbrains.mps.lang.editor.structure.AttributeStyleClassItem" flags="lg" index="3tD6jV">
         <reference id="3982520150122346707" name="attribute" index="3tD7wE" />
@@ -103,16 +101,11 @@
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
-      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
-      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
-        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
-        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
-      </concept>
     </language>
     <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
       <concept id="9000758320091481718" name="de.itemis.mps.editor.celllayout.structure.GridLayoutFlattenStyle" flags="lg" index="1QQdxR" />
@@ -123,7 +116,6 @@
       <concept id="2728748097294192922" name="de.itemis.mps.editor.celllayout.structure.IntegerStyle" flags="lg" index="3To2jP">
         <property id="1221209241505" name="value" index="1lJzqY" />
       </concept>
-      <concept id="2728748097294254141" name="de.itemis.mps.editor.celllayout.structure.MarginTopStyle" flags="lg" index="3Tojni" />
     </language>
   </registry>
   <node concept="24kQdi" id="JPngvNsL$e">
@@ -157,25 +149,6 @@
                 <node concept="3clFbF" id="6SVXTgIposN" role="3cqZAp">
                   <node concept="Xl_RD" id="6SVXTgIposO" role="3clFbG">
                     <property role="Xl_RC" value="Arial" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3Tojni" id="2nutuZsNn0u" role="3F10Kt">
-            <property role="1lJzqX" value="10" />
-          </node>
-          <node concept="3Tojni" id="2nutuZsNn3C" role="3F10Kt">
-            <node concept="1cFabM" id="2nutuZsNn42" role="1d8cEk">
-              <node concept="3clFbS" id="2nutuZsNn43" role="2VODD2">
-                <node concept="3clFbF" id="2nutuZsNn6N" role="3cqZAp">
-                  <node concept="3cpWs3" id="2nutuZsNnqQ" role="3clFbG">
-                    <node concept="3cmrfG" id="2nutuZsNnqW" role="3uHU7w">
-                      <property role="3cmrfH" value="20" />
-                    </node>
-                    <node concept="3cmrfG" id="2nutuZsNn6M" role="3uHU7B">
-                      <property role="3cmrfH" value="10" />
-                    </node>
                   </node>
                 </node>
               </node>
